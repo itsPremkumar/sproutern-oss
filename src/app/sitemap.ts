@@ -6,6 +6,7 @@ import interviewExperiencesData from '@/data/interview-experiences.json';
 import { getMarkdownBlogSlugs } from '@/lib/markdown-utils';
 import { shouldIndexPath } from '@/lib/seo/indexing-policy';
 import { toCompanySlug } from '@/lib/company-slug';
+import { SITE_URL } from '@/lib/site-config';
 
 type SitemapEntry = MetadataRoute.Sitemap[number];
 type ChangeFrequency = NonNullable<SitemapEntry['changeFrequency']>;
@@ -199,7 +200,7 @@ function getMarkdownBlogUrls(baseUrl: string): MetadataRoute.Sitemap {
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://www.sproutern.com';
+  const baseUrl = SITE_URL;
   const staticUrls = getStaticRouteUrls(baseUrl);
   const markdownBlogUrls = getMarkdownBlogUrls(baseUrl);
 

@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { shouldIndexPath } from '@/lib/seo/indexing-policy';
+import { SITE_URL } from '@/lib/site-config';
 
 type GeoPage = {
   path: string;
@@ -67,7 +68,7 @@ function dedupeByPath(pages: GeoPage[]): GeoPage[] {
 }
 
 export default function geoSitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.sproutern.com';
+  const baseUrl = SITE_URL;
 
   return dedupeByPath(GEO_PRIORITY_PAGES)
     .filter((page) => shouldIndexPath(page.path))

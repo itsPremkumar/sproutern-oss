@@ -6,7 +6,8 @@
 import { getUnifiedFeedPosts } from '@/lib/seo/feed-content';
 import { NextResponse } from 'next/server';
 
-const siteUrl = 'https://www.sproutern.com';
+import { SITE_URL } from '@/lib/site-config';
+const siteUrl = SITE_URL;
 const siteName = 'Sproutern';
 const siteDescription =
   'Career guidance, internship opportunities, and educational resources for students worldwide';

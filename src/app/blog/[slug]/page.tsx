@@ -190,6 +190,11 @@ export default async function BlogPostPage({
 
   const { post, content } = result;
   const publishedDateIso = toIsoDateTime(post.date);
+  // Truthful freshness signal: use an explicit updatedAt when available,
+  // otherwise fall back to the publish date (no fake "modified" date).
+  const modifiedDateIso = toIsoDateTime(
+    'updatedAt' in post && post.updatedAt ? post.updatedAt : post.date,
+  );
 
   // JSON-LD structured data with @graph for multiple schemas
   const blogPostingSchema = {
@@ -197,7 +202,7 @@ export default async function BlogPostPage({
     headline: post.title,
     description: post.excerpt,
     datePublished: publishedDateIso,
-    dateModified: publishedDateIso,
+    dateModified: modifiedDateIso,
     image: 'https://www.sproutern.com/opengraph.jpg',
     author: {
       '@type': 'Organization',

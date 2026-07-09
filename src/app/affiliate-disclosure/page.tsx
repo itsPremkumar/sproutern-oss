@@ -75,7 +75,22 @@ export default function AffiliateDisclosurePage() {
           <li>
             <strong>Comparison articles:</strong> Side-by-side tool comparisons
           </li>
+          <li>
+            <strong>Partner offers strip:</strong> Recommended tools shown in the
+            site footer and homepage
+          </li>
         </ul>
+
+        <h2>Sponsored Content</h2>
+        <p>
+          Some tool or service placements on Sproutern may be{' '}
+          <strong>sponsored</strong>. Sponsored items are clearly labelled with a
+          visible &quot;Sponsored&quot; or &quot;Partner&quot; badge so you always
+          know when a placement is paid. We only accept sponsorships for
+          products and services relevant to students and early-career
+          professionals, and sponsorship never influences our editorial
+          recommendations or the free tools we provide.
+        </p>
 
         <h2>Our Affiliate Partners</h2>
         <p>

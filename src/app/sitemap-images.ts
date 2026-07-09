@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next';
+import { SITE_URL } from '@/lib/site-config';
 
 // Image sitemap for better Google Image search ranking
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.sproutern.com';
+  const baseUrl = SITE_URL;
 
   return [
     {

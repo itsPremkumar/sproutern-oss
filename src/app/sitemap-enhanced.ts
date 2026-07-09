@@ -12,9 +12,10 @@ import { blogPosts } from '@/lib/blog-data';
 import { generateHreflangMetadata } from '@/lib/seo/hreflang-generator';
 import { getMarkdownBlogSlugs } from '@/lib/markdown-utils';
 import { toCompanySlug } from '@/lib/company-slug';
+import { SITE_URL } from '@/lib/site-config';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://www.sproutern.com';
+  const baseUrl = SITE_URL;
 
   // Helper function to add hreflang to sitemap entries
   const addHreflang = (url: string, entry: any) => ({
