@@ -1,0 +1,1198 @@
+{
+  "bank-of-america": {
+    "slug": "bank-of-america",
+    "company": "Bank of America",
+    "country": "in",
+    "roles": ["Software Developer", "FTE Role"],
+    "salaries": [],
+    "interviews": [
+      {
+        "id": "boa-001",
+        "company": "Bank of America",
+        "role": "Software Developer",
+        "batch": "2021-2025",
+        "department": "Information Technology",
+        "rounds": [
+          {
+            "roundName": "Technical Interview",
+            "description": "Questions purely on Java and OOPS concepts, coding problems, and database connectivity",
+            "questions": [
+              "Basics on Java and OOPS (What is class, Object, Datatypes, Create a simple class in Java)",
+              "Instantiation vs Initiation?",
+              "Where the declared variable stored? Where the value of the variable stored?",
+              "Is the string mutable? (String vs String Builder vs String Buffer)",
+              "What is Threading? Implement in Java",
+              "What is an array? Declare an array, does the array contain duplicate elements, change the value of the particular index",
+              "How will you link the Java with backend database?",
+              "Given a Table(Student (name, regno, dept)) and asked to store the retrieved data from the table by the query (Select * from Student)?",
+              "What are collections in Java?",
+              "Error vs Exception? Implement Exception Handling?",
+              "Coding: Reverse a String?",
+              "Coding: Remove the special characters from the given string"
+            ]
+          },
+          {
+            "roundName": "HR Interview",
+            "description": "Questions based on projects, tech stack, and behavioral questions",
+            "questions": [
+              "Explain your current project?",
+              "Why you choose this as your project?",
+              "What are the tech stack you used? And why?",
+              "Why Python is used for Machine Learning? Why not Java?",
+              "What is your role in the project?",
+              "Is AI can be used for software development? Is it reliable?",
+              "Why you choose Java for programming?",
+              "Current version of Java?",
+              "JVM vs JRE vs JDK?",
+              "How will you establish connection to your frontend UI to database? What do you know about JDBC?",
+              "On Static Website on event management, I used FPDF framework, so What do you know about FPDF?",
+              "Why you use PHP in one project and Java in another project?",
+              "Difference between RDBMS and NOSQL?",
+              "What is the need for normalization? Why do we need that?",
+              "SQL joins gives complex queries it is easier to have denormalize table justify?",
+              "Another project on Gym Management system developed in Java, so the questions on (JSP, Servlets, and JDBC connection)?",
+              "How will you establish secure database connectivity?",
+              "What is Git? What is Version control?",
+              "What is DevOps? What do you know about Copilot?"
+            ]
+          },
+          {
+            "roundName": "Managerial Round",
+            "description": "Behavioral and situational questions",
+            "questions": [
+              "You are working in a team, and you and your colleague disagree on each other's approach to the project. What would you do in this situation?",
+              "Do you had any background research on our company before this interview? If so say about our company?",
+              "What's the last thing you surfed on your laptop?"
+            ]
+          }
+        ],
+        "tips": [
+          "Be confident in the programming language you mention in your introduction",
+          "All technical questions require sample implementation and explanation",
+          "HR questions flow based on your answers, so be prepared to deep dive into your projects",
+          "Research about the company before the interview",
+          "Prepare questions to ask the interviewer about job role and technologies used"
+        ]
+      },
+      {
+        "id": "boa-002",
+        "company": "Bank of America",
+        "role": "FTE Role",
+        "batch": "2021-2025",
+        "department": "Information Technology",
+        "rounds": [
+          {
+            "roundName": "Coding Round",
+            "description": "Introduction, coding problems on strings and dynamic programming",
+            "questions": [
+              "Introduction: I was asked to introduce myself",
+              "Given a string, modify it so that alternate letters are in uppercase and lowercase",
+              "A medium-level string and dynamic programming question - Decode Ways (https://leetcode.com/problems/decode-ways/description/)",
+              "Explain how you solved Question 3",
+              "Why do you believe you are the best fit for this role?"
+            ]
+          },
+          {
+            "roundName": "Technical Round 1",
+            "description": "Java OOP concepts, DSA basics, and project discussion. 170 candidates shortlisted (115 UG + 55 PG)",
+            "questions": [
+              "Describe OOP principles",
+              "Explain the meaning of `public static void main(String args[]) { }`",
+              "Explain constructors",
+              "Java function to find the current time",
+              "Difference between `struct` and `class`",
+              "Explain static variables and functions, and where they occupy space (Heap or Stack)",
+              "Explain friend functions and classes",
+              "Difference between instance and class variables",
+              "Describe inheritance and its types",
+              "Explain interfaces",
+              "Write Java programs to find vowels and check for palindromes",
+              "Final Year Project: Explain the problem statement, modules, and functionalities",
+              "Personal Project: Describe Full Stack MERN project with JWT Authentication and OAuth implementation"
+            ]
+          },
+          {
+            "roundName": "Technical Round 2",
+            "description": "In-depth project discussion for approximately one hour",
+            "duration": "60 minutes",
+            "questions": [
+              "Brief introduction",
+              "Explain one of your projects in detail including the workflow",
+              "What challenges did you face in the project?",
+              "What were your contributions to the project?",
+              "Numerous follow-up questions based on responses"
+            ]
+          }
+        ],
+        "tips": [
+          "Coding questions varied for each candidate, so practice diverse problem types",
+          "Provide detailed code snippets and diagrams for each technical question",
+          "Be prepared for in-depth project discussions with workflow diagrams",
+          "Understand JWT Authentication and OAuth implementation thoroughly if mentioned in projects",
+          "Total offers: 54 (37 UG + 17 PG) out of 270 applicants"
+        ]
+      }
+    ],
+    "totalInterviews": 2,
+    "totalRoles": 2
+  },
+  "optum": {
+    "slug": "optum",
+    "company": "Optum",
+    "country": "in",
+    "roles": ["Software Engineer"],
+    "salaries": [],
+    "interviews": [
+      {
+        "id": "optum-001",
+        "company": "Optum",
+        "role": "Software Engineer",
+        "batch": "2021-2025",
+        "department": "Information Technology",
+        "rounds": [
+          {
+            "roundName": "HR Round",
+            "description": "Personal introduction, projects, family background, and behavioral questions",
+            "questions": [
+              "Tell me about yourself (introduction)",
+              "Explain your projects - the project that you got appreciation for",
+              "Have you received any awards from the college for the project?",
+              "Tell me about your family",
+              "What are your preferred work locations?",
+              "What is the hardest decision that you have ever taken in your life?",
+              "Do you have any questions for me?"
+            ]
+          },
+          {
+            "roundName": "Technical Round",
+            "description": "Project explanation, data engineering concepts, DBMS, DSA, and behavioral questions",
+            "questions": [
+              "Quick introduction",
+              "Explain the projects mentioned in your resume",
+              "Summer internship - Data Engineering with Python: What techniques did you learn to extract and manipulate data?",
+              "Delete duplicate rows from the table (SQL)",
+              "Circular linked list implementation - write pseudo code",
+              "Explain ACID properties",
+              "Explain all normalization forms",
+              "How to optimize a large database consisting of more than 5GB of data?",
+              "How do you manage work life balance?",
+              "In a team project, when selecting a particular project title how do you choose the project ideas and how far you try to get your idea being implemented?",
+              "Have you faced any conflict with your teammates while splitting modules and choosing tools for implementation?",
+              "What are the new technologies that you are willing to learn? And how do you start learning?",
+              "How do you manage your project deadlines and examinations?",
+              "What is the domain that is being hyped nowadays? Why do you think so?"
+            ]
+          }
+        ],
+        "tips": [
+          "Prepare thoughtful questions to ask the interviewer about their experience and the company",
+          "Be ready to discuss projects that received appreciation or awards in detail",
+          "If you mention a favorite subject (like DBMS), expect in-depth questions on that topic",
+          "Prepare for both technical and behavioral questions in the technical round",
+          "Good questions to ask: interviewer's experience, company expectations from freshers, work culture, technologies used, and software development models"
+        ]
+      },
+      {
+        "id": "optum-002",
+        "company": "Optum",
+        "role": "Software Engineer",
+        "batch": "2021-2025",
+        "department": "Information Technology",
+        "rounds": [
+          {
+            "roundName": "HR Round",
+            "description": "Short round with personal questions, motivation, and location preferences. Called for technical round after 15 minutes.",
+            "questions": [
+              "Introduce yourself",
+              "Where do you live? Are you a hosteller or day scholar?",
+              "Why do you want to work in Optum?",
+              "Explain your healthcare-related project and what services it provides",
+              "What is the toughest decision you have made in your life?",
+              "How do you manage projects alongside academic subjects, assessments and assignments?",
+              "Have you planned and managed a team project? What role have you played?",
+              "Are you fine with working in any of these locations: Bangalore, Hyderabad, Gurugram? Which one do you prefer?"
+            ]
+          },
+          {
+            "roundName": "Technical Round",
+            "description": "Comprehensive technical round covering programming languages, DSA, OOPS, probability, cloud computing, ML, and behavioral questions",
+            "questions": [
+              "Introduce yourself",
+              "Which programming language do you prefer?",
+              "Why do you prefer C++ over Java and Python for DSA?",
+              "Explain your projects in detail",
+              "Python: Difference between set and dictionary",
+              "Python: What are the datatypes in Python?",
+              "Python: What is the advantage of Python?",
+              "Difference between C++ and Java",
+              "Explain OOPS concepts in C++",
+              "Explain types of inheritance with examples",
+              "Explain Dynamic Memory allocation in C and C++",
+              "DSA Coding: Given an array of positive integers, reverse the array and remove duplicate elements (without using set or inbuilt functions)",
+              "Probability: A pair of dice is rolled. What is the probability of getting a sum of 8?",
+              "Probability: What is the probability of getting the same color card (red card) successively?",
+              "What is cloud computing? What is the need for cloud technology?",
+              "Mention well known cloud service providers",
+              "Explain multithreading concept (implemented in project)",
+              "How did you handle connections and use socket programming?",
+              "What is machine learning? What is supervised learning? What is linear regression?",
+              "How did you manage to handle conflicts among teammates while doing a project?",
+              "What are your strengths and weaknesses?",
+              "Why did you join NSS?",
+              "Why are you interested in working in Optum?",
+              "Explain time and space complexity",
+              "DSA Coding: Given an array of integers, find all the integers missing from the array between the minimum and maximum element"
+            ]
+          }
+        ],
+        "tips": [
+          "Be polite and greet the interviewer properly",
+          "If you have healthcare-related projects, highlight them for Optum as they work in healthcare domain",
+          "Explain your time management skills - how you balance projects with academics",
+          "Be clear about your programming language preferences and justify your choices",
+          "For DSA questions, explain your approach and optimize for time complexity (O(N) is preferred)",
+          "Be prepared for probability and mathematics questions",
+          "Know cloud computing basics and major service providers",
+          "If you mention technologies like multithreading or socket programming, be ready for deep dive questions",
+          "Prepare basic ML concepts even if not your core area",
+          "Good questions to ask: job role specifics, tech stack used, how company handled Covid situation"
+        ]
+      }
+    ],
+    "totalInterviews": 2,
+    "totalRoles": 1
+  },
+  "barclays": {
+    "slug": "barclays",
+    "company": "Barclays",
+    "country": "in",
+    "roles": ["Software Engineer"],
+    "salaries": [],
+    "interviews": [
+      {
+        "id": "barclays-001",
+        "company": "Barclays",
+        "role": "Software Engineer",
+        "batch": "2021-2025",
+        "department": "Information Technology",
+        "rounds": [
+          {
+            "roundName": "Online Test",
+            "description": "Aptitude, 1 coding question, and 1 SQL query",
+            "questions": [
+              "Aptitude questions",
+              "Coding: String generation",
+              "SQL Query: Retrieve the customer ID from the table where the month is 10 and order it by Customer_ID in ascending order"
+            ]
+          },
+          {
+            "roundName": "Technical Round",
+            "description": "30 minutes round covering projects, internship, SQL, coding, and theoretical concepts",
+            "duration": "30 minutes",
+            "questions": [
+              "Introduce yourself",
+              "Explain your current project",
+              "Explain your internship at Wells Fargo and the project you worked on",
+              "Write a SQL query related to locks",
+              "Coding: Remove the duplicate characters in the string",
+              "Difference between functions and stored procedure",
+              "Difference between SQL and NOSQL",
+              "DML commands"
+            ]
+          },
+          {
+            "roundName": "Behavioral Round",
+            "description": "50 minutes intensive behavioral round focused on Barclays values, mindset, and situational questions",
+            "duration": "50 minutes",
+            "questions": [
+              "General introduction",
+              "Programming language that you wish to explore further",
+              "Name the values of Barclays",
+              "Name the mindset of Barclays",
+              "In which situation were you treated disrespectfully and how did you overcome that situation?",
+              "You treated a person disrespectfully and the situation got serious and created great impact. How did you handle this situation?",
+              "Among two values: Service and Excellence which one aligns with you and how could you say that?",
+              "You needed to share a password of your system to your team members for doing some work related to your project. How did you share the password? (Labelling concept used in Barclays)",
+              "You are a Team Leader and one of your team members is not doing any work. How did you make him/her work?",
+              "You are a Team Leader and one team member is interested in delivering good output but unable to do it. How can you handle this situation?",
+              "You are a Team Lead and one team member has different idea from your own. What can you do?",
+              "You are a Team Lead. Two team members had a different idea for a project which was not accepted by others. But the idea was really good and had value. How did you handle this situation?",
+              "You are working in Barclays. Your college junior is going to attend interview for Barclays. The junior is poor in studies and struggling. The recruiting team is close to you and you know the questions. How did you help the junior? Will you disclose the questions?",
+              "Your manager assigned you a task which was not actually your work. It is the work assigned to the manager. What can you do?",
+              "You delivered a product to the client. On checking, there was one module missed which is very important. Adding the new feature will take lot of time and manpower. How can you handle this situation?"
+            ]
+          }
+        ],
+        "tips": [
+          "Attempt to answer all questions even if you don't know the answer",
+          "Go through all things mentioned in your resume thoroughly",
+          "Get strong foundation in basic technical concepts (OOPS, DBMS, SQL Query)",
+          "Gather information about the company: Values, Mindset, CEO at India, Reason for name, Meaning of the bird and name in the logo",
+          "Try to answer behavioral questions which align with the values and mindset of Barclays",
+          "Be prepared for extensive behavioral questions - 50 minutes is a long round",
+          "Understand Barclays' security practices like 'Labelling' for password sharing",
+          "Good questions to ask: interviewer's experience at Barclays, feedback about your performance"
+        ]
+      },
+      {
+        "id": "barclays-002",
+        "company": "Barclays",
+        "role": "Software Engineer",
+        "batch": "2021-2025",
+        "department": "Information Technology",
+        "rounds": [
+          {
+            "roundName": "Technical Round",
+            "description": "Python coding, DBMS project discussion, security concepts, cryptography, and blockchain",
+            "questions": [
+              "Introduction",
+              "Python code for reading CSV file",
+              "Print first 5 ranks of students from a CSV file",
+              "About DBMS project",
+              "Write PHP code",
+              "Write JavaScript code",
+              "Why is password for a database mentioned in PHP code and why it is not secure?",
+              "For a mini project it cannot be secured but for a bank, how can we make it secure by not mentioning the password?",
+              "About cryptography",
+              "What is encryption?",
+              "What is decryption?",
+              "List out 10 cryptographic algorithms",
+              "What is blockchain?",
+              "Types of blockchain",
+              "What is consensus algorithm?",
+              "What are algorithms used for consensus?",
+              "About deep learning project",
+              "What is neural network?",
+              "What is CNN model?",
+              "What are the layers in CNN model?",
+              "What is weight and bias and how it is calculated?",
+              "Calculate bias and weight for given neurons image",
+              "Is this project realtime or not?",
+              "Challenges faced while doing this project?"
+            ]
+          },
+          {
+            "roundName": "Managerial Round",
+            "description": "HR and behavioral questions focused on team dynamics, ethics, and Barclays values",
+            "questions": [
+              "Introduction",
+              "What are the challenges you have faced?",
+              "What if your friend in the same company works with you seeking help from you. You have done the help but she told manager as if she did the whole work, how would you react?",
+              "For the same situation, you seeked help from your friend but told manager as you did the whole work, how could you expect her to react?",
+              "What if a person in your team is not at all cooperating? Will you complain to the manager or handle it by yourself? If handling by yourself, how will you do this?",
+              "What if your hated person comes to your team, but she doesn't like to work with you so she won't listen to any of your words, how could you handle the situation?",
+              "Values of Barclays?",
+              "Which value you like the most and how it is applied for you? Explain with a situation",
+              "Have you disrespected anyone? Who and for what situation?",
+              "Will you disrespect your hater who works with your company?"
+            ]
+          }
+        ],
+        "tips": [
+          "Be prepared to write code in multiple languages (Python, PHP, JavaScript)",
+          "Understand database security concepts thoroughly - how to secure passwords in production systems",
+          "Know at least 10 cryptographic algorithms (AES, RSA, DES, 3DES, Blowfish, SHA, MD5, etc.)",
+          "Study blockchain basics: types (public, private, consortium) and consensus algorithms (PoW, PoS, PBFT, etc.)",
+          "If you have deep learning projects, be ready to explain CNN architecture, layers, weight/bias calculations in detail",
+          "Be prepared to calculate neural network parameters with examples",
+          "Barclays values are crucial - know them and have real examples of how you embody them",
+          "Prepare for ethical dilemma questions about team dynamics and workplace conflicts",
+          "Be honest about challenges faced and how you overcame them"
+        ]
+      },
+      {
+        "id": "company-001",
+        "company": "Barclays",
+        "role": "Software Engineer",
+        "batch": "2021-2025",
+        "department": "Information Technology",
+        "rounds": [
+          {
+            "roundName": "Technical Round",
+            "description": "Projects discussion, ML/DL concepts, DBMS queries, and coding problems",
+            "questions": [
+              "Good number of questions from projects",
+              "Machine learning project - Detail out CNN architecture",
+              "Difference between CNN and RNN",
+              "Rate yourself in the subjects in which you are strong",
+              "Why did you prefer ReactJS over NodeJS for one of your projects?",
+              "List the new features which stand out in your projects",
+              "DBMS: Given two tables, find out how many records would be fetched after performing inner join and right outer join",
+              "DBMS: Library Management system - Query formulation to retrieve books that were borrowed from given date, up to previous 10 days",
+              "Coding: Find the transpose of a matrix",
+              "Coding: Find the frequency of all elements in an array, and also print the element with highest frequency"
+            ]
+          },
+          {
+            "roundName": "HR Round",
+            "description": "Behavioral and situational questions focused on workplace scenarios and challenges",
+            "questions": [
+              "Your colleague, who is your thick friend, has disrupted your code for the project, a day before you have to be presenting it, due to personal reasons (quarrel/misunderstanding). What would you do?",
+              "After you have joined the company as a fresher, you are not allotted to any project (you are still on the bench, just doing tracing, checking and JIRA activities on other projects, rather than being part of a real-time project development team), and this situation continues for long. At this time, assume you are getting good offer from another big tech giant. Will you immediately quit from the current company?",
+              "Your colleague slaps you suddenly in the workplace. What will be your reaction?",
+              "What has been the greatest challenge/difficulty for you?"
+            ]
+          }
+        ],
+        "tips": [
+          "Be prepared for deep dive into all projects mentioned in resume",
+          "If you use CNN in ML projects, know the complete architecture in detail",
+          "Understand the difference between CNN and RNN clearly",
+          "Be ready to justify technology choices (ReactJS vs NodeJS, etc.)",
+          "Practice SQL joins thoroughly - inner join, outer joins, and record counting",
+          "Practice date-based SQL queries for real-world scenarios",
+          "Know basic matrix operations and array manipulation coding problems",
+          "Prepare for extreme workplace scenario questions - stay calm and professional",
+          "Think through career decisions carefully - don't give impulsive answers about quitting",
+          "Show maturity in handling conflicts and difficult situations"
+        ]
+      }
+    ],
+    "totalInterviews": 3,
+    "totalRoles": 1
+  },
+  "societe-generale": {
+    "slug": "societe-generale",
+    "company": "Societe Generale",
+    "country": "in",
+    "roles": ["Software Engineer"],
+    "salaries": [],
+    "interviews": [
+      {
+        "id": "sg-001",
+        "company": "Societe Generale",
+        "role": "Software Engineer",
+        "batch": "2021-2025",
+        "department": "Information Technology",
+        "rounds": [
+          {
+            "roundName": "Technical Round",
+            "description": "Comprehensive technical round covering DBMS, OOPS, compiler engineering, AI, Java, sorting algorithms, and project discussion",
+            "questions": [
+              "Explain normalization with examples (1NF, 2NF, 3NF, 3.5NF/BCNF)",
+              "Pillars of OOPS with real-time examples (Important)",
+              "How does the source code get converted into machine code? (4 phases in compiler engineering)",
+              "What is AI? As AI is fed with multiple large datasets, how does it choose the dataset which stores the information for the given query in chatbot?",
+              "Write a single code for abstraction and encapsulation with clear difference",
+              "Asked about the interface concept in Java",
+              "Where does the bubble sort be used in DBMS? Explain the bubble sort",
+              "Which sorting technique is more efficient? Why?",
+              "Difference between framework and library? Where do they get used?",
+              "While discussing my project, asked how you provided authentication in JavaScript?",
+              "Java MVC architecture. Why Java is platform independent?",
+              "Swapping numbers",
+              "Palindrome",
+              "Reverse the string",
+              "Linked list structure",
+              "Difference between cookies and sessions",
+              "Responsive webpages creation",
+              "Bootstrap",
+              "Puzzle: Cut a cake into 8 equal pieces with just 3 cuts",
+              "SDLC",
+              "Agile",
+              "SQL queries (joins)",
+              "Difference between C++ and Java",
+              "Difference between Data Science and Data Analytics",
+              "Constructor and destructor"
+            ]
+          },
+          {
+            "roundName": "Managerial Round",
+            "description": "Team management, AI usage, career goals, and personal development questions",
+            "questions": [
+              "If you're working with a team and others aren't familiar with the tech stack, how would you ensure the project is completed within the deadline?",
+              "Would you code on your own, or would you use ChatGPT? If you use ChatGPT, how much would you rely on it (as a percentage)?",
+              "What are your thoughts on AI?",
+              "Are you open to any type of role, or would you prefer to stick solely to software development?",
+              "What would you consider to be the greatest achievement under the sky?",
+              "What skills or knowledge have you gained outside of your academic curriculum?",
+              "What is the motivation behind your project?",
+              "Where do you see yourself in the next five years?",
+              "How could you manage other activities along with academics?",
+              "Are you planning to pursue higher studies? If not, what's your reasoning?",
+              "Explain your college journey from the first year?",
+              "What drives you to choose IT?",
+              "Git commands"
+            ]
+          },
+          {
+            "roundName": "HR Round",
+            "description": "Final round with introduction, project discussion, and uniqueness assessment",
+            "questions": [
+              "Introduction",
+              "Discussion on my final year project",
+              "Why should I hire you over the other candidates? What makes you unique?",
+              "Asked about my hobbies"
+            ]
+          }
+        ],
+        "tips": [
+          "Master all normalization forms including BCNF with clear examples",
+          "Know OOPS pillars with real-time examples - this is marked as important",
+          "Understand compiler phases: Lexical Analysis, Syntax Analysis, Semantic Analysis, Code Generation",
+          "Be prepared to explain AI concepts and how chatbots work with large datasets",
+          "Practice writing code that demonstrates both abstraction and encapsulation clearly",
+          "Know sorting algorithms and their use cases in DBMS (bubble sort for small datasets)",
+          "Understand framework vs library distinction with examples",
+          "Be ready to explain authentication mechanisms in your projects",
+          "Practice common coding problems: swapping, palindrome, string reversal, linked lists",
+          "Know web development concepts: cookies vs sessions, responsive design, Bootstrap",
+          "Practice logical puzzles (cake cutting problem)",
+          "Understand SDLC and Agile methodology thoroughly",
+          "Be honest about ChatGPT usage - show you use it as a tool, not a crutch",
+          "Have clear 5-year career goals",
+          "Know Git commands well",
+          "Articulate what makes you unique compared to other candidates"
+        ]
+      }
+    ],
+    "totalInterviews": 1,
+    "totalRoles": 1
+  },
+  "nortonlifelock": {
+    "slug": "nortonlifelock",
+    "company": "NortonLifeLock",
+    "country": "in",
+    "roles": ["Software Engineer"],
+    "salaries": [],
+    "interviews": [
+      {
+        "id": "nortonlifelock-001",
+        "company": "NortonLifeLock",
+        "role": "Software Engineer",
+        "batch": "2021-2025",
+        "department": "Information Technology",
+        "rounds": [
+          {
+            "roundName": "Written Coding Test",
+            "description": "Online coding assessment with string manipulation and algorithm problems",
+            "questions": [
+              "Find the duplicate in string",
+              "Find the minimum number of arrows need to be rotated so that all the arrows are in the same direction",
+              "Another string question"
+            ]
+          },
+          {
+            "roundName": "Technical Round 1",
+            "description": "Coding problems on data structures, string manipulation, and project explanation",
+            "questions": [
+              "Write a code for get and put function to add employee ID and salary, and the salary was changed based on the employee ID",
+              "Write a code for finding the duplicate word in a sentence",
+              "Write a code for finding the count of occurrence of a given pair of words in a paragraph",
+              "Project explanation"
+            ]
+          },
+          {
+            "roundName": "Technical Round 2",
+            "description": "OOPS concepts, polymorphism, access specifiers, SQL, and load balancing",
+            "questions": [
+              "Explain the concept of OOPS",
+              "Explain runtime polymorphism and compile time polymorphism and write a code",
+              "Explain access specifiers and implement it",
+              "Write a Java code for adding and removing the employee details using constructors, access specifiers and OOPS concepts",
+              "Write a SQL query to update the table status from passed to failed and failed to passed",
+              "What is meant by load balancing? Explain how it is achieved"
+            ]
+          },
+          {
+            "roundName": "Managerial + HR Round",
+            "description": "Combined round with SQL, language comparison, system concepts, and career preferences",
+            "questions": [
+              "Self introduction",
+              "Write a SQL query to find the employee name who will be a manager for another employee from the employee table",
+              "Difference between Java and Python and give the reasons for preferring Python in terms of memory, execution time compared with Java",
+              "Explain the process, threads and give the difference between them",
+              "Difference between stack and heap",
+              "Explain system design",
+              "Which type of project you prefer to work on - simple project with new technology or complex project with old technology?",
+              "Role you preferred to work in"
+            ]
+          }
+        ],
+        "tips": [
+          "Practice string manipulation problems thoroughly - duplicates, rotations, pattern matching",
+          "Be comfortable implementing HashMap/Dictionary operations for employee management systems",
+          "Know how to count word occurrences and find word pairs in text",
+          "Master both runtime (method overriding) and compile-time (method overloading) polymorphism with code examples",
+          "Understand all access specifiers: public, private, protected, default",
+          "Practice writing complete Java classes with constructors and CRUD operations",
+          "Know SQL UPDATE with CASE statements for conditional updates",
+          "Understand self-join queries for hierarchical data (employee-manager relationships)",
+          "Compare Java vs Python: memory management, execution speed, use cases",
+          "Know process vs thread differences clearly",
+          "Understand stack (local variables, function calls) vs heap (dynamic memory allocation)",
+          "Have basic understanding of load balancing concepts and techniques",
+          "Be prepared to discuss system design fundamentals",
+          "Think about your preferences: new tech vs proven tech, simple vs complex projects",
+          "Be clear about your preferred role and career path"
+        ]
+      }
+    ],
+    "totalInterviews": 1,
+    "totalRoles": 1
+  },
+  "trimble": {
+    "slug": "trimble",
+    "company": "Trimble",
+    "country": "in",
+    "roles": ["Software Engineer"],
+    "salaries": [],
+    "interviews": [
+      {
+        "id": "trimble-001",
+        "company": "Trimble",
+        "role": "Software Engineer",
+        "batch": "2021-2025",
+        "department": "Information Technology",
+        "rounds": [
+          {
+            "roundName": "Technical Interview",
+            "description": "Project deep dive with diagrams, SQL optimization, and space-optimized coding problems",
+            "questions": [
+              "Project Explanation: Draw its diagram (architecture, class diagram, ER diagram, or whatever you are comfortable with)",
+              "Backend: List the tables used in your project",
+              "Write a join query involving minimum 3 tables from your project",
+              "What do you mean by query optimization?",
+              "Optimize some queries and explain its workflow",
+              "Coding: Reverse every string in the sentence but not to reverse the sentence (Constraint: Space complexity O(1)). Example: Input: 'Hello World', Output: 'olleH dlroW'. What are its edge cases?",
+              "Coding: Clone a tree - Given input tree, create a new tree as exact copy (Constraint: Space complexity). Solution: Using DFS recursively (Recursion uses program stack memory, if we take iteration approach we need to create a stack which violates space constraint)"
+            ]
+          }
+        ],
+        "tips": [
+          "Be ready to draw project diagrams on the spot - practice architecture, class, and ER diagrams",
+          "Know all database tables in your project and their relationships",
+          "Practice complex SQL joins with 3+ tables from your actual projects",
+          "Understand query optimization techniques: indexing, avoiding SELECT *, using EXPLAIN, query rewriting",
+          "Be able to explain query execution workflow and optimization strategies",
+          "For string reversal with space constraint: Use two-pointer algorithm for O(1) space",
+          "Consider edge cases: empty strings, single word, multiple spaces, special characters",
+          "For tree cloning with space constraint: Use DFS recursion (program stack doesn't count as extra space)",
+          "Understand why recursion is better than iteration for space-constrained tree problems",
+          "Always discuss space and time complexity trade-offs",
+          "Be prepared to justify your algorithmic choices based on constraints"
+        ]
+      },
+      {
+        "id": "trimble-002",
+        "company": "Trimble",
+        "role": "Software Engineer",
+        "batch": "2021-2025",
+        "department": "Information Technology",
+        "rounds": [
+          {
+            "roundName": "Technical Round",
+            "description": "Job scheduling algorithm, sorting complexity, multiprocessing vs multithreading, and OOPS implementation",
+            "questions": [
+              "Self Introduction",
+              "Write a program to find the maximum number of jobs that can be completed such that no two jobs are overlapped",
+              "Explain the time complexity of sorting algorithms and factors need to be considered while reducing the time complexity",
+              "Explain and give the difference between multiprocessing and multithreading",
+              "Explain the OOPS concepts and implement it in the classroom scenario"
+            ]
+          },
+          {
+            "roundName": "Managerial Round",
+            "description": "Project discussion, SQL implementation, and data structure conversion",
+            "questions": [
+              "Self Introduction",
+              "Project explanation",
+              "Write SQL code for the mentioned project (creating table, inserting table, etc.)",
+              "Convert the SQL table into data structure and perform the same operations"
+            ]
+          },
+          {
+            "roundName": "HR Round",
+            "description": "Personal background, company knowledge, behavioral questions, and career goals",
+            "questions": [
+              "Self Introduction and about the studies",
+              "About the company and PPT",
+              "Behavioral question on handling your previous tough situation",
+              "What is your goal?"
+            ]
+          }
+        ],
+        "tips": [
+          "Practice job scheduling algorithms - Activity Selection Problem, Interval Scheduling",
+          "Know time complexity of all major sorting algorithms: Bubble (O(n²)), Merge (O(n log n)), Quick (O(n log n) avg), Heap (O(n log n))",
+          "Understand factors affecting time complexity: input size, data distribution, algorithm choice, implementation details",
+          "Know multiprocessing vs multithreading: separate memory vs shared memory, CPU-bound vs I/O-bound tasks, GIL in Python",
+          "Be ready to implement OOPS with real-world scenarios like classroom (Student class, Teacher class, inheritance, polymorphism)",
+          "Practice writing complete SQL DDL and DML statements for your projects",
+          "Understand how to convert SQL tables to data structures: HashMap for key-value, ArrayList for rows, nested structures",
+          "Research the company before interview - know their products, services, and recent news",
+          "Prepare STAR method answers for behavioral questions about tough situations",
+          "Have clear short-term and long-term career goals"
+        ]
+      }
+    ],
+    "totalInterviews": 2,
+    "totalRoles": 1
+  },
+  "citi": {
+    "slug": "citi",
+    "company": "Citi",
+    "country": "in",
+    "roles": ["PBWM (Private Bank Wealth Management)", "Software Engineer"],
+    "salaries": [],
+    "interviews": [
+      {
+        "id": "citi-001",
+        "company": "Citi",
+        "role": "PBWM (Private Bank Wealth Management)",
+        "batch": "2021-2025",
+        "department": "Information Technology",
+        "rounds": [
+          {
+            "roundName": "Combined Technical + HR Round",
+            "description": "Very friendly and calm interview covering personal background, internship, projects, DBMS, and behavioral questions",
+            "questions": [
+              "Self introduction",
+              "Why did you choose PBWM (Private Bank Wealth Management)?",
+              "Why should we employ women in finance sector?",
+              "Do you know who is the CEO of Citi? (Answer: Jane Fraser - first woman CEO of a major Wall Street bank)",
+              "Educational background discussion - interviewer went to the same school, asked about current principal and how school is now",
+              "4th semester internship: Python visualizations with 3D location mapping using drone data - What tools did you use? What did you learn?",
+              "About the internship company",
+              "Project discussion: Draw the ER diagram of one of your DBMS projects",
+              "Identify primary key and foreign key in the ER diagram",
+              "If there was a different way to design the same system, how would you do it? How would the diagram look like?",
+              "Why did you create the new diagram? How is it better than before?",
+              "What is the motivation for you to come everyday to office?",
+              "What is the reason behind joining Anna University?",
+              "What is the biggest failure or obstacle you had to overcome?",
+              "What is the most important characteristic in an industry perspective?",
+              "Apart from your resume, what other things define you? What extracurricular activities?"
+            ]
+          }
+        ],
+        "tips": [
+          "The interview atmosphere was very calm, friendly, and conversational - don't be nervous",
+          "Research about the role you're applying for (PBWM, fintech goals, etc.)",
+          "Know the CEO and leadership of the company - Jane Fraser is the first woman CEO of Citi",
+          "Be prepared to discuss diversity and inclusion topics, especially women in finance",
+          "Practice drawing ER diagrams quickly and clearly for your projects",
+          "Know primary keys, foreign keys, and database design principles thoroughly",
+          "Be ready to redesign your system architecture and justify improvements",
+          "Prepare answers about your internship tools, technologies, and learnings in detail",
+          "Have genuine motivation for daily work - not just salary or benefits",
+          "Prepare STAR method answers for failure/obstacle questions",
+          "Think about industry-relevant characteristics: adaptability, communication, problem-solving, teamwork",
+          "Highlight extracurricular activities that show leadership, teamwork, or unique skills",
+          "Personal connections matter - be genuine and conversational"
+        ]
+      },
+      {
+        "id": "citi-002",
+        "company": "Citi",
+        "role": "Software Engineer",
+        "batch": "2021-2025",
+        "department": "Information Technology",
+        "rounds": [
+          {
+            "roundName": "Technical Interview",
+            "description": "Data structures, OS concepts, security scenario, internship discussion, and web development",
+            "questions": [
+              "What is a linked list? Difference between a list and a linked list",
+              "Compare the process of insertion/retrieval at different positions of a linked list and a list. Also, state which is optimal",
+              "Why did you choose C++ over Python?",
+              "What is a virtual machine? (OS)",
+              "Is the idea behind a VPN and a virtual machine the same? If yes, why?",
+              "Few questions on summer intern project",
+              "Scenario-based question: Consider a user trying to log in to your internet banking account, but there is also an intruder doing the same. i) He knows your password. ii) He can access the OTP too. How will you prevent the intruder from logging in?",
+              "What are the tags used to create a table in HTML?"
+            ]
+          }
+        ],
+        "tips": [
+          "Know data structures deeply: List (array) vs Linked List - insertion/deletion/access time complexities",
+          "List: O(1) access, O(n) insertion/deletion at beginning. Linked List: O(n) access, O(1) insertion/deletion at beginning",
+          "Be ready to justify language choices (C++ vs Python) - performance, memory management, use cases",
+          "Understand OS concepts: Virtual Machine (hardware virtualization, runs complete OS)",
+          "Know the difference: VPN (network security, encrypts traffic) vs VM (hardware abstraction, runs OS)",
+          "Prepare detailed explanations of your internship projects",
+          "Think about multi-factor authentication beyond password and OTP: device fingerprinting, biometrics, IP whitelisting, behavioral analysis, session management",
+          "For the security scenario: Consider device recognition, location-based authentication, time-based restrictions, anomaly detection",
+          "Know HTML basics: <table>, <tr>, <td>, <th>, <thead>, <tbody>, <tfoot> tags",
+          "Practice explaining complex security concepts in simple terms"
+        ]
+      }
+    ],
+    "totalInterviews": 2,
+    "totalRoles": 2
+  },
+  "verizon": {
+    "slug": "verizon",
+    "company": "Verizon",
+    "country": "in",
+    "roles": ["Software Engineer"],
+    "salaries": [],
+    "interviews": [
+      {
+        "id": "verizon-001",
+        "company": "Verizon",
+        "role": "Software Engineer",
+        "batch": "2021-2025",
+        "department": "Information Technology",
+        "rounds": [
+          {
+            "roundName": "Group Discussion",
+            "description": "Group discussion on GenAI and its societal impact",
+            "questions": ["GenAI impact on society and its risks of privacy"]
+          },
+          {
+            "roundName": "Technical Round",
+            "description": "Comprehensive technical round covering projects, DBMS, coding, GenAI usage, blockchain, personal challenges, and career expectations",
+            "questions": [
+              "Introduction",
+              "DBMS project explanation",
+              "Draw ER diagram for the DBMS project",
+              "Explain the relationship of tables in the ER diagram",
+              "Write PHP connection code for database",
+              "Asked about AI and ML projects - Are you strong in coding in C++ and Python?",
+              "Have you done any project related to C++, C or Python?",
+              "Explained a linked list project which was not mentioned in resume (mini project)",
+              "Write binary search code",
+              "Asked about GenAI - Have you used GenAI? In what situation?",
+              "Have you cheated using GenAI?",
+              "What is blockchain?",
+              "Asked about challenges in personal life (not in studies) and how you overcame that situation",
+              "Asked about final year project - What are the problems you are facing now and how are you handling that?",
+              "What do you expect from Verizon?",
+              "What are your future ambitions after coming to Verizon and how do you need our company to support you?",
+              "What are your suggestions for the company?",
+              "What if I put you in a role rather than AI/ML? How will you manage?",
+              "What if I put you in a role which you have not heard about? How will you handle it?",
+              "What are the domains here and which role are you interested in for a software developer?",
+              "Are you interested in cyber security?"
+            ]
+          },
+          {
+            "roundName": "HR Round",
+            "description": "Personal background, family, and company knowledge",
+            "questions": [
+              "Introduction",
+              "About your family background",
+              "Tell what you know about Verizon",
+              "Interviewer added some additional points about Verizon apart from what was mentioned"
+            ]
+          }
+        ],
+        "tips": [
+          "Prepare well for group discussions on current tech topics like GenAI, privacy concerns, and societal impact",
+          "Be ready to draw ER diagrams on the spot and explain table relationships clearly",
+          "Know database connectivity code in PHP (mysqli_connect, PDO) or your project's backend language",
+          "Be honest about all projects, including mini projects not on resume - they may ask about them",
+          "Practice binary search implementation - both iterative and recursive approaches",
+          "Be transparent about GenAI usage - explain how you use it as a learning tool, not for cheating",
+          "Understand blockchain basics: distributed ledger, decentralization, immutability, consensus mechanisms",
+          "Prepare personal life challenges (non-academic) and how you overcame them with maturity",
+          "Be honest about current project challenges and your problem-solving approach",
+          "Have clear expectations from the company: learning opportunities, mentorship, growth path, work culture",
+          "Show flexibility and adaptability - be open to roles outside your comfort zone (not just AI/ML)",
+          "Demonstrate willingness to learn new domains and technologies",
+          "Research Verizon's domains: telecommunications, 5G, IoT, cloud services, network security, software development",
+          "Express genuine interest in potential roles - software development, cyber security, network engineering, etc.",
+          "Know about your family background and be ready to discuss it briefly",
+          "Research Verizon thoroughly: services, recent innovations, company culture, values"
+        ]
+      }
+    ],
+    "totalInterviews": 1,
+    "totalRoles": 1
+  },
+  "tcs-ninja": {
+    "slug": "tcs-ninja",
+    "company": "TCS (Ninja)",
+    "country": "in",
+    "roles": ["Assistant System Engineer-Trainee"],
+    "salaries": [
+      {
+        "company": "TCS (Ninja)",
+        "role": "Assistant System Engineer-Trainee",
+        "ctc": "3.36 LPA",
+        "inHand": "₹21,000 / month",
+        "bond": "1 Year",
+        "penalty": "₹50,000",
+        "workLifeBalance": 4,
+        "hasShift": true
+      }
+    ],
+    "interviews": [],
+    "totalInterviews": 0,
+    "totalRoles": 1
+  },
+  "tcs-digital": {
+    "slug": "tcs-digital",
+    "company": "TCS (Digital)",
+    "country": "in",
+    "roles": ["System Engineer"],
+    "salaries": [
+      {
+        "company": "TCS (Digital)",
+        "role": "System Engineer",
+        "ctc": "7.0 LPA",
+        "inHand": "₹48,000 / month",
+        "bond": "1 Year",
+        "penalty": "₹50,000",
+        "workLifeBalance": 4,
+        "hasShift": false
+      }
+    ],
+    "interviews": [],
+    "totalInterviews": 0,
+    "totalRoles": 1
+  },
+  "tcs-prime": {
+    "slug": "tcs-prime",
+    "company": "TCS (Prime)",
+    "country": "in",
+    "roles": ["System Engineer"],
+    "salaries": [
+      {
+        "company": "TCS (Prime)",
+        "role": "System Engineer",
+        "ctc": "9.0 LPA",
+        "inHand": "₹62,000 / month",
+        "bond": "1 Year",
+        "penalty": "₹50,000",
+        "workLifeBalance": 4,
+        "hasShift": false
+      }
+    ],
+    "interviews": [],
+    "totalInterviews": 0,
+    "totalRoles": 1
+  },
+  "infosys-system-engineer": {
+    "slug": "infosys-system-engineer",
+    "company": "Infosys (System Engineer)",
+    "country": "in",
+    "roles": ["System Engineer"],
+    "salaries": [
+      {
+        "company": "Infosys (System Engineer)",
+        "role": "System Engineer",
+        "ctc": "3.6 LPA",
+        "inHand": "₹23,000 / month",
+        "bond": "1 Year",
+        "penalty": "₹1,00,000",
+        "workLifeBalance": 3,
+        "hasShift": true
+      }
+    ],
+    "interviews": [],
+    "totalInterviews": 0,
+    "totalRoles": 1
+  },
+  "infosys-specialist-programmer": {
+    "slug": "infosys-specialist-programmer",
+    "company": "Infosys (Specialist Programmer)",
+    "country": "in",
+    "roles": ["Specialist Programmer (SP)"],
+    "salaries": [
+      {
+        "company": "Infosys (Specialist Programmer)",
+        "role": "Specialist Programmer (SP)",
+        "ctc": "9.5 LPA",
+        "inHand": "₹63,000 / month",
+        "bond": "None",
+        "penalty": "0",
+        "workLifeBalance": 3.5,
+        "hasShift": false
+      }
+    ],
+    "interviews": [],
+    "totalInterviews": 0,
+    "totalRoles": 1
+  },
+  "accenture-ase": {
+    "slug": "accenture-ase",
+    "company": "Accenture (ASE)",
+    "country": "in",
+    "roles": ["Associate Software Engineer"],
+    "salaries": [
+      {
+        "company": "Accenture (ASE)",
+        "role": "Associate Software Engineer",
+        "ctc": "4.5 LPA",
+        "inHand": "₹28,000 / month",
+        "bond": "None",
+        "penalty": "0",
+        "workLifeBalance": 3,
+        "hasShift": true
+      }
+    ],
+    "interviews": [],
+    "totalInterviews": 0,
+    "totalRoles": 1
+  },
+  "accenture-advanced-ase": {
+    "slug": "accenture-advanced-ase",
+    "company": "Accenture (Advanced ASE)",
+    "country": "in",
+    "roles": ["Advanced Associate Software Engineer"],
+    "salaries": [
+      {
+        "company": "Accenture (Advanced ASE)",
+        "role": "Advanced Associate Software Engineer",
+        "ctc": "6.5 LPA",
+        "inHand": "₹42,000 / month",
+        "bond": "None",
+        "penalty": "0",
+        "workLifeBalance": 3,
+        "hasShift": true
+      }
+    ],
+    "interviews": [],
+    "totalInterviews": 0,
+    "totalRoles": 1
+  },
+  "zoho": {
+    "slug": "zoho",
+    "company": "Zoho",
+    "country": "in",
+    "roles": ["Software Developer"],
+    "salaries": [
+      {
+        "company": "Zoho",
+        "role": "Software Developer",
+        "ctc": "5.6 - 8.4 LPA",
+        "inHand": "₹40,000 - ₹60,000 / month",
+        "bond": "None",
+        "penalty": "0",
+        "workLifeBalance": 4.5,
+        "hasShift": false
+      }
+    ],
+    "interviews": [],
+    "totalInterviews": 0,
+    "totalRoles": 1
+  },
+  "capgemini": {
+    "slug": "capgemini",
+    "company": "Capgemini",
+    "country": "in",
+    "roles": ["Analyst"],
+    "salaries": [
+      {
+        "company": "Capgemini",
+        "role": "Analyst",
+        "ctc": "4.25 LPA",
+        "inHand": "₹26,000 / month",
+        "bond": "2 Years",
+        "penalty": "₹2,00,000",
+        "workLifeBalance": 3,
+        "hasShift": true
+      }
+    ],
+    "interviews": [],
+    "totalInterviews": 0,
+    "totalRoles": 1
+  },
+  "wipro-turbo": {
+    "slug": "wipro-turbo",
+    "company": "Wipro (Turbo)",
+    "country": "in",
+    "roles": ["Project Engineer"],
+    "salaries": [
+      {
+        "company": "Wipro (Turbo)",
+        "role": "Project Engineer",
+        "ctc": "6.5 LPA",
+        "inHand": "₹43,000 / month",
+        "bond": "1 Year",
+        "penalty": "₹75,000",
+        "workLifeBalance": 3,
+        "hasShift": true
+      }
+    ],
+    "interviews": [],
+    "totalInterviews": 0,
+    "totalRoles": 1
+  },
+  "mindtree-ltimindtree": {
+    "slug": "mindtree-ltimindtree",
+    "company": "Mindtree / LTIMindtree",
+    "country": "in",
+    "roles": ["Software Engineer"],
+    "salaries": [
+      {
+        "company": "Mindtree / LTIMindtree",
+        "role": "Software Engineer",
+        "ctc": "4.0 LPA",
+        "inHand": "₹25,000 / month",
+        "bond": "2 Years",
+        "penalty": "₹2,00,000",
+        "workLifeBalance": 3.5,
+        "hasShift": true
+      }
+    ],
+    "interviews": [],
+    "totalInterviews": 0,
+    "totalRoles": 1
+  },
+  "mu-sigma": {
+    "slug": "mu-sigma",
+    "company": "Mu Sigma",
+    "country": "in",
+    "roles": ["Trainee Decision Scientist"],
+    "salaries": [
+      {
+        "company": "Mu Sigma",
+        "role": "Trainee Decision Scientist",
+        "ctc": "30 LPA (Over 3 Years)",
+        "inHand": "₹25,000 (Year 1)",
+        "bond": "3 Years (Strict)",
+        "penalty": "₹10,00,000",
+        "workLifeBalance": 1,
+        "hasShift": false
+      }
+    ],
+    "interviews": [],
+    "totalInterviews": 0,
+    "totalRoles": 1
+  },
+  "cognizant-genc": {
+    "slug": "cognizant-genc",
+    "company": "Cognizant (GenC)",
+    "country": "in",
+    "roles": ["Programmer Analyst Trainee"],
+    "salaries": [
+      {
+        "company": "Cognizant (GenC)",
+        "role": "Programmer Analyst Trainee",
+        "ctc": "4.0 LPA",
+        "inHand": "₹24,500 / month",
+        "bond": "None",
+        "penalty": "0",
+        "workLifeBalance": 3,
+        "hasShift": true
+      }
+    ],
+    "interviews": [],
+    "totalInterviews": 0,
+    "totalRoles": 1
+  },
+  "cognizant-genc-next": {
+    "slug": "cognizant-genc-next",
+    "company": "Cognizant (GenC Next)",
+    "country": "in",
+    "roles": ["GenC Next"],
+    "salaries": [
+      {
+        "company": "Cognizant (GenC Next)",
+        "role": "GenC Next",
+        "ctc": "6.75 LPA",
+        "inHand": "₹45,000 / month",
+        "bond": "None",
+        "penalty": "0",
+        "workLifeBalance": 3.5,
+        "hasShift": false
+      }
+    ],
+    "interviews": [],
+    "totalInterviews": 0,
+    "totalRoles": 1
+  }
+}

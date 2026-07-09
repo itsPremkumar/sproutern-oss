@@ -1,0 +1,148 @@
+{
+  "challenges": [
+    {
+      "id": "closure-trap",
+      "title": "The Closure Trap",
+      "description": "What happens when a setTimeout inside a loop captures a variable?",
+      "difficulty": "medium",
+      "category": "Closures",
+      "xpReward": 30,
+      "language": "javascript",
+      "code": "for (var i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i), 0);\n}",
+      "expectedOutput": "3\n3\n3",
+      "explanation": "The var keyword creates a function-scoped variable. By the time the setTimeout callbacks execute, the loop has finished and i is 3. Using 'let' instead would create a new binding for each iteration."
+    },
+    {
+      "id": "hoisting-puzzle",
+      "title": "Hoisting Puzzle",
+      "description": "What gets logged when functions and variables are hoisted?",
+      "difficulty": "medium",
+      "category": "Hoisting",
+      "xpReward": 25,
+      "language": "javascript",
+      "code": "console.log(typeof foo);\nvar foo = 'hello';\nfunction foo() {}\nconsole.log(typeof foo);",
+      "expectedOutput": "function\nstring",
+      "explanation": "Function declarations are hoisted with their body, but variable declarations (var) are hoisted without the value. The function is hoisted first, so typeof foo is 'function'. After the assignment, foo becomes a string."
+    },
+    {
+      "id": "array-mutation",
+      "title": "Array Mutation Surprise",
+      "description": "What happens when you modify an array during iteration?",
+      "difficulty": "easy",
+      "category": "Arrays",
+      "xpReward": 20,
+      "language": "javascript",
+      "code": "const arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr.length);\nconsole.log(arr[3]);",
+      "expectedOutput": "4\n4",
+      "explanation": "Arrays in JavaScript are mutable. push() adds an element to the end and returns the new length. The array now has 4 elements, and arr[3] (0-indexed) is the value 4."
+    },
+    {
+      "id": "equality-chaos",
+      "title": "Equality Chaos",
+      "description": "Predict the results of double vs triple equals comparisons.",
+      "difficulty": "easy",
+      "category": "Comparisons",
+      "xpReward": 20,
+      "language": "javascript",
+      "code": "console.log(1 == '1');\nconsole.log(1 === '1');\nconsole.log(null == undefined);\nconsole.log(null === undefined);",
+      "expectedOutput": "true\nfalse\ntrue\nfalse",
+      "explanation": "== performs type coercion, so 1 == '1' is true. === checks type AND value. null == undefined is true by specification, but null === undefined is false because they're different types."
+    },
+    {
+      "id": "this-binding",
+      "title": "The 'this' Binding",
+      "description": "What does 'this' refer to in different contexts?",
+      "difficulty": "hard",
+      "category": "Context",
+      "xpReward": 40,
+      "language": "javascript",
+      "code": "const obj = {\n  name: 'Alice',\n  greet: function() {\n    console.log(this.name);\n  },\n  greetArrow: () => {\n    console.log(this.name);\n  }\n};\nobj.greet();\nobj.greetArrow();",
+      "expectedOutput": "Alice\nundefined",
+      "explanation": "Regular functions get their 'this' from how they're called (obj.greet() means this=obj). Arrow functions inherit 'this' from their enclosing scope - at the top level, this.name is undefined."
+    },
+    {
+      "id": "async-order",
+      "title": "Async Execution Order",
+      "description": "In what order do these console.logs execute?",
+      "difficulty": "hard",
+      "category": "Async",
+      "xpReward": 45,
+      "language": "javascript",
+      "code": "console.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nconsole.log('4');",
+      "expectedOutput": "1\n4\n3\n2",
+      "explanation": "Synchronous code runs first (1, 4). Then microtasks (Promises) run before macrotasks (setTimeout). So 3 comes before 2, even though both have 0ms delay."
+    },
+    {
+      "id": "spread-vs-rest",
+      "title": "Spread vs Rest",
+      "description": "Understand the difference between spread and rest operators.",
+      "difficulty": "easy",
+      "category": "ES6",
+      "xpReward": 20,
+      "language": "javascript",
+      "code": "const arr1 = [1, 2];\nconst arr2 = [...arr1, 3];\nconsole.log(arr2.length);\nconsole.log(arr1 === arr2);",
+      "expectedOutput": "3\nfalse",
+      "explanation": "Spread creates a shallow copy. arr2 is a new array with 3 elements. Since it's a new array, arr1 === arr2 is false (different references)."
+    },
+    {
+      "id": "object-reference",
+      "title": "Object Reference",
+      "description": "What happens when you assign an object to another variable?",
+      "difficulty": "easy",
+      "category": "References",
+      "xpReward": 20,
+      "language": "javascript",
+      "code": "const a = { x: 1 };\nconst b = a;\nb.x = 2;\nconsole.log(a.x);\nconsole.log(b.x);",
+      "expectedOutput": "2\n2",
+      "explanation": "Objects are passed by reference. 'b = a' doesn't create a copy - both variables point to the same object. Changing b.x also changes a.x."
+    },
+    {
+      "id": "nan-equality",
+      "title": "NaN Paradox",
+      "description": "The strange behavior of NaN in JavaScript.",
+      "difficulty": "medium",
+      "category": "Numbers",
+      "xpReward": 30,
+      "language": "javascript",
+      "code": "console.log(NaN === NaN);\nconsole.log(typeof NaN);\nconsole.log(Number.isNaN(NaN));\nconsole.log(isNaN('hello'));",
+      "expectedOutput": "false\nnumber\ntrue\ntrue",
+      "explanation": "NaN is not equal to anything, including itself! It's typeof 'number'. Number.isNaN() is strict, but isNaN() coerces the argument first - 'hello' becomes NaN after coercion."
+    },
+    {
+      "id": "python-mutable-default",
+      "title": "Mutable Default Argument",
+      "description": "A classic Python gotcha with default arguments.",
+      "difficulty": "hard",
+      "category": "Functions",
+      "xpReward": 40,
+      "language": "python",
+      "code": "def add_item(item, lst=[]):\n    lst.append(item)\n    return lst\n\nprint(add_item(1))\nprint(add_item(2))\nprint(add_item(3))",
+      "expectedOutput": "[1]\n[1, 2]\n[1, 2, 3]",
+      "explanation": "Default arguments are evaluated once when the function is defined, not each call. The same list object is reused across calls. Fix: use lst=None and create a new list inside the function."
+    },
+    {
+      "id": "python-string-interning",
+      "title": "String Interning",
+      "description": "Why are these string comparisons different?",
+      "difficulty": "medium",
+      "category": "Strings",
+      "xpReward": 30,
+      "language": "python",
+      "code": "a = 'hello'\nb = 'hello'\nprint(a is b)\n\nc = 'hello world'\nd = 'hello world'\nprint(c is d)",
+      "expectedOutput": "True\nFalse",
+      "explanation": "Python interns short strings without special characters for optimization. 'hello' is interned (same object), but 'hello world' has a space so may not be interned (different objects). Use == for value comparison!"
+    },
+    {
+      "id": "python-list-comprehension",
+      "title": "List Comprehension Scope",
+      "description": "What values does the list comprehension capture?",
+      "difficulty": "medium",
+      "category": "Comprehensions",
+      "xpReward": 35,
+      "language": "python",
+      "code": "funcs = [lambda: x for x in range(3)]\nresults = [f() for f in funcs]\nprint(results)",
+      "expectedOutput": "[2, 2, 2]",
+      "explanation": "Similar to JavaScript's closure trap! The lambda captures the variable x, not its value. By the time lambdas are called, x is 2. Fix: lambda x=x: x captures the value at each iteration."
+    }
+  ]
+}

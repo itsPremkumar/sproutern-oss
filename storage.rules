@@ -1,0 +1,20 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Rules for user resumes
+    // The path is resumes/{userId}/{fileName}
+    match /resumes/{userId}/{fileName} {
+      // Any authenticated user can read resumes.
+      // This is necessary for startups to view the resumes of applicants.
+      allow read: if request.auth != null;
+
+      // Only the authenticated user whose UID matches the {userId} in the path
+      // can upload or update their own resume.
+      // We also check that the file size is less than 5MB and is a PDF.
+      allow write: if request.auth != null && request.auth.uid == userId
+                   && request.resource.size < 5 * 1024 * 1024
+                   && request.resource.contentType == 'application/pdf';
+    }
+  }
+}

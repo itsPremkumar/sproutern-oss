@@ -1,0 +1,244 @@
+{
+  "challenges": [
+    {
+      "id": "nested-loops-sum",
+      "title": "Optimize Array Sum",
+      "description": "This code finds the sum of all elements, but it's unnecessarily complex. Simplify it!",
+      "difficulty": "easy",
+      "category": "Simplification",
+      "xpReward": 25,
+      "language": "javascript",
+      "inefficientCode": "function sumArray(arr) {\n  let sum = 0;\n  for (let i = 0; i < arr.length; i++) {\n    for (let j = 0; j < 1; j++) {\n      sum = sum + arr[i];\n    }\n  }\n  return sum;\n}\n\nconsole.log(sumArray([1, 2, 3, 4, 5]));",
+      "optimizedSolution": "function sumArray(arr) {\n  return arr.reduce((sum, num) => sum + num, 0);\n}\n\nconsole.log(sumArray([1, 2, 3, 4, 5]));",
+      "testCases": [
+        {
+          "input": ["[1, 2, 3, 4, 5]"],
+          "expectedOutput": "15"
+        },
+        {
+          "input": ["[10, 20, 30]"],
+          "expectedOutput": "60"
+        },
+        {
+          "input": ["[]"],
+          "expectedOutput": "0"
+        }
+      ],
+      "hints": [
+        "The inner loop only runs once - it's useless!",
+        "Consider using array methods like reduce()",
+        "You can sum an array in a single line with reduce"
+      ],
+      "improvements": ["Remove unnecessary nested loop", "Use Array.reduce() for cleaner code"]
+    },
+    {
+      "id": "repeated-conditions",
+      "title": "Simplify Conditions",
+      "description": "This function checks grades but has redundant conditions. Clean it up!",
+      "difficulty": "easy",
+      "category": "Conditionals",
+      "xpReward": 25,
+      "language": "javascript",
+      "inefficientCode": "function getGrade(score) {\n  if (score >= 90 && score <= 100) {\n    return 'A';\n  } else if (score >= 80 && score < 90) {\n    return 'B';\n  } else if (score >= 70 && score < 80) {\n    return 'C';\n  } else if (score >= 60 && score < 70) {\n    return 'D';\n  } else if (score >= 0 && score < 60) {\n    return 'F';\n  } else {\n    return 'Invalid';\n  }\n}\n\nconsole.log(getGrade(85));",
+      "optimizedSolution": "function getGrade(score) {\n  if (score < 0 || score > 100) return 'Invalid';\n  if (score >= 90) return 'A';\n  if (score >= 80) return 'B';\n  if (score >= 70) return 'C';\n  if (score >= 60) return 'D';\n  return 'F';\n}\n\nconsole.log(getGrade(85));",
+      "testCases": [
+        {
+          "input": ["95"],
+          "expectedOutput": "A"
+        },
+        {
+          "input": ["85"],
+          "expectedOutput": "B"
+        },
+        {
+          "input": ["55"],
+          "expectedOutput": "F"
+        }
+      ],
+      "hints": [
+        "Once you check score >= 90, you know score < 90 in the else branch",
+        "You don't need to check both ends of the range",
+        "Handle edge cases (invalid scores) first"
+      ],
+      "improvements": ["Remove redundant upper bound checks", "Early return for invalid input"]
+    },
+    {
+      "id": "slow-includes",
+      "title": "Faster Lookup",
+      "description": "This code checks if items exist in a list but gets slower as the list grows. Optimize it!",
+      "difficulty": "medium",
+      "category": "Data Structures",
+      "xpReward": 35,
+      "language": "javascript",
+      "inefficientCode": "function findCommon(arr1, arr2) {\n  const common = [];\n  for (let i = 0; i < arr1.length; i++) {\n    for (let j = 0; j < arr2.length; j++) {\n      if (arr1[i] === arr2[j]) {\n        common.push(arr1[i]);\n        break;\n      }\n    }\n  }\n  return common;\n}\n\nconsole.log(findCommon([1, 2, 3, 4], [3, 4, 5, 6]));",
+      "optimizedSolution": "function findCommon(arr1, arr2) {\n  const set2 = new Set(arr2);\n  return arr1.filter(item => set2.has(item));\n}\n\nconsole.log(findCommon([1, 2, 3, 4], [3, 4, 5, 6]));",
+      "testCases": [
+        {
+          "input": ["[1, 2, 3]", "[2, 3, 4]"],
+          "expectedOutput": "[2, 3]"
+        },
+        {
+          "input": ["[1, 2]", "[3, 4]"],
+          "expectedOutput": "[]"
+        },
+        {
+          "input": ["[1, 1, 2]", "[1, 2, 2]"],
+          "expectedOutput": "[1, 1, 2]"
+        }
+      ],
+      "hints": [
+        "Nested loops give O(n*m) complexity",
+        "Set has O(1) lookup instead of O(n)",
+        "Convert one array to a Set, then filter the other"
+      ],
+      "improvements": ["Use Set for O(1) lookup", "Reduces O(n*m) to O(n+m)"]
+    },
+    {
+      "id": "string-concatenation",
+      "title": "Efficient String Building",
+      "description": "This function builds a string inefficiently. Find a better way!",
+      "difficulty": "medium",
+      "category": "Strings",
+      "xpReward": 30,
+      "language": "javascript",
+      "inefficientCode": "function repeatString(str, n) {\n  let result = '';\n  for (let i = 0; i < n; i++) {\n    result = result + str;\n  }\n  return result;\n}\n\nconsole.log(repeatString('ab', 3));",
+      "optimizedSolution": "function repeatString(str, n) {\n  return str.repeat(n);\n}\n\nconsole.log(repeatString('ab', 3));",
+      "testCases": [
+        {
+          "input": ["'ab'", "3"],
+          "expectedOutput": "ababab"
+        },
+        {
+          "input": ["'x'", "5"],
+          "expectedOutput": "xxxxx"
+        },
+        {
+          "input": ["'hi'", "0"],
+          "expectedOutput": ""
+        }
+      ],
+      "hints": [
+        "JavaScript has a built-in string method for this",
+        "String.prototype.repeat() does exactly this",
+        "One line solution is possible!"
+      ],
+      "improvements": ["Use String.repeat() built-in method", "Single line, more readable"]
+    },
+    {
+      "id": "callback-hell",
+      "title": "Flatten Callback Hell",
+      "description": "This code has deeply nested callbacks. Refactor with modern async/await!",
+      "difficulty": "hard",
+      "category": "Async",
+      "xpReward": 50,
+      "language": "javascript",
+      "inefficientCode": "function fetchUserData(userId, callback) {\n  // Simulating API calls\n  setTimeout(() => {\n    const user = { id: userId, name: 'Alice' };\n    callback(null, user);\n  }, 100);\n}\n\nfunction fetchUserPosts(userId, callback) {\n  setTimeout(() => {\n    const posts = [{ id: 1, title: 'Hello' }];\n    callback(null, posts);\n  }, 100);\n}\n\n// Callback hell\nfetchUserData(1, (err, user) => {\n  if (err) {\n    console.log('Error:', err);\n  } else {\n    fetchUserPosts(user.id, (err, posts) => {\n      if (err) {\n        console.log('Error:', err);\n      } else {\n        console.log(user.name, posts.length);\n      }\n    });\n  }\n});",
+      "optimizedSolution": "function fetchUserData(userId) {\n  return new Promise(resolve => {\n    setTimeout(() => {\n      resolve({ id: userId, name: 'Alice' });\n    }, 100);\n  });\n}\n\nfunction fetchUserPosts(userId) {\n  return new Promise(resolve => {\n    setTimeout(() => {\n      resolve([{ id: 1, title: 'Hello' }]);\n    }, 100);\n  });\n}\n\nasync function main() {\n  const user = await fetchUserData(1);\n  const posts = await fetchUserPosts(user.id);\n  console.log(user.name, posts.length);\n}\n\nmain();",
+      "testCases": [
+        {
+          "input": [],
+          "expectedOutput": "Alice 1"
+        }
+      ],
+      "hints": [
+        "Wrap callback functions in Promises",
+        "Use async/await for sequential async operations",
+        "Error handling can use try/catch instead of callbacks"
+      ],
+      "improvements": ["Convert callbacks to Promises", "Use async/await for flat, readable code"]
+    },
+    {
+      "id": "duplicate-removal",
+      "title": "Remove Duplicates",
+      "description": "This code removes duplicates but is O(n²). Make it faster!",
+      "difficulty": "medium",
+      "category": "Arrays",
+      "xpReward": 35,
+      "language": "python",
+      "inefficientCode": "def remove_duplicates(arr):\n    result = []\n    for item in arr:\n        is_duplicate = False\n        for existing in result:\n            if item == existing:\n                is_duplicate = True\n                break\n        if not is_duplicate:\n            result.append(item)\n    return result\n\nprint(remove_duplicates([1, 2, 2, 3, 3, 3, 4]))",
+      "optimizedSolution": "def remove_duplicates(arr):\n    return list(dict.fromkeys(arr))\n\nprint(remove_duplicates([1, 2, 2, 3, 3, 3, 4]))",
+      "testCases": [
+        {
+          "input": ["[1, 2, 2, 3]"],
+          "expectedOutput": "[1, 2, 3]"
+        },
+        {
+          "input": ["[1, 1, 1]"],
+          "expectedOutput": "[1]"
+        },
+        {
+          "input": ["[]"],
+          "expectedOutput": "[]"
+        }
+      ],
+      "hints": [
+        "Sets have O(1) lookup",
+        "dict.fromkeys() preserves order in Python 3.7+",
+        "You can also use list(set(arr)) if order doesn't matter"
+      ],
+      "improvements": ["Use dict.fromkeys() for O(n) with order preserved", "Much simpler and faster"]
+    },
+    {
+      "id": "multiple-iterations",
+      "title": "Single Pass Processing",
+      "description": "This code iterates multiple times when once would suffice. Optimize it!",
+      "difficulty": "medium",
+      "category": "Algorithms",
+      "xpReward": 40,
+      "language": "javascript",
+      "inefficientCode": "function processNumbers(arr) {\n  const doubled = arr.map(x => x * 2);\n  const filtered = doubled.filter(x => x > 10);\n  const summed = filtered.reduce((a, b) => a + b, 0);\n  return summed;\n}\n\nconsole.log(processNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));",
+      "optimizedSolution": "function processNumbers(arr) {\n  return arr.reduce((sum, x) => {\n    const doubled = x * 2;\n    return doubled > 10 ? sum + doubled : sum;\n  }, 0);\n}\n\nconsole.log(processNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));",
+      "testCases": [
+        {
+          "input": ["[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"],
+          "expectedOutput": "90"
+        },
+        {
+          "input": ["[1, 2, 3]"],
+          "expectedOutput": "0"
+        },
+        {
+          "input": ["[10]"],
+          "expectedOutput": "20"
+        }
+      ],
+      "hints": [
+        "Each map/filter/reduce creates a new array and iterates",
+        "Combine all operations into a single reduce",
+        "Process, filter, and accumulate in one pass"
+      ],
+      "improvements": ["Single iteration instead of three", "No intermediate arrays created"]
+    },
+    {
+      "id": "redundant-variable",
+      "title": "Remove Redundancy",
+      "description": "This code has unnecessary variables and steps. Clean it up!",
+      "difficulty": "easy",
+      "category": "Clean Code",
+      "xpReward": 20,
+      "language": "python",
+      "inefficientCode": "def is_even(n):\n    if n % 2 == 0:\n        result = True\n    else:\n        result = False\n    return result\n\nprint(is_even(4))",
+      "optimizedSolution": "def is_even(n):\n    return n % 2 == 0\n\nprint(is_even(4))",
+      "testCases": [
+        {
+          "input": ["4"],
+          "expectedOutput": "True"
+        },
+        {
+          "input": ["7"],
+          "expectedOutput": "False"
+        },
+        {
+          "input": ["0"],
+          "expectedOutput": "True"
+        }
+      ],
+      "hints": [
+        "The comparison n % 2 == 0 already returns True or False",
+        "You don't need an if/else to return a boolean",
+        "Just return the comparison directly!"
+      ],
+      "improvements": ["Return boolean expression directly", "From 6 lines to 1 line"]
+    }
+  ]
+}

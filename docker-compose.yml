@@ -1,0 +1,22 @@
+services:
+  sproutern:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sproutern-dev
+    ports:
+      # Map the default dev port (9002 in package.json dev script)
+      - '9002:9002'
+    volumes:
+      # Mount current directory to /app in container
+      - .:/app
+      # Use anonymous volumes for dependencies and build artifacts
+      # so local files don't overwrite container's specific versions
+      - /app/node_modules
+      - /app/.next
+    environment:
+      - NODE_ENV=development
+      - NEXT_TELEMETRY_DISABLED=1
+      # Note: For Firebase/Genkit variables or custom envs, consider uncommenting below:
+      # env_file:
+      #   - .env.local

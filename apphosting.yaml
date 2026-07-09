@@ -1,0 +1,59 @@
+env:
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value: 'YOUR_FIREBASE_API_KEY'
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value: 'YOUR_PROJECT.firebaseapp.com'
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: 'YOUR_PROJECT_ID'
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: 'YOUR_PROJECT.firebasestorage.app'
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value: 'YOUR_SENDER_ID'
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    value: 'YOUR_APP_ID'
+  - variable: NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+    value: 'YOUR_MEASUREMENT_ID'
+  - variable: NEXT_PUBLIC_GOOGLE_ADSENSE_PUBLISHER_ID
+    value: 'YOUR_ADSENSE_PUBLISHER_ID'
+  - variable: NEXT_PUBLIC_GOOGLE_ADSENSE_SLOT_ID
+    value: 'YOUR_ADSENSE_SLOT_ID'
+  - variable: FIREBASE_CONFIG
+    value: '{"apiKey":"YOUR_FIREBASE_API_KEY","authDomain":"YOUR_PROJECT.firebaseapp.com","projectId":"YOUR_PROJECT_ID","storageBucket":"YOUR_PROJECT.firebasestorage.app","messagingSenderId":"YOUR_SENDER_ID","appId":"YOUR_APP_ID","measurementId":"YOUR_MEASUREMENT_ID"}'
+  - variable: FIREBASE_WEBAPP_CONFIG
+    value: '{"apiKey":"YOUR_FIREBASE_API_KEY","authDomain":"YOUR_PROJECT.firebaseapp.com","projectId":"YOUR_PROJECT_ID","storageBucket":"YOUR_PROJECT.firebasestorage.app","messagingSenderId":"YOUR_SENDER_ID","appId":"YOUR_APP_ID","measurementId":"YOUR_MEASUREMENT_ID"}'
+  - variable: GOOGLE_API_KEY
+    value: 'YOUR_GOOGLE_API_KEY'
+
+  - variable: NEXT_PUBLIC_BASE_URL
+    value: 'https://www.sproutern.com'
+
+  # Google AdSense
+  - variable: NEXT_PUBLIC_ADSENSE_CLIENT_ID
+    value: 'YOUR_ADSENSE_CLIENT_ID'
+
+  - variable: MAIL_FROM_NAME
+    value: 'sproutern'
+  - variable: OTP_EXPIRY_MINUTES
+    value: '5'
+
+  - variable: MAIL_USER
+    value: 'YOUR_EMAIL@gmail.com'
+  - variable: MAIL_PASS
+    value: 'YOUR_APP_PASSWORD'
+
+runConfig:
+  maxInstances: 1
+# The runConfig is not needed for a standard Next.js deployment
+# and can be removed unless you have a specific need for it.
+# runConfig:
+#  maxInstances: 1
+
+secrets:
+  - secret: SERVICE_ACCOUNT_KEY
+    availability:
+      - BUILD
+      - RUNTIME
+  - secret: GOOGLE_API_KEY
+    availability:
+      - BUILD
+      - RUNTIME

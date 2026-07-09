@@ -1,0 +1,114 @@
+{
+  "bugs": [
+    {
+      "id": "js-infinite-loop",
+      "title": "The Frozen Counter",
+      "description": "This function should count to 5, but it freezes the browser. Fix the bug.",
+      "language": "javascript",
+      "difficulty": "easy",
+      "xpReward": 25,
+      "buggyCode": "function countToFive() {\n  let i = 0;\n  while (i < 5) {\n    console.log(i);\n    // Something is missing here\n  }\n  return 'Done!';\n}",
+      "correctCode": "function countToFive() {\n  let i = 0;\n  while (i < 5) {\n    console.log(i);\n    i++;\n  }\n  return 'Done!';\n}",
+      "testCases": [
+        {
+          "input": [],
+          "expectedOutput": "Done!"
+        }
+      ],
+      "hints": ["Look at the while loop condition", "What makes i change?", "Add i++ inside the loop"],
+      "explanation": "The loop variable 'i' is never incremented, so i < 5 is always true, causing an infinite loop. Adding i++ fixes it."
+    },
+    {
+      "id": "js-scope-error",
+      "title": "Variable Vanishing Act",
+      "description": "This function should calculate the total, but it throws an error. Fix the scoping issue.",
+      "language": "javascript",
+      "difficulty": "easy",
+      "xpReward": 25,
+      "buggyCode": "function calculateTotal(price) {\n  if (price > 0) {\n    let tax = price * 0.1;\n  }\n  return price + tax;\n}",
+      "correctCode": "function calculateTotal(price) {\n  let tax = 0;\n  if (price > 0) {\n    tax = price * 0.1;\n  }\n  return price + tax;\n}",
+      "testCases": [
+        {
+          "input": ["100"],
+          "expectedOutput": "110"
+        },
+        {
+          "input": ["0"],
+          "expectedOutput": "0"
+        }
+      ],
+      "hints": ["Where is 'tax' declared?", "'let' creates block scope", "Declare tax before the if statement"],
+      "explanation": "The variable 'tax' is declared inside the if block with 'let', making it block-scoped. It's not accessible outside the block. Move the declaration before the if."
+    },
+    {
+      "id": "js-off-by-one",
+      "title": "Array Access Error",
+      "description": "This function should return the last element, but it crashes. Fix the off-by-one error.",
+      "language": "javascript",
+      "difficulty": "medium",
+      "xpReward": 35,
+      "buggyCode": "function getLastElement(arr) {\n  return arr[arr.length];\n}",
+      "correctCode": "function getLastElement(arr) {\n  return arr[arr.length - 1];\n}",
+      "testCases": [
+        {
+          "input": ["[1, 2, 3]"],
+          "expectedOutput": "3"
+        },
+        {
+          "input": ["['a', 'b']"],
+          "expectedOutput": "b"
+        }
+      ],
+      "hints": ["Array indices start at 0", "What's the index of the last element in [1,2,3]?", "Use arr.length - 1"],
+      "explanation": "Array indices are 0-based. For an array of length 3, valid indices are 0, 1, 2. arr[arr.length] accesses index 3 which is undefined."
+    },
+    {
+      "id": "py-indent-error",
+      "title": "Python Indentation",
+      "description": "This Python function has an indentation error. Fix it to make it work.",
+      "language": "python",
+      "difficulty": "easy",
+      "xpReward": 20,
+      "buggyCode": "def greet(name):\nreturn f'Hello, {name}!'",
+      "correctCode": "def greet(name):\n    return f'Hello, {name}!'",
+      "testCases": [
+        {
+          "input": ["\"World\""],
+          "expectedOutput": "Hello, World!"
+        }
+      ],
+      "hints": [
+        "Python uses indentation for code blocks",
+        "The return statement needs to be indented",
+        "Add 4 spaces before return"
+      ],
+      "explanation": "Python requires consistent indentation. The return statement must be indented to be inside the function definition."
+    },
+    {
+      "id": "js-equality-bug",
+      "title": "Type Confusion",
+      "description": "This function should check if input is exactly 0, but it returns true for empty strings. Fix the comparison.",
+      "language": "javascript",
+      "difficulty": "medium",
+      "xpReward": 35,
+      "buggyCode": "function isZero(value) {\n  return value == 0;\n}",
+      "correctCode": "function isZero(value) {\n  return value === 0;\n}",
+      "testCases": [
+        {
+          "input": ["0"],
+          "expectedOutput": "true"
+        },
+        {
+          "input": ["\"\""],
+          "expectedOutput": "false"
+        },
+        {
+          "input": ["null"],
+          "expectedOutput": "false"
+        }
+      ],
+      "hints": ["Think about == vs ===", "What is '' == 0 in JavaScript?", "Use strict equality (===)"],
+      "explanation": "The == operator performs type coercion, so '' == 0 is true. Use === for strict equality which checks both value and type."
+    }
+  ]
+}

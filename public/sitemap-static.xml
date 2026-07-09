@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- Sproutern.com Sitemap - Updated January 9, 2026 -->
+
+<!-- Homepage -->
+<url>
+  <loc>https://www.sproutern.com/</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+
+<!-- Main Features -->
+<url>
+  <loc>https://www.sproutern.com/internships</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/resume-optimizer</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/post-internship</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.85</priority>
+</url>
+
+<!-- Content Pages -->
+<url>
+  <loc>https://www.sproutern.com/blog</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/resources</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/interview-experiences</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.85</priority>
+</url>
+
+<!-- Roadmaps - Career Paths -->
+<url>
+  <loc>https://www.sproutern.com/roadmaps</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/roadmaps/software-engineer</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/roadmaps/ai-ml-engineer</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/roadmaps/cybersecurity</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/roadmaps/data-analyst</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/roadmaps/data-scientist</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/roadmaps/devops-engineer</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/roadmaps/mobile-developer</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/roadmaps/product-manager</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/roadmaps/ui-ux-designer</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- Global Career Guide -->
+<url>
+  <loc>https://www.sproutern.com/global-career-guide</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/global-career-guide/usa</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/global-career-guide/uk</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/global-career-guide/canada</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/global-career-guide/germany</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/global-career-guide/australia</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- Career Support -->
+<url>
+  <loc>https://www.sproutern.com/career-switch</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/layoff-guide</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/mental-health</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/success-stories</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- User Features -->
+<url>
+  <loc>https://www.sproutern.com/requests</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/skill-test</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/testimonials</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/scholarships</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/off-campus-drives</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/downloads</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.75</priority>
+</url>
+
+<!-- Information Pages -->
+<url>
+  <loc>https://www.sproutern.com/about</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/faq</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/founder</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/methodology</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/editorial-guidelines</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.65</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/contact</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.65</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/donate</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.50</priority>
+</url>
+
+<!-- Development Services -->
+<url>
+  <loc>https://www.sproutern.com/services</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/services/web-development</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/services/mobile-app-development</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/services/ai-integration</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/services/mcp-development</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/services/mvp-development</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/services/technical-seo-audit</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/services/fractional-cto</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- Legal Pages -->
+<url>
+  <loc>https://www.sproutern.com/privacy-policy</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/terms-and-conditions</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/terms-of-service</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/cookie-policy</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/disclaimer</loc>
+  <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.55</priority>
+</url>
+
+</urlset>

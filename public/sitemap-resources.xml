@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- Sproutern.com Resources Sitemap - Updated December 23, 2025 -->
+
+<!-- Resources Hub -->
+<url>
+  <loc>https://www.sproutern.com/resources</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+<!-- Resume Resources -->
+<url>
+  <loc>https://www.sproutern.com/resources/resume-templates</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/resources/resume-guide</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/resources/cover-letters</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- Interview Resources -->
+<url>
+  <loc>https://www.sproutern.com/resources/interview-prep</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/resources/interview-cheatsheet</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/resources/aptitude-formulas</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- Career Resources -->
+<url>
+  <loc>https://www.sproutern.com/resources/career-planning</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/resources/skill-development</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/resources/networking</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/resources/industry-insights</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
+</url>
+
+<!-- Downloads -->
+<url>
+  <loc>https://www.sproutern.com/resources/downloads</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+
+</urlset>

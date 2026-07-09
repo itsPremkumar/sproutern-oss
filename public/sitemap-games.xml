@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- Sproutern.com Games Sitemap - All Brain Training Games -->
+<!-- Updated: December 28, 2025 -->
+<!-- Total Games: 72 -->
+
+<!-- Main Games Page -->
+<url>
+  <loc>https://www.sproutern.com/games</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<!-- ========== MEMORY GAMES ========== -->
+<url>
+  <loc>https://www.sproutern.com/games/memory-matrix</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/memory-match</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/card-flip-memory</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/memory-power-test</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/quick-recall</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/mind-snapshot</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/attention-trainer</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<!-- ========== LOGIC GAMES ========== -->
+<url>
+  <loc>https://www.sproutern.com/games/logic-puzzle</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/logic-builder</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/pattern-recognition</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/pattern-finder</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/sudoku-trainer</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/sequence-solver</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/odd-one-out</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/visual-logic-game</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/brain-logic-test</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/reasoning-master</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/algorithm-thinking</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/predict-output</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/debugging-challenge</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/critical-thinking-quiz</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/problem-decomposition</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/daily-riddle</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/trivia-quiz</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<!-- ========== MATH GAMES ========== -->
+<url>
+  <loc>https://www.sproutern.com/games/speed-math</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/mental-math</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/math-speed-test</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/number-sequence</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/number-series</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/percentage-puzzle</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/profit-loss-game</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/time-work-challenge</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/math-proof-builder</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<!-- ========== VOCABULARY GAMES ========== -->
+<url>
+  <loc>https://www.sproutern.com/games/word-association</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/word-scramble</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/synonym-match</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/antonym-challenge</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/spelling-bee</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/email-etiquette</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<!-- ========== FOCUS GAMES ========== -->
+<url>
+  <loc>https://www.sproutern.com/games/concentration-test</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/concentration-challenge</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/focus-booster</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/reaction-time-test</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/quick-click-challenge</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/speed-focus-game</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/think-fast</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/situation-judgment</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/interview-ready</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<!-- ========== ADVANCED THINKING GAMES ========== -->
+<url>
+  <loc>https://www.sproutern.com/games/bias-buster</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/fallacy-detective</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/causal-chain-builder</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/system-simulator</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/decision-matrix-lab</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/risk-radar</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/strategic-standoff</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/complexity-cracker</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/constraint-crusher</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/data-detective</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/chart-challenge</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/stats-skeptic</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/smart-choice</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<!-- ========== SCIENCE GAMES (JEE/NEET Prep) ========== -->
+<url>
+  <loc>https://www.sproutern.com/games/concept-sprint</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/deep-problem-marathon</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/fermi-estimation-duel</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/physics-intuition-lab</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/derivation-race</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/dimensional-detective</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/error-spotter</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/organic-synthesis</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/biology-pathway</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/reaction-mechanism</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/games/clinical-case</loc>
+  <lastmod>2025-12-28T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+</urlset>

@@ -1,0 +1,46 @@
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Users can write to their own document. Anyone can read public user info.
+    match /users/{userId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Student profiles are public, but only the student can edit their own.
+    match /studentProfiles/{userId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Startup profiles are public, but only the startup can edit their own.
+    match /startupProfiles/{userId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Internships can be read by anyone, but only created/edited by the posting startup.
+    match /internships/{internshipId} {
+      allow read: if true;
+      allow create: if request.auth != null && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.userType == 'startup';
+      allow update, delete: if request.auth != null && request.auth.uid == resource.data.postedBy;
+    }
+    
+    // Rules for the 'applications' collection
+    match /applications/{applicationId} {
+      // The student who applied OR the startup who posted the internship can read an application.
+      // This rule works for both single document 'get' and collection 'list' (query) requests.
+      allow read: if request.auth != null 
+                  && (request.auth.uid == resource.data.studentId || request.auth.uid == resource.data.startupId);
+
+      // A logged-in user can create an application ONLY for themselves.
+      // This simplified rule is more robust and prevents the permission error.
+      allow create: if request.auth != null && request.auth.uid == request.resource.data.studentId;
+      
+      // No one can update or delete applications for now to ensure data integrity.
+      allow update, delete: if false;
+    }
+  }
+}

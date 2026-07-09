@@ -1,0 +1,179 @@
+# Sproutern.com robots.txt
+# Updated: March 5, 2026
+# Geo-optimized for India, US, and Global markets
+# GEO-optimized for AI-powered search engines
+
+# Default rules for all search engines
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /profile
+Disallow: /profile/
+Disallow: /_next/
+Disallow: /public-profile/
+Disallow: /resume-ai/
+
+# Disallow authentication pages from indexing
+Disallow: /signin
+Disallow: /signup
+Disallow: /forgot-password
+
+# Disallow static files that cannot be indexed as pages
+Disallow: /favicon.ico
+Disallow: /manifest.webmanifest
+Disallow: /*.woff2$
+Disallow: /*.woff$
+
+# Allow public resources
+Allow: /blog
+Allow: /internships
+Allow: /interview-experiences
+Allow: /resources
+Allow: /about
+Allow: /faq
+Allow: /contact
+Allow: /companies
+Allow: /off-campus-drives
+Allow: /tools
+Allow: /skill-test
+Allow: /resume-optimizer
+Allow: /testimonials
+Allow: /guides
+Allow: /school
+Allow: /college
+Allow: /freshers
+Allow: /countries
+Allow: /scholarships
+Allow: /games
+Allow: /games/*
+Allow: /roadmaps
+Allow: /roadmaps/*
+Allow: /global-career-guide
+Allow: /global-career-guide/*
+Allow: /career-switch
+Allow: /layoff-guide
+Allow: /mental-health
+Allow: /success-stories
+Allow: /methodology
+Allow: /founder
+Allow: /downloads
+Allow: /editorial-guidelines
+
+# ============================================
+# AI Crawlers - Full Access for GEO Optimization
+# These crawlers power generative AI search engines
+# ============================================
+
+# OpenAI / ChatGPT Crawlers
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Google AI / Gemini / SGE
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic / Claude
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 1
+
+# Amazon / Alexa AI
+User-agent: Amazonbot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# Apple / Siri
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft / Bing Copilot
+User-agent: bingbot
+Allow: /
+
+# Common Crawl (used for AI training)
+User-agent: CCBot
+Allow: /
+
+# Diffbot (knowledge graph)
+User-agent: Diffbot
+Allow: /
+
+# ============================================
+# Traditional Search Engine Crawlers
+# ============================================
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# ============================================
+# Sitemaps
+# ============================================
+
+# Sitemap Index (master sitemap referencing all sub-sitemaps)
+Sitemap: https://www.sproutern.com/sitemap-index.xml
+
+# Individual sitemaps for broader crawler compatibility
+Sitemap: https://www.sproutern.com/sitemap.xml
+Sitemap: https://www.sproutern.com/sitemap-static.xml
+Sitemap: https://www.sproutern.com/sitemap-blog.xml
+Sitemap: https://www.sproutern.com/sitemap-games.xml
+Sitemap: https://www.sproutern.com/sitemap-education.xml
+Sitemap: https://www.sproutern.com/sitemap-interviews.xml
+Sitemap: https://www.sproutern.com/sitemap-companies.xml
+Sitemap: https://www.sproutern.com/sitemap-india.xml
+Sitemap: https://www.sproutern.com/sitemap-tools.xml
+Sitemap: https://www.sproutern.com/sitemap-resources.xml
+Sitemap: https://www.sproutern.com/sitemap-countries.xml
+Sitemap: https://www.sproutern.com/sitemap-images.xml
+Sitemap: https://www.sproutern.com/sitemap-news/sitemap.xml
+

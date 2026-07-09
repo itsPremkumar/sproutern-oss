@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- Sproutern.com Educational Content Sitemap - Updated December 23, 2025 -->
+
+<!-- School Section -->
+<url>
+  <loc>https://www.sproutern.com/school</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/school/after-10th-guide</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/school/after-12th-guide</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/school/stream-selection</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/school/board-exam-tips</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/school/competitive-exams</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/school/study-abroad</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- College Section -->
+<url>
+  <loc>https://www.sproutern.com/college</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/college/first-year-guide</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/college/semester-planner</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/college/extracurriculars</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/college/comparison</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- Freshers Section -->
+<url>
+  <loc>https://www.sproutern.com/freshers</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/freshers/first-job-guide</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/freshers/salary-negotiation</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/freshers/bond-clauses</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/freshers/notice-period</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/freshers/probation-tips</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/freshers/relocation</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- Countries (Study Abroad) Section -->
+<url>
+  <loc>https://www.sproutern.com/countries</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/usa</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/uk</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/canada</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/germany</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/australia</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/france</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/ireland</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/netherlands</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/singapore</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/japan</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- Scholarships -->
+<url>
+  <loc>https://www.sproutern.com/scholarships</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+<!-- Career Guides -->
+<url>
+  <loc>https://www.sproutern.com/career-switch</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/layoff-guide</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- Tools -->
+<url>
+  <loc>https://www.sproutern.com/tools</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/visa-timeline</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/scholarship-checker</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/sop-outliner</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/cold-email-generator</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/gpa-converter</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/cgpa-converter</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/salary-calculator</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/resume-score-checker</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/emi-calculator</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/cover-letter-generator</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/career-roadmap</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/typing-test</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/interview-questions</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/aptitude-test</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/ats-checker</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/exam-countdown</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/interview-checklist</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/marks-calculator</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/study-hours-calculator</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools/academic-calendar</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+</urlset>

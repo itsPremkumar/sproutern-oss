@@ -1,0 +1,227 @@
+{
+  "info": {
+    "_postman_id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "name": "Sproutern Notifications API",
+    "description": "Full Postman collection for Sproutern Notification System",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Send to Single Device",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"token\": \"YOUR_FCM_TOKEN_HERE\",\n    \"title\": \"Test Notification\",\n    \"body\": \"This is a test message from Postman\",\n    \"data\": {\n        \"url\": \"/dashboard\",\n        \"channel\": \"updates\"\n    }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/notifications/send",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "notifications", "send"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Send to Single Device (Template)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"token\": \"YOUR_FCM_TOKEN_HERE\",\n    \"template\": \"welcome\",\n    \"templateData\": {\n        \"name\": \"Prem Kumar\"\n    }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/notifications/send",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "notifications", "send"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Send to All Users (Broadcast)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"title\": \"Announcement\",\n    \"body\": \"This message goes to EVERYONE!\",\n    \"data\": {\n        \"url\": \"/announcements\",\n        \"channel\": \"urgent\"\n    }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/notifications/send-all",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "notifications", "send-all"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Send Multicast (Multiple Tokens)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"tokens\": [\n        \"TOKEN_1\",\n        \"TOKEN_2\"\n    ],\n    \"title\": \"Group Message\",\n    \"body\": \"Hello specifically to you two!\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/notifications/send-multicast",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "notifications", "send-multicast"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Send to Topic",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"topic\": \"news\",\n    \"title\": \"Breaking News\",\n    \"body\": \"Something important happened!\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/notifications/send-topic",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "notifications", "send-topic"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Subscribe to Topic",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"token\": \"YOUR_FCM_TOKEN_HERE\",\n    \"topic\": \"news\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/notifications/subscribe",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "notifications", "subscribe"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Unsubscribe from Topic",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"token\": \"YOUR_FCM_TOKEN_HERE\",\n    \"topic\": \"news\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/notifications/unsubscribe",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "notifications", "unsubscribe"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Schedule Notification",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"topic\": \"reminders\",\n    \"title\": \"Scheduled Reminder\",\n    \"body\": \"This message was scheduled!\",\n    \"scheduledTime\": 1735234567890\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/notifications/send-scheduled",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "notifications", "send-scheduled"]
+        },
+        "description": "scheduledTime should be a timestamp in milliseconds in the future"
+      },
+      "response": []
+    },
+    {
+      "name": "List Scheduled Notifications",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/notifications/send-scheduled",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "notifications", "send-scheduled"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Cancel Scheduled Notification",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/notifications/send-scheduled?id=YOUR_NOTIFICATION_ID",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "notifications", "send-scheduled"],
+          "query": [
+            {
+              "key": "id",
+              "value": "YOUR_NOTIFICATION_ID",
+              "description": "ID returned from scheduling endpoint"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000",
+      "type": "string"
+    }
+  ]
+}

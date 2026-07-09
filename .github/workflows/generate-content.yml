@@ -1,0 +1,158 @@
+# name: Daily Content Engine & Global Submission
+
+# on:
+#   schedule:
+#     # Run daily at 3 AM UTC (8:30 AM IST) — catches morning traffic
+#     - cron: '0 3 * * *'
+#     # Run again at 12 PM UTC (5:30 PM IST) — catches evening traffic
+#     - cron: '0 12 * * 1,3,5'
+#   workflow_dispatch:
+#     inputs:
+#       content_count:
+#         description: 'Number of AI content pieces to generate'
+#         required: false
+#         default: '5'
+#       run_pseo:
+#         description: 'Generate pSEO pages (true/false)'
+#         required: false
+#         default: 'true'
+#       run_trending:
+#         description: 'Generate trending content (true/false)'
+#         required: false
+#         default: 'true'
+
+# jobs:
+#   # ═══════════════════════════════════════════════════════════════════════════
+#   # JOB 1: Generate Content
+#   # ═══════════════════════════════════════════════════════════════════════════
+#   generate-content:
+#     runs-on: ubuntu-latest
+#     timeout-minutes: 45
+#     permissions:
+#       contents: write
+
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
+#         with:
+#           token: ${{ secrets.GITHUB_TOKEN }}
+
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: '20'
+#           cache: 'yarn'
+
+#       - name: Install dependencies
+#         run: yarn install --frozen-lockfile
+
+#       # ── Step 1: Generate Static Database ─────────────────────────────────
+#       - name: Generate static database
+#         run: npx tsx scripts/generate-static-db.ts
+
+#       # ── Step 2: pSEO Pages (5,000+ unique pages) ────────────────────────
+#       - name: Generate pSEO pages
+#         if: github.event.inputs.run_pseo != 'false'
+#         run: npx tsx scripts/pseo-generator.ts --count 200
+
+#       # ── Step 3: AI Content Generation ─────────────────────────────────────
+#       - name: Generate AI content
+#         env:
+#           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+#         run: npx tsx scripts/ai-content-generator.ts --count ${{ github.event.inputs.content_count || '5' }}
+
+#       # ── Step 4: Trending Content ──────────────────────────────────────────
+#       - name: Generate trending content
+#         if: github.event.inputs.run_trending != 'false'
+#         env:
+#           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+#         run: npx tsx scripts/trending-content-engine.ts --count 5 --ai
+
+#       # ── Step 5: Content Freshness Scan ────────────────────────────────────
+#       - name: Refresh stale content
+#         run: npx tsx scripts/content-freshness.ts
+
+#       # ── Step 6: Check for changes ─────────────────────────────────────────
+#       - name: Check for changes
+#         id: changes
+#         run: |
+#           git add -A
+#           # More robust change detection
+#           if [[ -n "$(git status --porcelain src/content/ src/data/compiled/)" ]]; then
+#             echo "has_changes=true" >> $GITHUB_OUTPUT
+#           fi
+
+#       # ── Step 7: Commit generated content ──────────────────────────────────
+#       - name: Commit and push generated content
+#         if: steps.changes.outputs.has_changes == 'true'
+#         run: |
+#           git config --local user.email "action@github.com"
+#           git config --local user.name "Sproutern Content Bot"
+#           git add src/content/ src/data/compiled/
+#           # Safer calculation of changed files
+#           FILE_COUNT=$(git diff --staged --name-only | wc -l)
+#           git commit -m "chore: auto-generate daily content — $FILE_COUNT files [skip ci]"
+#           git pull --rebase origin main
+#           git push
+
+#   # ═══════════════════════════════════════════════════════════════════════════
+#   # JOB 2: Submit to Search Engines (runs after content generation)
+#   # ═══════════════════════════════════════════════════════════════════════════
+#   submit-to-search-engines:
+#     runs-on: ubuntu-latest
+#     needs: generate-content
+#     if: needs.generate-content.result == 'success'
+#     timeout-minutes: 15
+
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
+#         with:
+#           ref: main # Get latest with generated content
+
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: '20'
+#           cache: 'yarn'
+
+#       - name: Install dependencies
+#         run: yarn install --frozen-lockfile
+
+#       # ── Submit to IndexNow (Bing, Yandex, Seznam, Naver) ─────────────────
+#       - name: Submit to IndexNow
+#         run: npx tsx scripts/submit-indexnow.ts
+#         continue-on-error: true
+
+#       # ── Submit Global (all search engines + ping services) ────────────────
+#       - name: Submit to global search engines
+#         run: npx tsx scripts/submit-global.ts
+#         continue-on-error: true
+
+#       # ── Ping Google via Sitemap ───────────────────────────────────────────
+#       - name: Ping Google Sitemap
+#         run: |
+#           curl -s "https://www.google.com/ping?sitemap=https://www.sproutern.com/sitemap.xml" || true
+#           curl -s "https://www.google.com/ping?sitemap=https://www.sproutern.com/sitemap-blog.xml" || true
+#           curl -s "https://www.google.com/ping?sitemap=https://www.sproutern.com/sitemap-tools.xml" || true
+#           curl -s "https://www.google.com/ping?sitemap=https://www.sproutern.com/sitemap-games.xml" || true
+#           echo "✅ Google sitemaps pinged"
+#         continue-on-error: true
+
+#       # ── Ping Bing via Sitemap ─────────────────────────────────────────────
+#       - name: Ping Bing Sitemap
+#         run: |
+#           curl -s "https://www.bing.com/ping?sitemap=https://www.sproutern.com/sitemap.xml" || true
+#           echo "✅ Bing sitemap pinged"
+#         continue-on-error: true
+
+#       # ── Notify via webhook (optional) ─────────────────────────────────────
+#       - name: Summary
+#         run: |
+#           echo "═══════════════════════════════════════════════════════════════"
+#           echo "🚀 Daily Content Engine Complete"
+#           echo "═══════════════════════════════════════════════════════════════"
+#           echo "✅ Content generated and committed"
+#           echo "✅ Search engines notified"
+#           echo "✅ Sitemaps pinged"
+#           echo "═══════════════════════════════════════════════════════════════"

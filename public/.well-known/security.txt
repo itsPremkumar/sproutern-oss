@@ -1,0 +1,19 @@
+Contact: mailto:support@sproutern.com
+Expires: 2027-02-15T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://www.sproutern.com/.well-known/security.txt
+Policy: https://www.sproutern.com/privacy-policy
+Hiring: https://www.sproutern.com/about
+
+# Security Policy
+# 
+# We take security seriously at Sproutern. If you discover any security 
+# vulnerabilities, please report them responsibly to support@sproutern.com.
+# 
+# Please include:
+# - Description of the vulnerability
+# - Steps to reproduce
+# - Potential impact
+# - Suggested fix (if applicable)
+# 
+# We appreciate your help in keeping Sproutern secure!

@@ -1,0 +1,416 @@
+{
+  "challenges": [
+    {
+      "id": "email-basic",
+      "title": "Match Email Addresses",
+      "description": "Write a regex pattern to match simple email addresses.",
+      "difficulty": "easy",
+      "category": "Validation",
+      "xpReward": 25,
+      "testStrings": [
+        {
+          "text": "test@example.com",
+          "shouldMatch": true
+        },
+        {
+          "text": "user.name@domain.org",
+          "shouldMatch": true
+        },
+        {
+          "text": "admin@sub.domain.co",
+          "shouldMatch": true
+        },
+        {
+          "text": "invalid-email",
+          "shouldMatch": false
+        },
+        {
+          "text": "@nodomain.com",
+          "shouldMatch": false
+        },
+        {
+          "text": "spaces in@email.com",
+          "shouldMatch": false
+        }
+      ],
+      "hints": [
+        "Email format: something@something.something",
+        "Use \\w+ to match word characters (letters, numbers, underscore)",
+        "Don't forget the dot needs to be escaped: \\."
+      ],
+      "solutionPattern": "[\\w.]+@[\\w]+\\.[\\w.]+"
+    },
+    {
+      "id": "phone-number",
+      "title": "US Phone Numbers",
+      "description": "Match US phone numbers in various formats (with or without dashes/parentheses).",
+      "difficulty": "medium",
+      "category": "Validation",
+      "xpReward": 35,
+      "testStrings": [
+        {
+          "text": "123-456-7890",
+          "shouldMatch": true
+        },
+        {
+          "text": "(123) 456-7890",
+          "shouldMatch": true
+        },
+        {
+          "text": "123.456.7890",
+          "shouldMatch": true
+        },
+        {
+          "text": "1234567890",
+          "shouldMatch": true
+        },
+        {
+          "text": "12-34-5678",
+          "shouldMatch": false
+        },
+        {
+          "text": "abc-def-ghij",
+          "shouldMatch": false
+        }
+      ],
+      "hints": [
+        "Phone numbers have 10 digits",
+        "Use \\d to match digits",
+        "Opening parenthesis needs escaping: \\(",
+        "Optional characters use ?"
+      ],
+      "solutionPattern": "\\(?\\d{3}\\)?[-.\\s]?\\d{3}[-.\\s]?\\d{4}"
+    },
+    {
+      "id": "date-format",
+      "title": "Date Formats",
+      "description": "Match dates in YYYY-MM-DD or DD/MM/YYYY format.",
+      "difficulty": "medium",
+      "category": "Validation",
+      "xpReward": 35,
+      "testStrings": [
+        {
+          "text": "2024-01-15",
+          "shouldMatch": true
+        },
+        {
+          "text": "15/01/2024",
+          "shouldMatch": true
+        },
+        {
+          "text": "2024-12-31",
+          "shouldMatch": true
+        },
+        {
+          "text": "31/12/2024",
+          "shouldMatch": true
+        },
+        {
+          "text": "2024/01/15",
+          "shouldMatch": false
+        },
+        {
+          "text": "01-15-2024",
+          "shouldMatch": false
+        }
+      ],
+      "hints": [
+        "YYYY-MM-DD: 4 digits, hyphen, 2 digits, hyphen, 2 digits",
+        "DD/MM/YYYY: 2 digits, slash, 2 digits, slash, 4 digits",
+        "Use | for alternatives (pattern1|pattern2)"
+      ],
+      "solutionPattern": "(\\d{4}-\\d{2}-\\d{2})|(\\d{2}/\\d{2}/\\d{4})"
+    },
+    {
+      "id": "url-match",
+      "title": "URL Matcher",
+      "description": "Match simple HTTP/HTTPS URLs.",
+      "difficulty": "hard",
+      "category": "Web",
+      "xpReward": 45,
+      "testStrings": [
+        {
+          "text": "https://example.com",
+          "shouldMatch": true
+        },
+        {
+          "text": "http://subdomain.example.com",
+          "shouldMatch": true
+        },
+        {
+          "text": "https://example.com/path",
+          "shouldMatch": true
+        },
+        {
+          "text": "http://example.com:8080",
+          "shouldMatch": true
+        },
+        {
+          "text": "ftp://example.com",
+          "shouldMatch": false
+        },
+        {
+          "text": "not-a-url",
+          "shouldMatch": false
+        }
+      ],
+      "hints": [
+        "URLs start with http:// or https://",
+        "s? makes the s optional",
+        "Domain names contain letters, numbers, and dots",
+        "Path is optional: (/[\\w./]*)?'"
+      ],
+      "solutionPattern": "https?://[\\w.-]+(:\\d+)?(/[\\w./-]*)?"
+    },
+    {
+      "id": "hex-color",
+      "title": "Hex Colors",
+      "description": "Match valid CSS hex color codes (#RGB or #RRGGBB).",
+      "difficulty": "easy",
+      "category": "CSS",
+      "xpReward": 25,
+      "testStrings": [
+        {
+          "text": "#FFF",
+          "shouldMatch": true
+        },
+        {
+          "text": "#fff",
+          "shouldMatch": true
+        },
+        {
+          "text": "#FFFFFF",
+          "shouldMatch": true
+        },
+        {
+          "text": "#a1b2c3",
+          "shouldMatch": true
+        },
+        {
+          "text": "#GGGGGG",
+          "shouldMatch": false
+        },
+        {
+          "text": "FFF",
+          "shouldMatch": false
+        },
+        {
+          "text": "#FFFF",
+          "shouldMatch": false
+        }
+      ],
+      "hints": [
+        "Hex colors start with #",
+        "Valid hex digits: 0-9 and A-F (or a-f)",
+        "Either 3 or 6 hex digits",
+        "Use {3} or {6} for exact counts"
+      ],
+      "solutionPattern": "#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})"
+    },
+    {
+      "id": "password-strength",
+      "title": "Strong Password",
+      "description": "Match passwords with at least 8 chars, one uppercase, one lowercase, and one digit.",
+      "difficulty": "hard",
+      "category": "Security",
+      "xpReward": 50,
+      "testStrings": [
+        {
+          "text": "Password1",
+          "shouldMatch": true
+        },
+        {
+          "text": "SecurePass99",
+          "shouldMatch": true
+        },
+        {
+          "text": "MyP4ssword!",
+          "shouldMatch": true
+        },
+        {
+          "text": "password",
+          "shouldMatch": false
+        },
+        {
+          "text": "PASSWORD1",
+          "shouldMatch": false
+        },
+        {
+          "text": "Pass1",
+          "shouldMatch": false
+        }
+      ],
+      "hints": [
+        "Use lookahead (?=...) to check for conditions without consuming",
+        "(?=.*[A-Z]) checks for at least one uppercase",
+        "(?=.*[a-z]) checks for at least one lowercase",
+        "(?=.*\\d) checks for at least one digit",
+        ".{8,} matches 8 or more characters"
+      ],
+      "solutionPattern": "(?=.*[A-Z])(?=.*[a-z])(?=.*\\d).{8,}"
+    },
+    {
+      "id": "extract-numbers",
+      "title": "Extract Numbers",
+      "description": "Match all integers (including negative) in a string.",
+      "difficulty": "easy",
+      "category": "Extraction",
+      "xpReward": 20,
+      "testStrings": [
+        {
+          "text": "42",
+          "shouldMatch": true
+        },
+        {
+          "text": "-17",
+          "shouldMatch": true
+        },
+        {
+          "text": "0",
+          "shouldMatch": true
+        },
+        {
+          "text": "123",
+          "shouldMatch": true
+        },
+        {
+          "text": "abc",
+          "shouldMatch": false
+        },
+        {
+          "text": "3.14",
+          "shouldMatch": false
+        }
+      ],
+      "hints": [
+        "Negative numbers start with optional -",
+        "-? makes the minus sign optional",
+        "\\d+ matches one or more digits"
+      ],
+      "solutionPattern": "-?\\d+"
+    },
+    {
+      "id": "html-tags",
+      "title": "HTML Tags",
+      "description": "Match opening HTML tags (like <div>, <span class='test'>).",
+      "difficulty": "medium",
+      "category": "Web",
+      "xpReward": 40,
+      "testStrings": [
+        {
+          "text": "<div>",
+          "shouldMatch": true
+        },
+        {
+          "text": "<span class='test'>",
+          "shouldMatch": true
+        },
+        {
+          "text": "<input type='text'/>",
+          "shouldMatch": true
+        },
+        {
+          "text": "<br>",
+          "shouldMatch": true
+        },
+        {
+          "text": "</div>",
+          "shouldMatch": false
+        },
+        {
+          "text": "< div>",
+          "shouldMatch": false
+        }
+      ],
+      "hints": [
+        "Tags start with < and end with > or />",
+        "Tag name is letters only",
+        "Attributes are optional",
+        "[^>]* matches any char except >"
+      ],
+      "solutionPattern": "<[a-zA-Z][^>]*/?>?"
+    },
+    {
+      "id": "ip-address",
+      "title": "IPv4 Address",
+      "description": "Match valid IPv4 addresses (0.0.0.0 to 255.255.255.255).",
+      "difficulty": "hard",
+      "category": "Network",
+      "xpReward": 50,
+      "testStrings": [
+        {
+          "text": "192.168.1.1",
+          "shouldMatch": true
+        },
+        {
+          "text": "0.0.0.0",
+          "shouldMatch": true
+        },
+        {
+          "text": "255.255.255.255",
+          "shouldMatch": true
+        },
+        {
+          "text": "10.0.0.1",
+          "shouldMatch": true
+        },
+        {
+          "text": "256.1.1.1",
+          "shouldMatch": false
+        },
+        {
+          "text": "192.168.1",
+          "shouldMatch": false
+        }
+      ],
+      "hints": [
+        "Each octet is 0-255",
+        "Four octets separated by dots",
+        "For 0-255: (25[0-5]|2[0-4]\\d|[01]?\\d\\d?)",
+        "Repeat the octet pattern 4 times with dots"
+      ],
+      "solutionPattern": "((25[0-5]|2[0-4]\\d|[01]?\\d\\d?)\\.){3}(25[0-5]|2[0-4]\\d|[01]?\\d\\d?)"
+    },
+    {
+      "id": "words-starting",
+      "title": "Words Starting With...",
+      "description": "Match words that start with a vowel (a, e, i, o, u).",
+      "difficulty": "easy",
+      "category": "Text",
+      "xpReward": 20,
+      "testStrings": [
+        {
+          "text": "apple",
+          "shouldMatch": true
+        },
+        {
+          "text": "orange",
+          "shouldMatch": true
+        },
+        {
+          "text": "Ice",
+          "shouldMatch": true
+        },
+        {
+          "text": "umbrella",
+          "shouldMatch": true
+        },
+        {
+          "text": "banana",
+          "shouldMatch": false
+        },
+        {
+          "text": "grape",
+          "shouldMatch": false
+        }
+      ],
+      "hints": [
+        "[aeiou] matches any vowel",
+        "Use i flag for case-insensitive",
+        "\\b is a word boundary",
+        "\\w* matches remaining word characters"
+      ],
+      "solutionPattern": "[aeiouAEIOU]\\w*"
+    }
+  ]
+}

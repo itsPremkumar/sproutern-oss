@@ -1,0 +1,13 @@
+[
+  {
+    "origin": [
+      "http://localhost:9002",
+      "https://YOUR_PROJECT.web.app",
+      "https://www.sproutern.com/",
+      "https://YOUR_PROJECT--YOUR_PROJECT.asia-east1.hosted.app"
+    ],
+    "method": ["GET", "PUT", "POST", "DELETE", "HEAD"],
+    "maxAgeSeconds": 3600,
+    "responseHeader": ["Content-Type"]
+  }
+]

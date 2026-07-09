@@ -1,0 +1,710 @@
+[
+  {
+    "id": "boa-001",
+    "company": "Bank of America",
+    "role": "Software Engineer",
+    "verdict": "Selected",
+    "difficulty": "Medium",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "totalDuration": "3 weeks",
+    "applicationMethod": "Campus Placement",
+    "numberOfApplicants": 350,
+    "numberOfSelected": 12,
+    "primarySkills": ["Java", "Spring Boot", "React", "SQL"],
+    "topicsCovered": ["DSA", "System Design", "DBMS", "Core Java"],
+    "preparationTime": "3 months",
+    "resources": ["LeetCode", "GeeksforGeeks", "Striver SDE Sheet"],
+    "problemsSolved": 450,
+    "mockInterviews": 5,
+    "eligibilityCriteria": "No standing arrears",
+    "mistakesToAvoid": ["Not explaining brute-force approach first.", "Ignoring behavioral questions."],
+    "whatWorkedWell": ["Thinking out loud.", "Asking clarifying questions."],
+    "companyCulture": "Collaborative environment, emphasis on work-life balance.",
+    "workLifeBalance": 4,
+    "learningOpportunities": 5,
+    "rounds": [
+      {
+        "roundName": "Online Assessment",
+        "mode": "Online",
+        "platform": "HackerRank",
+        "duration": "90 minutes",
+        "description": "2 coding questions (Medium, Hard) + 15 MCQs (CN, DBMS, OS).",
+        "questions": ["Number of islands (DFS/BFS)", "Minimum steps in weighted graph (Dijkstra)"]
+      },
+      {
+        "roundName": "Technical Interview 1",
+        "duration": "60 minutes",
+        "description": "DSA and Core Java multithreading.",
+        "questions": ["Reverse linked list", "HashMap internal working in Java"]
+      },
+      {
+        "roundName": "HR Interview",
+        "duration": "30 minutes",
+        "description": "Cultural fit and standard HR questions.",
+        "questions": ["Tell me about a time you handled conflict.", "Why Bank of America?"]
+      }
+    ],
+    "tips": ["Focus on CS fundamentals.", "Practice DP and Graph."]
+  },
+  {
+    "id": "boa-002",
+    "company": "Bank of America",
+    "role": "Data Engineer",
+    "verdict": "Rejected",
+    "difficulty": "Hard",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "totalDuration": "3 weeks",
+    "applicationMethod": "Campus Placement",
+    "primarySkills": ["Python", "SQL", "Spark"],
+    "topicsCovered": ["DSA", "SQL", "Data Warehousing"],
+    "preparationTime": "2 months",
+    "resources": ["LeetCode DB", "SQLZoo"],
+    "rounds": [
+      {
+        "roundName": "Online Assessment",
+        "mode": "Online",
+        "platform": "HackerRank",
+        "duration": "90 minutes",
+        "description": "1 Coding question + 2 SQL queries + MCQs.",
+        "questions": ["Find Nth highest salary without LIMIT", "Window functions query"]
+      },
+      {
+        "roundName": "Technical Interview",
+        "duration": "50 minutes",
+        "description": "Deep dive into SQL and Python scripting.",
+        "questions": ["Difference between RANK and DENSE_RANK", "Write a python script to parse a large log file"]
+      }
+    ],
+    "tips": ["SQL window functions are frequently asked.", "Be prepared for Python scripting tasks over pure DSA."]
+  },
+  {
+    "id": "optum-001",
+    "company": "Optum",
+    "role": "Software Engineering Provider",
+    "verdict": "Selected",
+    "difficulty": "Medium",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "totalDuration": "2 weeks",
+    "applicationMethod": "Campus Placement",
+    "numberOfApplicants": 600,
+    "numberOfSelected": 20,
+    "primarySkills": ["C++", "Angular", "SQL"],
+    "topicsCovered": ["DSA", "DBMS", "OS"],
+    "preparationTime": "3 months",
+    "rounds": [
+      {
+        "roundName": "Online Assessment",
+        "platform": "Mettl",
+        "duration": "90 minutes",
+        "description": "Aptitude, Logical Reasoning, and 2 Coding Questions.",
+        "questions": ["Array manipulation (Easy)", "String problem (Medium)"]
+      },
+      {
+        "roundName": "Technical Interview 1",
+        "duration": "45 minutes",
+        "description": "Resume based questions and basic DSA.",
+        "questions": ["Explain your final year project", "Detect loop in linked list", "Paging vs Segmentation"]
+      },
+      {
+        "roundName": "Managerial/HR Interview",
+        "duration": "30 minutes",
+        "description": "Behavioral questions focused on adaptability.",
+        "questions": ["How do you handle pressure?", "Are you willing to learn new tech stacks?"]
+      }
+    ],
+    "tips": ["Be very confident about your resume.", "Don't ignore aptitude preparation."]
+  },
+  {
+    "id": "optum-002",
+    "company": "Optum",
+    "role": "Software Engineering Provider",
+    "verdict": "Selected",
+    "difficulty": "Easy",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "primarySkills": ["Java", "Spring"],
+    "rounds": [
+      {
+        "roundName": "Online Test",
+        "duration": "90 min",
+        "description": "2 medium coding problems and core CS MCQs."
+      },
+      {
+        "roundName": "Technical & HR",
+        "duration": "40 min",
+        "description": "Combined technical and HR round. Heavy focus on OOP.",
+        "questions": ["4 Pillars of OOPs", "Constructor Overloading vs Overriding", "Where do you see yourself in 3 years?"]
+      }
+    ],
+    "tips": ["OOP concepts with real world examples are asked.", "Clear communication is key."]
+  },
+  {
+    "id": "barclays-001",
+    "company": "Barclays",
+    "role": "BA3 Analyst",
+    "verdict": "Selected",
+    "difficulty": "Medium",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "totalDuration": "2 weeks",
+    "applicationMethod": "Campus Placement",
+    "primarySkills": ["C++", "Java", "SQL"],
+    "topicsCovered": ["OOP", "DBMS", "DSA"],
+    "rounds": [
+      {
+        "roundName": "Online Coding + Aptitude",
+        "mode": "Online",
+        "platform": "HackerEarth",
+        "duration": "90 minutes",
+        "description": "30 MCQs and 2 Coding questions.",
+        "questions": ["Longest palindromic substring", "Greedy array problem"]
+      },
+      {
+        "roundName": "Technical Interview",
+        "duration": "60 minutes",
+        "description": "Object-Oriented Programming and live coding.",
+        "questions": ["Code: Check if BST", "Difference between TRUNCATE, DELETE, and DROP in SQL"]
+      },
+      {
+        "roundName": "Values & HR Round",
+        "duration": "45 minutes",
+        "description": "Focused on Barclays core values (RISES).",
+        "questions": ["Demonstrate 'Service' or 'Excellence'", "Why Barclays?"]
+      }
+    ],
+    "tips": ["Read about Barclays RISES values."]
+  },
+  {
+    "id": "barclays-002",
+    "company": "Barclays",
+    "role": "BA3 Analyst",
+    "verdict": "Rejected",
+    "difficulty": "Hard",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "primarySkills": ["Python", "Django"],
+    "rounds": [
+      {
+        "roundName": "Technical Interview",
+        "duration": "60 minutes",
+        "description": "Heavy system design and complex data structures.",
+        "questions": ["Design a parking lot", "Implement an LRU Cache"]
+      }
+    ],
+    "tips": ["System design basics are tested surprisingly early for some candidates."]
+  },
+  {
+    "id": "company-001",
+    "company": "Barclays",
+    "role": "BA3 Analyst",
+    "verdict": "Selected",
+    "difficulty": "Medium",
+    "jobType": "Full-time",
+    "rounds": [
+      {
+        "roundName": "Technical & HR",
+        "duration": "45 min",
+        "description": "Standard round focusing on Resume and RISES values.",
+        "questions": ["Explain your architecture", "RISES values alignment"]
+      }
+    ]
+  },
+  {
+    "id": "sg-001",
+    "company": "Societe Generale",
+    "role": "Software Engineer",
+    "verdict": "Selected",
+    "difficulty": "Hard",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "primarySkills": ["Java", "Docker", "Kubernetes"],
+    "topicsCovered": ["DSA", "System Design", "DevOps basics"],
+    "preparationTime": "4 months",
+    "rounds": [
+      {
+        "roundName": "Online Test",
+        "duration": "90 minutes",
+        "description": "Very tough coding questions on HackerRank.",
+        "questions": ["Dynamic Programming on Trees", "Graph algorithms"]
+      },
+      {
+        "roundName": "Technical Round 1",
+        "duration": "60 mins",
+        "description": "Deep dive into collections and multithreading.",
+        "questions": ["ConcurrentHashMap implementation", "Thread pool executors"]
+      },
+      {
+        "roundName": "Techno-Managerial",
+        "duration": "45 mins",
+        "description": "Situation based architecture questions.",
+        "questions": ["How would you handle a memory leak in prod?", "Why SocGen?"]
+      }
+    ],
+    "tips": ["Be exceptionally strong in Core Java concepts."]
+  },
+  {
+    "id": "nortonlifelock-001",
+    "company": "NortonLifeLock",
+    "role": "Software Engineer",
+    "verdict": "Selected",
+    "difficulty": "Medium",
+    "jobType": "Full-time",
+    "workMode": "Remote",
+    "interviewMode": "Online",
+    "primarySkills": ["C++", "OS fundamentals", "Networking"],
+    "topicsCovered": ["OS", "Computer Networks", "Cybersecurity basics"],
+    "rounds": [
+      {
+        "roundName": "Online Test",
+        "duration": "90 mins",
+        "description": "MCQs heavily biased towards OS and Networks. 2 Coding questions.",
+        "questions": ["String manipulation", "Bit manipulation problem"]
+      },
+      {
+        "roundName": "Technical Interview",
+        "duration": "60 mins",
+        "description": "Low level details of OS and protocols.",
+        "questions": ["TCP vs UDP", "How does DNS work exactly?", "Mutex vs Semaphore"]
+      }
+    ],
+    "tips": ["Revise Computer Networks thoroughly, especially TCP/IP."]
+  },
+  {
+    "id": "trimble-001",
+    "company": "Trimble",
+    "role": "Software Engineer",
+    "verdict": "Selected",
+    "difficulty": "Medium",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Offline",
+    "primarySkills": ["C++", "AWS"],
+    "rounds": [
+      {
+        "roundName": "Online Coding",
+        "duration": "60 mins",
+        "description": "2 programming questions."
+      },
+      {
+        "roundName": "F2F Technical",
+        "duration": "45 mins",
+        "description": "Whiteboard coding.",
+        "questions": ["Merge two sorted arrays without extra space", "Explain smart pointers in C++"]
+      }
+    ]
+  },
+  {
+    "id": "trimble-002",
+    "company": "Trimble",
+    "role": "QA Automation Engineer",
+    "verdict": "Selected",
+    "difficulty": "Easy",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "primarySkills": ["Java", "Selenium", "TestNG"],
+    "rounds": [
+      {
+        "roundName": "Technical Interview",
+        "duration": "45 mins",
+        "description": "Testing life cycle and automation scripts.",
+        "questions": ["Write a Selenium script to handle a dropdown", "Difference between implicit and explicit wait"]
+      }
+    ]
+  },
+  {
+    "id": "citi-001",
+    "company": "Citi",
+    "role": "Technology Analyst",
+    "verdict": "Selected",
+    "difficulty": "Hard",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "primarySkills": ["Java", "Spring Boot", "Microservices"],
+    "rounds": [
+      {
+        "roundName": "OA",
+        "duration": "120 mins",
+        "description": "3 Coding questions + Complex Aptitude."
+      },
+      {
+        "roundName": "Technical Round 1",
+        "duration": "60 mins",
+        "description": "Focused on DSA and Problem Solving.",
+        "questions": ["Course Schedule (Topological Sort)", "Trapping Rain Water"]
+      },
+      {
+        "roundName": "Technical Round 2",
+        "duration": "60 mins",
+        "description": "System Design & Java Internals.",
+        "questions": ["Design an ATM Machine", "JVM Architecture"]
+      }
+    ],
+    "tips": ["Graph algorithms are a favorite.", "Be fluent in Java memory management."]
+  },
+  {
+    "id": "citi-002",
+    "company": "Citi",
+    "role": "Technology Analyst",
+    "verdict": "Rejected",
+    "difficulty": "Medium",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "primarySkills": ["Python", "SQL"],
+    "rounds": [
+      {
+        "roundName": "Technical Interview 1",
+        "duration": "45 mins",
+        "description": "Data structures and SQL queries.",
+        "questions": ["Find duplicate in an array", "Self join vs Outer join"]
+      }
+    ]
+  },
+  {
+    "id": "google-001",
+    "company": "Google",
+    "role": "Software Engineer",
+    "verdict": "Selected",
+    "difficulty": "Hard",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "totalDuration": "4 weeks",
+    "applicationMethod": "Referral",
+    "primarySkills": ["C++", "Python", "Go"],
+    "topicsCovered": ["DSA", "System Design", "Googliness"],
+    "preparationTime": "6 months",
+    "resources": ["LeetCode Hard", "Grokking System Design"],
+    "problemsSolved": 600,
+    "rounds": [
+      {
+        "roundName": "Phone Screen",
+        "duration": "45 mins",
+        "description": "Medium-Hard LC question on Graph/BFS.",
+        "questions": ["Word Ladder variant", "Time and space complexity discussion"]
+      },
+      {
+        "roundName": "Onsite 1 (Coding)",
+        "duration": "45 mins",
+        "description": "Arrays and Strings with emphasis on edge cases.",
+        "questions": ["Text Justification", "Follow up on line wrapping constraints"]
+      },
+      {
+        "roundName": "Onsite 2 (Coding)",
+        "duration": "45 mins",
+        "description": "Dynamic Programming.",
+        "questions": ["Alien Dictionary", "Optimize space complexity"]
+      },
+      {
+        "roundName": "Onsite 3 (System Design)",
+        "duration": "45 mins",
+        "description": "System Design focused on scale.",
+        "questions": ["Design Google Drive", "Focus on chunking and eventual consistency"]
+      },
+      {
+        "roundName": "Googliness / Leadership",
+        "duration": "45 mins",
+        "description": "Behavioral questions.",
+        "questions": ["Tell me a time you failed", "How do you handle scope creep?"]
+      }
+    ],
+    "tips": ["Always communicate your thought process. Silence is your enemy."]
+  },
+  {
+    "id": "ms-001",
+    "company": "Microsoft",
+    "role": "Software Engineer (SDE)",
+    "verdict": "Selected",
+    "difficulty": "Medium",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "totalDuration": "3 weeks",
+    "applicationMethod": "Campus Placement",
+    "primarySkills": ["C#", "C++", "Azure"],
+    "topicsCovered": ["DSA", "Trees", "System Design"],
+    "preparationTime": "4 months",
+    "rounds": [
+      {
+        "roundName": "Online Coding",
+        "platform": "Codility",
+        "duration": "90 mins",
+        "description": "3 questions (Easy, Medium, Medium).",
+        "questions": ["String parsing", "Tree traversal problem"]
+      },
+      {
+        "roundName": "Technical 1",
+        "duration": "45 mins",
+        "description": "Focus on Linked List and problem solving.",
+        "questions": ["Merge K sorted lists", "Cycle detection"]
+      },
+      {
+        "roundName": "Technical 2",
+        "duration": "45 mins",
+        "description": "Design and Low level coding.",
+        "questions": ["Design a Tic-Tac-Toe game", "OOPs concepts applied to the design"]
+      },
+      {
+        "roundName": "AA Round (As Appropriate)",
+        "duration": "60 mins",
+        "description": "Managerial + System Design.",
+        "questions": ["Design a tiny snippet sharing service", "Why Microsoft?"]
+      }
+    ]
+  },
+  {
+    "id": "amazon-001",
+    "company": "Amazon",
+    "role": "SDE 1",
+    "verdict": "Selected",
+    "difficulty": "Hard",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "totalDuration": "1 month",
+    "applicationMethod": "Referral",
+    "primarySkills": ["Java", "AWS"],
+    "topicsCovered": ["DSA", "Leadership Principles", "CS Fundamentals"],
+    "preparationTime": "5 months",
+    "rounds": [
+      {
+        "roundName": "Online Assessment (OA)",
+        "duration": "90 mins",
+        "description": "2 coding problems + Work Style Assessment.",
+        "questions": ["Optimizing delivery routes (Graph/Priority Queue)", "Given logs, parse error metrics"]
+      },
+      {
+        "roundName": "Technical 1 (Coding + LP)",
+        "duration": "60 mins",
+        "description": "20 mins LP, 40 mins Coding.",
+        "questions": ["Tell me about a time you took a calculated risk", "Find median from data stream"]
+      },
+      {
+        "roundName": "Technical 2 (Coding + LP)",
+        "duration": "60 mins",
+        "description": "Heavy emphasis on Graphs.",
+        "questions": ["Customer obsession LP question", "Course schedule II (Topological sort)"]
+      },
+      {
+        "roundName": "Bar Raiser",
+        "duration": "60 mins",
+        "description": "Extensive behavioral and system design.",
+        "questions": ["Design an e-commerce shopping cart", "Deep dive into past projects"]
+      }
+    ],
+    "tips": ["Memorize their 16 Leadership Principles and have 2 stories for each."]
+  },
+  {
+    "id": "meta-001",
+    "company": "Meta",
+    "role": "Software Engineer",
+    "verdict": "Rejected",
+    "difficulty": "Hard",
+    "jobType": "Full-time",
+    "workMode": "On-site",
+    "interviewMode": "Online",
+    "totalDuration": "6 weeks",
+    "applicationMethod": "Direct Apply",
+    "primarySkills": ["Python", "JavaScript", "React"],
+    "topicsCovered": ["DSA (Speed)", "System Design", "UI Design"],
+    "rounds": [
+      {
+        "roundName": "Phone Screen",
+        "duration": "45 mins",
+        "description": "Expected 2 medium questions flawlessly in 40 mins.",
+        "questions": ["Valid Palindrome II", "Kth Largest Element in an Array"]
+      },
+      {
+        "roundName": "Onsite - Coding 1",
+        "duration": "45 mins",
+        "description": "Very fast paced.",
+        "questions": ["Subarray Sum Equals K", "Lowest Common Ancestor of a Binary Tree III"]
+      },
+      {
+        "roundName": "Onsite - System Design",
+        "duration": "45 mins",
+        "description": "Scale and latency focus.",
+        "questions": ["Design Instagram News Feed"]
+      }
+    ],
+    "tips": ["Speed and bug-free code is highly prioritized over coming up with a novel algorithm."]
+  },
+  {
+    "id": "apple-001",
+    "company": "Apple",
+    "role": "Software Engineer",
+    "verdict": "Selected",
+    "difficulty": "Hard",
+    "jobType": "Full-time",
+    "workMode": "On-site",
+    "primarySkills": ["C", "C++", "Objective-C"],
+    "topicsCovered": ["OS", "Memory Management", "DSA"],
+    "rounds": [
+      {
+        "roundName": "Technical Phone Screen",
+        "duration": "45 mins",
+        "description": "Focus on OS internals and one coding question.",
+        "questions": ["Implement malloc and free", "Explain virtual memory architecture"]
+      },
+      {
+        "roundName": "Virtual Onsite Coding",
+        "duration": "60 mins",
+        "description": "String handling in C.",
+        "questions": ["Implement your own strstr function using O(1) space"]
+      }
+    ]
+  },
+  {
+    "id": "tcs-001",
+    "company": "TCS",
+    "role": "Digital Cadre",
+    "verdict": "Selected",
+    "difficulty": "Easy",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "primarySkills": ["Java", "SQL"],
+    "topicsCovered": ["Aptitude", "Core Java"],
+    "rounds": [
+      {
+        "roundName": "NQT Exam",
+        "duration": "3 Hours",
+        "description": "English, Quant, Logic, and 2 Coding questions.",
+        "questions": ["Array manipulation", "Basic string logic"]
+      },
+      {
+        "roundName": "Technical + HR",
+        "duration": "40 mins",
+        "description": "Resume based, final year project, and basic CS questions.",
+        "questions": ["Explain your project", "Difference between Abstract class and Interface", "Are you willing to relocate?"]
+      }
+    ]
+  },
+  {
+    "id": "infosys-001",
+    "company": "Infosys",
+    "role": "Specialist Programmer",
+    "verdict": "Selected",
+    "difficulty": "Medium",
+    "jobType": "Full-time",
+    "primarySkills": ["Python", "Flask", "SQL"],
+    "rounds": [
+      {
+        "roundName": "Online Assessment",
+        "duration": "3 Hours",
+        "description": "3 Coding questions (Easy, Medium, Hard)."
+      },
+      {
+        "roundName": "Technical Interview",
+        "duration": "60 mins",
+        "description": "Thorough testing of DBMS, OOPs and Python data structures.",
+        "questions": ["What are decorators in Python?", "Explain ACID properties"]
+      }
+    ]
+  },
+  {
+    "id": "jpmc-001",
+    "company": "JP Morgan Chase",
+    "role": "Software Engineer",
+    "verdict": "Selected",
+    "difficulty": "Medium",
+    "jobType": "Full-time",
+    "primarySkills": ["Java", "Spring Boot", "REST APIs"],
+    "rounds": [
+      {
+        "roundName": "Online Coding",
+        "duration": "90 mins",
+        "description": "2 medium questions on HackerRank."
+      },
+      {
+        "roundName": "Technical Round",
+        "duration": "60 mins",
+        "description": "Emphasis on clean code and design patterns.",
+        "questions": ["Singleton pattern implementation in Java", "REST API methods and differences (PUT vs PATCH)"]
+      }
+    ]
+  },
+  {
+    "id": "gs-001",
+    "company": "Goldman Sachs",
+    "role": "Analyst",
+    "verdict": "Rejected",
+    "difficulty": "Hard",
+    "jobType": "Full-time",
+    "primarySkills": ["C++", "Mathematics"],
+    "topicsCovered": ["Dynamic Programming", "Probability", "Puzzles"],
+    "rounds": [
+      {
+        "roundName": "Aptitude + Coding",
+        "duration": "120 mins",
+        "description": "Math section is very tricky.",
+        "questions": ["Probability of seeing a car in 10 mins vs 20 mins", "Advanced DP problem"]
+      },
+      {
+        "roundName": "Technical Round 1",
+        "duration": "60 mins",
+        "description": "Live coding and puzzles.",
+        "questions": ["Rain water trapping", "Two egg dropping puzzle"]
+      }
+    ]
+  },
+  {
+    "id": "cisco-001",
+    "company": "Cisco",
+    "role": "Software Engineer",
+    "verdict": "Selected",
+    "difficulty": "Medium",
+    "jobType": "Full-time",
+    "primarySkills": ["C++", "Networking"],
+    "rounds": [
+      {
+        "roundName": "Online Assessment",
+        "duration": "90 mins",
+        "description": "Aptitude + Networking MCQs + 1 Coding."
+      },
+      {
+        "roundName": "Technical Interview",
+        "duration": "60 mins",
+        "description": "Computer Networks depth.",
+        "questions": ["TCP 3-way handshake in detail", "Subnetting calculations", "Implement a basic routing table in C++"]
+      }
+    ]
+  },
+  {
+    "id": "ibm-001",
+    "company": "IBM",
+    "role": "Associate System Engineer",
+    "verdict": "Selected",
+    "difficulty": "Easy",
+    "jobType": "Full-time",
+    "primarySkills": ["Java", "Agile"],
+    "rounds": [
+      {
+        "roundName": "Cognitive Ability Test",
+        "duration": "100 mins",
+        "description": "Games based assessment (Grid routing, Number bubble)."
+      },
+      {
+        "roundName": "English Language Test",
+        "duration": "20 mins",
+        "description": "Grammar and Vocabulary checking."
+      },
+      {
+        "roundName": "Technical & HR",
+        "duration": "30 mins",
+        "description": "Basic resume and behavioral questions.",
+        "questions": ["What is polymorphic behavior in OOPs?", "Are you comfortable with cross-functional teams?"]
+      }
+    ]
+  }
+]

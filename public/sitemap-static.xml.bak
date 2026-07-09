@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- Sproutern.com Sitemap - Updated December 23, 2025 -->
+
+<!-- Homepage -->
+<url>
+  <loc>https://www.sproutern.com/</loc>
+  <lastmod>2025-12-23T12:15:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+
+<!-- Main Features -->
+<url>
+  <loc>https://www.sproutern.com/internships</loc>
+  <lastmod>2025-12-23T12:15:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/resume-optimizer</loc>
+  <lastmod>2025-12-23T12:15:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/post-internship</loc>
+  <lastmod>2025-12-23T12:15:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.85</priority>
+</url>
+
+<!-- Content Pages -->
+<url>
+  <loc>https://www.sproutern.com/blog</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/resources</loc>
+  <lastmod>2025-12-23T12:15:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/interview-experiences</loc>
+  <lastmod>2025-12-23T12:00:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/tools</loc>
+  <lastmod>2025-12-23T12:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/scholarships</loc>
+  <lastmod>2025-12-23T12:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+<!-- Founder Pages -->
+<url>
+  <loc>https://www.sproutern.com/premkumar</loc>
+  <lastmod>2025-12-01T12:15:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/m-premkumar</loc>
+  <lastmod>2025-12-01T12:15:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/premkumar-m</loc>
+  <lastmod>2025-12-01T12:15:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/premkumar-manivel</loc>
+  <lastmod>2025-12-01T12:15:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/about</loc>
+  <lastmod>2025-12-23T12:15:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/faq</loc>
+  <lastmod>2025-12-23T12:15:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
+</url>
+
+<!-- School Section -->
+<url>
+  <loc>https://www.sproutern.com/school</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/school/after-10th-guide</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/school/after-12th-guide</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/school/stream-selection</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/school/board-exam-tips</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/school/competitive-exams</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/school/study-abroad</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- College Section -->
+<url>
+  <loc>https://www.sproutern.com/college</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/college/first-year-guide</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/college/semester-planner</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/college/extracurriculars</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/college/comparison</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- Freshers Section -->
+<url>
+  <loc>https://www.sproutern.com/freshers</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/freshers/first-job-guide</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/freshers/salary-negotiation</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/freshers/bond-clauses</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/freshers/notice-period</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/freshers/probation-tips</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/freshers/relocation</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- Countries Section -->
+<url>
+  <loc>https://www.sproutern.com/countries</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/usa</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/uk</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/canada</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/germany</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/australia</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/france</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/ireland</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/netherlands</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/singapore</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/countries/japan</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- Career Guides -->
+<url>
+  <loc>https://www.sproutern.com/career-switch</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/layoff-guide</loc>
+  <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<!-- User Features -->
+<url>
+  <loc>https://www.sproutern.com/requests</loc>
+  <lastmod>2025-12-23T12:15:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/skill-test</loc>
+  <lastmod>2025-12-23T12:15:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/testimonials</loc>
+  <lastmod>2025-12-23T12:15:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+
+<!-- Legal & Contact Pages -->
+<url>
+  <loc>https://www.sproutern.com/privacy-policy</loc>
+  <lastmod>2025-12-23T12:15:00+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/terms-and-conditions</loc>
+  <lastmod>2025-12-23T12:15:00+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://www.sproutern.com/contact</loc>
+  <lastmod>2025-12-23T12:15:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.65</priority>
+</url>
+
+<!-- Other Pages -->
+<url>
+  <loc>https://www.sproutern.com/donate</loc>
+  <lastmod>2025-12-23T12:15:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.50</priority>
+</url>
+
+</urlset>

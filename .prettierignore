@@ -1,0 +1,76 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+
+# Next.js
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+
+# Production
+build
+dist
+
+# Vercel
+.vercel
+
+# Firebase
+.firebase
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Environment Files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+build_log.txt
+install_log.txt
+pglite-debug.log
+
+# Editor/IDE
+.idea
+.vscode
+.idx
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lock files (optional, but often good to ignore for formatting if they are auto-generated)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Secrets
+service-account.json
+sproutern-test-firebase-adminsdk.json
+*.pem
+
+# Verification/Misc
+google*.html
+.modified
+Untitled-1.js
+
+# Public assets (optional, usually we want to format these if they are code, but ignore binary)
+public/**/*.ico
+public/**/*.png
+public/**/*.jpg
+public/**/*.jpeg
+public/**/*.gif
+public/**/*.svg
+public/**/*.pdf

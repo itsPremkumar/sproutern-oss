@@ -1,0 +1,17 @@
+# .dockerignore
+.git
+.gitignore
+.firebaserc
+firebase.json
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+.vercel
+*.log
+.DS_Store
+README.md
+Dockerfile
+docker-compose.yml

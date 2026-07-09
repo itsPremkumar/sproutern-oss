@@ -1,0 +1,33 @@
+# Humans Behind Sproutern
+
+/* TEAM */
+Founder & Team: Sproutern Team
+Contact: support@sproutern.com
+Location: Chennai, Tamil Nadu, India
+Last Updated: February 2026
+
+/* SITE */
+Standards: HTML5, CSS3, JavaScript, TypeScript
+Components: Next.js 16, React 19, Tailwind CSS
+Backend: Firebase
+Hosting: Vercel + Firebase
+Tools: 200+ free career tools
+Blog: 137+ career guides
+Games: 162+ educational games
+Countries: 18+ country-specific guides
+
+/* THANKS */
+To all the students and educators who trust Sproutern for their career journey.
+To the open-source community for the amazing tools and libraries.
+
+/* ACKNOWLEDGMENTS */
+Next.js Team - for the amazing framework
+Vercel - for exceptional developer experience
+Radix UI - for accessible component primitives
+Lucide - for beautiful icons
+Shadcn UI - for elegant component library
+
+---
+
+Built with ❤️ for students worldwide.
+www.sproutern.com

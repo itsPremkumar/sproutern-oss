@@ -1,0 +1,142 @@
+[
+  {
+    "company": "TCS (Ninja)",
+    "role": "Assistant System Engineer-Trainee",
+    "ctc": "3.36 LPA",
+    "inHand": "₹21,000 / month",
+    "bond": "1 Year",
+    "penalty": "₹50,000",
+    "workLifeBalance": 4,
+    "hasShift": true
+  },
+  {
+    "company": "TCS (Digital)",
+    "role": "System Engineer",
+    "ctc": "7.0 LPA",
+    "inHand": "₹48,000 / month",
+    "bond": "1 Year",
+    "penalty": "₹50,000",
+    "workLifeBalance": 4,
+    "hasShift": false
+  },
+  {
+    "company": "TCS (Prime)",
+    "role": "System Engineer",
+    "ctc": "9.0 LPA",
+    "inHand": "₹62,000 / month",
+    "bond": "1 Year",
+    "penalty": "₹50,000",
+    "workLifeBalance": 4,
+    "hasShift": false
+  },
+  {
+    "company": "Infosys (System Engineer)",
+    "role": "System Engineer",
+    "ctc": "3.6 LPA",
+    "inHand": "₹23,000 / month",
+    "bond": "1 Year",
+    "penalty": "₹1,00,000",
+    "workLifeBalance": 3,
+    "hasShift": true
+  },
+  {
+    "company": "Infosys (Specialist Programmer)",
+    "role": "Specialist Programmer (SP)",
+    "ctc": "9.5 LPA",
+    "inHand": "₹63,000 / month",
+    "bond": "None",
+    "penalty": "0",
+    "workLifeBalance": 3.5,
+    "hasShift": false
+  },
+  {
+    "company": "Accenture (ASE)",
+    "role": "Associate Software Engineer",
+    "ctc": "4.5 LPA",
+    "inHand": "₹28,000 / month",
+    "bond": "None",
+    "penalty": "0",
+    "workLifeBalance": 3,
+    "hasShift": true
+  },
+  {
+    "company": "Accenture (Advanced ASE)",
+    "role": "Advanced Associate Software Engineer",
+    "ctc": "6.5 LPA",
+    "inHand": "₹42,000 / month",
+    "bond": "None",
+    "penalty": "0",
+    "workLifeBalance": 3,
+    "hasShift": true
+  },
+  {
+    "company": "Zoho",
+    "role": "Software Developer",
+    "ctc": "5.6 - 8.4 LPA",
+    "inHand": "₹40,000 - ₹60,000 / month",
+    "bond": "None",
+    "penalty": "0",
+    "workLifeBalance": 4.5,
+    "hasShift": false
+  },
+  {
+    "company": "Capgemini",
+    "role": "Analyst",
+    "ctc": "4.25 LPA",
+    "inHand": "₹26,000 / month",
+    "bond": "2 Years",
+    "penalty": "₹2,00,000",
+    "workLifeBalance": 3,
+    "hasShift": true
+  },
+  {
+    "company": "Wipro (Turbo)",
+    "role": "Project Engineer",
+    "ctc": "6.5 LPA",
+    "inHand": "₹43,000 / month",
+    "bond": "1 Year",
+    "penalty": "₹75,000",
+    "workLifeBalance": 3,
+    "hasShift": true
+  },
+  {
+    "company": "Mindtree / LTIMindtree",
+    "role": "Software Engineer",
+    "ctc": "4.0 LPA",
+    "inHand": "₹25,000 / month",
+    "bond": "2 Years",
+    "penalty": "₹2,00,000",
+    "workLifeBalance": 3.5,
+    "hasShift": true
+  },
+  {
+    "company": "Mu Sigma",
+    "role": "Trainee Decision Scientist",
+    "ctc": "30 LPA (Over 3 Years)",
+    "inHand": "₹25,000 (Year 1)",
+    "bond": "3 Years (Strict)",
+    "penalty": "₹10,00,000",
+    "workLifeBalance": 1,
+    "hasShift": false
+  },
+  {
+    "company": "Cognizant (GenC)",
+    "role": "Programmer Analyst Trainee",
+    "ctc": "4.0 LPA",
+    "inHand": "₹24,500 / month",
+    "bond": "None",
+    "penalty": "0",
+    "workLifeBalance": 3,
+    "hasShift": true
+  },
+  {
+    "company": "Cognizant (GenC Next)",
+    "role": "GenC Next",
+    "ctc": "6.75 LPA",
+    "inHand": "₹45,000 / month",
+    "bond": "None",
+    "penalty": "0",
+    "workLifeBalance": 3.5,
+    "hasShift": false
+  }
+]

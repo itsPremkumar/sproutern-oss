@@ -1,0 +1,59 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/.pnp.loader.mjs
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+*.log
+.modified
+Untitled-1.js
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# local env files
+.env
+.env*.local
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Firebase
+.firebaserc
+firebase-debug.log*
+service-account.json
+sproutern-test-firebase-adminsdk.json
+tests/sproutern-test-firebase-adminsdk.json
+
+# Editor/IDE specific
+.idea/
+.vscode/
+
+# Development environment specific (e.g., Nix)
+.idx/

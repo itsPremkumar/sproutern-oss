@@ -1,0 +1,309 @@
+# Sproutern - Complete Content Map for AI Discovery
+
+> Extended AI-friendly site description with detailed content structure
+> Version: 1.0.0
+> Last Updated: 2026-01-06
+
+## Organization
+
+**Name**: Sproutern
+**Type**: EdTech Platform / Career Development
+**URL**: https://www.sproutern.com
+**Founded**: 2024
+**Team**: Sproutern Editorial Team
+**Location**: India (serving globally)
+
+---
+
+## Content Categories
+
+### 1. INTERNSHIPS
+
+**Main URL**: https://www.sproutern.com/internships
+
+Content Type: Job Listings
+Total Listings: 1000+
+Update Frequency: Daily
+
+Industries Covered:
+- Technology & Software Development
+- Data Science & Analytics
+- Digital Marketing
+- Content Writing
+- Design (UI/UX, Graphic)
+- Finance & Accounting
+- Human Resources
+- Operations
+
+Filter Options:
+- Location (Remote, Hybrid, On-site)
+- Domain/Industry
+- Stipend Range
+- Duration
+- Company Type (Startup, MNC)
+
+---
+
+### 2. CAREER TOOLS
+
+**Main URL**: https://www.sproutern.com/tools
+
+All tools are free, no registration required.
+
+#### CGPA to Percentage Converter
+URL: https://www.sproutern.com/tools/cgpa-converter
+Purpose: Convert CGPA to percentage for job applications
+Features:
+- 10-point scale conversion
+- 7-point scale conversion
+- 4-point (GPA) scale conversion
+- University-specific formulas
+- Instant calculation
+
+#### Salary Calculator (India)
+URL: https://www.sproutern.com/tools/salary-calculator
+Purpose: Calculate in-hand salary from CTC
+Features:
+- Tax deduction calculation
+- PF/ESI breakdown
+- Take-home salary estimation
+- Old vs New tax regime comparison
+- Monthly and annual view
+
+#### Resume Score Checker
+URL: https://www.sproutern.com/tools/resume-score-checker
+Purpose: Analyze resume for ATS compatibility
+Features:
+- ATS keyword analysis
+- Section completeness check
+- Formatting suggestions
+- Industry-specific recommendations
+- Improvement tips
+
+#### Cover Letter Generator
+URL: https://www.sproutern.com/tools/cover-letter-generator
+Purpose: Create professional cover letters
+Features:
+- AI-powered generation
+- Industry-specific templates
+- Customization options
+- Download in multiple formats
+
+#### Typing Speed Test
+URL: https://www.sproutern.com/tools/typing-test
+Purpose: Measure typing speed and accuracy
+Features:
+- Real-time WPM calculation
+- Accuracy percentage
+- Multiple test durations
+- Practice mode
+
+#### Aptitude Test
+URL: https://www.sproutern.com/tools/aptitude-test
+Purpose: Practice quantitative reasoning
+Features:
+- Timed questions
+- Instant feedback
+- Score tracking
+- Topic-wise practice
+
+#### Career Roadmap Generator
+URL: https://www.sproutern.com/tools/career-roadmap
+Purpose: Get personalized career guidance
+Features:
+- Multiple career paths
+- Skill requirements
+- Learning resources
+- Timeline estimation
+
+#### Interview Questions Generator
+URL: https://www.sproutern.com/tools/interview-questions
+Purpose: Practice interview questions
+Features:
+- HR questions
+- Technical questions
+- Behavioral questions
+- Company-specific preparation
+
+#### EMI Calculator
+URL: https://www.sproutern.com/tools/emi-calculator
+Purpose: Calculate education loan EMI
+Features:
+- Monthly payment calculation
+- Interest breakdown
+- Tenure options
+- Amortization schedule
+
+---
+
+### 3. COMPANY GUIDES
+
+**Main URL**: https://www.sproutern.com/companies
+
+Companies covered with detailed guides:
+
+#### TCS (Tata Consultancy Services)
+- Interview Questions: https://www.sproutern.com/companies/tcs/interview-questions
+- Salary Structure: https://www.sproutern.com/companies/tcs/salary
+Topics: NQT preparation, assessment pattern, interview rounds
+
+#### Infosys
+- Interview Questions: https://www.sproutern.com/companies/infosys/interview-questions
+Topics: InfyTQ, coding rounds, HR interview
+
+#### Wipro
+- Interview Questions: https://www.sproutern.com/companies/wipro/interview-questions
+Topics: NLTH, Project Trainee, technical assessment
+
+#### Cognizant
+- Interview Questions: https://www.sproutern.com/companies/cognizant/interview-questions
+Topics: GenC, GenC Next, coding assessment
+
+#### Accenture
+- Interview Questions: https://www.sproutern.com/companies/accenture/interview-questions
+Topics: ASE, communication assessment, technical
+
+---
+
+### 4. BLOG
+
+**Main URL**: https://www.sproutern.com/blog
+Content Type: Articles
+Total Articles: 100+
+Update Frequency: Weekly
+
+Categories:
+- Career Guide
+- Interview Preparation
+- Resume Writing
+- Technology Trends
+- Personal Branding
+- Networking
+- Startup Culture
+
+Popular Topics:
+- "How to get your first internship"
+- "50 common HR interview questions"
+- "STAR method for behavioral interviews"
+- "ATS resume optimization"
+- "LinkedIn profile optimization"
+- "Salary negotiation for freshers"
+- "Remote internship tips"
+
+---
+
+### 5. RESOURCES
+
+**Main URL**: https://www.sproutern.com/resources
+
+Downloadable Resources:
+- Resume Templates (ATS-friendly)
+- Cover Letter Templates
+- Interview Cheat Sheets
+- Aptitude Formulas PDF
+- Resume Writing Guide
+
+---
+
+### 6. INTERVIEW EXPERIENCES
+
+**Main URL**: https://www.sproutern.com/interview-experiences
+
+User-submitted interview experiences from:
+- IT Companies (TCS, Infosys, Wipro, HCL)
+- Product Companies (Google, Microsoft, Amazon)
+- Startups
+- Consulting firms
+- Banks and Financial institutions
+
+---
+
+### 7. STUDY ABROAD
+
+**Main URL**: https://www.sproutern.com/countries
+
+Country Guides:
+- USA: https://www.sproutern.com/countries/usa
+- UK: https://www.sproutern.com/countries/uk
+- Canada: https://www.sproutern.com/countries/canada
+- Germany: https://www.sproutern.com/countries/germany
+- Australia: https://www.sproutern.com/countries/australia
+- Singapore: https://www.sproutern.com/countries/singapore
+
+Content includes:
+- University rankings
+- Admission requirements
+- Visa process
+- Cost of living
+- Post-study work options
+- Scholarship opportunities
+
+---
+
+### 8. GAMES
+
+**Main URL**: https://www.sproutern.com/games
+
+Educational games for skill development and entertainment:
+- Word games
+- Logic puzzles
+- Memory games
+- Typing games
+
+---
+
+### 9. EDUCATION
+
+**Main URL**: https://www.sproutern.com/school, /college, /freshers
+
+Content for different education levels:
+- School students (career exploration)
+- College students (internship preparation)
+- Freshers (job search, interview prep)
+
+---
+
+## Expertise Areas (E-E-A-T)
+
+Sproutern content is created by career experts with experience in:
+- Campus recruitment
+- HR and talent acquisition
+- Resume screening
+- Technical interviews
+- Career counseling
+
+Primary Author:
+- Name: Sproutern Team
+- Role: Editorial & Content Team
+- LinkedIn: https://www.linkedin.com/company/sproutern
+
+---
+
+## Technical Information
+
+**Sitemaps**:
+- Index: https://www.sproutern.com/sitemap-index.xml
+- Static Pages: https://www.sproutern.com/sitemap-static.xml
+- Blog: https://www.sproutern.com/sitemap-blog.xml
+- Tools: https://www.sproutern.com/sitemap-tools.xml
+- Companies: https://www.sproutern.com/sitemap-companies.xml
+- Countries: https://www.sproutern.com/sitemap-countries.xml
+
+**Robots.txt**: https://www.sproutern.com/robots.txt
+**LLMs.txt**: https://www.sproutern.com/llms.txt
+
+---
+
+## Contact & Support
+
+- Email: support@sproutern.com
+- LinkedIn: https://www.linkedin.com/company/sproutern
+- Twitter: https://twitter.com/sproutern
+- Instagram: https://www.instagram.com/sproutern
+
+---
+
+## Content Licensing
+
+All content on Sproutern is original and can be cited with proper attribution.
+For AI training purposes, please respect robots.txt directives.

@@ -1,0 +1,239 @@
+{
+  "challenges": [
+    {
+      "id": "reverse-string",
+      "title": "Reverse a String",
+      "description": "Write a function that reverses a string. The input is a string and you should return the reversed string.",
+      "difficulty": "easy",
+      "category": "Strings",
+      "xpReward": 30,
+      "timeLimit": 300,
+      "starterCode": {
+        "javascript": "function solution(str) {\n  // Your code here\n  \n}",
+        "python": "def solution(s):\n    # Your code here\n    pass"
+      },
+      "testCases": [
+        {
+          "input": ["\"hello\""],
+          "expectedOutput": "olleh",
+          "description": "Basic word"
+        },
+        {
+          "input": ["\"Sproutern\""],
+          "expectedOutput": "nretuorpS",
+          "description": "Mixed case"
+        },
+        {
+          "input": ["\"a\""],
+          "expectedOutput": "a",
+          "description": "Single char"
+        },
+        {
+          "input": ["\"\""],
+          "expectedOutput": "",
+          "description": "Empty string",
+          "isHidden": true
+        }
+      ],
+      "hints": [
+        "Think about what operations you can do on strings",
+        "Try converting the string to an array first",
+        "JavaScript: split(''), reverse(), join(''). Python: s[::-1]"
+      ],
+      "aiSolution": {
+        "javascript": "function solution(str) {\n  return str.split('').reverse().join('');\n}",
+        "python": "def solution(s):\n    return s[::-1]"
+      },
+      "aiTime": 12
+    },
+    {
+      "id": "sum-array",
+      "title": "Sum of Array",
+      "description": "Write a function that returns the sum of all numbers in an array.",
+      "difficulty": "easy",
+      "category": "Arrays",
+      "xpReward": 25,
+      "timeLimit": 300,
+      "starterCode": {
+        "javascript": "function solution(arr) {\n  // Your code here\n  \n}",
+        "python": "def solution(arr):\n    # Your code here\n    pass"
+      },
+      "testCases": [
+        {
+          "input": ["[1, 2, 3, 4, 5]"],
+          "expectedOutput": "15",
+          "description": "Positive numbers"
+        },
+        {
+          "input": ["[-1, -2, 3]"],
+          "expectedOutput": "0",
+          "description": "Mixed signs"
+        },
+        {
+          "input": ["[]"],
+          "expectedOutput": "0",
+          "description": "Empty array"
+        },
+        {
+          "input": ["[100]"],
+          "expectedOutput": "100",
+          "description": "Single element",
+          "isHidden": true
+        }
+      ],
+      "hints": [
+        "You can use a loop to add each element",
+        "JavaScript has a reduce() method",
+        "Python has a built-in sum() function"
+      ],
+      "aiSolution": {
+        "javascript": "function solution(arr) {\n  return arr.reduce((sum, n) => sum + n, 0);\n}",
+        "python": "def solution(arr):\n    return sum(arr)"
+      },
+      "aiTime": 8
+    },
+    {
+      "id": "fizzbuzz",
+      "title": "FizzBuzz",
+      "description": "Write a function that returns 'Fizz' for multiples of 3, 'Buzz' for multiples of 5, 'FizzBuzz' for multiples of both, and the number itself otherwise.",
+      "difficulty": "easy",
+      "category": "Logic",
+      "xpReward": 35,
+      "timeLimit": 300,
+      "starterCode": {
+        "javascript": "function solution(n) {\n  // Your code here\n  \n}",
+        "python": "def solution(n):\n    # Your code here\n    pass"
+      },
+      "testCases": [
+        {
+          "input": ["15"],
+          "expectedOutput": "FizzBuzz",
+          "description": "Multiple of both"
+        },
+        {
+          "input": ["9"],
+          "expectedOutput": "Fizz",
+          "description": "Multiple of 3"
+        },
+        {
+          "input": ["10"],
+          "expectedOutput": "Buzz",
+          "description": "Multiple of 5"
+        },
+        {
+          "input": ["7"],
+          "expectedOutput": "7",
+          "description": "Neither"
+        },
+        {
+          "input": ["30"],
+          "expectedOutput": "FizzBuzz",
+          "description": "Another FizzBuzz",
+          "isHidden": true
+        }
+      ],
+      "hints": [
+        "Check for FizzBuzz (divisible by both) first",
+        "Use the modulo operator (%) to check divisibility",
+        "Order of conditions matters!"
+      ],
+      "aiSolution": {
+        "javascript": "function solution(n) {\n  if (n % 15 === 0) return 'FizzBuzz';\n  if (n % 3 === 0) return 'Fizz';\n  if (n % 5 === 0) return 'Buzz';\n  return String(n);\n}",
+        "python": "def solution(n):\n    if n % 15 == 0: return 'FizzBuzz'\n    if n % 3 == 0: return 'Fizz'\n    if n % 5 == 0: return 'Buzz'\n    return str(n)"
+      },
+      "aiTime": 15
+    },
+    {
+      "id": "palindrome-check",
+      "title": "Palindrome Check",
+      "description": "Write a function that checks if a string is a palindrome (reads the same forwards and backwards). Ignore case.",
+      "difficulty": "medium",
+      "category": "Strings",
+      "xpReward": 45,
+      "timeLimit": 300,
+      "starterCode": {
+        "javascript": "function solution(str) {\n  // Return true or false\n  \n}",
+        "python": "def solution(s):\n    # Return True or False\n    pass"
+      },
+      "testCases": [
+        {
+          "input": ["\"racecar\""],
+          "expectedOutput": "true",
+          "description": "Classic palindrome"
+        },
+        {
+          "input": ["\"RaceCar\""],
+          "expectedOutput": "true",
+          "description": "Mixed case"
+        },
+        {
+          "input": ["\"hello\""],
+          "expectedOutput": "false",
+          "description": "Not a palindrome"
+        },
+        {
+          "input": ["\"A\""],
+          "expectedOutput": "true",
+          "description": "Single char",
+          "isHidden": true
+        }
+      ],
+      "hints": [
+        "Convert to lowercase first",
+        "Compare the original with the reversed version",
+        "Think about how you solved 'Reverse a String'"
+      ],
+      "aiSolution": {
+        "javascript": "function solution(str) {\n  const lower = str.toLowerCase();\n  return lower === lower.split('').reverse().join('');\n}",
+        "python": "def solution(s):\n    lower = s.lower()\n    return lower == lower[::-1]"
+      },
+      "aiTime": 18
+    },
+    {
+      "id": "find-max",
+      "title": "Find Maximum",
+      "description": "Write a function that finds the maximum value in an array of numbers without using built-in max functions.",
+      "difficulty": "medium",
+      "category": "Arrays",
+      "xpReward": 40,
+      "timeLimit": 300,
+      "starterCode": {
+        "javascript": "function solution(arr) {\n  // Don't use Math.max()\n  \n}",
+        "python": "def solution(arr):\n    # Don't use max()\n    pass"
+      },
+      "testCases": [
+        {
+          "input": ["[1, 5, 3, 9, 2]"],
+          "expectedOutput": "9",
+          "description": "Mixed values"
+        },
+        {
+          "input": ["[-5, -1, -10]"],
+          "expectedOutput": "-1",
+          "description": "Negative numbers"
+        },
+        {
+          "input": ["[42]"],
+          "expectedOutput": "42",
+          "description": "Single element"
+        },
+        {
+          "input": ["[0, 0, 0]"],
+          "expectedOutput": "0",
+          "description": "All zeros",
+          "isHidden": true
+        }
+      ],
+      "hints": [
+        "Start with the first element as the current max",
+        "Loop through and update max when you find a larger value",
+        "Handle the edge case of a single-element array"
+      ],
+      "aiSolution": {
+        "javascript": "function solution(arr) {\n  let max = arr[0];\n  for (let i = 1; i < arr.length; i++) {\n    if (arr[i] > max) max = arr[i];\n  }\n  return max;\n}",
+        "python": "def solution(arr):\n    max_val = arr[0]\n    for n in arr[1:]:\n        if n > max_val:\n            max_val = n\n    return max_val"
+      },
+      "aiTime": 20
+    }
+  ]
+}

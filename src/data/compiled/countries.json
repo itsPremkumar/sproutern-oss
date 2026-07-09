@@ -1,0 +1,42 @@
+[
+  {
+    "code": "in",
+    "name": "India",
+    "currency": "INR"
+  },
+  {
+    "code": "us",
+    "name": "United States",
+    "currency": "USD"
+  },
+  {
+    "code": "uk",
+    "name": "United Kingdom",
+    "currency": "GBP"
+  },
+  {
+    "code": "au",
+    "name": "Australia",
+    "currency": "AUD"
+  },
+  {
+    "code": "ca",
+    "name": "Canada",
+    "currency": "CAD"
+  },
+  {
+    "code": "sg",
+    "name": "Singapore",
+    "currency": "SGD"
+  },
+  {
+    "code": "de",
+    "name": "Germany",
+    "currency": "EUR"
+  },
+  {
+    "code": "ae",
+    "name": "UAE",
+    "currency": "AED"
+  }
+]

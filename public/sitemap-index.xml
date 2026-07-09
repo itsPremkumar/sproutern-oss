@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- Sproutern.com Sitemap Index - Master sitemap referencing all sub-sitemaps -->
+<!-- Updated: March 5, 2026 -->
+
+<!-- Main Pages Sitemap (homepage, features, school, college, freshers, countries, services, legal) -->
+<sitemap>
+  <loc>https://www.sproutern.com/sitemap.xml</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+</sitemap>
+
+<!-- Static Pages Sitemap (roadmaps, global career guide, user features, info pages) -->
+<sitemap>
+  <loc>https://www.sproutern.com/sitemap-static.xml</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+</sitemap>
+
+<!-- Games Sitemap - 72 Brain Training Games -->
+<sitemap>
+  <loc>https://www.sproutern.com/sitemap-games.xml</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+</sitemap>
+
+<!-- Blog Posts Sitemap - 100+ Articles -->
+<sitemap>
+  <loc>https://www.sproutern.com/sitemap-blog.xml</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+</sitemap>
+
+<!-- Educational Content Sitemap (school, college, freshers, countries, tools) -->
+<sitemap>
+  <loc>https://www.sproutern.com/sitemap-education.xml</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+</sitemap>
+
+<!-- Interview Experiences Sitemap -->
+<sitemap>
+  <loc>https://www.sproutern.com/sitemap-interviews.xml</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+</sitemap>
+
+<!-- Company Pages Sitemap (FAANG, IT companies, comparisons, CGPA calculators) -->
+<sitemap>
+  <loc>https://www.sproutern.com/sitemap-companies.xml</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+</sitemap>
+
+<!-- India Region Sitemap (geo-optimized for Indian market) -->
+<sitemap>
+  <loc>https://www.sproutern.com/sitemap-india.xml</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+</sitemap>
+
+<!-- Tools Sitemap - 40+ Career & Academic Tools -->
+<sitemap>
+  <loc>https://www.sproutern.com/sitemap-tools.xml</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+</sitemap>
+
+<!-- Resources Sitemap (resume, interview, career resources) -->
+<sitemap>
+  <loc>https://www.sproutern.com/sitemap-resources.xml</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+</sitemap>
+
+<!-- Countries/Study Abroad Sitemap -->
+<sitemap>
+  <loc>https://www.sproutern.com/sitemap-countries.xml</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+</sitemap>
+
+<!-- Image Sitemap -->
+<sitemap>
+  <loc>https://www.sproutern.com/sitemap-images.xml</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+</sitemap>
+
+<!-- News Sitemap -->
+<sitemap>
+  <loc>https://www.sproutern.com/sitemap-news/sitemap.xml</loc>
+  <lastmod>2026-03-05T00:00:00+00:00</lastmod>
+</sitemap>
+
+</sitemapindex>

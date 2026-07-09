@@ -1,0 +1,17 @@
+# ads.txt file for YOUR_DOMAIN.com
+# Replace placeholders below with your actual publisher IDs
+
+# ===========================================
+# Google AdSense Publisher
+# ===========================================
+google.com, YOUR_PUBLISHER_ID, DIRECT, f08c47fec0942fa0
+
+# ===========================================
+# Monetag (PropellerAds Network)
+# ===========================================
+propellerads.com, YOUR_MONETAG_ID, RESELLER
+
+# ===========================================
+# Ezoic entries
+# ===========================================
+ezoic.com, YOUR_EZOIC_ID, DIRECT

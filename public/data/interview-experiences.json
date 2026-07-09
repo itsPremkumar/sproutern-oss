@@ -1,0 +1,381 @@
+[
+  {
+    "_comment": "DUMMY EXAMPLE DATA - This is a sample interview experience entry to demonstrate the expected file structure and format. Students should replace this with their actual interview experiences. Use the provided URLs format for assets: https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/assets/YOUR_FILE.jpg",
+    "id": "google-001",
+    "studentName": "Alex Johnson",
+    "regNo": "REG001",
+    "company": "Google",
+    "role": "Software Engineer L4",
+    "batch": "2021-2025",
+    "department": "Computer Science",
+    "verdict": "Selected",
+    "difficulty": "Hard",
+    "date": "2024-08-01",
+    "salary": "65 LPA",
+    "companyLogo": "https://raw.githubusercontent.com/YOUR_USERNAME/sproutern-assets/main/assets/company-logo.jpg",
+    "studentImage": "https://raw.githubusercontent.com/YOUR_USERNAME/sproutern-assets/main/assets/student-photo.jpg",
+    "resumeUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/sproutern-assets/main/assets/student-resume.pdf",
+    "cgpa": "9.5",
+    "location": "Mountain View, CA",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "applicationMethod": "Referral",
+    "preparationTime": "12 months",
+    "primarySkills": ["C++", "Python", "Data Structures", "Algorithms", "System Design"],
+    "topicsCovered": ["Graphs", "Dynamic Programming", "Concurrency", "Large Scale Systems"],
+    "resources": ["LeetCode", "TopCoder", "System Design Primer", "Designing Data-Intensive Applications"],
+    "totalDuration": "6 weeks",
+    "linkedIn": "https://linkedin.com/in/example-student",
+    "willingToMentor": true,
+    "content": "Cracked Google after 7 rounds of interviews. The process was tough but rewarding. Be prepared for a deep dive into data structures, algorithms, and system design. Googliness and culture fit are also very important.",
+    "rounds": [
+      {
+        "roundName": "Technical Phone Screen 1",
+        "description": "Initial coding assessment over the phone.",
+        "questions": [
+          "Given a list of numbers and a number k, return whether any two numbers from the list add up to k.",
+          "Explain the time and space complexity of your solution."
+        ]
+      },
+      {
+        "roundName": "Technical Phone Screen 2",
+        "description": "Follow-up coding assessment with a different interviewer.",
+        "questions": [
+          "Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.",
+          "What if you can't use division?"
+        ]
+      },
+      {
+        "roundName": "On-site Interview 1: Data Structures & Algorithms",
+        "description": "Whiteboard coding session focusing on core data structures.",
+        "questions": [
+          "Implement an LRU (Least Recently Used) cache.",
+          "Design a data structure that supports adding new words and finding if a string matches any previously added string."
+        ]
+      },
+      {
+        "roundName": "On-site Interview 2: System Design",
+        "description": "High-level system design problem.",
+        "questions": ["Design a URL shortener service like TinyURL.", "Discuss scalability, availability, and latency."]
+      },
+      {
+        "roundName": "On-site Interview 3: Concurrency",
+        "description": "Coding problems related to multithreading and synchronization.",
+        "questions": ["Implement a thread-safe queue.", "What is a deadlock and how would you prevent it?"]
+      },
+      {
+        "roundName": "On-site Interview 4: Behavioral and Leadership",
+        "description": "Discussion about past projects and experiences.",
+        "questions": [
+          "Tell me about a time you had a conflict with a team member.",
+          "Describe a challenging project you worked on and what you learned."
+        ]
+      },
+      {
+        "roundName": "On-site Interview 5: Googliness and Culture Fit",
+        "description": "Assessing cultural fit and general problem-solving skills.",
+        "questions": [
+          "If you could be any Google product, which one would you be and why?",
+          "How would you improve Google Maps?"
+        ]
+      }
+    ],
+    "tips": [
+      "Practice coding problems on a whiteboard.",
+      "Be able to articulate your thought process clearly.",
+      "Review system design concepts and be prepared to discuss trade-offs.",
+      "Prepare examples from your experience for behavioral questions.",
+      "Think about how you align with Google's values."
+    ]
+  },
+  {
+    "id": "meta-002",
+    "studentName": "Student Name",
+    "regNo": "REG002",
+    "company": "Meta (Facebook)",
+    "role": "Software Engineer E4",
+    "batch": "2020-2024",
+    "department": "Computer Science",
+    "verdict": "Selected",
+    "difficulty": "Hard",
+    "date": "2024-07-15",
+    "salary": "58 LPA",
+    "cgpa": "9.3",
+    "location": "Menlo Park, CA",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "applicationMethod": "Referral",
+    "preparationTime": "10 months",
+    "primarySkills": ["Python", "React", "System Design", "Algorithms", "Distributed Systems"],
+    "topicsCovered": ["Graphs", "Dynamic Programming", "Scalability", "Database Design"],
+    "resources": ["LeetCode", "System Design Interview", "Meta Engineering Blog"],
+    "totalDuration": "5 weeks",
+    "linkedIn": "https://linkedin.com/in/example-student",
+    "willingToMentor": true,
+    "content": "Meta's interview process is intense and focuses heavily on coding and system design. They value speed and accuracy. The behavioral round emphasizes their core values. Preparation is key to success.",
+    "rounds": [
+      {
+        "roundName": "Phone Screen",
+        "description": "Initial technical screening with coding problems.",
+        "questions": [
+          "Implement a function to validate a binary search tree.",
+          "Design a data structure for a social network friend recommendation system."
+        ]
+      },
+      {
+        "roundName": "Coding Round 1",
+        "description": "Advanced algorithms and data structures.",
+        "questions": [
+          "Find the minimum window substring containing all characters.",
+          "Implement a graph algorithm to detect cycles."
+        ]
+      },
+      {
+        "roundName": "Coding Round 2",
+        "description": "Problem-solving with optimization focus.",
+        "questions": [
+          "Design an efficient algorithm for news feed ranking.",
+          "Solve a complex dynamic programming problem."
+        ]
+      },
+      {
+        "roundName": "System Design",
+        "description": "Design a large-scale distributed system.",
+        "questions": [
+          "Design Instagram's backend architecture.",
+          "How would you handle billions of daily active users?"
+        ]
+      },
+      {
+        "roundName": "Behavioral",
+        "description": "Cultural fit and leadership assessment.",
+        "questions": ["Tell me about a time you disagreed with a decision.", "How do you handle ambiguity in projects?"]
+      }
+    ],
+    "tips": [
+      "Practice coding under time pressure.",
+      "Study Meta's core values thoroughly.",
+      "Focus on scalability in system design.",
+      "Be prepared to optimize your solutions.",
+      "Show passion for building impactful products."
+    ]
+  },
+  {
+    "id": "netflix-003",
+    "studentName": "Student Name",
+    "regNo": "REG003",
+    "company": "Netflix",
+    "role": "Senior Software Engineer",
+    "batch": "2019-2023",
+    "department": "Computer Science",
+    "verdict": "Selected",
+    "difficulty": "Hard",
+    "date": "2024-09-10",
+    "salary": "72 LPA",
+    "cgpa": "9.4",
+    "location": "Los Gatos, CA",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Hybrid",
+    "applicationMethod": "Direct Apply",
+    "preparationTime": "14 months",
+    "primarySkills": ["Java", "Microservices", "AWS", "System Design", "Distributed Systems"],
+    "topicsCovered": ["Scalability", "Microservices Architecture", "Cloud Computing", "Performance Optimization"],
+    "resources": ["System Design Interview", "Designing Data-Intensive Applications", "Netflix Tech Blog"],
+    "totalDuration": "7 weeks",
+    "linkedIn": "https://linkedin.com/in/example-student",
+    "willingToMentor": true,
+    "content": "Netflix has one of the most challenging interview processes. They look for senior-level thinking even in junior roles. Strong emphasis on system design, scalability, and real-world problem-solving. Culture fit is extremely important.",
+    "rounds": [
+      {
+        "roundName": "Technical Phone Screen",
+        "description": "Coding and system design discussion.",
+        "questions": ["Design a rate limiting system for API calls.", "Implement an efficient caching mechanism."]
+      },
+      {
+        "roundName": "On-site Round 1: Algorithms",
+        "description": "Advanced algorithmic problem-solving.",
+        "questions": [
+          "Design an algorithm for video recommendation.",
+          "Optimize a solution for handling millions of concurrent streams."
+        ]
+      },
+      {
+        "roundName": "On-site Round 2: System Design",
+        "description": "Design Netflix's streaming architecture.",
+        "questions": [
+          "Design a video streaming platform like Netflix.",
+          "How would you handle content delivery across the globe?"
+        ]
+      },
+      {
+        "roundName": "On-site Round 3: Architecture",
+        "description": "Microservices and distributed systems.",
+        "questions": [
+          "Design a microservices architecture for content management.",
+          "How would you ensure high availability and fault tolerance?"
+        ]
+      },
+      {
+        "roundName": "Cultural Fit",
+        "description": "Netflix culture and values assessment.",
+        "questions": [
+          "How do you embody Netflix's culture of freedom and responsibility?",
+          "Tell me about a time you made a high-impact decision."
+        ]
+      }
+    ],
+    "tips": [
+      "Study Netflix's tech blog extensively.",
+      "Understand their culture deck thoroughly.",
+      "Focus on scalability and performance.",
+      "Be prepared for senior-level discussions.",
+      "Show ownership and initiative in your examples."
+    ]
+  },
+  {
+    "id": "apple-004",
+    "studentName": "Student Name",
+    "regNo": "REG004",
+    "company": "Apple",
+    "role": "Software Engineer ICT4",
+    "batch": "2020-2024",
+    "department": "Computer Science",
+    "verdict": "Selected",
+    "difficulty": "Hard",
+    "date": "2024-08-20",
+    "salary": "55 LPA",
+    "cgpa": "9.2",
+    "location": "Cupertino, CA",
+    "jobType": "Full-time",
+    "workMode": "On-site",
+    "interviewMode": "Hybrid",
+    "applicationMethod": "Campus Placement",
+    "preparationTime": "11 months",
+    "primarySkills": ["Swift", "C++", "iOS Development", "Data Structures", "System Design"],
+    "topicsCovered": ["Memory Management", "Concurrency", "Performance Optimization", "Design Patterns"],
+    "resources": ["LeetCode", "iOS Development Documentation", "System Design Primer"],
+    "totalDuration": "6 weeks",
+    "linkedIn": "https://linkedin.com/in/example-student",
+    "willingToMentor": true,
+    "content": "Apple's interview process is thorough and focuses on both technical depth and product thinking. They value attention to detail and user experience. The process is long but well-structured. Strong fundamentals are essential.",
+    "rounds": [
+      {
+        "roundName": "Phone Screen",
+        "description": "Technical screening with coding problems.",
+        "questions": [
+          "Implement a memory-efficient data structure.",
+          "Solve a problem related to iOS app optimization."
+        ]
+      },
+      {
+        "roundName": "Technical Round 1",
+        "description": "Data structures and algorithms.",
+        "questions": ["Design an efficient algorithm for image processing.", "Implement a custom memory allocator."]
+      },
+      {
+        "roundName": "Technical Round 2",
+        "description": "System design and architecture.",
+        "questions": [
+          "Design the architecture for iCloud sync.",
+          "How would you optimize battery consumption in iOS apps?"
+        ]
+      },
+      {
+        "roundName": "Technical Round 3",
+        "description": "Product and design thinking.",
+        "questions": ["How would you improve Siri's performance?", "Design a feature for Apple Music."]
+      },
+      {
+        "roundName": "Behavioral",
+        "description": "Cultural fit and teamwork assessment.",
+        "questions": [
+          "Tell me about a time you paid attention to detail.",
+          "How do you approach user experience in your projects?"
+        ]
+      }
+    ],
+    "tips": [
+      "Understand Apple's design philosophy.",
+      "Focus on performance and optimization.",
+      "Show passion for user experience.",
+      "Be prepared for product-related questions.",
+      "Demonstrate attention to detail in your answers."
+    ]
+  },
+  {
+    "id": "amazon-005",
+    "studentName": "Student Name",
+    "regNo": "REG005",
+    "company": "Amazon",
+    "role": "SDE-2",
+    "batch": "2019-2023",
+    "department": "Computer Science",
+    "verdict": "Selected",
+    "difficulty": "Hard",
+    "date": "2024-10-05",
+    "salary": "52 LPA",
+    "cgpa": "9.0",
+    "location": "Seattle, WA",
+    "jobType": "Full-time",
+    "workMode": "Hybrid",
+    "interviewMode": "Online",
+    "applicationMethod": "Referral",
+    "preparationTime": "9 months",
+    "primarySkills": ["Java", "AWS", "Distributed Systems", "System Design", "Algorithms"],
+    "topicsCovered": ["Scalability", "Cloud Architecture", "Microservices", "Database Design"],
+    "resources": ["LeetCode", "Amazon Leadership Principles", "System Design Interview"],
+    "totalDuration": "4 weeks",
+    "linkedIn": "https://linkedin.com/in/example-student",
+    "willingToMentor": true,
+    "content": "Amazon SDE-2 role requires strong system design skills and leadership principles. Every answer must be backed by the STAR method. The bar is high, and they test both technical depth and breadth. Preparation is crucial.",
+    "rounds": [
+      {
+        "roundName": "Online Assessment",
+        "description": "Coding test and work simulation.",
+        "questions": [
+          "Design an efficient algorithm for warehouse optimization.",
+          "Implement a solution for order processing at scale."
+        ]
+      },
+      {
+        "roundName": "Technical Round 1",
+        "description": "Advanced algorithms and data structures.",
+        "questions": [
+          "Design Amazon's product recommendation engine.",
+          "Optimize a solution for real-time inventory management."
+        ]
+      },
+      {
+        "roundName": "System Design",
+        "description": "Design a large-scale distributed system.",
+        "questions": ["Design Amazon's order fulfillment system.", "How would you handle Black Friday traffic?"]
+      },
+      {
+        "roundName": "Leadership Principles Round 1",
+        "description": "Behavioral questions based on LP.",
+        "questions": [
+          "Tell me about a time you delivered results under pressure.",
+          "Describe a situation where you had to dive deep into a problem."
+        ]
+      },
+      {
+        "roundName": "Leadership Principles Round 2",
+        "description": "More behavioral and situational questions.",
+        "questions": [
+          "Give an example of when you disagreed and committed.",
+          "How do you ensure customer obsession in your work?"
+        ]
+      }
+    ],
+    "tips": [
+      "Master all 16 Leadership Principles with examples.",
+      "Practice system design for e-commerce scenarios.",
+      "Use STAR method for all behavioral questions.",
+      "Focus on scalability and cost optimization.",
+      "Show ownership and bias for action."
+    ]
+  }
+]
