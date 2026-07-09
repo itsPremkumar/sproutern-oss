@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Instagram, Linkedin, Mail, Youtube } from 'lucide-react';
 import { Logo } from '@/components/shared/logo';
 import { DisplayBanner } from '@/components/ads';
+import { AffiliateStrip } from '@/components/monetization/AffiliateStrip';
 
 export function Footer() {
   return (
@@ -16,6 +17,11 @@ export function Footer() {
             className="max-w-3xl"
           />
         </div>
+      </div>
+
+      {/* Affiliate / Partner Strip (earns from day 1) */}
+      <div className="container">
+        <AffiliateStrip />
       </div>
 
       {/* Main Footer Content */}
