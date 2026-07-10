@@ -57,3 +57,4 @@ tests/sproutern-test-firebase-adminsdk.json
 
 # Development environment specific (e.g., Nix)
 .idx/
+.env*
