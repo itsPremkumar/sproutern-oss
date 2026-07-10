@@ -99,6 +99,45 @@ export const affiliates: AffiliateLink[] = [
     note: 'Sponsor a tool or get a featured placement.',
     sponsor: 'Sproutern',
   },
+  {
+    id: 'unacademy',
+    label: 'Unacademy — Exam & Course Prep',
+    // Unacademy affiliate (India): replace YOURID with your affiliate id.
+    url: 'https://unacademy.com/goal/?ref=YOURID',
+    note: 'UPSC, CAT, GATE & competitive exam prep.',
+    sponsor: 'Unacademy',
+  },
+  {
+    id: 'cashkaro',
+    label: 'CashKaro — Earn Cashback',
+    // CashKaro affiliate (India): replace YOURID with your referral id.
+    url: 'https://www.cashkaro.com/?ref=YOURID',
+    note: 'Get cashback on shopping via our link.',
+    sponsor: 'CashKaro',
+  },
+  {
+    id: 'skillshare',
+    label: 'Skillshare — Creative Classes',
+    url: 'https://skl.sh/YOURID',
+    note: 'Learn creative & pro skills (free trial).',
+    sponsor: 'Skillshare',
+  },
+  {
+    id: 'fiverr',
+    label: 'Fiverr — Hire Freelancers',
+    // Fiverr affiliate (India-friendly): replace YOURID.
+    url: 'https://www.fiverr.com/?ref=YOURID',
+    note: 'Get freelance work done affordably.',
+    sponsor: 'Fiverr (Affiliate)',
+  },
+  {
+    id: 'upwork',
+    label: 'Upwork — Find Freelance Jobs',
+    // Upwork affiliate: replace YOURID.
+    url: 'https://www.upwork.com/?ref=YOURID',
+    note: 'Find remote freelance gigs.',
+    sponsor: 'Upwork (Affiliate)',
+  },
 ];
 
 /** Quick lookup helper: get a single affiliate link by id. */
@@ -151,3 +190,37 @@ export const donationConfig = {
     { amount: 499, label: '₹499', impact: '🎯 1 month server' },
   ],
 };
+
+/**
+ * DIGITAL PRODUCTS (sell your own — zero inventory, instant payout)
+ * Use a free checkout: Gumroad (10% fee) or Razorpay Payment Page (free, INR).
+ * Add entries below; they render via <ProductCard /> with a "Buy" CTA.
+ * Leave empty until you create a product.
+ */
+export interface DigitalProduct {
+  id: string;
+  title: string;
+  desc: string;
+  price: string; // display price, e.g. "₹199" or "$9"
+  url: string; // your Gumroad/Razorpay checkout link
+  badge?: string; // e.g. "Bestseller"
+}
+
+export const digitalProducts: DigitalProduct[] = [
+  // Example (edit with YOUR real Gumroad/Razorpay link):
+  // {
+  //   id: 'resume-pack',
+  //   title: '20 ATS-Friendly Resume Templates',
+  //   desc: 'Copy-paste templates that pass recruiter screeners.',
+  //   price: '₹199',
+  //   url: 'https://yourname.gumroad.com/l/resume-pack',
+  //   badge: 'Bestseller',
+  // },
+  // {
+  //   id: 'interview-qbank',
+  //   title: '500 Interview Questions Bank (PDF)',
+  //   desc: 'Tech + HR questions with model answers.',
+  //   price: '₹149',
+  //   url: 'https://yourname.gumroad.com/l/interview-qbank',
+  // },
+];
