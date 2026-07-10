@@ -83,6 +83,22 @@ export const affiliates: AffiliateLink[] = [
     note: 'Affordable hosting to launch your site.',
     sponsor: 'Hostinger',
   },
+  {
+    id: 'amazon',
+    label: 'Amazon — Books, Electronics & More',
+    // Amazon Associates: zero-approval, works in India (pa-api or simple
+    // tag). Replace YOURTAG with your Associates tracking id.
+    url: 'https://www.amazon.in/?tag=YOURTAG-21',
+    note: 'Shop via our link at no extra cost to you.',
+    sponsor: 'Amazon Associates',
+  },
+  {
+    id: 'sponsor',
+    label: 'Advertise with Sproutern',
+    url: '/contact?topic=sponsorship',
+    note: 'Sponsor a tool or get a featured placement.',
+    sponsor: 'Sproutern',
+  },
 ];
 
 /** Quick lookup helper: get a single affiliate link by id. */

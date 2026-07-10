@@ -58,6 +58,7 @@ import { TrendingContent } from '@/components/engagement/TrendingContent';
 import { EditorialTrustPanel } from '@/components/content/EditorialTrustPanel';
 import { HOME_EDITORIAL_TRUST } from '@/lib/editorial-trust';
 import { AffiliateStrip } from '@/components/monetization/AffiliateStrip';
+import { SponsorCTA } from '@/components/monetization/SponsorCTA';
 
 // Lazy load below-fold components for better LCP
 const FAQ = dynamic(
@@ -1692,6 +1693,8 @@ export default function Home() {
       <Cta />
       {/* Affiliate / Partner offers — earns from day 1, FTC-compliant */}
       <AffiliateStrip />
+      {/* Sponsor CTA — drives high-margin sponsored placements */}
+      <SponsorCTA />
     </div>
   );
 }

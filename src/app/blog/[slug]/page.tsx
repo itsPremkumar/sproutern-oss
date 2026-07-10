@@ -25,6 +25,8 @@ import { ReactionButtons } from '@/components/blog/ReactionButtons'; // EEO: Rea
 import { TableOfContents } from '@/components/blog/TableOfContents'; // SXO: TOC
 import { ContentUpgrade } from '@/components/lead-capture/ContentUpgrade'; // Email capture
 import { SocialShare } from '@/components/shared/SocialShare'; // Social sharing
+import { SponsorCTA } from '@/components/monetization/SponsorCTA';
+import { NewsletterInline } from '@/components/monetization/NewsletterInline';
 import {
   addInternalLinks,
   generateRelatedSection,
@@ -819,6 +821,10 @@ export default async function BlogPostPage({
                   </div>
                 </div>
               </section>
+
+              {/* Sponsor CTA + Newsletter — monetization & audience building */}
+              <SponsorCTA />
+              <NewsletterInline />
 
               {/* Reaction Buttons */}
               <ReactionButtons slug={slug} />
