@@ -36,10 +36,10 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about studying and working in Norway as an international student. Free education, high quality of life, and excellent career prospects.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/norway',
+    url: 'https://sproutern.dpdns.org/countries/norway',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/norway',
+    canonical: 'https://sproutern.dpdns.org/countries/norway',
   },
 };
 

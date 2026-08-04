@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: tool.seo.metaTitle,
       description: tool.seo.metaDescription,
       type: 'website',
-      url: `https://www.sproutern.com/ai-tools/${tool.slug}`,
+      url: `https://sproutern.dpdns.org/ai-tools/${tool.slug}`,
     },
   };
 }

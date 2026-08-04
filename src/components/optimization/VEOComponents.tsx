@@ -60,7 +60,7 @@ export function VideoSchema({
             name: 'Sproutern',
             logo: {
               '@type': 'ImageObject',
-              url: 'https://www.sproutern.com/logo.jpg',
+              url: 'https://sproutern.dpdns.org/logo.jpg',
             },
           },
         }),

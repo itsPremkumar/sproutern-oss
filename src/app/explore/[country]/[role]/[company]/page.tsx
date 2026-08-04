@@ -144,16 +144,16 @@ export async function generateMetadata({
       `${roleName} interview preparation`,
     ],
     alternates: {
-      canonical: `https://www.sproutern.com/explore/${country}/${role}/${company}`,
+      canonical: `https://sproutern.dpdns.org/explore/${country}/${role}/${company}`,
     },
     openGraph: {
       title,
       description,
       type: 'article',
-      url: `https://www.sproutern.com/explore/${country}/${role}/${company}`,
+      url: `https://sproutern.dpdns.org/explore/${country}/${role}/${company}`,
       images: [
         {
-          url: `https://www.sproutern.com/api/og/resume-score?company=${encodeURIComponent(companyName)}&role=${encodeURIComponent(roleName)}`,
+          url: `https://sproutern.dpdns.org/api/og/resume-score?company=${encodeURIComponent(companyName)}&role=${encodeURIComponent(roleName)}`,
           width: 1200,
           height: 630,
           alt: title,
@@ -186,12 +186,12 @@ export default async function ExplorePage({ params }: PageProps) {
       name: 'Sproutern',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.sproutern.com/logo.jpg',
+        url: 'https://sproutern.dpdns.org/logo.jpg',
       },
     },
     datePublished: '2026-01-01',
     dateModified: new Date().toISOString().split('T')[0],
-    mainEntityOfPage: `https://www.sproutern.com/explore/${country}/${role}/${company}`,
+    mainEntityOfPage: `https://sproutern.dpdns.org/explore/${country}/${role}/${company}`,
   };
 
   const faqJsonLd = {

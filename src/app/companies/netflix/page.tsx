@@ -58,9 +58,9 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about working at Netflix - the streaming giant with the highest pay.',
     type: 'article',
-    url: 'https://www.sproutern.com/companies/netflix',
+    url: 'https://sproutern.dpdns.org/companies/netflix',
   },
-  alternates: { canonical: 'https://www.sproutern.com/companies/netflix' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/companies/netflix' },
 };
 
 const salaryData = [

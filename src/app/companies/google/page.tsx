@@ -59,9 +59,9 @@ export const metadata: Metadata = {
     title: 'Google Careers - Complete Guide',
     description: 'Everything you need to know about working at Google.',
     type: 'article',
-    url: 'https://www.sproutern.com/companies/google',
+    url: 'https://sproutern.dpdns.org/companies/google',
   },
-  alternates: { canonical: 'https://www.sproutern.com/companies/google' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/companies/google' },
 };
 
 const salaryData = [

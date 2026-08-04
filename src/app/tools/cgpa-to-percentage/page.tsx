@@ -438,7 +438,7 @@ export default function CGPAToPercentageClient() {
         <ToolFAQSection
           toolName="CGPA to Percentage Calculator"
           faqs={cgpaCalculatorFAQs}
-          toolUrl="https://www.sproutern.com/tools/cgpa-to-percentage"
+          toolUrl="https://sproutern.dpdns.org/tools/cgpa-to-percentage"
         />
 
         {/* Related Tools */}

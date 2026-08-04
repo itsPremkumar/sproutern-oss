@@ -32,10 +32,10 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about studying and working in Sweden as an international student. High-quality education, innovative research, and excellent work-life balance.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/sweden',
+    url: 'https://sproutern.dpdns.org/countries/sweden',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/sweden',
+    canonical: 'https://sproutern.dpdns.org/countries/sweden',
   },
 };
 

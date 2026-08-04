@@ -87,7 +87,7 @@ async redirects() {
   return [
     {
       source: '/ads.txt',
-      destination: 'https://srv.adstxtmanager.com/YOUR_ACCOUNT_ID/sproutern.com',
+      destination: 'https://srv.adstxtmanager.com/YOUR_ACCOUNT_ID/sproutern.dpdns.org',
       permanent: true,
     },
   ];
@@ -195,7 +195,7 @@ import { EzoicPlaceholder } from '@/components/ads/ezoic-placeholder';
 Add `?ez_js_debugger=1` to any page URL:
 
 ```
-https://www.sproutern.com?ez_js_debugger=1
+https://sproutern.dpdns.org?ez_js_debugger=1
 ```
 
 A green modal will appear showing:
@@ -207,7 +207,7 @@ A green modal will appear showing:
 
 ### Verify ads.txt
 
-Visit: `https://www.sproutern.com/ads.txt`
+Visit: `https://sproutern.dpdns.org/ads.txt`
 
 Should redirect to Ezoic's ads.txt manager with authorized sellers.
 
@@ -283,10 +283,10 @@ on every route change.
 
 ```bash
 # Test debugger
-https://www.sproutern.com?ez_js_debugger=1
+https://sproutern.dpdns.org?ez_js_debugger=1
 
 # Check ads.txt
-https://www.sproutern.com/ads.txt
+https://sproutern.dpdns.org/ads.txt
 
 # Deploy changes
 firebase deploy

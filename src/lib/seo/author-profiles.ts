@@ -75,12 +75,12 @@ export function generateAuthorSchema(author: AuthorProfile) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    '@id': `https://www.sproutern.com/authors/${author.slug}`,
+    '@id': `https://sproutern.dpdns.org/authors/${author.slug}`,
     name: author.name,
     jobTitle: author.title,
     description: author.bio,
     ...(author.image && { image: author.image }),
-    url: `https://www.sproutern.com/authors/${author.slug}`,
+    url: `https://sproutern.dpdns.org/authors/${author.slug}`,
     ...(author.email && { email: author.email }),
     ...(author.socialLinks && {
       sameAs: Object.values(author.socialLinks).filter(Boolean),
@@ -114,7 +114,7 @@ export function generateProfilePageSchema(author: AuthorProfile) {
     mainEntity: generateAuthorSchema(author),
     name: `${author.name} - Author Profile`,
     description: author.bio,
-    url: `https://www.sproutern.com/authors/${author.slug}`,
+    url: `https://sproutern.dpdns.org/authors/${author.slug}`,
     ...(author.publishedArticles && {
       mentions: {
         '@type': 'CreativeWork',

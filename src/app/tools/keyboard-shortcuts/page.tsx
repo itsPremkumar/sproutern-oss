@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   keywords:
     'keyboard shortcuts, windows shortcuts, mac shortcuts, vs code shortcuts, productivity tips',
   alternates: {
-    canonical: 'https://www.sproutern.com/tools/keyboard-shortcuts',
+    canonical: 'https://sproutern.dpdns.org/tools/keyboard-shortcuts',
   },
 };
 

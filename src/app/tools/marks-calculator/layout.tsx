@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Marks Calculator',
     description: 'Calculate your percentage and CGPA from marks instantly.',
     type: 'website',
-    url: 'https://www.sproutern.com/tools/marks-calculator',
+    url: 'https://sproutern.dpdns.org/tools/marks-calculator',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: 'Free marks to percentage converter.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/tools/marks-calculator',
+    canonical: 'https://sproutern.dpdns.org/tools/marks-calculator',
   },
 };
 

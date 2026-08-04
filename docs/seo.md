@@ -10,4 +10,4 @@ https://zadroweb.com/seo-auditor/
 
 https://seomator.com/free-seo-audit-tool
 
-https://www.seoptimer.com/www.sproutern.com
+https://www.seoptimer.com/sproutern.dpdns.org

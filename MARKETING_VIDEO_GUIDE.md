@@ -27,7 +27,7 @@ it without spending a penny.
 | **0:20-0:30** | **[Screen Rec]** Show scrolling through the **Sproutern Homepage**. Highlight "Free Tools".                                         | "Sproutern is the all-in-one career platform built for students like you."                   |
 | **0:30-0:40** | **[Screen Rec]** Show the **Resume Score Checker** tool in action.                                                                  | "Optimize your resume with our AI-powered score checker..."                                  |
 | **0:40-0:50** | **[Screen Rec]** Show the **Interview Guide** or **Salary Calculator**.                                                             | "...master technical interviews, and even calculate your future salary. All for free."       |
-| **0:50-0:60** | **[Video]** Happy student getting a "You're Hired" email. <br>**[Text Overlay]** **SPROUTERN.COM** (Big & Bold)                     | "Don't just look for a job. Launch your career. Visit Sproutern.com today."                  |
+| **0:50-0:60** | **[Video]** Happy student getting a "You're Hired" email. <br>**[Text Overlay]** **SPROUTERN.COM** (Big & Bold)                     | "Don't just look for a job. Launch your career. Visit Sproutern.dpdns.org today."                  |
 
 ---
 
@@ -36,7 +36,7 @@ it without spending a penny.
 1.  **Gather Assets (15 mins):**
     - Go to **Pexels** and download 3 videos: "Stressed Student", "Happy Student", "Typing on
       Laptop".
-    - Go to **Sproutern.com** and record your screen (Win+G) scrolling the home page and using the
+    - Go to **Sproutern.dpdns.org** and record your screen (Win+G) scrolling the home page and using the
       Resume tool.
 
 2.  **Open CapCut (New Project):**

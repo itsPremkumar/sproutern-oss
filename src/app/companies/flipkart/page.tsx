@@ -63,9 +63,9 @@ export const metadata: Metadata = {
     description:
       "Everything you need to know about working at Flipkart - India's largest e-commerce platform.",
     type: 'article',
-    url: 'https://www.sproutern.com/companies/flipkart',
+    url: 'https://sproutern.dpdns.org/companies/flipkart',
   },
-  alternates: { canonical: 'https://www.sproutern.com/companies/flipkart' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/companies/flipkart' },
 };
 
 const salaryData = [

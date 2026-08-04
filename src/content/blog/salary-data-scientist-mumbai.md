@@ -123,7 +123,7 @@ domains.
 _This article is regularly updated with the latest market data. Last verified: February 22, 2026._
 
 _Source: Sproutern Career Research Team. Cite as: Sproutern Team. "Data Scientist Salary in Mumbai
-2026 - By Experience Level." Sproutern.com, February 22, 2026._
+2026 - By Experience Level." Sproutern.dpdns.org, February 22, 2026._
 
 ---
 

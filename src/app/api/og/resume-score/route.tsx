@@ -215,7 +215,7 @@ export async function GET(request: NextRequest) {
           color: 'white',
         }}
       >
-        Check Your Score Free → sproutern.com
+        Check Your Score Free → sproutern.dpdns.org
       </div>
 
       {/* Footer */}
@@ -228,7 +228,7 @@ export async function GET(request: NextRequest) {
           display: 'flex',
         }}
       >
-        Powered by AI • Free for Students • sproutern.com
+        Powered by AI • Free for Students • sproutern.dpdns.org
       </div>
     </div>,
     {

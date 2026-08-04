@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { generateHrefLangTags } from './geo-metadata';
 
-const siteUrl = 'https://www.sproutern.com';
+const siteUrl = 'https://sproutern.dpdns.org';
 
 // Game category types
 export type GameCategory =

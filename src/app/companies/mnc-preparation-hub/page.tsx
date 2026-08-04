@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: 'MNC Preparation Hub',
     description:
       'Complete resources for MNC placement preparation in one place.',
-    url: 'https://sproutern.com/companies/mnc-preparation-hub',
+    url: 'https://sproutern.dpdns.org/companies/mnc-preparation-hub',
     type: 'website',
   },
 };

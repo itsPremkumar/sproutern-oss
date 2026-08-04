@@ -2,7 +2,7 @@ import { blogPosts } from './src/lib/blog-data';
 import fs from 'fs';
 import path from 'path';
 
-const baseUrl = 'https://sproutern.com';
+const baseUrl = 'https://sproutern.dpdns.org';
 
 // Mock sitemap logic
 function generateSitemap() {

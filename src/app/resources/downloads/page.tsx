@@ -32,10 +32,10 @@ export const metadata: Metadata = {
     description:
       'Free career resources: resume templates, interview prep, DSA notes, and more.',
     type: 'website',
-    url: 'https://www.sproutern.com/resources/downloads',
+    url: 'https://sproutern.dpdns.org/resources/downloads',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/resources/downloads',
+    canonical: 'https://sproutern.dpdns.org/resources/downloads',
   },
 };
 

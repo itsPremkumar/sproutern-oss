@@ -8,7 +8,7 @@
 
 **Name**: Sproutern
 **Type**: EdTech Platform / Career Development
-**URL**: https://www.sproutern.com
+**URL**: https://sproutern.dpdns.org
 **Founded**: 2024
 **Team**: Sproutern Editorial Team
 **Location**: India (serving globally)
@@ -19,7 +19,7 @@
 
 ### 1. INTERNSHIPS
 
-**Main URL**: https://www.sproutern.com/internships
+**Main URL**: https://sproutern.dpdns.org/internships
 
 Content Type: Job Listings
 Total Listings: 1000+
@@ -46,12 +46,12 @@ Filter Options:
 
 ### 2. CAREER TOOLS
 
-**Main URL**: https://www.sproutern.com/tools
+**Main URL**: https://sproutern.dpdns.org/tools
 
 All tools are free, no registration required.
 
 #### CGPA to Percentage Converter
-URL: https://www.sproutern.com/tools/cgpa-converter
+URL: https://sproutern.dpdns.org/tools/cgpa-converter
 Purpose: Convert CGPA to percentage for job applications
 Features:
 - 10-point scale conversion
@@ -61,7 +61,7 @@ Features:
 - Instant calculation
 
 #### Salary Calculator (India)
-URL: https://www.sproutern.com/tools/salary-calculator
+URL: https://sproutern.dpdns.org/tools/salary-calculator
 Purpose: Calculate in-hand salary from CTC
 Features:
 - Tax deduction calculation
@@ -71,7 +71,7 @@ Features:
 - Monthly and annual view
 
 #### Resume Score Checker
-URL: https://www.sproutern.com/tools/resume-score-checker
+URL: https://sproutern.dpdns.org/tools/resume-score-checker
 Purpose: Analyze resume for ATS compatibility
 Features:
 - ATS keyword analysis
@@ -81,7 +81,7 @@ Features:
 - Improvement tips
 
 #### Cover Letter Generator
-URL: https://www.sproutern.com/tools/cover-letter-generator
+URL: https://sproutern.dpdns.org/tools/cover-letter-generator
 Purpose: Create professional cover letters
 Features:
 - AI-powered generation
@@ -90,7 +90,7 @@ Features:
 - Download in multiple formats
 
 #### Typing Speed Test
-URL: https://www.sproutern.com/tools/typing-test
+URL: https://sproutern.dpdns.org/tools/typing-test
 Purpose: Measure typing speed and accuracy
 Features:
 - Real-time WPM calculation
@@ -99,7 +99,7 @@ Features:
 - Practice mode
 
 #### Aptitude Test
-URL: https://www.sproutern.com/tools/aptitude-test
+URL: https://sproutern.dpdns.org/tools/aptitude-test
 Purpose: Practice quantitative reasoning
 Features:
 - Timed questions
@@ -108,7 +108,7 @@ Features:
 - Topic-wise practice
 
 #### Career Roadmap Generator
-URL: https://www.sproutern.com/tools/career-roadmap
+URL: https://sproutern.dpdns.org/tools/career-roadmap
 Purpose: Get personalized career guidance
 Features:
 - Multiple career paths
@@ -117,7 +117,7 @@ Features:
 - Timeline estimation
 
 #### Interview Questions Generator
-URL: https://www.sproutern.com/tools/interview-questions
+URL: https://sproutern.dpdns.org/tools/interview-questions
 Purpose: Practice interview questions
 Features:
 - HR questions
@@ -126,7 +126,7 @@ Features:
 - Company-specific preparation
 
 #### EMI Calculator
-URL: https://www.sproutern.com/tools/emi-calculator
+URL: https://sproutern.dpdns.org/tools/emi-calculator
 Purpose: Calculate education loan EMI
 Features:
 - Monthly payment calculation
@@ -138,36 +138,36 @@ Features:
 
 ### 3. COMPANY GUIDES
 
-**Main URL**: https://www.sproutern.com/companies
+**Main URL**: https://sproutern.dpdns.org/companies
 
 Companies covered with detailed guides:
 
 #### TCS (Tata Consultancy Services)
-- Interview Questions: https://www.sproutern.com/companies/tcs/interview-questions
-- Salary Structure: https://www.sproutern.com/companies/tcs/salary
+- Interview Questions: https://sproutern.dpdns.org/companies/tcs/interview-questions
+- Salary Structure: https://sproutern.dpdns.org/companies/tcs/salary
 Topics: NQT preparation, assessment pattern, interview rounds
 
 #### Infosys
-- Interview Questions: https://www.sproutern.com/companies/infosys/interview-questions
+- Interview Questions: https://sproutern.dpdns.org/companies/infosys/interview-questions
 Topics: InfyTQ, coding rounds, HR interview
 
 #### Wipro
-- Interview Questions: https://www.sproutern.com/companies/wipro/interview-questions
+- Interview Questions: https://sproutern.dpdns.org/companies/wipro/interview-questions
 Topics: NLTH, Project Trainee, technical assessment
 
 #### Cognizant
-- Interview Questions: https://www.sproutern.com/companies/cognizant/interview-questions
+- Interview Questions: https://sproutern.dpdns.org/companies/cognizant/interview-questions
 Topics: GenC, GenC Next, coding assessment
 
 #### Accenture
-- Interview Questions: https://www.sproutern.com/companies/accenture/interview-questions
+- Interview Questions: https://sproutern.dpdns.org/companies/accenture/interview-questions
 Topics: ASE, communication assessment, technical
 
 ---
 
 ### 4. BLOG
 
-**Main URL**: https://www.sproutern.com/blog
+**Main URL**: https://sproutern.dpdns.org/blog
 Content Type: Articles
 Total Articles: 100+
 Update Frequency: Weekly
@@ -194,7 +194,7 @@ Popular Topics:
 
 ### 5. RESOURCES
 
-**Main URL**: https://www.sproutern.com/resources
+**Main URL**: https://sproutern.dpdns.org/resources
 
 Downloadable Resources:
 - Resume Templates (ATS-friendly)
@@ -207,7 +207,7 @@ Downloadable Resources:
 
 ### 6. INTERVIEW EXPERIENCES
 
-**Main URL**: https://www.sproutern.com/interview-experiences
+**Main URL**: https://sproutern.dpdns.org/interview-experiences
 
 User-submitted interview experiences from:
 - IT Companies (TCS, Infosys, Wipro, HCL)
@@ -220,15 +220,15 @@ User-submitted interview experiences from:
 
 ### 7. STUDY ABROAD
 
-**Main URL**: https://www.sproutern.com/countries
+**Main URL**: https://sproutern.dpdns.org/countries
 
 Country Guides:
-- USA: https://www.sproutern.com/countries/usa
-- UK: https://www.sproutern.com/countries/uk
-- Canada: https://www.sproutern.com/countries/canada
-- Germany: https://www.sproutern.com/countries/germany
-- Australia: https://www.sproutern.com/countries/australia
-- Singapore: https://www.sproutern.com/countries/singapore
+- USA: https://sproutern.dpdns.org/countries/usa
+- UK: https://sproutern.dpdns.org/countries/uk
+- Canada: https://sproutern.dpdns.org/countries/canada
+- Germany: https://sproutern.dpdns.org/countries/germany
+- Australia: https://sproutern.dpdns.org/countries/australia
+- Singapore: https://sproutern.dpdns.org/countries/singapore
 
 Content includes:
 - University rankings
@@ -242,7 +242,7 @@ Content includes:
 
 ### 8. GAMES
 
-**Main URL**: https://www.sproutern.com/games
+**Main URL**: https://sproutern.dpdns.org/games
 
 Educational games for skill development and entertainment:
 - Word games
@@ -254,7 +254,7 @@ Educational games for skill development and entertainment:
 
 ### 9. EDUCATION
 
-**Main URL**: https://www.sproutern.com/school, /college, /freshers
+**Main URL**: https://sproutern.dpdns.org/school, /college, /freshers
 
 Content for different education levels:
 - School students (career exploration)
@@ -282,15 +282,15 @@ Primary Author:
 ## Technical Information
 
 **Sitemaps**:
-- Index: https://www.sproutern.com/sitemap-index.xml
-- Static Pages: https://www.sproutern.com/sitemap-static.xml
-- Blog: https://www.sproutern.com/sitemap-blog.xml
-- Tools: https://www.sproutern.com/sitemap-tools.xml
-- Companies: https://www.sproutern.com/sitemap-companies.xml
-- Countries: https://www.sproutern.com/sitemap-countries.xml
+- Index: https://sproutern.dpdns.org/sitemap-index.xml
+- Static Pages: https://sproutern.dpdns.org/sitemap-static.xml
+- Blog: https://sproutern.dpdns.org/sitemap-blog.xml
+- Tools: https://sproutern.dpdns.org/sitemap-tools.xml
+- Companies: https://sproutern.dpdns.org/sitemap-companies.xml
+- Countries: https://sproutern.dpdns.org/sitemap-countries.xml
 
-**Robots.txt**: https://www.sproutern.com/robots.txt
-**LLMs.txt**: https://www.sproutern.com/llms.txt
+**Robots.txt**: https://sproutern.dpdns.org/robots.txt
+**LLMs.txt**: https://sproutern.dpdns.org/llms.txt
 
 ---
 

@@ -1203,7 +1203,7 @@ export default function AptitudeTestPage() {
         <ToolFAQSection
           toolName="Aptitude Mock Test"
           faqs={aptitudeTestFAQs}
-          toolUrl="https://www.sproutern.com/tools/aptitude-test"
+          toolUrl="https://sproutern.dpdns.org/tools/aptitude-test"
         />
 
         {/* CTA */}

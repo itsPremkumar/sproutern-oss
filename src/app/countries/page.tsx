@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     description:
       'Compare destination costs, visas, scholarships, and work opportunities in one place.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries',
+    url: 'https://sproutern.dpdns.org/countries',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries',
+    canonical: 'https://sproutern.dpdns.org/countries',
   },
 };
 
@@ -267,13 +267,13 @@ export default function CountriesPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Countries',
-        item: 'https://www.sproutern.com/countries',
+        item: 'https://sproutern.dpdns.org/countries',
       },
     ],
   };

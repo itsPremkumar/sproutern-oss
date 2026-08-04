@@ -8,7 +8,7 @@
 // IndexNow API key - use the existing verified key
 const INDEXNOW_KEY =
   process.env.NEXT_PUBLIC_INDEXNOW_KEY || 'YOUR_INDEXNOW_KEY';
-const SITE_HOST = 'www.sproutern.com';
+const SITE_HOST = 'sproutern.dpdns.org';
 
 interface IndexNowResponse {
   success: boolean;
@@ -255,7 +255,7 @@ export async function submitToAllSearchEngines(url: string): Promise<{
  * Get all important URLs to submit for indexing
  */
 export function getImportantUrls(): string[] {
-  const baseUrl = 'https://www.sproutern.com';
+  const baseUrl = 'https://sproutern.dpdns.org';
 
   return [
     // High-priority pages

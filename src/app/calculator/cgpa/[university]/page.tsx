@@ -268,10 +268,10 @@ export async function generateMetadata({
       title,
       description,
       type: 'website',
-      url: `https://www.sproutern.com/calculator/cgpa/${resolvedParams.university}`,
+      url: `https://sproutern.dpdns.org/calculator/cgpa/${resolvedParams.university}`,
     },
     alternates: {
-      canonical: `https://www.sproutern.com/calculator/cgpa/${resolvedParams.university}`,
+      canonical: `https://sproutern.dpdns.org/calculator/cgpa/${resolvedParams.university}`,
     },
   };
 }

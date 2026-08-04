@@ -15,7 +15,7 @@ describe('generateBreadcrumbs', () => {
 
     expect(breadcrumbs[0]).toEqual({
       name: 'Home',
-      url: 'https://www.sproutern.com',
+      url: 'https://sproutern.dpdns.org',
       position: 1,
     });
   });
@@ -26,7 +26,7 @@ describe('generateBreadcrumbs', () => {
     expect(breadcrumbs).toHaveLength(2);
     expect(breadcrumbs[1]).toEqual({
       name: 'Internships',
-      url: 'https://www.sproutern.com/internships',
+      url: 'https://sproutern.dpdns.org/internships',
       position: 2,
     });
   });
@@ -103,7 +103,7 @@ describe('generateBreadcrumbSchema', () => {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://www.sproutern.com',
+      item: 'https://sproutern.dpdns.org',
     });
   });
 

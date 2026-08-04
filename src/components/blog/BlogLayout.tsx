@@ -195,16 +195,16 @@ export function generateArticleSchema({
       name: 'Sproutern',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.sproutern.com/logo.jpg',
-        contentUrl: 'https://www.sproutern.com/logo.jpg',
+        url: 'https://sproutern.dpdns.org/logo.jpg',
+        contentUrl: 'https://sproutern.dpdns.org/logo.jpg',
         creditText: 'Sproutern',
         creator: {
           '@type': 'Organization',
           name: 'Sproutern',
         },
         copyrightNotice: '© 2024 Sproutern. All rights reserved.',
-        license: 'https://www.sproutern.com/terms',
-        acquireLicensePage: 'https://www.sproutern.com/contact',
+        license: 'https://sproutern.dpdns.org/terms',
+        acquireLicensePage: 'https://sproutern.dpdns.org/contact',
       },
     },
     datePublished: datePublished,
@@ -213,6 +213,6 @@ export function generateArticleSchema({
       '@type': 'WebPage',
       '@id': url,
     },
-    image: image || 'https://www.sproutern.com/og-default.png',
+    image: image || 'https://sproutern.dpdns.org/og-default.png',
   };
 }

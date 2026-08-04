@@ -59,9 +59,9 @@ export const metadata: Metadata = {
     description:
       "Everything you need to know about working at Apple - the world's most valuable technology company.",
     type: 'article',
-    url: 'https://www.sproutern.com/companies/apple',
+    url: 'https://sproutern.dpdns.org/companies/apple',
   },
-  alternates: { canonical: 'https://www.sproutern.com/companies/apple' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/companies/apple' },
 };
 
 const salaryData = [

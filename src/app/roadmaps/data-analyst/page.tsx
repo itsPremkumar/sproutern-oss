@@ -29,10 +29,10 @@ export const metadata: Metadata = {
     title: 'Data Analyst Roadmap',
     description: 'Step-by-step guide to becoming a Data Analyst.',
     type: 'article',
-    url: 'https://www.sproutern.com/roadmaps/data-analyst',
+    url: 'https://sproutern.dpdns.org/roadmaps/data-analyst',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/roadmaps/data-analyst',
+    canonical: 'https://sproutern.dpdns.org/roadmaps/data-analyst',
   },
 };
 

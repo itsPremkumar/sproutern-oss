@@ -51,7 +51,7 @@ describe('generateBlogPostingSchema', () => {
     description: 'Test description',
     author: 'John Doe',
     datePublished: '2024-01-01',
-    url: 'https://www.sproutern.com/blog/test',
+    url: 'https://sproutern.dpdns.org/blog/test',
   };
 
   it('should generate valid BlogPosting schema', () => {
@@ -167,8 +167,8 @@ describe('generateHowToSchema', () => {
 describe('generateBreadcrumbSchema', () => {
   it('should generate valid BreadcrumbList schema', () => {
     const items = [
-      { name: 'Home', url: 'https://www.sproutern.com' },
-      { name: 'Internships', url: 'https://www.sproutern.com/internships' },
+      { name: 'Home', url: 'https://sproutern.dpdns.org' },
+      { name: 'Internships', url: 'https://sproutern.dpdns.org/internships' },
     ];
     const schema = generateBreadcrumbSchema(items);
 
@@ -178,8 +178,8 @@ describe('generateBreadcrumbSchema', () => {
 
   it('should assign correct positions', () => {
     const items = [
-      { name: 'Home', url: 'https://www.sproutern.com' },
-      { name: 'Blog', url: 'https://www.sproutern.com/blog' },
+      { name: 'Home', url: 'https://sproutern.dpdns.org' },
+      { name: 'Blog', url: 'https://sproutern.dpdns.org/blog' },
     ];
     const schema = generateBreadcrumbSchema(items);
 
@@ -200,7 +200,7 @@ describe('generateOrganizationSchema', () => {
     const schema = generateOrganizationSchema();
 
     expect(schema.name).toBe('Sproutern');
-    expect(schema.url).toBe('https://www.sproutern.com/');
+    expect(schema.url).toBe('https://sproutern.dpdns.org/');
   });
 
   it('should include social profiles', () => {
@@ -235,7 +235,7 @@ describe('generateWebsiteSchema', () => {
   it('should include correct URL', () => {
     const schema = generateWebsiteSchema();
 
-    expect(schema.url).toBe('https://www.sproutern.com/');
+    expect(schema.url).toBe('https://sproutern.dpdns.org/');
   });
 });
 
@@ -243,7 +243,7 @@ describe('generateCourseSchema', () => {
   const mockCourse = {
     name: 'Web Development Bootcamp',
     description: 'Learn web development',
-    url: 'https://www.sproutern.com/courses/webdev',
+    url: 'https://sproutern.dpdns.org/courses/webdev',
   };
 
   it('should generate valid Course schema', () => {
@@ -265,7 +265,7 @@ describe('generateSoftwareApplicationSchema', () => {
   const mockApp = {
     name: 'Resume Score Checker',
     description: 'Check your resume score',
-    url: 'https://www.sproutern.com/tools/resume-score-checker',
+    url: 'https://sproutern.dpdns.org/tools/resume-score-checker',
     applicationCategory: 'BusinessApplication',
   };
 

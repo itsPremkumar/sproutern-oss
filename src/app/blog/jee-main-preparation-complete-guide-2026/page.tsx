@@ -47,14 +47,14 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical:
-      'https://www.sproutern.com/blog/jee-main-preparation-complete-guide-2026',
+      'https://sproutern.dpdns.org/blog/jee-main-preparation-complete-guide-2026',
   },
   openGraph: {
     title: 'JEE Main 2026 Preparation: Complete Guide & Strategy',
     description:
       'Master JEE Main 2026 with our comprehensive study plan, book recommendations, and subject-wise strategies.',
     type: 'article',
-    url: 'https://www.sproutern.com/blog/jee-main-preparation-complete-guide-2026',
+    url: 'https://sproutern.dpdns.org/blog/jee-main-preparation-complete-guide-2026',
     publishedTime: '2026-03-05T00:00:00Z',
   },
 };
@@ -68,15 +68,15 @@ export default function BlogPost() {
           <div className="mb-6">
             <BreadcrumbSchema
               items={[
-                { name: 'Home', url: 'https://www.sproutern.com' },
-                { name: 'Blog', url: 'https://www.sproutern.com/blog' },
+                { name: 'Home', url: 'https://sproutern.dpdns.org' },
+                { name: 'Blog', url: 'https://sproutern.dpdns.org/blog' },
                 {
                   name: 'Exam Prep',
-                  url: 'https://www.sproutern.com/blog/category/exam-prep',
+                  url: 'https://sproutern.dpdns.org/blog/category/exam-prep',
                 },
                 {
                   name: 'JEE Main 2026 Guide',
-                  url: 'https://www.sproutern.com/blog/jee-main-preparation-complete-guide-2026',
+                  url: 'https://sproutern.dpdns.org/blog/jee-main-preparation-complete-guide-2026',
                 },
               ]}
             />
@@ -119,8 +119,8 @@ export default function BlogPost() {
       <ArticleSchema
         title="JEE Main 2026 Preparation: Complete Guide & Strategy"
         description="Master JEE Main 2026 with our comprehensive study plan, book recommendations, and subject-wise strategies."
-        url="https://www.sproutern.com/blog/jee-main-preparation-complete-guide-2026"
-        image="https://www.sproutern.com/logo.jpg"
+        url="https://sproutern.dpdns.org/blog/jee-main-preparation-complete-guide-2026"
+        image="https://sproutern.dpdns.org/logo.jpg"
         datePublished="2026-03-05T00:00:00Z"
         dateModified="2026-03-05T00:00:00Z"
         keywords={metadata.keywords as string[]}

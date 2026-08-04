@@ -172,11 +172,11 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: [
-      'https://www.sproutern.com/sitemap.xml',
-      'https://www.sproutern.com/sitemap-images.xml',
-      'https://www.sproutern.com/sitemap-news/sitemap.xml',
+      'https://sproutern.dpdns.org/sitemap.xml',
+      'https://sproutern.dpdns.org/sitemap-images.xml',
+      'https://sproutern.dpdns.org/sitemap-news/sitemap.xml',
     ],
-    host: 'https://www.sproutern.com',
+    host: 'https://sproutern.dpdns.org',
     // AI crawler discoverability - llms.txt is the emerging standard for LLM discovery
     // Served from /public/llms.txt
   };

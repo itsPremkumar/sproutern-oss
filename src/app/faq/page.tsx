@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     description:
       'Detailed answers to your questions about career resources, tools, and student support.',
     type: 'website',
-    url: 'https://www.sproutern.com/faq',
+    url: 'https://sproutern.dpdns.org/faq',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/faq',
+    canonical: 'https://sproutern.dpdns.org/faq',
   },
 };
 
@@ -245,11 +245,11 @@ export default function FAQPage() {
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    '@id': 'https://www.sproutern.com/faq#faqpage',
+    '@id': 'https://sproutern.dpdns.org/faq#faqpage',
     name: 'Sproutern Frequently Asked Questions',
     description:
       'Comprehensive answers to common questions about career tools, interview preparation, and student resources',
-    url: 'https://www.sproutern.com/faq',
+    url: 'https://sproutern.dpdns.org/faq',
     // Speakable content for voice search
     speakable: {
       '@type': 'SpeakableSpecification',
@@ -258,9 +258,9 @@ export default function FAQPage() {
     // Author for E-E-A-T
     author: {
       '@type': 'Organization',
-      '@id': 'https://www.sproutern.com/#organization',
+      '@id': 'https://sproutern.dpdns.org/#organization',
       name: 'Sproutern Team',
-      url: 'https://www.sproutern.com/about',
+      url: 'https://sproutern.dpdns.org/about',
     },
     mainEntity: [
       ...generalFaqs,
@@ -276,14 +276,14 @@ export default function FAQPage() {
         author: {
           '@type': 'Organization',
           name: 'Sproutern Team',
-          url: 'https://www.sproutern.com/about',
+          url: 'https://sproutern.dpdns.org/about',
         },
         dateCreated: '2025-01-01',
       },
     })),
     isPartOf: {
       '@type': 'WebSite',
-      '@id': 'https://www.sproutern.com/#website',
+      '@id': 'https://sproutern.dpdns.org/#website',
       name: 'Sproutern',
     },
   };

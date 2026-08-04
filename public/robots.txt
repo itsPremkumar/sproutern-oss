@@ -1,4 +1,4 @@
-# Sproutern.com robots.txt
+# Sproutern.dpdns.org robots.txt
 # Updated: March 5, 2026
 # Geo-optimized for India, US, and Global markets
 # GEO-optimized for AI-powered search engines
@@ -160,20 +160,20 @@ Crawl-delay: 1
 # ============================================
 
 # Sitemap Index (master sitemap referencing all sub-sitemaps)
-Sitemap: https://www.sproutern.com/sitemap-index.xml
+Sitemap: https://sproutern.dpdns.org/sitemap-index.xml
 
 # Individual sitemaps for broader crawler compatibility
-Sitemap: https://www.sproutern.com/sitemap.xml
-Sitemap: https://www.sproutern.com/sitemap-static.xml
-Sitemap: https://www.sproutern.com/sitemap-blog.xml
-Sitemap: https://www.sproutern.com/sitemap-games.xml
-Sitemap: https://www.sproutern.com/sitemap-education.xml
-Sitemap: https://www.sproutern.com/sitemap-interviews.xml
-Sitemap: https://www.sproutern.com/sitemap-companies.xml
-Sitemap: https://www.sproutern.com/sitemap-india.xml
-Sitemap: https://www.sproutern.com/sitemap-tools.xml
-Sitemap: https://www.sproutern.com/sitemap-resources.xml
-Sitemap: https://www.sproutern.com/sitemap-countries.xml
-Sitemap: https://www.sproutern.com/sitemap-images.xml
-Sitemap: https://www.sproutern.com/sitemap-news/sitemap.xml
+Sitemap: https://sproutern.dpdns.org/sitemap.xml
+Sitemap: https://sproutern.dpdns.org/sitemap-static.xml
+Sitemap: https://sproutern.dpdns.org/sitemap-blog.xml
+Sitemap: https://sproutern.dpdns.org/sitemap-games.xml
+Sitemap: https://sproutern.dpdns.org/sitemap-education.xml
+Sitemap: https://sproutern.dpdns.org/sitemap-interviews.xml
+Sitemap: https://sproutern.dpdns.org/sitemap-companies.xml
+Sitemap: https://sproutern.dpdns.org/sitemap-india.xml
+Sitemap: https://sproutern.dpdns.org/sitemap-tools.xml
+Sitemap: https://sproutern.dpdns.org/sitemap-resources.xml
+Sitemap: https://sproutern.dpdns.org/sitemap-countries.xml
+Sitemap: https://sproutern.dpdns.org/sitemap-images.xml
+Sitemap: https://sproutern.dpdns.org/sitemap-news/sitemap.xml
 

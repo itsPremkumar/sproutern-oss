@@ -82,8 +82,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
   <div class="salary-row"><span class="level">👨‍💻 Mid (2-5 yrs)</span><span class="amount">₹8-20 LPA</span></div>
   <div class="salary-row"><span class="level">🏆 Senior (5+ yrs)</span><span class="amount">₹20-50 LPA</span></div>
   <div class="salary-row"><span class="level">🚀 FAANG Level</span><span class="amount">₹35-1.5 Cr</span></div>
-  <a class="cta" href="https://www.sproutern.com/tools/salary-calculator?role=${role}&city=${city}" target="_blank">🔍 Get Exact Salary →</a>
-  <div class="powered">Powered by <a href="https://www.sproutern.com" target="_blank">Sproutern</a></div>
+  <a class="cta" href="https://sproutern.dpdns.org/tools/salary-calculator?role=${role}&city=${city}" target="_blank">🔍 Get Exact Salary →</a>
+  <div class="powered">Powered by <a href="https://sproutern.dpdns.org" target="_blank">Sproutern</a></div>
 </div>
 </body>
 </html>`;
@@ -115,8 +115,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 <div class="widget">
   <div class="title">🧠 Quick ${topicTitle} Quiz</div>
   <div class="question">Test your skills! Take the full ${topicTitle} assessment on Sproutern.</div>
-  <a class="cta" href="https://www.sproutern.com/skill-test?topic=${topic}" target="_blank">🚀 Start Free Assessment →</a>
-  <div class="powered">Powered by <a href="https://www.sproutern.com" target="_blank">Sproutern</a></div>
+  <a class="cta" href="https://sproutern.dpdns.org/skill-test?topic=${topic}" target="_blank">🚀 Start Free Assessment →</a>
+  <div class="powered">Powered by <a href="https://sproutern.dpdns.org" target="_blank">Sproutern</a></div>
 </div>
 </body>
 </html>`;
@@ -153,8 +153,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
     <div class="stat"><div class="stat-num">WPM</div><div class="stat-label">Measured</div></div>
     <div class="stat"><div class="stat-num">Free</div><div class="stat-label">Always</div></div>
   </div>
-  <a class="cta" href="https://www.sproutern.com/tools/typingspeedtest" target="_blank">🚀 Start Typing Test →</a>
-  <div class="powered">Powered by <a href="https://www.sproutern.com" target="_blank">Sproutern</a></div>
+  <a class="cta" href="https://sproutern.dpdns.org/tools/typingspeedtest" target="_blank">🚀 Start Typing Test →</a>
+  <div class="powered">Powered by <a href="https://sproutern.dpdns.org" target="_blank">Sproutern</a></div>
 </div>
 </body>
 </html>`;

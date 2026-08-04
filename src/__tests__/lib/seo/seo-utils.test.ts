@@ -34,7 +34,7 @@ describe('generateMetadata', () => {
     });
 
     expect(metadata.alternates?.canonical).toBe(
-      'https://www.sproutern.com/about',
+      'https://sproutern.dpdns.org/about',
     );
   });
 
@@ -42,11 +42,11 @@ describe('generateMetadata', () => {
     const metadata = generateMetadata({
       title: 'Test Page',
       description: 'Test description',
-      canonical: 'https://www.sproutern.com/contact',
+      canonical: 'https://sproutern.dpdns.org/contact',
     });
 
     expect(metadata.alternates?.canonical).toBe(
-      'https://www.sproutern.com/contact',
+      'https://sproutern.dpdns.org/contact',
     );
   });
 
@@ -83,10 +83,10 @@ describe('generateMetadata', () => {
     });
 
     expect(metadata.openGraph?.images).toContain(
-      'https://www.sproutern.com/opengraph.jpg',
+      'https://sproutern.dpdns.org/opengraph.jpg',
     );
     expect(metadata.twitter?.images).toContain(
-      'https://www.sproutern.com/twitter.jpg',
+      'https://sproutern.dpdns.org/twitter.jpg',
     );
   });
 

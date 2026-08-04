@@ -223,8 +223,8 @@
 
 ### Sitemap
 
-- Main: `https://sproutern.com/sitemap.xml`
-- Robots: `https://sproutern.com/robots.txt`
+- Main: `https://sproutern.dpdns.org/sitemap.xml`
+- Robots: `https://sproutern.dpdns.org/robots.txt`
 
 ### Key Landing Pages
 

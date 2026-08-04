@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'Our Contributors | Sproutern',
     description: 'Meet the amazing people who have contributed to Sproutern.',
     type: 'website',
-    url: 'https://www.sproutern.com/contributors',
+    url: 'https://sproutern.dpdns.org/contributors',
   },
 };
 

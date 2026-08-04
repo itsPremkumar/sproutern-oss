@@ -235,15 +235,15 @@ export function InternationalSEO({
   const geoSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    '@id': 'https://www.sproutern.com/#website',
+    '@id': 'https://sproutern.dpdns.org/#website',
     name: 'Sproutern',
-    url: 'https://www.sproutern.com/',
+    url: 'https://sproutern.dpdns.org/',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
         urlTemplate:
-          'https://www.sproutern.com/internships?q={search_term_string}',
+          'https://sproutern.dpdns.org/internships?q={search_term_string}',
       },
       'query-input': 'required name=search_term_string',
     },
@@ -258,7 +258,7 @@ export function InternationalSEO({
   const globalReachSchema = {
     '@context': 'https://schema.org',
     '@type': 'EducationalOrganization',
-    '@id': 'https://www.sproutern.com/#global-reach',
+    '@id': 'https://sproutern.dpdns.org/#global-reach',
     name: 'Sproutern',
     areaServed: [
       { '@type': 'Country', name: 'Germany' },
@@ -316,7 +316,7 @@ export function InternationalSEO({
           />
           <meta
             name="mobile-agent"
-            content="format=xhtml; url=https://www.sproutern.com"
+            content="format=xhtml; url=https://sproutern.dpdns.org"
           />
         </>
       )}

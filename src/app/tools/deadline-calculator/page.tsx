@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       'Track exam, interview, and application deadlines. Calculate days remaining instantly.',
     type: 'website',
-    url: 'https://www.sproutern.com/tools/deadline-calculator',
+    url: 'https://sproutern.dpdns.org/tools/deadline-calculator',
   },
   twitter: {
     card: 'summary_large_image',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
       'Never miss an important deadline. Track exams, interviews, and applications.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/tools/deadline-calculator',
+    canonical: 'https://sproutern.dpdns.org/tools/deadline-calculator',
   },
 };
 
@@ -37,19 +37,19 @@ export default function DeadlineCalculatorPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Tools',
-        item: 'https://www.sproutern.com/tools',
+        item: 'https://sproutern.dpdns.org/tools',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Deadline Calculator',
-        item: 'https://www.sproutern.com/tools/deadline-calculator',
+        item: 'https://sproutern.dpdns.org/tools/deadline-calculator',
       },
     ],
   };

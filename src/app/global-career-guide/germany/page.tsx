@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     'Complete guide to finding jobs in Germany. Learn about EU Blue Card, Job Seeker Visa, German work culture, and top engineering hubs.',
   alternates: {
-    canonical: 'https://www.sproutern.com/global-career-guide/germany',
+    canonical: 'https://sproutern.dpdns.org/global-career-guide/germany',
   },
 };
 

@@ -60,9 +60,9 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about working at Meta (Facebook, Instagram, WhatsApp).',
     type: 'article',
-    url: 'https://www.sproutern.com/companies/meta',
+    url: 'https://sproutern.dpdns.org/companies/meta',
   },
-  alternates: { canonical: 'https://www.sproutern.com/companies/meta' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/companies/meta' },
 };
 
 const salaryData = [

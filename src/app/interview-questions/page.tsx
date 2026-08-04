@@ -43,7 +43,7 @@ export default function InterviewQuestionsPage() {
             '@type': 'CollectionPage',
             name: 'Interview Questions & Answers',
             description: '100+ interview questions across 15 topics',
-            url: 'https://www.sproutern.com/interview-questions',
+            url: 'https://sproutern.dpdns.org/interview-questions',
             numberOfItems: iqTopics.length,
           }),
         }}

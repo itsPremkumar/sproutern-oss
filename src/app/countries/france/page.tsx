@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     description:
       'Study at world-class French universities with low tuition fees. Complete guide to visas, costs, and careers.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/france',
+    url: 'https://sproutern.dpdns.org/countries/france',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/france',
+    canonical: 'https://sproutern.dpdns.org/countries/france',
   },
 };
 

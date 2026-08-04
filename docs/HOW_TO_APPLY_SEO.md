@@ -177,9 +177,9 @@ import { StructuredData } from "@/components/seo/StructuredData";
 
 export default function ToolPage() {
   const breadcrumbs = [
-    { name: "Home", url: "https://sproutern.com" },
-    { name: "Tools", url: "https://sproutern.com/tools" },
-    { name: "CGPA Converter", url: "https://sproutern.com/tools/cgpa-converter" },
+    { name: "Home", url: "https://sproutern.dpdns.org" },
+    { name: "Tools", url: "https://sproutern.dpdns.org/tools" },
+    { name: "CGPA Converter", url: "https://sproutern.dpdns.org/tools/cgpa-converter" },
   ];
 
   return (
@@ -225,11 +225,11 @@ export default function BlogPost() {
   const article = {
     title: "How to Land Your First Internship",
     description: "Complete guide to landing your first internship...",
-    url: "https://sproutern.com/blog/first-internship-guide",
+    url: "https://sproutern.dpdns.org/blog/first-internship-guide",
     datePublished: "2024-12-01",
     dateModified: "2024-12-15",
     author: "Sproutern Team",
-    image: "https://sproutern.com/images/blog/first-internship.jpg",
+    image: "https://sproutern.dpdns.org/images/blog/first-internship.jpg",
   };
 
   return (
@@ -316,13 +316,13 @@ Paste your page URL and verify schema markup.
 
 ### 3. Test Sitemap
 
-Visit: `https://sproutern.com/sitemap.xml`
+Visit: `https://sproutern.dpdns.org/sitemap.xml`
 
 Verify all pages are listed.
 
 ### 4. Test Robots.txt
 
-Visit: `https://sproutern.com/robots.txt`
+Visit: `https://sproutern.dpdns.org/robots.txt`
 
 Verify it points to sitemap.
 
@@ -332,9 +332,9 @@ Verify it points to sitemap.
 
 ### Google Search Console
 
-1. Add property: `https://sproutern.com`
+1. Add property: `https://sproutern.dpdns.org`
 2. Verify ownership
-3. Submit sitemap: `https://sproutern.com/sitemap.xml`
+3. Submit sitemap: `https://sproutern.dpdns.org/sitemap.xml`
 4. Monitor:
    - Impressions
    - Clicks

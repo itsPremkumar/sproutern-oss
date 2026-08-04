@@ -30,7 +30,7 @@ export default function ResumeScoreCheckerPage() {
         <ToolFAQSection
           toolName="Resume Score Checker"
           faqs={resumeCheckerFAQs}
-          toolUrl="https://www.sproutern.com/tools/resume-score-checker"
+          toolUrl="https://sproutern.dpdns.org/tools/resume-score-checker"
         />
       </div>
 

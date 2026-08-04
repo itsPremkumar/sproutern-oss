@@ -49,7 +49,7 @@
   "redirects": [
     {
       "source": "/ads.txt",
-      "destination": "https://srv.adstxtmanager.com/YOUR_ACCOUNT_ID/sproutern.com",
+      "destination": "https://srv.adstxtmanager.com/YOUR_ACCOUNT_ID/sproutern.dpdns.org",
       "permanent": true
     }
   ]

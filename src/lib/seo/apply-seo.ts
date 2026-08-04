@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import allPagesMetadata from './all-pages-metadata';
 import { blogPostsMetadata } from './blog-metadata';
 
-const siteUrl = 'https://sproutern.com';
+const siteUrl = 'https://sproutern.dpdns.org';
 const siteName = 'Sproutern';
 
 // Generate complete metadata for any page

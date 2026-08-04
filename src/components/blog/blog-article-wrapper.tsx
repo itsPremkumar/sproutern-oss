@@ -70,9 +70,9 @@ export function BlogArticleWrapper({
   description,
   author = {
     name: 'Sproutern Editorial Team',
-    url: 'https://www.sproutern.com/about',
+    url: 'https://sproutern.dpdns.org/about',
     credentials: ['Career Experts', 'Content Specialists', 'Student Success'],
-    image: 'https://www.sproutern.com/logo.jpg',
+    image: 'https://sproutern.dpdns.org/logo.jpg',
   },
   datePublished,
   dateModified,
@@ -86,7 +86,7 @@ export function BlogArticleWrapper({
   showTableOfContents = true,
   breadcrumbs,
 }: BlogArticleWrapperProps) {
-  const url = `https://www.sproutern.com/blog/${slug}`;
+  const url = `https://sproutern.dpdns.org/blog/${slug}`;
   const modifiedDate = dateModified || datePublished;
 
   // Generate comprehensive schema for AI engines

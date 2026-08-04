@@ -34,7 +34,7 @@ export function generateSocialMetadata(
     title,
     description,
     url,
-    image = 'https://www.sproutern.com/opengraph.jpg',
+    image = 'https://sproutern.dpdns.org/opengraph.jpg',
     imageAlt = 'Sproutern - Startup Internship Platform',
     type = 'website',
     siteName = 'Sproutern',
@@ -170,12 +170,12 @@ export function generateAllSocialMetadata(params: SocialMetadataParams) {
   const baseMetadata = generateSocialMetadata(params);
   const pinterestMeta = generatePinterestMetadata({
     description: params.description,
-    image: params.image || 'https://www.sproutern.com/opengraph.jpg',
+    image: params.image || 'https://sproutern.dpdns.org/opengraph.jpg',
   });
   const linkedInMeta = generateLinkedInMetadata({
     title: params.title,
     description: params.description,
-    image: params.image || 'https://www.sproutern.com/opengraph.jpg',
+    image: params.image || 'https://sproutern.dpdns.org/opengraph.jpg',
     author: params.author,
   });
 

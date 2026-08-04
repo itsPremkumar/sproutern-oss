@@ -48,8 +48,8 @@ export function generateCourseSchema(props: CourseSchemaProps): object {
     provider: {
       '@type': 'Organization',
       name: props.provider || 'Sproutern',
-      url: props.providerUrl || 'https://www.sproutern.com',
-      logo: 'https://www.sproutern.com/logo.jpg',
+      url: props.providerUrl || 'https://sproutern.dpdns.org',
+      logo: 'https://sproutern.dpdns.org/logo.jpg',
     },
     inLanguage: props.language || 'en',
   };
@@ -201,7 +201,7 @@ export function generateEducationEventSchema(
     organizer: {
       '@type': 'Organization',
       name: props.organizer || 'Sproutern',
-      url: 'https://www.sproutern.com',
+      url: 'https://sproutern.dpdns.org',
     },
     offers: {
       '@type': 'Offer',
@@ -220,7 +220,7 @@ export const SPROUTERN_COURSES = {
     name: 'Resume Writing for Freshers',
     description:
       'Learn how to create an ATS-friendly resume that gets you interviews. Covers format, content, and optimization tips.',
-    courseUrl: 'https://www.sproutern.com/resources/resume-guide',
+    courseUrl: 'https://sproutern.dpdns.org/resources/resume-guide',
     isFree: true,
     difficulty: 'Beginner',
     duration: 'PT1H',
@@ -236,7 +236,7 @@ export const SPROUTERN_COURSES = {
     name: 'Interview Preparation Guide',
     description:
       'Complete interview preparation covering technical and HR rounds for freshers and experienced professionals.',
-    courseUrl: 'https://www.sproutern.com/resources/interview-prep',
+    courseUrl: 'https://sproutern.dpdns.org/resources/interview-prep',
     isFree: true,
     difficulty: 'Intermediate',
     duration: 'PT3H',
@@ -252,7 +252,7 @@ export const SPROUTERN_COURSES = {
     name: 'Career Roadmap for Students',
     description:
       'Step-by-step guide to building a successful career from college to your first job.',
-    courseUrl: 'https://www.sproutern.com/roadmaps',
+    courseUrl: 'https://sproutern.dpdns.org/roadmaps',
     isFree: true,
     difficulty: 'Beginner',
     duration: 'PT2H',

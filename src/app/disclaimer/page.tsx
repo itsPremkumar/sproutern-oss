@@ -27,7 +27,7 @@ export default function DisclaimerPage() {
             </h2>
             <p className="leading-relaxed text-muted-foreground">
               The information provided by Sproutern ("we," "us," or "our") on
-              sproutern.com (the "Website") is for general informational and
+              sproutern.dpdns.org (the "Website") is for general informational and
               educational purposes only. All information on the Website is
               provided in good faith, however, we make no representation or
               warranty of any kind, express or implied, regarding the accuracy,
@@ -586,7 +586,7 @@ export default function DisclaimerPage() {
                 </a>
               </p>
               <p className="text-muted-foreground">
-                Website: www.sproutern.com
+                Website: sproutern.dpdns.org
               </p>
             </div>
           </section>

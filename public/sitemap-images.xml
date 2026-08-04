@@ -4,28 +4,28 @@
   
   <!-- Homepage Images -->
   <url>
-    <loc>https://www.sproutern.com/</loc>
+    <loc>https://sproutern.dpdns.org/</loc>
     <image:image>
-      <image:loc>https://www.sproutern.com/logo.jpg</image:loc>
+      <image:loc>https://sproutern.dpdns.org/logo.jpg</image:loc>
       <image:title>Sproutern Logo</image:title>
       <image:caption>Official logo of Sproutern</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.sproutern.com/opengraph.jpg</image:loc>
+      <image:loc>https://sproutern.dpdns.org/opengraph.jpg</image:loc>
       <image:title>Sproutern Preview Image</image:title>
       <image:caption>Preview image for Sproutern social sharing</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.sproutern.com/twitter.jpg</image:loc>
+      <image:loc>https://sproutern.dpdns.org/twitter.jpg</image:loc>
       <image:title>Sproutern Twitter Card</image:title>
     </image:image>
   </url>
 
   <!-- Founder Page Images -->
   <url>
-    <loc>https://www.sproutern.com/founder</loc>
+    <loc>https://sproutern.dpdns.org/founder</loc>
     <image:image>
-      <image:loc>https://www.sproutern.com/premkumar.jpeg</image:loc>
+      <image:loc>https://sproutern.dpdns.org/premkumar.jpeg</image:loc>
       <image:title>Premkumar M - Founder of Sproutern</image:title>
       <image:caption>Premkumar M, Founder of Sproutern and Senior Full Stack Engineer</image:caption>
     </image:image>
@@ -33,14 +33,14 @@
 
   <!-- About / Contact / Payment Images -->
   <url>
-    <loc>https://www.sproutern.com/contact</loc>
+    <loc>https://sproutern.dpdns.org/contact</loc>
     <image:image>
-      <image:loc>https://www.sproutern.com/payment.jpeg</image:loc>
+      <image:loc>https://sproutern.dpdns.org/payment.jpeg</image:loc>
       <image:title>Payment QR Code</image:title>
       <image:caption>Scan to pay via UPI</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.sproutern.com/chatbot.png</image:loc>
+      <image:loc>https://sproutern.dpdns.org/chatbot.png</image:loc>
       <image:title>Sproutern Assistant</image:title>
       <image:caption>AI Assistant for Sproutern Queries</image:caption>
     </image:image>

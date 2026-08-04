@@ -52,10 +52,10 @@ export const metadata: Metadata = {
     description:
       'Semester planning, internships, placements, scholarships, and career guidance for college students.',
     type: 'website',
-    url: 'https://www.sproutern.com/college',
+    url: 'https://sproutern.dpdns.org/college',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/college',
+    canonical: 'https://sproutern.dpdns.org/college',
   },
 };
 
@@ -665,13 +665,13 @@ export default function CollegePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'College',
-        item: 'https://www.sproutern.com/college',
+        item: 'https://sproutern.dpdns.org/college',
       },
     ],
   };

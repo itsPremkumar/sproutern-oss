@@ -61,7 +61,7 @@ export function getToolMetadata(slug: ToolSlug): Metadata {
   const description = extractDescription(toolContent.introduction);
   const keywords = [...targetAudience, ...features].join(', ');
 
-  const canonicalUrl = `https://www.sproutern.com/tools/${toolSlug}`;
+  const canonicalUrl = `https://sproutern.dpdns.org/tools/${toolSlug}`;
   const canonicalPath = `/tools/${toolSlug}`;
   const shouldNoindex = shouldNoindexPath(canonicalPath);
 
@@ -91,7 +91,7 @@ export function getToolMetadata(slug: ToolSlug): Metadata {
       siteName: 'Sproutern',
       images: [
         {
-          url: 'https://www.sproutern.com/opengraph.jpg',
+          url: 'https://sproutern.dpdns.org/opengraph.jpg',
           width: 1200,
           height: 630,
           alt: title,
@@ -102,7 +102,7 @@ export function getToolMetadata(slug: ToolSlug): Metadata {
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://www.sproutern.com/twitter.jpg'],
+      images: ['https://sproutern.dpdns.org/twitter.jpg'],
     },
   };
 }

@@ -35,7 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   return recentPosts.map((post) => ({
-    url: `https://www.sproutern.com/blog/${post.slug}`,
+    url: `https://sproutern.dpdns.org/blog/${post.slug}`,
     lastModified: new Date(post.date),
     changeFrequency: 'daily' as const,
     priority: 0.9,

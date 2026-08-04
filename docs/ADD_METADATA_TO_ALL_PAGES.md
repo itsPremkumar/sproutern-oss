@@ -32,9 +32,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact Sproutern Support',
     description: 'Get help with internships, applications, and platform features.',
-    url: 'https://sproutern.com/contact',
+    url: 'https://sproutern.dpdns.org/contact',
   },
-  alternates: { canonical: 'https://sproutern.com/contact' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/contact' },
 };
 ```
 
@@ -51,9 +51,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Sproutern FAQ - Get Your Questions Answered',
     description: 'Common questions about internships, applications, and career planning.',
-    url: 'https://sproutern.com/faq',
+    url: 'https://sproutern.dpdns.org/faq',
   },
-  alternates: { canonical: 'https://sproutern.com/faq' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/faq' },
 };
 ```
 
@@ -71,9 +71,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Sproutern Success Stories',
     description: 'Real stories from students who found their dream internships.',
-    url: 'https://sproutern.com/testimonials',
+    url: 'https://sproutern.dpdns.org/testimonials',
   },
-  alternates: { canonical: 'https://sproutern.com/testimonials' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/testimonials' },
 };
 ```
 
@@ -91,9 +91,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Browse Internships - Sproutern',
     description: '1000+ internship opportunities from top startups in India.',
-    url: 'https://sproutern.com/internships',
+    url: 'https://sproutern.dpdns.org/internships',
   },
-  alternates: { canonical: 'https://sproutern.com/internships' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/internships' },
 };
 ```
 
@@ -111,9 +111,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Post Internship - Hire Talented Students',
     description: 'Connect with pre-vetted students ready to contribute to your startup.',
-    url: 'https://sproutern.com/post-internship',
+    url: 'https://sproutern.dpdns.org/post-internship',
   },
-  alternates: { canonical: 'https://sproutern.com/post-internship' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/post-internship' },
 };
 ```
 
@@ -131,9 +131,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Find Interns - Browse Student Profiles',
     description: 'Access a pool of talented students ready for internships.',
-    url: 'https://sproutern.com/requests',
+    url: 'https://sproutern.dpdns.org/requests',
   },
-  alternates: { canonical: 'https://sproutern.com/requests' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/requests' },
 };
 ```
 
@@ -151,9 +151,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Top Companies Hiring Interns',
     description: "Explore opportunities at India's leading companies.",
-    url: 'https://sproutern.com/companies',
+    url: 'https://sproutern.dpdns.org/companies',
   },
-  alternates: { canonical: 'https://sproutern.com/companies' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/companies' },
 };
 ```
 
@@ -171,9 +171,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Off-Campus Drives 2025',
     description: 'Latest job openings and walk-in drives for freshers.',
-    url: 'https://sproutern.com/off-campus-drives',
+    url: 'https://sproutern.dpdns.org/off-campus-drives',
   },
-  alternates: { canonical: 'https://sproutern.com/off-campus-drives' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/off-campus-drives' },
 };
 ```
 
@@ -187,7 +187,7 @@ export const metadata: Metadata = {
   description:
     "Read Sproutern's privacy policy to understand how we collect, use, and protect your personal information. Your privacy is our priority.",
   keywords: 'privacy policy, data protection, user privacy, terms of service, data security',
-  alternates: { canonical: 'https://sproutern.com/privacy-policy' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/privacy-policy' },
   robots: { index: true, follow: true },
 };
 ```
@@ -202,7 +202,7 @@ export const metadata: Metadata = {
   description:
     "Read Sproutern's terms and conditions. Understand your rights and responsibilities when using our internship platform.",
   keywords: 'terms and conditions, user agreement, terms of service, legal, user rights',
-  alternates: { canonical: 'https://sproutern.com/terms-and-conditions' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/terms-and-conditions' },
   robots: { index: true, follow: true },
 };
 ```

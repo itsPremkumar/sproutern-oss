@@ -51,7 +51,7 @@ export function ToolSEOContent({
       <SoftwareApplicationSchema
         name={toolTitle}
         description={enhancedContent.content.introduction.substring(0, 160)}
-        url={`https://www.sproutern.com/tools/${toolSlug}`}
+        url={`https://sproutern.dpdns.org/tools/${toolSlug}`}
         applicationCategory="UtilityApplication"
         slug={toolSlug}
         howToSteps={enhancedContent.howToSteps}

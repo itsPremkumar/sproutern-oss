@@ -32,13 +32,13 @@ export const metadata: Metadata = {
     'student salary negotiation guide',
   ],
   alternates: {
-    canonical: 'https://www.sproutern.com/resources/salary-negotiation',
+    canonical: 'https://sproutern.dpdns.org/resources/salary-negotiation',
   },
   openGraph: {
     title: 'Salary Negotiation Guide for Students and Freshers',
     description:
       'Use practical scripts, checklists, and offer-review tips to negotiate salary with more confidence.',
-    url: 'https://www.sproutern.com/resources/salary-negotiation',
+    url: 'https://sproutern.dpdns.org/resources/salary-negotiation',
     type: 'article',
   },
 };
@@ -265,19 +265,19 @@ export default function SalaryNegotiationResourcePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Resources',
-        item: 'https://www.sproutern.com/resources',
+        item: 'https://sproutern.dpdns.org/resources',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Salary Negotiation',
-        item: 'https://www.sproutern.com/resources/salary-negotiation',
+        item: 'https://sproutern.dpdns.org/resources/salary-negotiation',
       },
     ],
   };

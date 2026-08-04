@@ -28,7 +28,7 @@ export default function CookiePolicyPage() {
             <p className="leading-relaxed text-muted-foreground">
               This Cookie Policy explains how Sproutern ("we," "our," or "us")
               uses cookies and similar tracking technologies on our website
-              sproutern.com. By using our site, you consent to the use of
+              sproutern.dpdns.org. By using our site, you consent to the use of
               cookies in accordance with this policy.
             </p>
             <p className="mt-4 leading-relaxed text-muted-foreground">
@@ -543,7 +543,7 @@ export default function CookiePolicyPage() {
                 </a>
               </p>
               <p className="text-muted-foreground">
-                Website: www.sproutern.com
+                Website: sproutern.dpdns.org
               </p>
               <p className="mt-2 text-muted-foreground">
                 Response Time: Within 48 hours

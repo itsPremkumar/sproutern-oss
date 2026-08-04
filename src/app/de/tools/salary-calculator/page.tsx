@@ -22,10 +22,10 @@ export const metadata: Metadata = {
     'Lohnsteuer',
   ],
   alternates: {
-    canonical: 'https://www.sproutern.com/de/tools/salary-calculator',
+    canonical: 'https://sproutern.dpdns.org/de/tools/salary-calculator',
     languages: {
-      'de-DE': 'https://www.sproutern.com/de/tools/salary-calculator',
-      en: 'https://www.sproutern.com/tools/salary-calculator',
+      'de-DE': 'https://sproutern.dpdns.org/de/tools/salary-calculator',
+      en: 'https://sproutern.dpdns.org/tools/salary-calculator',
     },
   },
   openGraph: {
@@ -75,7 +75,7 @@ export default function GermanSalaryCalculatorPage() {
     '@type': 'WebApplication',
     name: 'Gehaltsrechner Deutschland',
     description: 'Kostenloser Brutto-Netto-Rechner für Deutschland',
-    url: 'https://www.sproutern.com/de/tools/salary-calculator',
+    url: 'https://sproutern.dpdns.org/de/tools/salary-calculator',
     applicationCategory: 'FinanceApplication',
     inLanguage: 'de-DE',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' },

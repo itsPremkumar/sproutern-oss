@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description:
       'Create professional, inclusive, and attractive job descriptions in seconds with our AI-powered Job Description Enhancer.',
     type: 'website',
-    url: 'https://sproutern.com/tools/job-description-enhancer',
+    url: 'https://sproutern.dpdns.org/tools/job-description-enhancer',
   },
   twitter: {
     card: 'summary_large_image',

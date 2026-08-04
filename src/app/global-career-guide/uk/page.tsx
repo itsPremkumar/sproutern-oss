@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     'Complete guide to finding jobs in the UK. Learn about Skilled Worker Visa, Graduate Route, top industries in London, and British work culture.',
   alternates: {
-    canonical: 'https://www.sproutern.com/global-career-guide/uk',
+    canonical: 'https://sproutern.dpdns.org/global-career-guide/uk',
   },
 };
 

@@ -20,7 +20,7 @@ export function ArticleSchema({
   datePublished,
   dateModified,
   authorName = 'Sproutern Team',
-  authorUrl = 'https://www.sproutern.com/about',
+  authorUrl = 'https://sproutern.dpdns.org/about',
   keywords = [],
 }: ArticleSchemaProps) {
   const schema = {
@@ -39,7 +39,7 @@ export function ArticleSchema({
       affiliation: {
         '@type': 'Organization',
         name: 'Sproutern',
-        url: 'https://www.sproutern.com',
+        url: 'https://sproutern.dpdns.org',
       },
     },
     publisher: {
@@ -47,7 +47,7 @@ export function ArticleSchema({
       name: 'Sproutern',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.sproutern.com/logo.jpg',
+        url: 'https://sproutern.dpdns.org/logo.jpg',
       },
     },
     mainEntityOfPage: {

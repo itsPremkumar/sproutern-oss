@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description:
       'Free tool to calculate your semester and cumulative GPA. See how grades affect your GPA.',
     type: 'website',
-    url: 'https://www.sproutern.com/tools/gpa-calculator',
+    url: 'https://sproutern.dpdns.org/tools/gpa-calculator',
   },
   twitter: {
     card: 'summary_large_image',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
       'Calculate your semester and cumulative GPA instantly with our free tool.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/tools/gpa-calculator',
+    canonical: 'https://sproutern.dpdns.org/tools/gpa-calculator',
   },
 };
 

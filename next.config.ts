@@ -273,7 +273,7 @@ const nextConfig: NextConfig = {
       // Ezoic ads.txt redirect - replace YOUR_ACCOUNT_ID with your actual ad manager ID
       {
         source: '/ads.txt',
-        destination: 'https://srv.adstxtmanager.com/YOUR_ACCOUNT_ID/sproutern.com',
+        destination: 'https://srv.adstxtmanager.com/YOUR_ACCOUNT_ID/sproutern.dpdns.org',
         permanent: true,
       },
       // Fix 404 errors from Google Search Console

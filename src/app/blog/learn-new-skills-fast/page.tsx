@@ -14,13 +14,13 @@ export const metadata: Metadata = {
   description:
     'Unlock your learning potential. Discover science-backed techniques to learn new skills rapidly and retain information longer.',
   alternates: {
-    canonical: 'https://www.sproutern.com/blog/learn-new-skills-fast',
+    canonical: 'https://sproutern.dpdns.org/blog/learn-new-skills-fast',
   },
   openGraph: {
     title: 'How to Learn New Skills Fast: The Ultimate Guide',
     description:
       'Unlock your learning potential. Discover science-backed techniques to learn new skills rapidly and retain information longer.',
-    url: 'https://www.sproutern.com/blog/learn-new-skills-fast',
+    url: 'https://sproutern.dpdns.org/blog/learn-new-skills-fast',
     type: 'article',
     publishedTime: '2025-01-15',
     authors: ['Sproutern Team'],
@@ -38,27 +38,27 @@ export default function LearnSkillsFastPage() {
     author: {
       '@type': 'Organization',
       name: 'Sproutern Team',
-      url: 'https://www.sproutern.com',
+      url: 'https://sproutern.dpdns.org',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Sproutern',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.sproutern.com/logo.jpg',
+        url: 'https://sproutern.dpdns.org/logo.jpg',
         creditText: 'Sproutern',
         creator: {
           '@type': 'Organization',
           name: 'Sproutern',
         },
         copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-        license: 'https://www.sproutern.com/terms',
-        acquireLicensePage: 'https://www.sproutern.com/contact',
+        license: 'https://sproutern.dpdns.org/terms',
+        acquireLicensePage: 'https://sproutern.dpdns.org/contact',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'https://www.sproutern.com/blog/learn-new-skills-fast',
+      '@id': 'https://sproutern.dpdns.org/blog/learn-new-skills-fast',
     },
   };
 

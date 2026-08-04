@@ -60,9 +60,9 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about working at Uber - the company revolutionizing mobility.',
     type: 'article',
-    url: 'https://www.sproutern.com/companies/uber',
+    url: 'https://sproutern.dpdns.org/companies/uber',
   },
-  alternates: { canonical: 'https://www.sproutern.com/companies/uber' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/companies/uber' },
 };
 
 const salaryData = [

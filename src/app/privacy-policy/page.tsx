@@ -30,7 +30,7 @@ export default function PrivacyPolicyPage() {
               protecting your personal information and your right to privacy.
               This Privacy Policy explains how we collect, use, disclose, and
               safeguard your information when you visit our website
-              sproutern.com and use our services.
+              sproutern.dpdns.org and use our services.
             </p>
             <p className="mt-4 leading-relaxed text-muted-foreground">
               By using Sproutern, you agree to the collection and use of
@@ -391,7 +391,7 @@ export default function PrivacyPolicyPage() {
                 </a>
               </p>
               <p className="text-muted-foreground">
-                Website: www.sproutern.com
+                Website: sproutern.dpdns.org
               </p>
             </div>
           </section>

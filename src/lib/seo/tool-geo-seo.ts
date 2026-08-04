@@ -3,7 +3,7 @@
  * Multi-region targeting for tools with localized metadata and utility context
  */
 
-const siteUrl = 'https://www.sproutern.com';
+const siteUrl = 'https://sproutern.dpdns.org';
 
 /**
  * Supported regions with tool-specific locale info

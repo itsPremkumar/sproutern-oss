@@ -30,10 +30,10 @@ export const metadata: Metadata = {
     '学分绩点',
   ],
   alternates: {
-    canonical: 'https://www.sproutern.com/zh/tools/cgpa-converter',
+    canonical: 'https://sproutern.dpdns.org/zh/tools/cgpa-converter',
     languages: {
-      'zh-CN': 'https://www.sproutern.com/zh/tools/cgpa-converter',
-      en: 'https://www.sproutern.com/tools/cgpa-converter',
+      'zh-CN': 'https://sproutern.dpdns.org/zh/tools/cgpa-converter',
+      en: 'https://sproutern.dpdns.org/tools/cgpa-converter',
     },
   },
   openGraph: {
@@ -75,7 +75,7 @@ export default function ChineseCGPAConverterPage() {
     '@type': 'WebApplication',
     name: 'CGPA转百分比换算器',
     description: '免费CGPA换算工具，支持全球学生使用',
-    url: 'https://www.sproutern.com/zh/tools/cgpa-converter',
+    url: 'https://sproutern.dpdns.org/zh/tools/cgpa-converter',
     applicationCategory: 'EducationalApplication',
     operatingSystem: 'All',
     inLanguage: 'zh-CN',

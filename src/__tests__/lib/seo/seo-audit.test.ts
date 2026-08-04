@@ -123,7 +123,7 @@ describe('auditPageSEO', () => {
         title: 'Test Title for the Page',
         description:
           'This is a proper description with enough characters to pass validation',
-        canonical: 'https://www.sproutern.com/test',
+        canonical: 'https://sproutern.dpdns.org/test',
       });
 
       expect(
@@ -201,7 +201,7 @@ describe('auditPageSEO', () => {
         title: 'This is a perfectly fine title for SEO purposes',
         description:
           'This is a proper meta description with enough characters to meet the recommended length for optimal search engine display.',
-        canonical: 'https://www.sproutern.com/test',
+        canonical: 'https://sproutern.dpdns.org/test',
         headings: ['H1: Main Heading', 'H2: Subheading'],
         images: [{ src: '/img.jpg', alt: 'Good alt' }],
         internalLinks: ['/link1', '/link2', '/link3', '/link4'],

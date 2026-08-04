@@ -59,9 +59,9 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about working at Amazon - salaries, loop interview, culture, and how to get hired.',
     type: 'article',
-    url: 'https://www.sproutern.com/companies/amazon',
+    url: 'https://sproutern.dpdns.org/companies/amazon',
   },
-  alternates: { canonical: 'https://www.sproutern.com/companies/amazon' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/companies/amazon' },
 };
 
 const salaryData = [

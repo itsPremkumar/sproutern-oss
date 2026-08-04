@@ -38,10 +38,10 @@ export const metadata: Metadata = {
     description:
       'Comprehensive collection of Meta interview questions with solutions and preparation tips.',
     type: 'article',
-    url: 'https://www.sproutern.com/companies/meta/interview-questions',
+    url: 'https://sproutern.dpdns.org/companies/meta/interview-questions',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/companies/meta/interview-questions',
+    canonical: 'https://sproutern.dpdns.org/companies/meta/interview-questions',
   },
 };
 

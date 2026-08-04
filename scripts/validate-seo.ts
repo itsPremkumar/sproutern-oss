@@ -259,19 +259,19 @@ if (require.main === module) {
       <head>
         <title>Sproutern – Launch Your Career with Startup Internships</title>
         <meta name="description" content="Sproutern is the premier platform connecting ambitious students with innovative startups worldwide. Find meaningful internships and accelerate your career.">
-        <link rel="canonical" href="https://www.sproutern.com">
+        <link rel="canonical" href="https://sproutern.dpdns.org">
         
         <meta property="og:title" content="Sproutern – Launch Your Career with Startup Internships">
         <meta property="og:description" content="The premier platform connecting ambitious students with innovative startups worldwide.">
-        <meta property="og:image" content="https://www.sproutern.com/opengraph.jpg">
+        <meta property="og:image" content="https://sproutern.dpdns.org/opengraph.jpg">
         
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Sproutern – Launch Your Career with Startup Internships">
         
-        <link rel="alternate" hreflang="en-US" href="https://www.sproutern.com">
-        <link rel="alternate" hreflang="en-GB" href="https://www.sproutern.com">
-        <link rel="alternate" hreflang="en-IN" href="https://www.sproutern.com">
-        <link rel="alternate" hreflang="x-default" href="https://www.sproutern.com">
+        <link rel="alternate" hreflang="en-US" href="https://sproutern.dpdns.org">
+        <link rel="alternate" hreflang="en-GB" href="https://sproutern.dpdns.org">
+        <link rel="alternate" hreflang="en-IN" href="https://sproutern.dpdns.org">
+        <link rel="alternate" hreflang="x-default" href="https://sproutern.dpdns.org">
         
         <script type="application/ld+json">
         {
@@ -288,7 +288,7 @@ if (require.main === module) {
     </html>
   `;
 
-  const report = generateSEOReport(testHTML, 'https://www.sproutern.com/test');
+  const report = generateSEOReport(testHTML, 'https://sproutern.dpdns.org/test');
 
   console.log('📊 SEO Report:');
   console.log(`Overall Score: ${report.overallScore}/100\n`);

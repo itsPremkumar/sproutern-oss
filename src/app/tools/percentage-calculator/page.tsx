@@ -68,7 +68,7 @@ export default function PercentageCalculatorPage() {
           <ToolFAQSection
             toolName="Percentage Calculator"
             faqs={percentageCalculatorFAQs}
-            toolUrl="https://www.sproutern.com/tools/percentage-calculator"
+            toolUrl="https://sproutern.dpdns.org/tools/percentage-calculator"
           />
 
           {content && (

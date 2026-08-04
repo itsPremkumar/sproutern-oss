@@ -482,10 +482,10 @@ export async function generateMetadata({
       title,
       description,
       type: 'article',
-      url: `https://www.sproutern.com/compare/${resolvedParams.slug}`,
+      url: `https://sproutern.dpdns.org/compare/${resolvedParams.slug}`,
     },
     alternates: {
-      canonical: `https://www.sproutern.com/compare/${resolvedParams.slug}`,
+      canonical: `https://sproutern.dpdns.org/compare/${resolvedParams.slug}`,
     },
   };
 }
@@ -519,19 +519,19 @@ export default async function CompanyComparisonPage({
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Compare',
-        item: 'https://www.sproutern.com/compare',
+        item: 'https://sproutern.dpdns.org/compare',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: `${company1.name} vs ${company2.name}`,
-        item: `https://www.sproutern.com/compare/${resolvedParams.slug}`,
+        item: `https://sproutern.dpdns.org/compare/${resolvedParams.slug}`,
       },
     ],
   };

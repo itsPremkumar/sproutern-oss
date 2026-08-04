@@ -123,7 +123,7 @@ export async function batchSubmitUrls(
  * Get all indexable URLs from the sitemap
  */
 export function getIndexableUrls(): string[] {
-  const baseUrl = 'https://www.sproutern.com';
+  const baseUrl = 'https://sproutern.dpdns.org';
 
   // Core pages that should always be indexed
   return [

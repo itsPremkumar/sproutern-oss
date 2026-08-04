@@ -42,7 +42,7 @@ async function fetchFirebaseConfig() {
   }
 
   try {
-    const baseUrl = self.location.origin || 'https://sproutern.com';
+    const baseUrl = self.location.origin || 'https://sproutern.dpdns.org';
     const response = await fetch(`${baseUrl}/api/config/firebase`, {
       cache: 'default', // Use browser cache
     });
@@ -191,7 +191,7 @@ async function trackNotificationEvent(
   metadata = {},
 ) {
   try {
-    const baseUrl = self.location.origin || 'https://sproutern.com';
+    const baseUrl = self.location.origin || 'https://sproutern.dpdns.org';
     await fetch(`${baseUrl}/api/notifications/analytics`, {
       method: 'POST',
       headers: {
@@ -492,7 +492,7 @@ function setupBackgroundMessageHandler(messagingInstance) {
       NOTIFICATION_CHANNELS[channel] || NOTIFICATION_CHANNELS.updates;
 
     // Build notification options
-    const baseUrl = self.location.origin || 'https://sproutern.com';
+    const baseUrl = self.location.origin || 'https://sproutern.dpdns.org';
     const iconUrl = notification.icon || data.icon || `${baseUrl}/logo.jpg`;
     const badgeUrl = notification.badge || data.badge || `${baseUrl}/logo.jpg`;
 
@@ -594,7 +594,7 @@ self.addEventListener('push', (event) => {
   }
 
   // Handle non-FCM push notifications
-  const baseUrl = self.location.origin || 'https://sproutern.com';
+  const baseUrl = self.location.origin || 'https://sproutern.dpdns.org';
   const channel = data.data?.channel || 'updates';
   const channelConfig =
     NOTIFICATION_CHANNELS[channel] || NOTIFICATION_CHANNELS.updates;

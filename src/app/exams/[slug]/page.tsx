@@ -45,9 +45,9 @@ export async function generateMetadata({
       title: `${exam.name} Preparation Guide ${new Date().getFullYear()}`,
       description,
       type: 'article',
-      url: `https://www.sproutern.com/exams/${slug}`,
+      url: `https://sproutern.dpdns.org/exams/${slug}`,
     },
-    alternates: { canonical: `https://www.sproutern.com/exams/${slug}` },
+    alternates: { canonical: `https://sproutern.dpdns.org/exams/${slug}` },
   };
 }
 
@@ -88,13 +88,13 @@ export default async function ExamPage({
                     '@type': 'ListItem',
                     position: 1,
                     name: 'Home',
-                    item: 'https://www.sproutern.com',
+                    item: 'https://sproutern.dpdns.org',
                   },
                   {
                     '@type': 'ListItem',
                     position: 2,
                     name: 'Exams',
-                    item: 'https://www.sproutern.com/exams',
+                    item: 'https://sproutern.dpdns.org/exams',
                   },
                   { '@type': 'ListItem', position: 3, name: exam.name },
                 ],

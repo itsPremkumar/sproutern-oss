@@ -55,10 +55,10 @@ export const metadata: Metadata = {
     description:
       'After 10th, after 12th, exam planning, scholarships, and career guidance in one place.',
     type: 'website',
-    url: 'https://www.sproutern.com/school',
+    url: 'https://sproutern.dpdns.org/school',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/school',
+    canonical: 'https://sproutern.dpdns.org/school',
   },
 };
 
@@ -655,13 +655,13 @@ export default function SchoolPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'School',
-        item: 'https://www.sproutern.com/school',
+        item: 'https://sproutern.dpdns.org/school',
       },
     ],
   };

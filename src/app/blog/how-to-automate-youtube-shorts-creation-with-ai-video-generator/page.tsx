@@ -24,7 +24,7 @@ import {
 } from 'lucide-react';
 
 const PAGE_URL =
-  'https://www.sproutern.com/blog/how-to-automate-youtube-shorts-creation-with-ai-video-generator';
+  'https://sproutern.dpdns.org/blog/how-to-automate-youtube-shorts-creation-with-ai-video-generator';
 const REPO_URL =
   'https://github.com/itsPremkumar/Automated-Video-Generator';
 const REPO_STARS_URL = `${REPO_URL}/stargazers`;
@@ -113,7 +113,7 @@ const structuredData = {
       description: pageDescription,
       datePublished: PUBLISHED_AT,
       dateModified: PUBLISHED_AT,
-      image: 'https://www.sproutern.com/opengraph.jpg',
+      image: 'https://sproutern.dpdns.org/opengraph.jpg',
       inLanguage: 'en',
       isAccessibleForFree: true,
       keywords: pageKeywords.join(', '),
@@ -125,14 +125,14 @@ const structuredData = {
       author: {
         '@type': 'Organization',
         name: 'Sproutern Editorial Team',
-        url: 'https://www.sproutern.com/about',
+        url: 'https://sproutern.dpdns.org/about',
       },
       publisher: {
         '@type': 'Organization',
         name: 'Sproutern',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://www.sproutern.com/logo.jpg',
+          url: 'https://sproutern.dpdns.org/logo.jpg',
         },
       },
       about: [
@@ -169,13 +169,13 @@ const structuredData = {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://www.sproutern.com',
+          item: 'https://sproutern.dpdns.org',
         },
         {
           '@type': 'ListItem',
           position: 2,
           name: 'Blog',
-          item: 'https://www.sproutern.com/blog',
+          item: 'https://sproutern.dpdns.org/blog',
         },
         {
           '@type': 'ListItem',
@@ -247,7 +247,7 @@ const structuredData = {
       author: {
         '@type': 'Organization',
         name: 'Sproutern Team',
-        url: 'https://www.sproutern.com/about',
+        url: 'https://sproutern.dpdns.org/about',
       },
       keywords: pageKeywords.join(', '),
       targetProduct: {
@@ -290,7 +290,7 @@ export const metadata: Metadata = {
     authors: ['Sproutern Team'],
     images: [
       {
-        url: 'https://www.sproutern.com/opengraph.jpg',
+        url: 'https://sproutern.dpdns.org/opengraph.jpg',
         width: 1200,
         height: 630,
         alt: 'Automated Video Generator review on Sproutern',
@@ -302,7 +302,7 @@ export const metadata: Metadata = {
     title:
       'Automated Video Generator Review: Open-Source AI Shorts Tool',
     description: pageDescription,
-    images: ['https://www.sproutern.com/twitter.jpg'],
+    images: ['https://sproutern.dpdns.org/twitter.jpg'],
     creator: '@sproutern',
   },
   robots: {

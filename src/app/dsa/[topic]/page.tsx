@@ -37,9 +37,9 @@ export async function generateMetadata({
       title,
       description,
       type: 'article',
-      url: `https://www.sproutern.com/dsa/${slug}`,
+      url: `https://sproutern.dpdns.org/dsa/${slug}`,
     },
-    alternates: { canonical: `https://www.sproutern.com/dsa/${slug}` },
+    alternates: { canonical: `https://sproutern.dpdns.org/dsa/${slug}` },
   };
 }
 
@@ -78,13 +78,13 @@ export default async function DSATopicPage({
                     '@type': 'ListItem',
                     position: 1,
                     name: 'Home',
-                    item: 'https://www.sproutern.com',
+                    item: 'https://sproutern.dpdns.org',
                   },
                   {
                     '@type': 'ListItem',
                     position: 2,
                     name: 'DSA Roadmap',
-                    item: 'https://www.sproutern.com/dsa',
+                    item: 'https://sproutern.dpdns.org/dsa',
                   },
                   { '@type': 'ListItem', position: 3, name: topic.name },
                 ],

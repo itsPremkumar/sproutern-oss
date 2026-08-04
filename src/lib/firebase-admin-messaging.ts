@@ -60,7 +60,7 @@ interface BaseMessagePayload {
  */
 function buildBasePayload(payload: NotificationPayload): BaseMessagePayload {
   // Use absolute URL for icons (required for Android notifications)
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://sproutern.com';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://sproutern.dpdns.org';
   const iconUrl = payload.icon
     ? `${baseUrl}${payload.icon}`
     : `${baseUrl}/logo.jpg`;

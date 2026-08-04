@@ -482,7 +482,7 @@ export default function TermsAndConditionsPage() {
                 </a>
               </p>
               <p className="text-muted-foreground">
-                Website: www.sproutern.com
+                Website: sproutern.dpdns.org
               </p>
             </div>
           </section>

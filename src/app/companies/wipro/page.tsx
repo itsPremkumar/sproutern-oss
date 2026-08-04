@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'Complete guide to Wipro careers. Learn about Wipro salary, interview questions, and job opportunities for freshers and experienced professionals.',
   keywords:
     'wipro careers, wipro salary, wipro interview questions, wipro jobs, wipro limited',
-  alternates: { canonical: 'https://www.sproutern.com/companies/wipro' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/companies/wipro' },
 };
 
 export default function WiproPage() {

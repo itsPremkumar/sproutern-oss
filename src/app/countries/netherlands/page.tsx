@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     description:
       'Study at top Dutch universities with English-taught programs. Complete guide to visas, costs, and careers.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/netherlands',
+    url: 'https://sproutern.dpdns.org/countries/netherlands',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/netherlands',
+    canonical: 'https://sproutern.dpdns.org/countries/netherlands',
   },
 };
 

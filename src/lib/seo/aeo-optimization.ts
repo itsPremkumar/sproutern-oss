@@ -122,7 +122,7 @@ export function generateToolSchema(
     author: {
       '@type': 'Organization',
       name: 'Sproutern',
-      url: 'https://www.sproutern.com',
+      url: 'https://sproutern.dpdns.org',
     },
   };
 }

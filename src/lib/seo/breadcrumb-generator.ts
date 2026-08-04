@@ -147,7 +147,7 @@ function slugToName(slug: string): string {
  */
 export function generateBreadcrumbs(
   pathname: string,
-  baseUrl: string = 'https://www.sproutern.com',
+  baseUrl: string = 'https://sproutern.dpdns.org',
 ): BreadcrumbItem[] {
   const breadcrumbs: BreadcrumbItem[] = [];
 
@@ -181,7 +181,7 @@ export function generateBreadcrumbs(
  */
 export function generateBreadcrumbSchema(
   pathname: string,
-  baseUrl: string = 'https://www.sproutern.com',
+  baseUrl: string = 'https://sproutern.dpdns.org',
 ): BreadcrumbListSchema {
   const breadcrumbs = generateBreadcrumbs(pathname, baseUrl);
 

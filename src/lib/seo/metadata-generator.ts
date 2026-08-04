@@ -17,7 +17,7 @@ export function generateOptimizedMetadata({
   description,
   keywords = [],
   canonical,
-  image = 'https://www.sproutern.com/opengraph.jpg',
+  image = 'https://sproutern.dpdns.org/opengraph.jpg',
   type = 'website',
   publishedTime,
   modifiedTime,
@@ -26,13 +26,13 @@ export function generateOptimizedMetadata({
   const fullTitle = title.includes('Sproutern')
     ? title
     : `${title} | Sproutern`;
-  const url = canonical || 'https://www.sproutern.com';
+  const url = canonical || 'https://sproutern.dpdns.org';
 
   return {
     title: fullTitle,
     description,
     keywords: keywords.join(', '),
-    authors: [{ name: author, url: 'https://www.sproutern.com/about' }],
+    authors: [{ name: author, url: 'https://sproutern.dpdns.org/about' }],
     alternates: {
       canonical: url,
     },

@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about studying and working in Hong Kong.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/hong-kong',
+    url: 'https://sproutern.dpdns.org/countries/hong-kong',
   },
-  alternates: { canonical: 'https://www.sproutern.com/countries/hong-kong' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/countries/hong-kong' },
 };
 
 const visaTypes = [

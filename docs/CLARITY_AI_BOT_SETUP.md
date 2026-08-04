@@ -16,7 +16,7 @@ data to Microsoft Clarity. This allows Clarity to analyze bot traffic that hits 
 
 1. **Log in to Cloudflare**
    - Go to the [Cloudflare Dashboard](https://dash.cloudflare.com/).
-   - Select your domain: `sproutern.com`.
+   - Select your domain: `sproutern.dpdns.org`.
 
 2. **Navigate to LogPush**
    - On the left sidebar, click **Analytics & logs**.

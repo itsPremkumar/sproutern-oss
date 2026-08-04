@@ -36,10 +36,10 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about studying and working in Canada as an international student.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/canada',
+    url: 'https://sproutern.dpdns.org/countries/canada',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/canada',
+    canonical: 'https://sproutern.dpdns.org/countries/canada',
   },
 };
 

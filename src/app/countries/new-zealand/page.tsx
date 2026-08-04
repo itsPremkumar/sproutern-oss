@@ -34,10 +34,10 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about studying and working in New Zealand. World-class education, stunning nature, and excellent post-study work opportunities.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/new-zealand',
+    url: 'https://sproutern.dpdns.org/countries/new-zealand',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/new-zealand',
+    canonical: 'https://sproutern.dpdns.org/countries/new-zealand',
   },
 };
 

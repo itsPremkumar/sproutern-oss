@@ -1,7 +1,7 @@
 import { allGamesSEO, GameSEOConfig, GameCategory } from './games-seo';
 import { getPAAQuestionsForSlug } from './game-seo-content';
 
-const siteUrl = 'https://www.sproutern.com';
+const siteUrl = 'https://sproutern.dpdns.org';
 
 // Category display names and icons
 const categoryInfo: Record<GameCategory, { name: string; icon: string }> = {
@@ -61,8 +61,8 @@ export function generateVideoGameSchema(game: GameSEOConfig) {
           name: 'Sproutern',
         },
         copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-        license: 'https://www.sproutern.com/terms',
-        acquireLicensePage: 'https://www.sproutern.com/contact',
+        license: 'https://sproutern.dpdns.org/terms',
+        acquireLicensePage: 'https://sproutern.dpdns.org/contact',
       },
     },
     inLanguage: 'en',

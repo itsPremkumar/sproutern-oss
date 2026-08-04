@@ -34,10 +34,10 @@ export async function generateMetadata({
       title,
       description,
       type: 'article',
-      url: `https://www.sproutern.com/interview-questions/${slug}`,
+      url: `https://sproutern.dpdns.org/interview-questions/${slug}`,
     },
     alternates: {
-      canonical: `https://www.sproutern.com/interview-questions/${slug}`,
+      canonical: `https://sproutern.dpdns.org/interview-questions/${slug}`,
     },
   };
 }
@@ -80,13 +80,13 @@ export default async function TopicPage({
                     '@type': 'ListItem',
                     position: 1,
                     name: 'Home',
-                    item: 'https://www.sproutern.com',
+                    item: 'https://sproutern.dpdns.org',
                   },
                   {
                     '@type': 'ListItem',
                     position: 2,
                     name: 'Interview Questions',
-                    item: 'https://www.sproutern.com/interview-questions',
+                    item: 'https://sproutern.dpdns.org/interview-questions',
                   },
                   { '@type': 'ListItem', position: 3, name: topic.name },
                 ],

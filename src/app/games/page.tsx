@@ -18,7 +18,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import GamesClient from './GamesClient';
 
-const siteUrl = 'https://www.sproutern.com';
+const siteUrl = 'https://sproutern.dpdns.org';
 
 type Props = {
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;

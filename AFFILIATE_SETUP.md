@@ -22,7 +22,7 @@ you should prioritize **Impact.com**.
 When you sign up, they will ask for your "Media Kit" or "Traffic Methods". Use these answers to get
 approved faster:
 
-- **Website:** `https://www.sproutern.com`
+- **Website:** `https://sproutern.dpdns.org`
 - **Monthly Traffic:** "5,000 - 10,000 visitors" (Based on your analytics trend).
 - **Top Geographies:** United States, Singapore, India. (Mentioning US/Singapore helps A LOT).
 - **Content Type:** Educational content, Career Development, Developer Tools, and Student Resources.

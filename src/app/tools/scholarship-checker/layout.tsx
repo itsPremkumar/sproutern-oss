@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description:
       'Check your eligibility for 15+ government and private scholarships. Filter by academic percentage, family income, category, and education level.',
     type: 'website',
-    url: 'https://www.sproutern.com/tools/scholarship-checker',
+    url: 'https://sproutern.dpdns.org/tools/scholarship-checker',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       'Find scholarships you are eligible for based on your academic profile.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/tools/scholarship-checker',
+    canonical: 'https://sproutern.dpdns.org/tools/scholarship-checker',
   },
 };
 

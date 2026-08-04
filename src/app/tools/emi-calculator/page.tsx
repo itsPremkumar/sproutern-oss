@@ -30,7 +30,7 @@ export default function EMICalculatorPage() {
         <ToolFAQSection
           toolName="EMI Calculator"
           faqs={emiCalculatorFAQs}
-          toolUrl="https://www.sproutern.com/tools/emi-calculator"
+          toolUrl="https://sproutern.dpdns.org/tools/emi-calculator"
         />
       </div>
 

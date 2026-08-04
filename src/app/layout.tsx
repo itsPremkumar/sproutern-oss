@@ -61,8 +61,8 @@ export const metadata: Metadata = {
     'global opportunities',
     'Sproutern',
   ],
-  metadataBase: new URL('https://www.sproutern.com'),
-  authors: [{ name: 'Sproutern Team', url: 'https://www.sproutern.com' }],
+  metadataBase: new URL('https://sproutern.dpdns.org'),
+  authors: [{ name: 'Sproutern Team', url: 'https://sproutern.dpdns.org' }],
   creator: 'Sproutern',
   publisher: 'Sproutern',
   robots: {
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.sproutern.com',
+    url: 'https://sproutern.dpdns.org',
     title:
       'Sproutern - Free Career Tools, CGPA Calculator & Interview Prep 2026',
     description:
@@ -92,7 +92,7 @@ export const metadata: Metadata = {
     siteName: 'Sproutern',
     images: [
       {
-        url: 'https://www.sproutern.com/opengraph.jpg',
+        url: 'https://sproutern.dpdns.org/opengraph.jpg',
         width: 1200,
         height: 630,
         alt: 'Sproutern - Startup Internship Platform for Students',
@@ -105,7 +105,7 @@ export const metadata: Metadata = {
     title: 'Sproutern - Launch Your Career with Startup Internships',
     description:
       'Premier platform connecting students with innovative startups. AI-powered matching, career guidance, and meaningful opportunities.',
-    images: ['https://www.sproutern.com/twitter.jpg'],
+    images: ['https://sproutern.dpdns.org/twitter.jpg'],
     creator: '@sproutern',
   },
   referrer: 'origin-when-cross-origin',
@@ -133,18 +133,18 @@ export default function RootLayout({
     '@graph': [
       {
         '@type': 'Organization',
-        '@id': 'https://www.sproutern.com/#organization',
+        '@id': 'https://sproutern.dpdns.org/#organization',
         name: 'Sproutern',
         alternateName: [
-          'Sproutern.com',
+          'Sproutern.dpdns.org',
           'Sproutern Platform',
           'Sproutern Career Platform',
           'Sproutern Interview Prep',
         ],
-        url: 'https://www.sproutern.com/',
+        url: 'https://sproutern.dpdns.org/',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://www.sproutern.com/logo.jpg',
+          url: 'https://sproutern.dpdns.org/logo.jpg',
           width: 512,
           height: 512,
           creditText: 'Sproutern',
@@ -153,8 +153,8 @@ export default function RootLayout({
             name: 'Sproutern',
           },
           copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-          license: 'https://www.sproutern.com/terms',
-          acquireLicensePage: 'https://www.sproutern.com/contact',
+          license: 'https://sproutern.dpdns.org/terms',
+          acquireLicensePage: 'https://sproutern.dpdns.org/contact',
         },
         description:
           'Premier career platform for students offering free interview preparation, resume optimization, CGPA calculators, and career tools. Trusted by students in India and worldwide.',
@@ -164,11 +164,11 @@ export default function RootLayout({
         founders: [
           {
             '@type': 'Person',
-            '@id': 'https://www.sproutern.com/about#team',
+            '@id': 'https://sproutern.dpdns.org/about#team',
             name: 'Sproutern Team',
-            url: 'https://www.sproutern.com/about',
+            url: 'https://sproutern.dpdns.org/about',
             jobTitle: 'Editorial Team',
-            image: 'https://www.sproutern.com/logo.jpg',
+            image: 'https://sproutern.dpdns.org/logo.jpg',
           },
         ],
         address: {
@@ -182,7 +182,7 @@ export default function RootLayout({
             '@type': 'ContactPoint',
             contactType: 'customer support',
             email: 'support@sproutern.com',
-            url: 'https://www.sproutern.com/contact',
+            url: 'https://sproutern.dpdns.org/contact',
             availableLanguage: ['English', 'Hindi', 'Tamil'],
           },
         ],
@@ -247,13 +247,13 @@ export default function RootLayout({
       },
       {
         '@type': 'WebSite',
-        '@id': 'https://www.sproutern.com/#website',
+        '@id': 'https://sproutern.dpdns.org/#website',
         name: 'Sproutern',
-        url: 'https://www.sproutern.com/',
+        url: 'https://sproutern.dpdns.org/',
         description:
           'Free career tools, interview preparation resources, and comprehensive guides for students. CGPA calculator, resume checker, salary calculator, and 90+ tools.',
         publisher: {
-          '@id': 'https://www.sproutern.com/#organization',
+          '@id': 'https://sproutern.dpdns.org/#organization',
         },
         potentialAction: [
           {
@@ -261,13 +261,13 @@ export default function RootLayout({
             target: {
               '@type': 'EntryPoint',
               urlTemplate:
-                'https://www.sproutern.com/internships?q={search_term_string}',
+                'https://sproutern.dpdns.org/internships?q={search_term_string}',
             },
             'query-input': 'required name=search_term_string',
           },
           {
             '@type': 'ReadAction',
-            target: 'https://www.sproutern.com/blog',
+            target: 'https://sproutern.dpdns.org/blog',
           },
         ],
         inLanguage: ['en-US', 'en-IN', 'en-GB', 'en-AU', 'en-CA'],
@@ -289,11 +289,11 @@ export default function RootLayout({
       },
       {
         '@type': 'EducationalOrganization',
-        '@id': 'https://www.sproutern.com/#educational-org',
+        '@id': 'https://sproutern.dpdns.org/#educational-org',
         name: 'Sproutern',
         // Reference main Organization to avoid duplicate url warnings
         parentOrganization: {
-          '@id': 'https://www.sproutern.com/#organization',
+          '@id': 'https://sproutern.dpdns.org/#organization',
         },
         description:
           'Providing career guidance, educational resources, and tools for students worldwide.',
@@ -452,12 +452,12 @@ export default function RootLayout({
         {/* Favicon for browsers and search engines (Yandex, Google, Bing) */}
         <link
           rel="icon"
-          href="https://www.sproutern.com/favicon.ico"
+          href="https://sproutern.dpdns.org/favicon.ico"
           type="image/x-icon"
         />
         <link
           rel="shortcut icon"
-          href="https://www.sproutern.com/favicon.ico"
+          href="https://sproutern.dpdns.org/favicon.ico"
           type="image/x-icon"
         />
 
@@ -466,19 +466,19 @@ export default function RootLayout({
           rel="alternate"
           type="application/rss+xml"
           title="Sproutern Blog RSS"
-          href="https://www.sproutern.com/feed.xml"
+          href="https://sproutern.dpdns.org/feed.xml"
         />
         <link
           rel="alternate"
           type="application/feed+json"
           title="Sproutern Blog JSON Feed"
-          href="https://www.sproutern.com/feed.json"
+          href="https://sproutern.dpdns.org/feed.json"
         />
 
         {/* Additional meta tags for SEO */}
         <link
           rel="author"
-          href="https://www.sproutern.com/humans.txt"
+          href="https://sproutern.dpdns.org/humans.txt"
         />
         {/* PWA Manifest - Next.js auto-generates from manifest.ts */}
         <link

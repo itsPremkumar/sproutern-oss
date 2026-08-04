@@ -112,7 +112,7 @@ export async function generateMetadata({
   }
 
   const { post } = result;
-  const canonical = `https://www.sproutern.com/blog/${slug}`;
+  const canonical = `https://sproutern.dpdns.org/blog/${slug}`;
   const publishedDateIso = toIsoDateTime(post.date);
 
   // Calculate title to stay within 70 chars when suffix is added
@@ -152,7 +152,7 @@ export async function generateMetadata({
       authors: ['Sproutern Team'],
       images: [
         {
-          url: 'https://www.sproutern.com/opengraph.jpg',
+          url: 'https://sproutern.dpdns.org/opengraph.jpg',
           width: 1200,
           height: 630,
           alt: post.title,
@@ -163,7 +163,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
-      images: ['https://www.sproutern.com/twitter.jpg'],
+      images: ['https://sproutern.dpdns.org/twitter.jpg'],
       creator: '@sproutern',
     },
     alternates: {
@@ -205,31 +205,31 @@ export default async function BlogPostPage({
     description: post.excerpt,
     datePublished: publishedDateIso,
     dateModified: modifiedDateIso,
-    image: 'https://www.sproutern.com/opengraph.jpg',
+    image: 'https://sproutern.dpdns.org/opengraph.jpg',
     author: {
       '@type': 'Organization',
       name: 'Sproutern Team',
-      url: 'https://www.sproutern.com',
+      url: 'https://sproutern.dpdns.org',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Sproutern',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.sproutern.com/logo.jpg',
-        contentUrl: 'https://www.sproutern.com/logo.jpg',
+        url: 'https://sproutern.dpdns.org/logo.jpg',
+        contentUrl: 'https://sproutern.dpdns.org/logo.jpg',
         creditText: 'Sproutern',
         creator: {
           '@type': 'Organization',
           name: 'Sproutern',
         },
         copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-        license: 'https://www.sproutern.com/terms',
-        acquireLicensePage: 'https://www.sproutern.com/contact',
+        license: 'https://sproutern.dpdns.org/terms',
+        acquireLicensePage: 'https://sproutern.dpdns.org/contact',
       },
     },
     mainEntityOfPage: {
-      '@id': `https://www.sproutern.com/blog/${slug}`,
+      '@id': `https://sproutern.dpdns.org/blog/${slug}`,
     },
     // GEO: Explicitly mention entities for Knowledge Graph linking
     mentions:
@@ -247,19 +247,19 @@ export default async function BlogPostPage({
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Blog',
-        item: 'https://www.sproutern.com/blog',
+        item: 'https://sproutern.dpdns.org/blog',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: post.title,
-        item: `https://www.sproutern.com/blog/${slug}`,
+        item: `https://sproutern.dpdns.org/blog/${slug}`,
       },
     ],
   };
@@ -275,7 +275,7 @@ export default async function BlogPostPage({
   const citationText = getCitationText(
     post.title,
     'Sproutern Team',
-    `https://www.sproutern.com/blog/${slug}`,
+    `https://sproutern.dpdns.org/blog/${slug}`,
     post.date,
   );
 
@@ -394,7 +394,7 @@ export default async function BlogPostPage({
               {/* Social Share Inline */}
               <SocialShare
                 title={post.title}
-                url={`https://www.sproutern.com/blog/${slug}`}
+                url={`https://sproutern.dpdns.org/blog/${slug}`}
                 description={post.excerpt}
                 position="inline"
               />
@@ -798,7 +798,7 @@ export default async function BlogPostPage({
               {/* Social Share Inline */}
               <SocialShare
                 title={post.title}
-                url={`https://www.sproutern.com/blog/${slug}`}
+                url={`https://sproutern.dpdns.org/blog/${slug}`}
                 description={post.excerpt}
                 position="inline"
               />

@@ -30,9 +30,9 @@ import * as path from 'path';
 
 const CONFIG = {
   // Site Configuration
-  domain: 'https://www.sproutern.com',
+  domain: 'https://sproutern.dpdns.org',
   siteName: 'Sproutern',
-  rssFeedUrl: 'https://www.sproutern.com/feed.xml',
+  rssFeedUrl: 'https://sproutern.dpdns.org/feed.xml',
 
   // IndexNow Configuration
   indexNowKey: process.env.INDEXNOW_KEY || 'YOUR_INDEXNOW_KEY',
@@ -118,7 +118,7 @@ async function safeFetch(
   return fetchFn(url, {
     ...options,
     headers: {
-      'User-Agent': 'Sproutern/2.0 (+https://www.sproutern.com)',
+      'User-Agent': 'Sproutern/2.0 (+https://sproutern.dpdns.org)',
       ...options.headers,
     },
   });
@@ -237,7 +237,7 @@ async function submitBatchWithRetry(
         method: 'POST',
         headers: { 'Content-Type': 'application/json; charset=utf-8' },
         body: JSON.stringify({
-          host: 'www.sproutern.com',
+          host: 'sproutern.dpdns.org',
           key: CONFIG.indexNowKey,
           keyLocation: `${CONFIG.domain}/${CONFIG.indexNowKey}.txt`,
           urlList: batch,

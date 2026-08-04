@@ -4,7 +4,7 @@
  * Focuses on entity optimization, cited answers, and AI-friendly content structure
  */
 
-const siteUrl = 'https://www.sproutern.com';
+const siteUrl = 'https://sproutern.dpdns.org';
 
 /**
  * SGE Content Structure for Games

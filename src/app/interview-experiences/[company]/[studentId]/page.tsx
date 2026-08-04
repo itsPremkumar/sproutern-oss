@@ -79,13 +79,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `${experience.studentName}'s ${experience.company} Interview Experience`,
       description: `${experience.verdict === 'Selected' ? '✅ Selected' : experience.verdict} - ${experience.role || 'Position'} at ${experience.company}. Read about the complete interview process, questions, and preparation tips.`,
-      url: `https://www.sproutern.com/interview-experiences/${canonicalCompanySlug}/${studentId}`,
+      url: `https://sproutern.dpdns.org/interview-experiences/${canonicalCompanySlug}/${studentId}`,
       siteName: 'Sproutern',
       images: [
         {
           url:
             experience.studentImage ||
-            'https://www.sproutern.com/opengraph.jpg',
+            'https://sproutern.dpdns.org/opengraph.jpg',
           width: 1200,
           height: 630,
           alt: `${experience.studentName}'s Interview Experience at ${experience.company}`,
@@ -107,11 +107,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${experience.studentName}'s ${experience.company} Interview Experience`,
       description: `${experience.verdict} - ${experience.role || 'Position'}. Learn about interview rounds, questions, and preparation tips.`,
       images: [
-        experience.studentImage || 'https://www.sproutern.com/twitter.jpg',
+        experience.studentImage || 'https://sproutern.dpdns.org/twitter.jpg',
       ],
     },
     alternates: {
-      canonical: `https://www.sproutern.com/interview-experiences/${canonicalCompanySlug}/${studentId}`,
+      canonical: `https://sproutern.dpdns.org/interview-experiences/${canonicalCompanySlug}/${studentId}`,
     },
   };
 }
@@ -152,21 +152,21 @@ export default async function ExperienceDetailPage({ params }: Props) {
       name: 'Sproutern',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.sproutern.com/logo.jpg',
+        url: 'https://sproutern.dpdns.org/logo.jpg',
         creditText: 'Sproutern',
         creator: {
           '@type': 'Organization',
           name: 'Sproutern',
         },
         copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-        license: 'https://www.sproutern.com/terms',
-        acquireLicensePage: 'https://www.sproutern.com/contact',
+        license: 'https://sproutern.dpdns.org/terms',
+        acquireLicensePage: 'https://sproutern.dpdns.org/contact',
       },
     },
-    image: experience.studentImage || 'https://www.sproutern.com/opengraph.jpg',
+    image: experience.studentImage || 'https://sproutern.dpdns.org/opengraph.jpg',
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://www.sproutern.com/interview-experiences/${canonicalCompanySlug}/${studentId}`,
+      '@id': `https://sproutern.dpdns.org/interview-experiences/${canonicalCompanySlug}/${studentId}`,
     },
   };
 
@@ -178,25 +178,25 @@ export default async function ExperienceDetailPage({ params }: Props) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Interview Experiences',
-        item: 'https://www.sproutern.com/interview-experiences',
+        item: 'https://sproutern.dpdns.org/interview-experiences',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: experience.company,
-        item: `https://www.sproutern.com/interview-experiences/${canonicalCompanySlug}`,
+        item: `https://sproutern.dpdns.org/interview-experiences/${canonicalCompanySlug}`,
       },
       {
         '@type': 'ListItem',
         position: 4,
         name: experience.studentName,
-        item: `https://www.sproutern.com/interview-experiences/${canonicalCompanySlug}/${studentId}`,
+        item: `https://sproutern.dpdns.org/interview-experiences/${canonicalCompanySlug}/${studentId}`,
       },
     ],
   };

@@ -43,10 +43,10 @@ export const metadata: Metadata = {
     title: 'First Job Guide - Complete Career Start Handbook',
     description: 'Everything you need to succeed in your first job.',
     type: 'article',
-    url: 'https://www.sproutern.com/freshers/first-job-guide',
+    url: 'https://sproutern.dpdns.org/freshers/first-job-guide',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/freshers/first-job-guide',
+    canonical: 'https://sproutern.dpdns.org/freshers/first-job-guide',
   },
 };
 
@@ -582,19 +582,19 @@ export default function FirstJobGuidePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Freshers',
-        item: 'https://www.sproutern.com/freshers',
+        item: 'https://sproutern.dpdns.org/freshers',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'First Job Guide',
-        item: 'https://www.sproutern.com/freshers/first-job-guide',
+        item: 'https://sproutern.dpdns.org/freshers/first-job-guide',
       },
     ],
   };

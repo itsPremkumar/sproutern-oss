@@ -431,7 +431,7 @@ Long-tail:
 ```json
 {
   "@type": "ImageObject",
-  "contentUrl": "https://www.sproutern.com/images/cgpa-calculator.jpg",
+  "contentUrl": "https://sproutern.dpdns.org/images/cgpa-calculator.jpg",
   "description": "CGPA to percentage calculator interface",
   "name": "CGPA Calculator",
   "author": {

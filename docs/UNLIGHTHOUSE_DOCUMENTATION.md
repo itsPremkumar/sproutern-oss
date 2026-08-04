@@ -41,7 +41,7 @@ npx unlighthouse --site http://localhost:3000
 npx unlighthouse --site http://localhost:3000
 
 # Scan production site
-npx unlighthouse --site https://www.sproutern.com
+npx unlighthouse --site https://sproutern.dpdns.org
 
 # Scan with custom port (your dev server uses port 9002)
 npx unlighthouse --site http://localhost:9002
@@ -204,7 +204,7 @@ npx unlighthouse --site http://localhost:9002 --scanner.device desktop
 npx unlighthouse --site http://localhost:9002 --build-static
 
 # 6. Scan production
-npx unlighthouse --site https://www.sproutern.com
+npx unlighthouse --site https://sproutern.dpdns.org
 
 # 7. Use custom config file
 npx unlighthouse --site http://localhost:9002 --config ./unlighthouse.config.ts
@@ -302,7 +302,7 @@ Verify improvements by running another audit.
 | --------------------------- | ----------------------------------------------- | ---------------------- |
 | `npm run audit:site`        | `npx unlighthouse --site http://localhost:3000` | Scan localhost:3000    |
 | `npm run audit:local`       | `npx lighthouse http://localhost:3000...`       | Single page Lighthouse |
-| `npm run audit:performance` | `npx lighthouse https://www.sproutern.com...`   | Prod performance audit |
+| `npm run audit:performance` | `npx lighthouse https://sproutern.dpdns.org...`   | Prod performance audit |
 
 ---
 
@@ -340,7 +340,7 @@ npm run audit:site
 npx unlighthouse --site http://localhost:9002
 
 # Scan production
-npx unlighthouse --site https://www.sproutern.com
+npx unlighthouse --site https://sproutern.dpdns.org
 ```
 
 ---

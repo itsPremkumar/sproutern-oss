@@ -282,7 +282,7 @@ gtag('event', 'resource_downloaded', {
 ### Environment Variables Needed
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://sproutern.com
+NEXT_PUBLIC_SITE_URL=https://sproutern.dpdns.org
 NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
 NEXT_PUBLIC_GTM_ID=GTM-XXXXXXX
 ```

@@ -190,7 +190,7 @@ export const countryConfig: Record<
 
 // Generate comprehensive hreflang tags for all supported countries
 export const generateComprehensiveHrefLang = (currentPath: string) => {
-  const baseUrl = 'https://www.sproutern.com';
+  const baseUrl = 'https://sproutern.dpdns.org';
 
   const hreflangTags = Object.entries(countryConfig).map(([code, config]) => ({
     rel: 'alternate',
@@ -563,8 +563,8 @@ export const generateCountryOrganizationSchema = (country: CountryCode) => {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: `Sproutern ${config.name}`,
-    url: 'https://www.sproutern.com',
-    logo: 'https://www.sproutern.com/logo.jpg',
+    url: 'https://sproutern.dpdns.org',
+    logo: 'https://sproutern.dpdns.org/logo.jpg',
     description: metadata.home.description,
     areaServed: {
       '@type': 'Country',
@@ -588,7 +588,7 @@ export const generateCountryOrganizationSchema = (country: CountryCode) => {
 export const getBaiduMetaTags = () => ({
   'baidu-site-verification': '', // Add your Baidu verification code when available
   'applicable-device': 'pc,mobile',
-  'mobile-agent': 'format=xhtml; url=https://www.sproutern.com',
+  'mobile-agent': 'format=xhtml; url=https://sproutern.dpdns.org',
 });
 
 // Yandex-specific meta tags for Russia (if needed)

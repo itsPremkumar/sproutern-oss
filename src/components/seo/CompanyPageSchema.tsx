@@ -88,7 +88,7 @@ export function CompanyPageSchema({
     publisher: {
       '@type': 'Organization',
       name: 'Sproutern',
-      url: 'https://www.sproutern.com',
+      url: 'https://sproutern.dpdns.org',
     },
     speakable: {
       '@type': 'SpeakableSpecification',

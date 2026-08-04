@@ -132,17 +132,17 @@
 #       # ── Ping Google via Sitemap ───────────────────────────────────────────
 #       - name: Ping Google Sitemap
 #         run: |
-#           curl -s "https://www.google.com/ping?sitemap=https://www.sproutern.com/sitemap.xml" || true
-#           curl -s "https://www.google.com/ping?sitemap=https://www.sproutern.com/sitemap-blog.xml" || true
-#           curl -s "https://www.google.com/ping?sitemap=https://www.sproutern.com/sitemap-tools.xml" || true
-#           curl -s "https://www.google.com/ping?sitemap=https://www.sproutern.com/sitemap-games.xml" || true
+#           curl -s "https://www.google.com/ping?sitemap=https://sproutern.dpdns.org/sitemap.xml" || true
+#           curl -s "https://www.google.com/ping?sitemap=https://sproutern.dpdns.org/sitemap-blog.xml" || true
+#           curl -s "https://www.google.com/ping?sitemap=https://sproutern.dpdns.org/sitemap-tools.xml" || true
+#           curl -s "https://www.google.com/ping?sitemap=https://sproutern.dpdns.org/sitemap-games.xml" || true
 #           echo "✅ Google sitemaps pinged"
 #         continue-on-error: true
 
 #       # ── Ping Bing via Sitemap ─────────────────────────────────────────────
 #       - name: Ping Bing Sitemap
 #         run: |
-#           curl -s "https://www.bing.com/ping?sitemap=https://www.sproutern.com/sitemap.xml" || true
+#           curl -s "https://www.bing.com/ping?sitemap=https://sproutern.dpdns.org/sitemap.xml" || true
 #           echo "✅ Bing sitemap pinged"
 #         continue-on-error: true
 

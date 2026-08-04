@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     description:
       'Compare product companies, IT services firms, and consulting employers side by side.',
     type: 'website',
-    url: 'https://www.sproutern.com/compare',
+    url: 'https://sproutern.dpdns.org/compare',
   },
-  alternates: { canonical: 'https://www.sproutern.com/compare' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/compare' },
 };
 
 const faangCompanies = [
@@ -125,13 +125,13 @@ export default function CompareIndexPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Compare',
-        item: 'https://www.sproutern.com/compare',
+        item: 'https://sproutern.dpdns.org/compare',
       },
     ],
   };
@@ -147,7 +147,7 @@ export default function CompareIndexPage() {
             name: 'Company Salary and Culture Comparisons',
             description:
               'Compare top tech, consulting, and IT service companies for salary, culture, and interview process.',
-            url: 'https://www.sproutern.com/compare',
+            url: 'https://sproutern.dpdns.org/compare',
             numberOfItems: totalPairs,
           }),
         }}

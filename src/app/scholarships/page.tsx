@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description:
       'Find 60+ scholarships for school, college students, and professionals. Government, private & international opportunities.',
     type: 'website',
-    url: 'https://www.sproutern.com/scholarships',
+    url: 'https://sproutern.dpdns.org/scholarships',
   },
   twitter: {
     card: 'summary_large_image',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
       'Comprehensive scholarship database for students in India and abroad',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/scholarships',
+    canonical: 'https://sproutern.dpdns.org/scholarships',
   },
 };
 
@@ -679,13 +679,13 @@ export default function ScholarshipsPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Scholarships',
-        item: 'https://www.sproutern.com/scholarships',
+        item: 'https://sproutern.dpdns.org/scholarships',
       },
     ],
   };

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description:
       'Interactive quiz to discover which stream suits you best - Science, Commerce, or Arts. Get personalized career recommendations.',
     type: 'website',
-    url: 'https://www.sproutern.com/school/stream-selection',
+    url: 'https://sproutern.dpdns.org/school/stream-selection',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       'Find your best stream after 10th - Science, Commerce, or Arts.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/school/stream-selection',
+    canonical: 'https://sproutern.dpdns.org/school/stream-selection',
   },
 };
 

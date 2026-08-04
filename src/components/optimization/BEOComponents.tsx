@@ -32,8 +32,8 @@ export function OrganizationSchemaEnhanced() {
           '@type': 'Organization',
           name: 'Sproutern',
           legalName: 'Sproutern Education Pvt. Ltd.',
-          url: 'https://www.sproutern.com',
-          logo: 'https://www.sproutern.com/logo.jpg',
+          url: 'https://sproutern.dpdns.org',
+          logo: 'https://sproutern.dpdns.org/logo.jpg',
           description:
             "India's leading career platform helping students and professionals with interview preparation, salary insights, and career tools.",
           foundingDate: '2023',

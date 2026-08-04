@@ -14,13 +14,13 @@ export const metadata: Metadata = {
   description:
     'Master the art of cold emailing. Learn how to write subject lines that get opened and messages that get responses from recruiters and mentors.',
   alternates: {
-    canonical: 'https://www.sproutern.com/blog/cold-emailing-tips',
+    canonical: 'https://sproutern.dpdns.org/blog/cold-emailing-tips',
   },
   openGraph: {
     title: 'Cold Emailing Tips: How to Land Internships and Mentorships',
     description:
       'Master the art of cold emailing. Learn how to write subject lines that get opened and messages that get responses from recruiters and mentors.',
-    url: 'https://www.sproutern.com/blog/cold-emailing-tips',
+    url: 'https://sproutern.dpdns.org/blog/cold-emailing-tips',
     type: 'article',
     publishedTime: '2025-01-10',
     authors: ['Sproutern Team'],
@@ -38,27 +38,27 @@ export default function ColdEmailingTipsPage() {
     author: {
       '@type': 'Organization',
       name: 'Sproutern Team',
-      url: 'https://www.sproutern.com',
+      url: 'https://sproutern.dpdns.org',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Sproutern',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.sproutern.com/logo.jpg',
+        url: 'https://sproutern.dpdns.org/logo.jpg',
         creditText: 'Sproutern',
         creator: {
           '@type': 'Organization',
           name: 'Sproutern',
         },
         copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-        license: 'https://www.sproutern.com/terms',
-        acquireLicensePage: 'https://www.sproutern.com/contact',
+        license: 'https://sproutern.dpdns.org/terms',
+        acquireLicensePage: 'https://sproutern.dpdns.org/contact',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'https://www.sproutern.com/blog/cold-emailing-tips',
+      '@id': 'https://sproutern.dpdns.org/blog/cold-emailing-tips',
     },
   };
 

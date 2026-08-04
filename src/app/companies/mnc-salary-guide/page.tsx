@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'MNC Salary Guide',
     description:
       'Understand MNC salary structures and negotiate better offers.',
-    url: 'https://sproutern.com/companies/mnc-salary-guide',
+    url: 'https://sproutern.dpdns.org/companies/mnc-salary-guide',
     type: 'website',
   },
 };

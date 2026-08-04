@@ -1,4 +1,4 @@
-export const SEO_SITE_URL = 'https://www.sproutern.com';
+export const SEO_SITE_URL = 'https://sproutern.dpdns.org';
 export const SEO_SITE_NAME = 'Sproutern';
 export const SEO_LOGO_URL = `${SEO_SITE_URL}/logo.jpg`;
 export const SEO_DEFAULT_OG_IMAGE = `${SEO_SITE_URL}/opengraph.jpg`;

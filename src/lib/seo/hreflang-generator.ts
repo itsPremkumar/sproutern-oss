@@ -45,7 +45,7 @@ export const SUPPORTED_REGIONS = [
  */
 export function generateHreflangTags(
   pathname: string,
-  baseUrl: string = 'https://www.sproutern.com',
+  baseUrl: string = 'https://sproutern.dpdns.org',
 ): HreflangConfig {
   const regions = SUPPORTED_REGIONS.map((region) => ({
     lang: region.code,
@@ -147,7 +147,7 @@ export interface SitemapUrl {
 
 export function generateSitemapWithHreflang(
   paths: string[],
-  baseUrl: string = 'https://www.sproutern.com',
+  baseUrl: string = 'https://sproutern.dpdns.org',
 ): SitemapUrl[] {
   return paths.map((path) => {
     const hreflangMetadata = generateHreflangMetadata(path, baseUrl);

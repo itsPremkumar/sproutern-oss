@@ -24,7 +24,7 @@
     "type": "git",
     "url": "https://github.com/itsPremkumar/sproutern-open-source.git"
   },
-  "homepage": "https://www.sproutern.com",
+  "homepage": "https://sproutern.dpdns.org",
   "bugs": {
     "url": "https://github.com/itsPremkumar/sproutern-open-source/issues"
   },
@@ -56,7 +56,7 @@
     "ci:build": "npm run ci:build",
     "prepare": "husky install",
     "validate:seo": "tsx scripts/validate-seo.ts",
-    "audit:performance": "npx lighthouse https://www.sproutern.com --output=html --output-path=./performance-report.html",
+    "audit:performance": "npx lighthouse https://sproutern.dpdns.org --output=html --output-path=./performance-report.html",
     "audit:local": "npx lighthouse http://localhost:3000 --output=html --output-path=./local-report.html --view",
     "audit:site": "npx unlighthouse --site http://localhost:3000",
     "test:seo": "npm run validate:seo && npm run audit:performance",

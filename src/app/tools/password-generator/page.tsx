@@ -68,7 +68,7 @@ export default function PasswordGeneratorPage() {
           <ToolFAQSection
             toolName="Password Generator"
             faqs={passwordGeneratorFAQs}
-            toolUrl="https://www.sproutern.com/tools/password-generator"
+            toolUrl="https://sproutern.dpdns.org/tools/password-generator"
           />
 
           {content && (

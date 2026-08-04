@@ -72,11 +72,11 @@ export default function BlogPost() {
     headline: 'AI/ML Career Path: Complete Guide',
     description:
       'Start your AI and Machine Learning career. Learn skills, career paths, salary expectations, and how to land AI/ML internships and jobs.',
-    image: 'https://www.sproutern.com/opengraph.jpg',
+    image: 'https://sproutern.dpdns.org/opengraph.jpg',
     datePublished: '2025-12-01T00:00:00Z',
     dateModified: '2025-12-01T00:00:00Z',
     author: 'Sproutern Career Team',
-    url: 'https://www.sproutern.com/blog/ai-ml-career-path',
+    url: 'https://sproutern.dpdns.org/blog/ai-ml-career-path',
     keywords: [
       'ai career',
       'machine learning career',

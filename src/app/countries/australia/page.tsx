@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about studying and working in Australia as an international student.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/australia',
+    url: 'https://sproutern.dpdns.org/countries/australia',
   },
   twitter: {
     card: 'summary_large_image',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
       'Complete guide to Australian universities, visas, and career opportunities.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/australia',
+    canonical: 'https://sproutern.dpdns.org/countries/australia',
   },
 };
 

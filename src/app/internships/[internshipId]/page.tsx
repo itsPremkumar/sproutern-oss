@@ -34,7 +34,7 @@ async function getInternship(internshipId: string): Promise<Internship | null> {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { internshipId } = await params;
-  const canonical = `https://www.sproutern.com/internships/${internshipId}`;
+  const canonical = `https://sproutern.dpdns.org/internships/${internshipId}`;
 
   // Default metadata for non-existent internships
   let title = 'Internship Details - Sproutern';
@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       images: [
         {
-          url: 'https://www.sproutern.com/opengraph.jpg',
+          url: 'https://sproutern.dpdns.org/opengraph.jpg',
           width: 1200,
           height: 630,
           alt: title,
@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://www.sproutern.com/twitter.jpg'],
+      images: ['https://sproutern.dpdns.org/twitter.jpg'],
     },
     alternates: {
       canonical,

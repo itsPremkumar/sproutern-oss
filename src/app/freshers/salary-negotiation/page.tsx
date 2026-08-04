@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description:
       'Learn how to negotiate your first salary with tips, scripts, and strategies for getting the best offer.',
     type: 'article',
-    url: 'https://www.sproutern.com/freshers/salary-negotiation',
+    url: 'https://sproutern.dpdns.org/freshers/salary-negotiation',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
       'Get the salary you deserve with proven negotiation strategies.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/freshers/salary-negotiation',
+    canonical: 'https://sproutern.dpdns.org/freshers/salary-negotiation',
   },
 };
 

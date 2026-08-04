@@ -31,7 +31,7 @@ export default function DSAPage() {
             '@context': 'https://schema.org',
             '@type': 'CollectionPage',
             name: 'DSA Roadmap',
-            url: 'https://www.sproutern.com/dsa',
+            url: 'https://sproutern.dpdns.org/dsa',
             numberOfItems: dsaTopics.length,
           }),
         }}

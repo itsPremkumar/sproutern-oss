@@ -4,47 +4,47 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sproutern.com Educational Content Sitemap - Updated December 23, 2025 -->
+<!-- Sproutern.dpdns.org Educational Content Sitemap - Updated December 23, 2025 -->
 
 <!-- School Section -->
 <url>
-  <loc>https://www.sproutern.com/school</loc>
+  <loc>https://sproutern.dpdns.org/school</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/school/after-10th-guide</loc>
+  <loc>https://sproutern.dpdns.org/school/after-10th-guide</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/school/after-12th-guide</loc>
+  <loc>https://sproutern.dpdns.org/school/after-12th-guide</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/school/stream-selection</loc>
+  <loc>https://sproutern.dpdns.org/school/stream-selection</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/school/board-exam-tips</loc>
+  <loc>https://sproutern.dpdns.org/school/board-exam-tips</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/school/competitive-exams</loc>
+  <loc>https://sproutern.dpdns.org/school/competitive-exams</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/school/study-abroad</loc>
+  <loc>https://sproutern.dpdns.org/school/study-abroad</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
@@ -52,31 +52,31 @@
 
 <!-- College Section -->
 <url>
-  <loc>https://www.sproutern.com/college</loc>
+  <loc>https://sproutern.dpdns.org/college</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/college/first-year-guide</loc>
+  <loc>https://sproutern.dpdns.org/college/first-year-guide</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/college/semester-planner</loc>
+  <loc>https://sproutern.dpdns.org/college/semester-planner</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/college/extracurriculars</loc>
+  <loc>https://sproutern.dpdns.org/college/extracurriculars</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/college/comparison</loc>
+  <loc>https://sproutern.dpdns.org/college/comparison</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
@@ -84,43 +84,43 @@
 
 <!-- Freshers Section -->
 <url>
-  <loc>https://www.sproutern.com/freshers</loc>
+  <loc>https://sproutern.dpdns.org/freshers</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/freshers/first-job-guide</loc>
+  <loc>https://sproutern.dpdns.org/freshers/first-job-guide</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/freshers/salary-negotiation</loc>
+  <loc>https://sproutern.dpdns.org/freshers/salary-negotiation</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/freshers/bond-clauses</loc>
+  <loc>https://sproutern.dpdns.org/freshers/bond-clauses</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/freshers/notice-period</loc>
+  <loc>https://sproutern.dpdns.org/freshers/notice-period</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/freshers/probation-tips</loc>
+  <loc>https://sproutern.dpdns.org/freshers/probation-tips</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/freshers/relocation</loc>
+  <loc>https://sproutern.dpdns.org/freshers/relocation</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
@@ -128,67 +128,67 @@
 
 <!-- Countries (Study Abroad) Section -->
 <url>
-  <loc>https://www.sproutern.com/countries</loc>
+  <loc>https://sproutern.dpdns.org/countries</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/countries/usa</loc>
+  <loc>https://sproutern.dpdns.org/countries/usa</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/countries/uk</loc>
+  <loc>https://sproutern.dpdns.org/countries/uk</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/countries/canada</loc>
+  <loc>https://sproutern.dpdns.org/countries/canada</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/countries/germany</loc>
+  <loc>https://sproutern.dpdns.org/countries/germany</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/countries/australia</loc>
+  <loc>https://sproutern.dpdns.org/countries/australia</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/countries/france</loc>
+  <loc>https://sproutern.dpdns.org/countries/france</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/countries/ireland</loc>
+  <loc>https://sproutern.dpdns.org/countries/ireland</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/countries/netherlands</loc>
+  <loc>https://sproutern.dpdns.org/countries/netherlands</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/countries/singapore</loc>
+  <loc>https://sproutern.dpdns.org/countries/singapore</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/countries/japan</loc>
+  <loc>https://sproutern.dpdns.org/countries/japan</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
@@ -196,7 +196,7 @@
 
 <!-- Scholarships -->
 <url>
-  <loc>https://www.sproutern.com/scholarships</loc>
+  <loc>https://sproutern.dpdns.org/scholarships</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.90</priority>
@@ -204,13 +204,13 @@
 
 <!-- Career Guides -->
 <url>
-  <loc>https://www.sproutern.com/career-switch</loc>
+  <loc>https://sproutern.dpdns.org/career-switch</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/layoff-guide</loc>
+  <loc>https://sproutern.dpdns.org/layoff-guide</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
@@ -218,127 +218,127 @@
 
 <!-- Tools -->
 <url>
-  <loc>https://www.sproutern.com/tools</loc>
+  <loc>https://sproutern.dpdns.org/tools</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/visa-timeline</loc>
+  <loc>https://sproutern.dpdns.org/tools/visa-timeline</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/scholarship-checker</loc>
+  <loc>https://sproutern.dpdns.org/tools/scholarship-checker</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/sop-outliner</loc>
+  <loc>https://sproutern.dpdns.org/tools/sop-outliner</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/cold-email-generator</loc>
+  <loc>https://sproutern.dpdns.org/tools/cold-email-generator</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/gpa-converter</loc>
+  <loc>https://sproutern.dpdns.org/tools/gpa-converter</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/cgpa-converter</loc>
+  <loc>https://sproutern.dpdns.org/tools/cgpa-converter</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/salary-calculator</loc>
+  <loc>https://sproutern.dpdns.org/tools/salary-calculator</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/resume-score-checker</loc>
+  <loc>https://sproutern.dpdns.org/tools/resume-score-checker</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/emi-calculator</loc>
+  <loc>https://sproutern.dpdns.org/tools/emi-calculator</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/cover-letter-generator</loc>
+  <loc>https://sproutern.dpdns.org/tools/cover-letter-generator</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/career-roadmap</loc>
+  <loc>https://sproutern.dpdns.org/tools/career-roadmap</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/typing-test</loc>
+  <loc>https://sproutern.dpdns.org/tools/typing-test</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/interview-questions</loc>
+  <loc>https://sproutern.dpdns.org/tools/interview-questions</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/aptitude-test</loc>
+  <loc>https://sproutern.dpdns.org/tools/aptitude-test</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/ats-checker</loc>
+  <loc>https://sproutern.dpdns.org/tools/ats-checker</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/exam-countdown</loc>
+  <loc>https://sproutern.dpdns.org/tools/exam-countdown</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/interview-checklist</loc>
+  <loc>https://sproutern.dpdns.org/tools/interview-checklist</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/marks-calculator</loc>
+  <loc>https://sproutern.dpdns.org/tools/marks-calculator</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/study-hours-calculator</loc>
+  <loc>https://sproutern.dpdns.org/tools/study-hours-calculator</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/tools/academic-calendar</loc>
+  <loc>https://sproutern.dpdns.org/tools/academic-calendar</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>

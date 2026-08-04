@@ -46,14 +46,14 @@ describe('generateHreflangTags', () => {
     const config = generateHreflangTags('/internships');
 
     config.regions.forEach((region) => {
-      expect(region.url).toBe('https://www.sproutern.com/internships');
+      expect(region.url).toBe('https://sproutern.dpdns.org/internships');
     });
   });
 
   it('should set default language', () => {
     const config = generateHreflangTags('/blog');
 
-    expect(config.defaultLang).toBe('https://www.sproutern.com/blog');
+    expect(config.defaultLang).toBe('https://sproutern.dpdns.org/blog');
   });
 
   it('should handle custom base URL', () => {
@@ -68,7 +68,7 @@ describe('generateHreflangTags', () => {
   it('should handle root path', () => {
     const config = generateHreflangTags('/');
 
-    expect(config.defaultLang).toBe('https://www.sproutern.com/');
+    expect(config.defaultLang).toBe('https://sproutern.dpdns.org/');
   });
 });
 
@@ -98,7 +98,7 @@ describe('generateHreflangHTML', () => {
   it('should use correct URL format', () => {
     const html = generateHreflangHTML('/blog');
 
-    expect(html).toContain('href="https://www.sproutern.com/blog"');
+    expect(html).toContain('href="https://sproutern.dpdns.org/blog"');
   });
 });
 
@@ -136,7 +136,7 @@ describe('generateSitemapWithHreflang', () => {
     const sitemap = generateSitemapWithHreflang(['/internships']);
     const entry = sitemap[0];
 
-    expect(entry.url).toBe('https://www.sproutern.com/internships');
+    expect(entry.url).toBe('https://sproutern.dpdns.org/internships');
     expect(entry.lastModified).toBeInstanceOf(Date);
     expect(entry.changeFrequency).toBe('weekly');
     expect(entry.priority).toBe(0.8);

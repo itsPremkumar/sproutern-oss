@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Academic Calendar Generator',
     description: 'Create and manage your academic calendar effortlessly.',
     type: 'website',
-    url: 'https://www.sproutern.com/tools/academic-calendar',
+    url: 'https://sproutern.dpdns.org/tools/academic-calendar',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: 'Plan your semester with ease.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/tools/academic-calendar',
+    canonical: 'https://sproutern.dpdns.org/tools/academic-calendar',
   },
 };
 

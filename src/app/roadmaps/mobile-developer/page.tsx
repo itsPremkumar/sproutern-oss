@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   keywords:
     'mobile developer roadmap, react native, flutter, ios development, android kotlin, cross platform apps',
   alternates: {
-    canonical: 'https://www.sproutern.com/roadmaps/mobile-developer',
+    canonical: 'https://sproutern.dpdns.org/roadmaps/mobile-developer',
   },
 };
 

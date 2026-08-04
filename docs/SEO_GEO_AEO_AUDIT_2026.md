@@ -1,6 +1,6 @@
 # 🚀 SPROUTERN - COMPLETE SEO + GEO + AEO OPTIMIZATION 2026
 
-**Website:** https://sproutern.com  
+**Website:** https://sproutern.dpdns.org  
 **Target Markets:** India (Primary) + Global  
 **Last Updated:** January 2026  
 **Audit Type:** Technical SEO + GEO + AEO + AI-First Search Optimization
@@ -102,13 +102,13 @@ Crawl-delay: 2
 
 ```bash
 # Check indexed pages
-site:sproutern.com
+site:sproutern.dpdns.org
 
 # Check for duplicate content
-site:sproutern.com intitle:"CGPA Calculator"
+site:sproutern.dpdns.org intitle:"CGPA Calculator"
 
 # Check for thin content
-site:sproutern.com inurl:"/games/"
+site:sproutern.dpdns.org inurl:"/games/"
 ```
 
 **Expected Issues:**
@@ -263,7 +263,7 @@ experimental: {
 // Add to every page metadata
 export const metadata: Metadata = {
   alternates: {
-    canonical: 'https://www.sproutern.com/current-page',
+    canonical: 'https://sproutern.dpdns.org/current-page',
   },
 };
 ```

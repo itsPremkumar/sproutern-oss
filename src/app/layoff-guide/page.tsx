@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       'Complete guide for handling layoffs - immediate steps, financial planning, resume gap explanation, and mental health tips.',
     type: 'article',
-    url: 'https://www.sproutern.com/layoff-guide',
+    url: 'https://sproutern.dpdns.org/layoff-guide',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
       'Complete guide for handling layoffs and bouncing back stronger.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/layoff-guide',
+    canonical: 'https://sproutern.dpdns.org/layoff-guide',
   },
 };
 

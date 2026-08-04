@@ -36,10 +36,10 @@ export const metadata: Metadata = {
     description:
       'Explore 100+ career options after 12th for Science, Commerce, and Arts students.',
     type: 'article',
-    url: 'https://www.sproutern.com/school/after-12th-guide',
+    url: 'https://sproutern.dpdns.org/school/after-12th-guide',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/school/after-12th-guide',
+    canonical: 'https://sproutern.dpdns.org/school/after-12th-guide',
   },
 };
 

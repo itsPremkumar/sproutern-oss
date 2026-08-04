@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     'Complete guide to finding jobs and PR in Canada. Learn about Express Entry, PGWP, tech hubs in Toronto/Vancouver, and Canadian workplace culture.',
   alternates: {
-    canonical: 'https://www.sproutern.com/global-career-guide/canada',
+    canonical: 'https://sproutern.dpdns.org/global-career-guide/canada',
   },
 };
 

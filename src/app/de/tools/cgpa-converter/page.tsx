@@ -30,10 +30,10 @@ export const metadata: Metadata = {
     'Hochschule Noten',
   ],
   alternates: {
-    canonical: 'https://www.sproutern.com/de/tools/cgpa-converter',
+    canonical: 'https://sproutern.dpdns.org/de/tools/cgpa-converter',
     languages: {
-      'de-DE': 'https://www.sproutern.com/de/tools/cgpa-converter',
-      en: 'https://www.sproutern.com/tools/cgpa-converter',
+      'de-DE': 'https://sproutern.dpdns.org/de/tools/cgpa-converter',
+      en: 'https://sproutern.dpdns.org/tools/cgpa-converter',
     },
   },
   openGraph: {
@@ -83,7 +83,7 @@ export default function GermanCGPAConverterPage() {
     '@type': 'WebApplication',
     name: 'CGPA zu Prozent Umrechner',
     description: 'Kostenloser CGPA-Rechner für Studenten weltweit',
-    url: 'https://www.sproutern.com/de/tools/cgpa-converter',
+    url: 'https://sproutern.dpdns.org/de/tools/cgpa-converter',
     applicationCategory: 'EducationalApplication',
     operatingSystem: 'All',
     inLanguage: 'de-DE',

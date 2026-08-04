@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-const siteUrl = 'https://sproutern.com';
+const siteUrl = 'https://sproutern.dpdns.org';
 
 // Complete SEO metadata for all pages
 export const allPagesMetadata = {

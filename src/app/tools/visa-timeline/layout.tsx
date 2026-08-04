@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description:
       'Plan your student visa application with country-specific processing times. Get personalized timeline recommendations for USA, UK, Canada, Germany, and more.',
     type: 'website',
-    url: 'https://www.sproutern.com/tools/visa-timeline',
+    url: 'https://sproutern.dpdns.org/tools/visa-timeline',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       'Plan your student visa application with country-specific processing times.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/tools/visa-timeline',
+    canonical: 'https://sproutern.dpdns.org/tools/visa-timeline',
   },
 };
 

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'Complete guide to Infosys careers. Learn about Infosys salary, interview questions, and job opportunities for freshers and experienced professionals.',
   keywords:
     'infosys careers, infosys salary, infosys interview questions, infosys jobs, infosys limited',
-  alternates: { canonical: 'https://www.sproutern.com/companies/infosys' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/companies/infosys' },
 };
 
 export default function InfosysPage() {

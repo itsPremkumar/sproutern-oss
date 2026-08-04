@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     'Complete guide to finding jobs in Australia. Learn about Skilled Migration, work-life balance, top industries in Sydney/Melbourne, and Aussie work culture.',
   alternates: {
-    canonical: 'https://www.sproutern.com/global-career-guide/australia',
+    canonical: 'https://sproutern.dpdns.org/global-career-guide/australia',
   },
 };
 

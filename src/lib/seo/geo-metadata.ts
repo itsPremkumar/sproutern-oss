@@ -246,21 +246,21 @@ export const generateGeoOrganizationSchema = (region: 'IN' | 'US' | 'GB') => {
   const regionData = {
     IN: {
       name: 'Sproutern India',
-      url: 'https://sproutern.com',
+      url: 'https://sproutern.dpdns.org',
       address: 'India',
       telephone: '+91-XXXXXXXXXX',
       areaServed: 'IN',
     },
     US: {
       name: 'Sproutern USA',
-      url: 'https://sproutern.com',
+      url: 'https://sproutern.dpdns.org',
       address: 'United States',
       telephone: '+1-XXXXXXXXXX',
       areaServed: 'US',
     },
     GB: {
       name: 'Sproutern Global',
-      url: 'https://sproutern.com',
+      url: 'https://sproutern.dpdns.org',
       address: 'United Kingdom',
       telephone: '+44-XXXXXXXXXX',
       areaServed: 'GB',
@@ -274,7 +274,7 @@ export const generateGeoOrganizationSchema = (region: 'IN' | 'US' | 'GB') => {
     '@type': 'Organization',
     name: data.name,
     url: data.url,
-    logo: 'https://sproutern.com/logo.jpg',
+    logo: 'https://sproutern.dpdns.org/logo.jpg',
     description: 'Internship platform connecting students with opportunities',
     areaServed: data.areaServed,
     contactPoint: {
@@ -323,7 +323,7 @@ export const generateGeoLocalBusinessSchema = (region: 'IN' | 'US' | 'GB') => {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: data.name,
-    image: 'https://sproutern.com/opengraph.jpg',
+    image: 'https://sproutern.dpdns.org/opengraph.jpg',
     description: 'Internship platform for students',
     address: {
       '@type': 'PostalAddress',
@@ -335,7 +335,7 @@ export const generateGeoLocalBusinessSchema = (region: 'IN' | 'US' | 'GB') => {
       longitude: data.longitude,
     },
     areaServed: data.areaServed,
-    url: 'https://sproutern.com',
+    url: 'https://sproutern.dpdns.org',
   };
 };
 
@@ -371,13 +371,13 @@ export const generateGeoAggregateOfferSchema = (region: 'IN' | 'US' | 'GB') => {
     priceCurrency: data.priceCurrency,
     priceRange: data.priceRange,
     areaServed: data.areaServed,
-    url: 'https://sproutern.com/internships',
+    url: 'https://sproutern.dpdns.org/internships',
   };
 };
 
 // Geo-targeted hreflang configuration
 export const generateHrefLangTags = (currentPath: string) => {
-  const baseUrl = 'https://www.sproutern.com';
+  const baseUrl = 'https://sproutern.dpdns.org';
 
   return [
     {

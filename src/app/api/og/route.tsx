@@ -172,7 +172,7 @@ export async function GET(request: NextRequest) {
 
           {/* URL */}
           <span style={{ color: '#64748b', fontSize: '20px' }}>
-            sproutern.com
+            sproutern.dpdns.org
           </span>
         </div>
 

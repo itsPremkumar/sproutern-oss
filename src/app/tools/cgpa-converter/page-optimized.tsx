@@ -95,7 +95,7 @@ export default function CGPAConverterPage() {
       <SoftwareApplicationSchema
         name="CGPA to Percentage Calculator"
         description="Free online CGPA to percentage converter supporting 50+ Indian universities with official conversion formulas."
-        url="https://www.sproutern.com/tools/cgpa-converter"
+        url="https://sproutern.dpdns.org/tools/cgpa-converter"
         applicationCategory="EducationalApplication"
         aggregateRating={{ ratingValue: 4.8, reviewCount: 2247 }}
       />
@@ -107,11 +107,11 @@ export default function CGPAConverterPage() {
       />
       <BreadcrumbSchema
         items={[
-          { name: 'Home', url: 'https://www.sproutern.com' },
-          { name: 'Tools', url: 'https://www.sproutern.com/tools' },
+          { name: 'Home', url: 'https://sproutern.dpdns.org' },
+          { name: 'Tools', url: 'https://sproutern.dpdns.org/tools' },
           {
             name: 'CGPA Converter',
-            url: 'https://www.sproutern.com/tools/cgpa-converter',
+            url: 'https://sproutern.dpdns.org/tools/cgpa-converter',
           },
         ]}
       />

@@ -52,10 +52,10 @@ export const metadata: Metadata = {
     title: 'NortonLifeLock Careers India',
     description:
       'Everything you need to know about working at NortonLifeLock India.',
-    url: 'https://www.sproutern.com/companies/nortonlifelock',
+    url: 'https://sproutern.dpdns.org/companies/nortonlifelock',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/companies/nortonlifelock',
+    canonical: 'https://sproutern.dpdns.org/companies/nortonlifelock',
   },
 };
 

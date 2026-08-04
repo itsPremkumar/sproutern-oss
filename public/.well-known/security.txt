@@ -1,9 +1,9 @@
 Contact: mailto:support@sproutern.com
 Expires: 2027-02-15T23:59:59.000Z
 Preferred-Languages: en
-Canonical: https://www.sproutern.com/.well-known/security.txt
-Policy: https://www.sproutern.com/privacy-policy
-Hiring: https://www.sproutern.com/about
+Canonical: https://sproutern.dpdns.org/.well-known/security.txt
+Policy: https://sproutern.dpdns.org/privacy-policy
+Hiring: https://sproutern.dpdns.org/about
 
 # Security Policy
 # 

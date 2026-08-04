@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Exam Countdown Timer',
     description: 'Track days remaining for your important exams.',
     type: 'website',
-    url: 'https://www.sproutern.com/tools/exam-countdown',
+    url: 'https://sproutern.dpdns.org/tools/exam-countdown',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: 'Never miss an exam deadline again.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/tools/exam-countdown',
+    canonical: 'https://sproutern.dpdns.org/tools/exam-countdown',
   },
 };
 

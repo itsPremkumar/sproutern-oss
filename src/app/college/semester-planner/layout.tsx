@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Semester Planner',
     description: 'Plan your entire semester effectively.',
     type: 'website',
-    url: 'https://www.sproutern.com/college/semester-planner',
+    url: 'https://sproutern.dpdns.org/college/semester-planner',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: 'Organize your college semester effortlessly.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/college/semester-planner',
+    canonical: 'https://sproutern.dpdns.org/college/semester-planner',
   },
 };
 

@@ -54,7 +54,7 @@ export const metadata: Metadata = {
       'How to Get Internship Opportunities in MNC Companies | Complete Guide',
     description:
       'Master the art of landing internships at top MNCs. Learn eligibility, application strategies, interview tips, and how to convert internships into full-time offers.',
-    url: 'https://sproutern.com/companies/mnc-internship-guide',
+    url: 'https://sproutern.dpdns.org/companies/mnc-internship-guide',
     type: 'article',
     publishedTime: new Date().toISOString(),
     authors: ['Prem Kumar'],

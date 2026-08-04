@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Interview Checklist Generator',
     description: 'Complete interview preparation checklist for your big day.',
     type: 'website',
-    url: 'https://www.sproutern.com/tools/interview-checklist',
+    url: 'https://sproutern.dpdns.org/tools/interview-checklist',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: 'Never forget important interview preparation steps.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/tools/interview-checklist',
+    canonical: 'https://sproutern.dpdns.org/tools/interview-checklist',
   },
 };
 

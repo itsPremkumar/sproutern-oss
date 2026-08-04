@@ -1,7 +1,7 @@
 import { getUnifiedFeedPosts } from '@/lib/seo/feed-content';
 import { NextResponse } from 'next/server';
 
-const siteUrl = 'https://www.sproutern.com';
+const siteUrl = 'https://sproutern.dpdns.org';
 const publicationName = 'Sproutern';
 const publicationLanguage = 'en';
 const twoDaysMs = 2 * 24 * 60 * 60 * 1000;

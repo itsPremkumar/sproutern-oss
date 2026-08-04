@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       'Compare job markets, work visas, salaries, and relocation paths across major destinations.',
     type: 'article',
-    url: 'https://www.sproutern.com/global-career-guide',
+    url: 'https://sproutern.dpdns.org/global-career-guide',
     images: [
       {
         url: '/images/global-career-guide-og.jpg', // Assuming a generic OG image or logo exists, or use default
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       'Compare international job markets, salaries, visas, and relocation paths with more confidence.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/global-career-guide',
+    canonical: 'https://sproutern.dpdns.org/global-career-guide',
   },
 };
 
@@ -237,31 +237,31 @@ export default function GlobalCareerGuidePage() {
       'Global Career Success: Your Complete Guide to International Job Markets',
     description:
       'Navigate career success across global markets with expert guidance for international professionals in USA, UK, Canada, and more.',
-    image: 'https://www.sproutern.com/images/global-career-guide-og.jpg',
+    image: 'https://sproutern.dpdns.org/images/global-career-guide-og.jpg',
     author: {
       '@type': 'Organization',
       name: 'Sproutern',
-      url: 'https://www.sproutern.com',
+      url: 'https://sproutern.dpdns.org',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Sproutern',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.sproutern.com/logo.jpg',
+        url: 'https://sproutern.dpdns.org/logo.jpg',
         creditText: 'Sproutern',
         creator: {
           '@type': 'Organization',
           name: 'Sproutern',
         },
         copyrightNotice: 'Copyright Sproutern.',
-        license: 'https://www.sproutern.com/terms',
-        acquireLicensePage: 'https://www.sproutern.com/contact',
+        license: 'https://sproutern.dpdns.org/terms',
+        acquireLicensePage: 'https://sproutern.dpdns.org/contact',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'https://www.sproutern.com/global-career-guide',
+      '@id': 'https://sproutern.dpdns.org/global-career-guide',
     },
   };
 
@@ -273,13 +273,13 @@ export default function GlobalCareerGuidePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Global Career Guide',
-        item: 'https://www.sproutern.com/global-career-guide',
+        item: 'https://sproutern.dpdns.org/global-career-guide',
       },
     ],
   };

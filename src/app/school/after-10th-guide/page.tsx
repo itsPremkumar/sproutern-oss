@@ -34,10 +34,10 @@ export const metadata: Metadata = {
     description:
       'Explore all career options after 10th class including streams, diploma courses, ITI, and more.',
     type: 'article',
-    url: 'https://www.sproutern.com/school/after-10th-guide',
+    url: 'https://sproutern.dpdns.org/school/after-10th-guide',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/school/after-10th-guide',
+    canonical: 'https://sproutern.dpdns.org/school/after-10th-guide',
   },
 };
 

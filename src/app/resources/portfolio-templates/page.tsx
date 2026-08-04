@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   keywords:
     'portfolio templates, developer portfolio, free portfolio, portfolio website, portfolio design',
   alternates: {
-    canonical: 'https://www.sproutern.com/resources/portfolio-templates',
+    canonical: 'https://sproutern.dpdns.org/resources/portfolio-templates',
   },
 };
 

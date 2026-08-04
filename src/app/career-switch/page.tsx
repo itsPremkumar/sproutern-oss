@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description:
       'Complete guide for switching careers. From IT to non-IT, engineering to MBA - get step-by-step roadmap for career transitions.',
     type: 'article',
-    url: 'https://www.sproutern.com/career-switch',
+    url: 'https://sproutern.dpdns.org/career-switch',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
       'Complete guide for switching careers with step-by-step roadmap.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/career-switch',
+    canonical: 'https://sproutern.dpdns.org/career-switch',
   },
 };
 

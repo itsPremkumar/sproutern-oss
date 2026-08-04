@@ -71,15 +71,15 @@ export default function BlogPost() {
           <div className="mb-6">
             <BreadcrumbSchema
               items={[
-                { name: 'Home', url: 'https://www.sproutern.com' },
-                { name: 'Blog', url: 'https://www.sproutern.com/blog' },
+                { name: 'Home', url: 'https://sproutern.dpdns.org' },
+                { name: 'Blog', url: 'https://sproutern.dpdns.org/blog' },
                 {
                   name: 'Resources',
-                  url: 'https://www.sproutern.com/blog/category/resources',
+                  url: 'https://sproutern.dpdns.org/blog/category/resources',
                 },
                 {
                   name: 'Free Courses 2026',
-                  url: 'https://www.sproutern.com/blog/free-online-courses-with-certificates-2026',
+                  url: 'https://sproutern.dpdns.org/blog/free-online-courses-with-certificates-2026',
                 },
               ]}
             />
@@ -122,8 +122,8 @@ export default function BlogPost() {
       <ArticleSchema
         title="100+ Free Online Courses with Certificates 2026"
         description="Level up your skills with 100+ free certifications from top companies and universities."
-        url="https://www.sproutern.com/blog/free-online-courses-with-certificates-2026"
-        image="https://www.sproutern.com/logo.jpg"
+        url="https://sproutern.dpdns.org/blog/free-online-courses-with-certificates-2026"
+        image="https://sproutern.dpdns.org/logo.jpg"
         datePublished="2026-03-05T00:00:00Z"
         dateModified="2026-03-05T00:00:00Z"
         keywords={metadata.keywords as string[]}

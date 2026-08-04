@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about studying and working in Denmark.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/denmark',
+    url: 'https://sproutern.dpdns.org/countries/denmark',
   },
-  alternates: { canonical: 'https://www.sproutern.com/countries/denmark' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/countries/denmark' },
 };
 
 const visaTypes = [

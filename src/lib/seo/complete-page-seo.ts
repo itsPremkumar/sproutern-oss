@@ -9,7 +9,7 @@ import {
 import { generateBreadcrumbSchema } from './schema-generators';
 import { generateAIMetadata } from './ai-metadata-generator';
 
-const siteUrl = 'https://www.sproutern.com';
+const siteUrl = 'https://sproutern.dpdns.org';
 
 // Complete SEO configuration for all important pages with geo-targeting
 export const completePageSEO = {
@@ -78,8 +78,8 @@ export const completePageSEO = {
             name: 'Sproutern',
           },
           copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-          license: 'https://www.sproutern.com/terms',
-          acquireLicensePage: 'https://www.sproutern.com/contact',
+          license: 'https://sproutern.dpdns.org/terms',
+          acquireLicensePage: 'https://sproutern.dpdns.org/contact',
         },
         description:
           'A team of career experts and technologists dedicated to helping students and freshers build successful careers through free tools and resources.',

@@ -76,7 +76,7 @@ async function verifySitemapCoverage() {
   const appDir = path.join(process.cwd(), 'src', 'app');
   const discoveredRoutes = scanRoutes(appDir);
   const discoveredUrls = new Set(
-    discoveredRoutes.map((r) => `https://www.sproutern.com${r}`),
+    discoveredRoutes.map((r) => `https://sproutern.dpdns.org${r}`),
   );
 
   console.log(

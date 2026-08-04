@@ -123,7 +123,7 @@ domains.
 _This article is regularly updated with the latest market data. Last verified: February 22, 2026._
 
 _Source: Sproutern Career Research Team. Cite as: Sproutern Team. "Amazon SDE-1 Interview Questions
-India 2026 - Complete Guide." Sproutern.com, February 22, 2026._
+India 2026 - Complete Guide." Sproutern.dpdns.org, February 22, 2026._
 
 ---
 

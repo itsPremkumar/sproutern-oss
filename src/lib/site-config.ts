@@ -3,7 +3,7 @@
  *
  * The base URL MUST be dynamic so sitemaps, feeds, and canonical tags
  * point at the REAL deployed domain (Vercel preview/prod, custom domain,
- * or the free .us.kg domain) — not a hardcoded sproutern.com. Hardcoding
+ * or the free .us.kg domain) — not a hardcoded sproutern.dpdns.org. Hardcoding
  * the domain breaks indexing on any other host, which kills organic
  * traffic and therefore ad/affiliate revenue.
  */

@@ -53,10 +53,10 @@ export const metadata: Metadata = {
     title: 'Cognizant Salary in India - Complete Guide',
     description:
       'Detailed Cognizant salary breakdown by role, experience, and designation.',
-    url: 'https://www.sproutern.com/companies/cognizant/salary',
+    url: 'https://sproutern.dpdns.org/companies/cognizant/salary',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/companies/cognizant/salary',
+    canonical: 'https://sproutern.dpdns.org/companies/cognizant/salary',
   },
 };
 

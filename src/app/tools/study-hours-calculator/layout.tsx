@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Study Hours Calculator',
     description: 'Plan your study hours based on syllabus and exam date.',
     type: 'website',
-    url: 'https://www.sproutern.com/tools/study-hours-calculator',
+    url: 'https://sproutern.dpdns.org/tools/study-hours-calculator',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: 'Get a personalized study schedule.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/tools/study-hours-calculator',
+    canonical: 'https://sproutern.dpdns.org/tools/study-hours-calculator',
   },
 };
 

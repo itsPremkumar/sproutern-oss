@@ -30,13 +30,13 @@ export const metadata: Metadata = {
     'linkedin profile checklist',
   ],
   alternates: {
-    canonical: 'https://www.sproutern.com/resources/linkedin-optimization',
+    canonical: 'https://sproutern.dpdns.org/resources/linkedin-optimization',
   },
   openGraph: {
     title: 'LinkedIn Optimization Guide for Students',
     description:
       'Build a recruiter-friendly LinkedIn profile with better headlines, summaries, projects, and networking habits.',
-    url: 'https://www.sproutern.com/resources/linkedin-optimization',
+    url: 'https://sproutern.dpdns.org/resources/linkedin-optimization',
     type: 'article',
   },
 };
@@ -145,19 +145,19 @@ export default function LinkedInOptimizationPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Resources',
-        item: 'https://www.sproutern.com/resources',
+        item: 'https://sproutern.dpdns.org/resources',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'LinkedIn Optimization',
-        item: 'https://www.sproutern.com/resources/linkedin-optimization',
+        item: 'https://sproutern.dpdns.org/resources/linkedin-optimization',
       },
     ],
   };

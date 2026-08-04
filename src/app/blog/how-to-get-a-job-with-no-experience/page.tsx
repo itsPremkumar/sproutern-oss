@@ -33,8 +33,8 @@ import {
 } from '@/components/seo';
 
 const canonicalUrl =
-  'https://www.sproutern.com/blog/how-to-get-a-job-with-no-experience';
-const articleImage = 'https://www.sproutern.com/opengraph.jpg';
+  'https://sproutern.dpdns.org/blog/how-to-get-a-job-with-no-experience';
+const articleImage = 'https://sproutern.dpdns.org/opengraph.jpg';
 const faqItems = [
   {
     question: 'Can I get a job with zero experience in 2026?',
@@ -121,15 +121,15 @@ export default function BlogPost() {
           <div className="mb-6">
             <BreadcrumbSchema
               items={[
-                { name: 'Home', url: 'https://www.sproutern.com' },
-                { name: 'Blog', url: 'https://www.sproutern.com/blog' },
+                { name: 'Home', url: 'https://sproutern.dpdns.org' },
+                { name: 'Blog', url: 'https://sproutern.dpdns.org/blog' },
                 {
                   name: 'Career Guide',
-                  url: 'https://www.sproutern.com/blog/category/career-guide',
+                  url: 'https://sproutern.dpdns.org/blog/category/career-guide',
                 },
                 {
                   name: 'Get Job No Experience',
-                  url: 'https://www.sproutern.com/blog/how-to-get-a-job-with-no-experience',
+                  url: 'https://sproutern.dpdns.org/blog/how-to-get-a-job-with-no-experience',
                 },
               ]}
             />

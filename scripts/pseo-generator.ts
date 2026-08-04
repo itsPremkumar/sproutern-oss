@@ -878,7 +878,7 @@ ${city} offers a strong tech ecosystem with numerous opportunities. Consider fac
 
 *This article is regularly updated with the latest market data. Last verified: ${dateStr}.*
 
-*Source: Sproutern Career Research Team, compiled from 10,000+ verified profiles and company data. Cite as: Sproutern Team. "${page.title}." Sproutern.com, ${dateStr}.*
+*Source: Sproutern Career Research Team, compiled from 10,000+ verified profiles and company data. Cite as: Sproutern Team. "${page.title}." Sproutern.dpdns.org, ${dateStr}.*
 `;
 }
 
@@ -1026,7 +1026,7 @@ ${companyType === 'product' ? company + ' generally values skills over specific 
 
 *This article is regularly updated. Last verified: ${dateStr}.*
 
-*Source: Sproutern Career Research Team. Interview data compiled from verified candidate experiences. Cite as: Sproutern Team. "${page.title}." Sproutern.com, ${dateStr}.*
+*Source: Sproutern Career Research Team. Interview data compiled from verified candidate experiences. Cite as: Sproutern Team. "${page.title}." Sproutern.dpdns.org, ${dateStr}.*
 `;
 }
 

@@ -4,7 +4,7 @@
  * and region-specific exam/placement context
  */
 
-const siteUrl = 'https://www.sproutern.com';
+const siteUrl = 'https://sproutern.dpdns.org';
 
 /**
  * Supported regions with locale information

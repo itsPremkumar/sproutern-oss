@@ -4,11 +4,11 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- Sproutern.com Resources Sitemap - Updated December 23, 2025 -->
+<!-- Sproutern.dpdns.org Resources Sitemap - Updated December 23, 2025 -->
 
 <!-- Resources Hub -->
 <url>
-  <loc>https://www.sproutern.com/resources</loc>
+  <loc>https://sproutern.dpdns.org/resources</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.90</priority>
@@ -16,19 +16,19 @@
 
 <!-- Resume Resources -->
 <url>
-  <loc>https://www.sproutern.com/resources/resume-templates</loc>
+  <loc>https://sproutern.dpdns.org/resources/resume-templates</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.85</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/resources/resume-guide</loc>
+  <loc>https://sproutern.dpdns.org/resources/resume-guide</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.85</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/resources/cover-letters</loc>
+  <loc>https://sproutern.dpdns.org/resources/cover-letters</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
@@ -36,19 +36,19 @@
 
 <!-- Interview Resources -->
 <url>
-  <loc>https://www.sproutern.com/resources/interview-prep</loc>
+  <loc>https://sproutern.dpdns.org/resources/interview-prep</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.85</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/resources/interview-cheatsheet</loc>
+  <loc>https://sproutern.dpdns.org/resources/interview-cheatsheet</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.85</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/resources/aptitude-formulas</loc>
+  <loc>https://sproutern.dpdns.org/resources/aptitude-formulas</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
@@ -56,25 +56,25 @@
 
 <!-- Career Resources -->
 <url>
-  <loc>https://www.sproutern.com/resources/career-planning</loc>
+  <loc>https://sproutern.dpdns.org/resources/career-planning</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/resources/skill-development</loc>
+  <loc>https://sproutern.dpdns.org/resources/skill-development</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/resources/networking</loc>
+  <loc>https://sproutern.dpdns.org/resources/networking</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.75</priority>
 </url>
 <url>
-  <loc>https://www.sproutern.com/resources/industry-insights</loc>
+  <loc>https://sproutern.dpdns.org/resources/industry-insights</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.75</priority>
@@ -82,7 +82,7 @@
 
 <!-- Downloads -->
 <url>
-  <loc>https://www.sproutern.com/resources/downloads</loc>
+  <loc>https://sproutern.dpdns.org/resources/downloads</loc>
   <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.70</priority>

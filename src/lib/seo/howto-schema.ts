@@ -192,8 +192,8 @@ export function generateArticleSchema(params: ArticleParams) {
           name: 'Sproutern',
         },
         copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-        license: 'https://www.sproutern.com/terms',
-        acquireLicensePage: 'https://www.sproutern.com/contact',
+        license: 'https://sproutern.dpdns.org/terms',
+        acquireLicensePage: 'https://sproutern.dpdns.org/contact',
       },
     }),
     datePublished: params.datePublished,
@@ -207,18 +207,18 @@ export function generateArticleSchema(params: ArticleParams) {
     publisher: {
       '@type': 'Organization',
       name: 'Sproutern',
-      url: 'https://www.sproutern.com',
+      url: 'https://sproutern.dpdns.org',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.sproutern.com/logo.jpg',
+        url: 'https://sproutern.dpdns.org/logo.jpg',
         creditText: 'Sproutern',
         creator: {
           '@type': 'Organization',
           name: 'Sproutern',
         },
         copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-        license: 'https://www.sproutern.com/terms',
-        acquireLicensePage: 'https://www.sproutern.com/contact',
+        license: 'https://sproutern.dpdns.org/terms',
+        acquireLicensePage: 'https://sproutern.dpdns.org/contact',
       },
     },
     ...(params.keywords && { keywords: params.keywords.join(', ') }),
@@ -227,7 +227,7 @@ export function generateArticleSchema(params: ArticleParams) {
     inLanguage: 'en',
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': params.author.url || 'https://www.sproutern.com',
+      '@id': params.author.url || 'https://sproutern.dpdns.org',
     },
   };
 }

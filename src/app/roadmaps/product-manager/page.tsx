@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     title: 'Product Manager Roadmap',
     description: 'Step-by-step guide to becoming a Product Manager.',
     type: 'article',
-    url: 'https://www.sproutern.com/roadmaps/product-manager',
+    url: 'https://sproutern.dpdns.org/roadmaps/product-manager',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/roadmaps/product-manager',
+    canonical: 'https://sproutern.dpdns.org/roadmaps/product-manager',
   },
 };
 

@@ -42,10 +42,10 @@ export async function generateMetadata({
       title,
       description,
       type: 'article',
-      url: `https://www.sproutern.com/college/${slug}/placements`,
+      url: `https://sproutern.dpdns.org/college/${slug}/placements`,
     },
     alternates: {
-      canonical: `https://www.sproutern.com/college/${slug}/placements`,
+      canonical: `https://sproutern.dpdns.org/college/${slug}/placements`,
     },
   };
 }
@@ -83,13 +83,13 @@ export default async function CollegePlacementPage({
                     '@type': 'ListItem',
                     position: 1,
                     name: 'Home',
-                    item: 'https://www.sproutern.com',
+                    item: 'https://sproutern.dpdns.org',
                   },
                   {
                     '@type': 'ListItem',
                     position: 2,
                     name: 'College',
-                    item: 'https://www.sproutern.com/college',
+                    item: 'https://sproutern.dpdns.org/college',
                   },
                   {
                     '@type': 'ListItem',

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description:
       'Step-by-step career guides for tech and business roles. Skills, certifications, and timelines included.',
     type: 'website',
-    url: 'https://www.sproutern.com/roadmaps',
+    url: 'https://sproutern.dpdns.org/roadmaps',
   },
   twitter: {
     card: 'summary_large_image',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       'Plan your career path with detailed roadmaps for popular roles.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/roadmaps',
+    canonical: 'https://sproutern.dpdns.org/roadmaps',
   },
 };
 
@@ -232,13 +232,13 @@ export default function RoadmapsPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Career Roadmaps',
-        item: 'https://www.sproutern.com/roadmaps',
+        item: 'https://sproutern.dpdns.org/roadmaps',
       },
     ],
   };
@@ -249,7 +249,7 @@ export default function RoadmapsPage() {
     name: 'Career Roadmaps',
     description:
       'Comprehensive career roadmaps for popular tech and business roles',
-    url: 'https://www.sproutern.com/roadmaps',
+    url: 'https://sproutern.dpdns.org/roadmaps',
     mainEntity: {
       '@type': 'ItemList',
       name: 'Career Roadmaps',
@@ -258,7 +258,7 @@ export default function RoadmapsPage() {
         '@type': 'ListItem',
         position: index + 1,
         name: `${roadmap.title} Roadmap`,
-        url: `https://www.sproutern.com/roadmaps/${roadmap.id}`,
+        url: `https://sproutern.dpdns.org/roadmaps/${roadmap.id}`,
       })),
     },
   };

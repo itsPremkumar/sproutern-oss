@@ -32,22 +32,22 @@ export const generateBlogPostingSchema = (post: {
   },
   datePublished: post.datePublished,
   dateModified: post.dateModified || post.datePublished,
-  image: post.image || 'https://www.sproutern.com/opengraph.jpg',
+  image: post.image || 'https://sproutern.dpdns.org/opengraph.jpg',
   url: post.url,
   publisher: {
     '@type': 'Organization',
     name: 'Sproutern',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://www.sproutern.com/logo.jpg',
+      url: 'https://sproutern.dpdns.org/logo.jpg',
       creditText: 'Sproutern',
       creator: {
         '@type': 'Organization',
         name: 'Sproutern',
       },
       copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-      license: 'https://www.sproutern.com/terms',
-      acquireLicensePage: 'https://www.sproutern.com/contact',
+      license: 'https://sproutern.dpdns.org/terms',
+      acquireLicensePage: 'https://sproutern.dpdns.org/contact',
     },
   },
 });
@@ -132,13 +132,13 @@ export const generateBreadcrumbSchema = (
 export const generateOrganizationSchema = () => ({
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  '@id': 'https://www.sproutern.com/#organization',
+  '@id': 'https://sproutern.dpdns.org/#organization',
   name: 'Sproutern',
-  alternateName: ['Sproutern.com', 'Sproutern Platform'],
-  url: 'https://www.sproutern.com/',
+  alternateName: ['Sproutern.dpdns.org', 'Sproutern Platform'],
+  url: 'https://sproutern.dpdns.org/',
   logo: {
     '@type': 'ImageObject',
-    url: 'https://www.sproutern.com/logo.jpg',
+    url: 'https://sproutern.dpdns.org/logo.jpg',
     width: 512,
     height: 512,
     creditText: 'Sproutern',
@@ -147,8 +147,8 @@ export const generateOrganizationSchema = () => ({
       name: 'Sproutern',
     },
     copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-    license: 'https://www.sproutern.com/terms',
-    acquireLicensePage: 'https://www.sproutern.com/contact',
+    license: 'https://sproutern.dpdns.org/terms',
+    acquireLicensePage: 'https://sproutern.dpdns.org/contact',
   },
   description:
     'Premier platform connecting ambitious students with innovative startups worldwide. AI-powered internship matching, career guidance, and professional development.',
@@ -164,7 +164,7 @@ export const generateOrganizationSchema = () => ({
       '@type': 'ContactPoint',
       contactType: 'customer support',
       email: 'support@sproutern.com',
-      url: 'https://www.sproutern.com/contact',
+      url: 'https://sproutern.dpdns.org/contact',
       availableLanguage: ['English', 'Hindi'],
     },
   ],
@@ -191,20 +191,20 @@ export const generateOrganizationSchema = () => ({
 export const generateWebsiteSchema = () => ({
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  '@id': 'https://www.sproutern.com/#website',
+  '@id': 'https://sproutern.dpdns.org/#website',
   name: 'Sproutern',
-  url: 'https://www.sproutern.com/',
+  url: 'https://sproutern.dpdns.org/',
   description:
     'Find internships, career guidance, educational resources, and tools for students worldwide.',
   publisher: {
-    '@id': 'https://www.sproutern.com/#organization',
+    '@id': 'https://sproutern.dpdns.org/#organization',
   },
   potentialAction: {
     '@type': 'SearchAction',
     target: {
       '@type': 'EntryPoint',
       urlTemplate:
-        'https://www.sproutern.com/internships?q={search_term_string}',
+        'https://sproutern.dpdns.org/internships?q={search_term_string}',
     },
     'query-input': 'required name=search_term_string',
   },
@@ -237,22 +237,22 @@ export const generateArticleSchema = (params: {
   author: {
     '@type': 'Person',
     name: params.author,
-    url: params.authorUrl || 'https://www.sproutern.com/about',
+    url: params.authorUrl || 'https://sproutern.dpdns.org/about',
   },
   publisher: {
     '@type': 'Organization',
     name: 'Sproutern',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://www.sproutern.com/logo.jpg',
+      url: 'https://sproutern.dpdns.org/logo.jpg',
       creditText: 'Sproutern',
       creator: {
         '@type': 'Organization',
         name: 'Sproutern',
       },
       copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-      license: 'https://www.sproutern.com/terms',
-      acquireLicensePage: 'https://www.sproutern.com/contact',
+      license: 'https://sproutern.dpdns.org/terms',
+      acquireLicensePage: 'https://sproutern.dpdns.org/contact',
     },
   },
   mainEntityOfPage: {
@@ -282,7 +282,7 @@ export const generateCourseSchema = (params: {
   provider: {
     '@type': 'Organization',
     name: params.provider || 'Sproutern',
-    url: 'https://www.sproutern.com',
+    url: 'https://sproutern.dpdns.org',
   },
   url: params.url,
   teaches: params.teaches,
@@ -315,7 +315,7 @@ export const generateSoftwareApplicationSchema = (params: {
   provider: {
     '@type': 'Organization',
     name: 'Sproutern',
-    url: 'https://www.sproutern.com',
+    url: 'https://sproutern.dpdns.org',
   },
 });
 
@@ -365,9 +365,9 @@ export const generateReviewSchema = (params: {
 export const generateEducationalOrganizationSchema = () => ({
   '@context': 'https://schema.org',
   '@type': 'EducationalOrganization',
-  '@id': 'https://www.sproutern.com/#educational-org',
+  '@id': 'https://sproutern.dpdns.org/#educational-org',
   name: 'Sproutern',
-  url: 'https://www.sproutern.com',
+  url: 'https://sproutern.dpdns.org',
   description:
     'Providing career guidance, educational resources, and tools for students worldwide.',
   areaServed: [

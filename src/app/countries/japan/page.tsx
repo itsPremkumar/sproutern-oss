@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     description:
       'Study in Japan with MEXT scholarship. Complete guide to universities, visas, and careers.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/japan',
+    url: 'https://sproutern.dpdns.org/countries/japan',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/japan',
+    canonical: 'https://sproutern.dpdns.org/countries/japan',
   },
 };
 

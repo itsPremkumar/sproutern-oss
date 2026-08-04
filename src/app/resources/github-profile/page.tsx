@@ -29,13 +29,13 @@ export const metadata: Metadata = {
     'pinned repositories guide',
   ],
   alternates: {
-    canonical: 'https://www.sproutern.com/resources/github-profile',
+    canonical: 'https://sproutern.dpdns.org/resources/github-profile',
   },
   openGraph: {
     title: 'GitHub Profile Guide for Students',
     description:
       'Build a stronger GitHub profile with better README structure, pinned repos, and recruiter-friendly project presentation.',
-    url: 'https://www.sproutern.com/resources/github-profile',
+    url: 'https://sproutern.dpdns.org/resources/github-profile',
     type: 'article',
   },
 };
@@ -207,19 +207,19 @@ export default function GitHubProfilePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Resources',
-        item: 'https://www.sproutern.com/resources',
+        item: 'https://sproutern.dpdns.org/resources',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'GitHub Profile Guide',
-        item: 'https://www.sproutern.com/resources/github-profile',
+        item: 'https://sproutern.dpdns.org/resources/github-profile',
       },
     ],
   };

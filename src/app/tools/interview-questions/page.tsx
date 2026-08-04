@@ -30,7 +30,7 @@ export default function InterviewQuestionsPage() {
         <ToolFAQSection
           toolName="Interview Questions"
           faqs={interviewQuestionsFAQs}
-          toolUrl="https://www.sproutern.com/tools/interview-questions"
+          toolUrl="https://sproutern.dpdns.org/tools/interview-questions"
         />
       </div>
 

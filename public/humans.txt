@@ -30,4 +30,4 @@ Shadcn UI - for elegant component library
 ---
 
 Built with ❤️ for students worldwide.
-www.sproutern.com
+sproutern.dpdns.org

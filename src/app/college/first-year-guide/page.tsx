@@ -46,10 +46,10 @@ export const metadata: Metadata = {
     title: 'First Year College Survival Guide 2025',
     description: 'Everything you need to ace your first year of college.',
     type: 'article',
-    url: 'https://www.sproutern.com/college/first-year-guide',
+    url: 'https://sproutern.dpdns.org/college/first-year-guide',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/college/first-year-guide',
+    canonical: 'https://sproutern.dpdns.org/college/first-year-guide',
   },
 };
 
@@ -589,19 +589,19 @@ export default function FirstYearGuidePage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'College',
-        item: 'https://www.sproutern.com/college',
+        item: 'https://sproutern.dpdns.org/college',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'First Year Guide',
-        item: 'https://www.sproutern.com/college/first-year-guide',
+        item: 'https://sproutern.dpdns.org/college/first-year-guide',
       },
     ],
   };

@@ -1102,13 +1102,13 @@ export default function ToolsPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Tools',
-        item: 'https://www.sproutern.com/tools',
+        item: 'https://sproutern.dpdns.org/tools',
       },
     ],
   };

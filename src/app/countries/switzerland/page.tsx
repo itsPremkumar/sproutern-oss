@@ -34,10 +34,10 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about studying and working in Switzerland.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/switzerland',
+    url: 'https://sproutern.dpdns.org/countries/switzerland',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/switzerland',
+    canonical: 'https://sproutern.dpdns.org/countries/switzerland',
   },
 };
 

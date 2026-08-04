@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description:
       'Understanding service bond agreements in Indian IT companies. What are bond clauses, are they legal, and how to handle them.',
     type: 'article',
-    url: 'https://www.sproutern.com/freshers/bond-clauses',
+    url: 'https://sproutern.dpdns.org/freshers/bond-clauses',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description: 'Understanding bond agreements in IT companies for freshers.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/freshers/bond-clauses',
+    canonical: 'https://sproutern.dpdns.org/freshers/bond-clauses',
   },
 };
 

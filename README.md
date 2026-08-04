@@ -7,7 +7,7 @@
     200+ Tools · 180+ Games · AI Resume Builder · Career Roadmaps
   </p>
   <p align="center">
-    <a href="https://www.sproutern.com" target="_blank"><strong>Explore Sproutern »</strong></a>
+    <a href="https://sproutern.dpdns.org" target="_blank"><strong>Explore Sproutern »</strong></a>
     <br />
     <br />
     <a href="https://github.com/itsPremkumar/sproutern-open-source/issues/new?template=bug_report.md">Report Bug</a>

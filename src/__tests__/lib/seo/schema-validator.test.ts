@@ -18,8 +18,8 @@ describe('validateOrganizationSchema', () => {
     const schema = {
       '@type': 'Organization',
       name: 'Sproutern',
-      url: 'https://www.sproutern.com',
-      logo: 'https://www.sproutern.com/logo.jpg',
+      url: 'https://sproutern.dpdns.org',
+      logo: 'https://sproutern.dpdns.org/logo.jpg',
       contactPoint: { email: 'contact@sproutern.com' },
     };
 
@@ -32,7 +32,7 @@ describe('validateOrganizationSchema', () => {
   it('should add error for missing name', () => {
     const schema = {
       '@type': 'Organization',
-      url: 'https://www.sproutern.com',
+      url: 'https://sproutern.dpdns.org',
     };
 
     const result = validateOrganizationSchema(schema);
@@ -57,7 +57,7 @@ describe('validateOrganizationSchema', () => {
     const schema = {
       '@type': 'Organization',
       name: 'Sproutern',
-      url: 'https://www.sproutern.com',
+      url: 'https://sproutern.dpdns.org',
     };
 
     const result = validateOrganizationSchema(schema);
@@ -69,7 +69,7 @@ describe('validateOrganizationSchema', () => {
     const schema = {
       '@type': 'Organization',
       name: 'Sproutern',
-      url: 'https://www.sproutern.com',
+      url: 'https://sproutern.dpdns.org',
     };
 
     const result = validateOrganizationSchema(schema);

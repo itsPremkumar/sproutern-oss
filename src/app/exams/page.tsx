@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     description:
       'Syllabus, cutoffs, preparation timelines, and free practice tools for every major exam.',
     type: 'website',
-    url: 'https://www.sproutern.com/exams',
+    url: 'https://sproutern.dpdns.org/exams',
   },
-  alternates: { canonical: 'https://www.sproutern.com/exams' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/exams' },
 };
 
 const categoryIcons: Record<string, React.ReactNode> = {
@@ -51,7 +51,7 @@ export default function ExamsPage() {
             name: 'Exam Preparation Hub 2026',
             description:
               'Complete preparation guides for 14+ competitive exams worldwide',
-            url: 'https://www.sproutern.com/exams',
+            url: 'https://sproutern.dpdns.org/exams',
             numberOfItems: exams.length,
           }),
         }}

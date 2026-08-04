@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: 'MNC Work Culture Guide',
     description:
       'Understand what to expect in your first MNC job and how to thrive in corporate culture.',
-    url: 'https://sproutern.com/companies/mnc-work-culture',
+    url: 'https://sproutern.dpdns.org/companies/mnc-work-culture',
     type: 'website',
   },
 };

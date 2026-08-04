@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     'Find high-paying remote internships and part-time jobs with international companies. Learn about platforms, required skills, and how to receive payments in foreign currency.',
   alternates: {
-    canonical: 'https://www.sproutern.com/blog/remote-jobs-for-students',
+    canonical: 'https://sproutern.dpdns.org/blog/remote-jobs-for-students',
   },
 };
 

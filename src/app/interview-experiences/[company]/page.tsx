@@ -79,11 +79,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `${canonicalCompany} Interview Experiences from MIT Students`,
       description: `${experiences.length} real interview experiences for ${canonicalCompany}. Get insights on interview rounds, questions, and preparation strategies from MIT students.`,
-      url: `https://www.sproutern.com/interview-experiences/${canonicalCompanySlug}`,
+      url: `https://sproutern.dpdns.org/interview-experiences/${canonicalCompanySlug}`,
       siteName: 'Sproutern',
       images: [
         {
-          url: 'https://www.sproutern.com/opengraph.jpg',
+          url: 'https://sproutern.dpdns.org/opengraph.jpg',
           width: 1200,
           height: 630,
           alt: `${canonicalCompany} Interview Experiences`,
@@ -96,10 +96,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: `${canonicalCompany} Interview Experiences`,
       description: `${experiences.length} authentic interview stories from MIT students for ${canonicalCompany}`,
-      images: ['https://www.sproutern.com/twitter.jpg'],
+      images: ['https://sproutern.dpdns.org/twitter.jpg'],
     },
     alternates: {
-      canonical: `https://www.sproutern.com/interview-experiences/${canonicalCompanySlug}`,
+      canonical: `https://sproutern.dpdns.org/interview-experiences/${canonicalCompanySlug}`,
     },
   };
 }
@@ -132,19 +132,19 @@ export default async function CompanyExperiencesPage({ params }: Props) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Interview Experiences',
-        item: 'https://www.sproutern.com/interview-experiences',
+        item: 'https://sproutern.dpdns.org/interview-experiences',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: canonicalCompany,
-        item: `https://www.sproutern.com/interview-experiences/${canonicalCompanySlug}`,
+        item: `https://sproutern.dpdns.org/interview-experiences/${canonicalCompanySlug}`,
       },
     ],
   };
@@ -154,7 +154,7 @@ export default async function CompanyExperiencesPage({ params }: Props) {
     '@type': 'CollectionPage',
     name: `${canonicalCompany} Interview Experiences`,
     description: `Collection of ${experiences.length} interview experiences from MIT students for ${canonicalCompany}`,
-    url: `https://www.sproutern.com/interview-experiences/${canonicalCompanySlug}`,
+    url: `https://sproutern.dpdns.org/interview-experiences/${canonicalCompanySlug}`,
     numberOfItems: experiences.length,
   };
 
@@ -168,7 +168,7 @@ export default async function CompanyExperiencesPage({ params }: Props) {
       '@type': 'ListItem',
       position: index + 1,
       name: `${exp.studentName || 'Student'}'s ${canonicalCompany} Interview - ${exp.role}`,
-      url: `https://www.sproutern.com/interview-experiences/${toCompanySlug(exp.company)}/${exp.id}`,
+      url: `https://sproutern.dpdns.org/interview-experiences/${toCompanySlug(exp.company)}/${exp.id}`,
       item: {
         '@type': 'Article',
         name: `${exp.studentName || 'Student'}'s Interview Experience at ${canonicalCompany}`,

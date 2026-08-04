@@ -4,7 +4,7 @@
  * Focuses on entity optimization, expert perspectives, and utility schemas
  */
 
-const siteUrl = 'https://www.sproutern.com';
+const siteUrl = 'https://sproutern.dpdns.org';
 
 /**
  * SGE Content Structure for Tools

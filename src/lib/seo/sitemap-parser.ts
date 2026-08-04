@@ -121,7 +121,7 @@ export async function fetchAndParseSitemap(url: string): Promise<string[]> {
  * Fetch all URLs from remote sitemaps
  */
 export async function getAllUrlsFromRemoteSitemaps(
-  baseUrl: string = 'https://www.sproutern.com',
+  baseUrl: string = 'https://sproutern.dpdns.org',
 ): Promise<string[]> {
   const allUrls = new Set<string>();
 

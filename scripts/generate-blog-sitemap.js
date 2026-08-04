@@ -26,7 +26,7 @@ const urlsetStart = `<?xml version="1.0" encoding="UTF-8"?>
 
 <!-- Blog Main Page -->
 <url>
-  <loc>https://www.sproutern.com/blog</loc>
+  <loc>https://sproutern.dpdns.org/blog</loc>
   <lastmod>${new Date().toISOString()}</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.90</priority>
@@ -60,7 +60,7 @@ for (const chunk of objectChunks) {
 
     xmlContent += `
 <url>
-  <loc>https://www.sproutern.com/blog/${slug}</loc>
+  <loc>https://sproutern.dpdns.org/blog/${slug}</loc>
   <lastmod>${isoDate}</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.85</priority>

@@ -38,10 +38,10 @@ export const metadata: Metadata = {
     description:
       'Empowering students worldwide with free career resources and tools.',
     type: 'website',
-    url: 'https://www.sproutern.com/about',
+    url: 'https://sproutern.dpdns.org/about',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/about',
+    canonical: 'https://sproutern.dpdns.org/about',
   },
 };
 
@@ -78,7 +78,7 @@ const stats = [
 ];
 
 export default function AboutPage() {
-  const siteUrl = 'https://www.sproutern.com';
+  const siteUrl = 'https://sproutern.dpdns.org';
 
   const aboutSchema = {
     '@context': 'https://schema.org',

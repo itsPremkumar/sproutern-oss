@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about working at Microsoft - salaries, interview process, culture, and how to get hired.',
     type: 'article',
-    url: 'https://www.sproutern.com/companies/microsoft',
+    url: 'https://sproutern.dpdns.org/companies/microsoft',
   },
   twitter: {
     card: 'summary_large_image',
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
       'Complete guide to Microsoft careers, salary, and interview process.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/companies/microsoft',
+    canonical: 'https://sproutern.dpdns.org/companies/microsoft',
   },
 };
 
@@ -507,19 +507,19 @@ export default function MicrosoftCareersPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Companies',
-        item: 'https://www.sproutern.com/companies',
+        item: 'https://sproutern.dpdns.org/companies',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Microsoft',
-        item: 'https://www.sproutern.com/companies/microsoft',
+        item: 'https://sproutern.dpdns.org/companies/microsoft',
       },
     ],
   };

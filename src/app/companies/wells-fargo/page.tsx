@@ -54,9 +54,9 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about working at Wells Fargo India.',
     type: 'article',
-    url: 'https://www.sproutern.com/companies/wells-fargo',
+    url: 'https://sproutern.dpdns.org/companies/wells-fargo',
   },
-  alternates: { canonical: 'https://www.sproutern.com/companies/wells-fargo' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/companies/wells-fargo' },
 };
 
 const salaryData = [

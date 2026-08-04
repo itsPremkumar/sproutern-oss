@@ -182,7 +182,7 @@ describe('Game GEO SEO', () => {
       const tags = generateGameHrefLangTags('memory-matrix');
       tags.forEach((tag) => {
         expect(tag.href).toContain(
-          'https://www.sproutern.com/games/memory-matrix',
+          'https://sproutern.dpdns.org/games/memory-matrix',
         );
       });
     });

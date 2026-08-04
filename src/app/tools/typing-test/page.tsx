@@ -30,7 +30,7 @@ export default function TypingTestPage() {
         <ToolFAQSection
           toolName="Typing Speed Test"
           faqs={typingTestFAQs}
-          toolUrl="https://www.sproutern.com/tools/typing-test"
+          toolUrl="https://sproutern.dpdns.org/tools/typing-test"
         />
       </div>
 

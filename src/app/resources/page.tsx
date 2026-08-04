@@ -471,13 +471,13 @@ export default function ResourcesPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Resources',
-        item: 'https://www.sproutern.com/resources',
+        item: 'https://sproutern.dpdns.org/resources',
       },
     ],
   };

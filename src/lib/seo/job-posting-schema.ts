@@ -195,7 +195,7 @@ export function internshipToJobPosting(internship: {
   requirements?: string[];
   skills?: string[];
 }): JobPostingParams {
-  const baseUrl = 'https://www.sproutern.com';
+  const baseUrl = 'https://sproutern.dpdns.org';
 
   return {
     title: internship.title,

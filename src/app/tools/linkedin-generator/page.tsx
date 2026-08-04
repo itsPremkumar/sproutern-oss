@@ -69,7 +69,7 @@ export default function LinkedInGeneratorPage() {
           <ToolFAQSection
             toolName="LinkedIn Generator"
             faqs={linkedinGeneratorFAQs}
-            toolUrl="https://www.sproutern.com/tools/linkedin-generator"
+            toolUrl="https://sproutern.dpdns.org/tools/linkedin-generator"
           />
 
           {content && (

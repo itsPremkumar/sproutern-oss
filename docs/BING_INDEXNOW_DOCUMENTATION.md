@@ -3,7 +3,7 @@
 ## Overview
 
 This document provides complete documentation for the Bing IndexNow implementation for
-**sproutern.com**. IndexNow is a protocol that enables website owners to instantly notify search
+**sproutern.dpdns.org**. IndexNow is a protocol that enables website owners to instantly notify search
 engines when content is added, updated, or deleted.
 
 ---
@@ -12,9 +12,9 @@ engines when content is added, updated, or deleted.
 
 | Setting               | Value                                                            |
 | --------------------- | ---------------------------------------------------------------- |
-| **Domain**            | `www.sproutern.com`                                              |
+| **Domain**            | `sproutern.dpdns.org`                                              |
 | **IndexNow Key**      | `YOUR_INDEXNOW_KEY`                               |
-| **Key File Location** | `https://www.sproutern.com/YOUR_INDEXNOW_KEY.txt` |
+| **Key File Location** | `https://sproutern.dpdns.org/YOUR_INDEXNOW_KEY.txt` |
 | **Key File Path**     | `public/YOUR_INDEXNOW_KEY.txt`                    |
 | **Bing Endpoint**     | `https://www.bing.com/indexnow`                                  |
 
@@ -136,7 +136,7 @@ Real interview experiences from:
 Bing verifies ownership by fetching the key file:
 
 ```
-https://www.sproutern.com/YOUR_INDEXNOW_KEY.txt
+https://sproutern.dpdns.org/YOUR_INDEXNOW_KEY.txt
 ```
 
 The file must contain:
@@ -152,16 +152,16 @@ URLs are submitted via POST request to Bing's IndexNow endpoint.
 **Single URL:**
 
 ```
-GET https://www.bing.com/indexnow?url=https://www.sproutern.com/blog/example&key=YOUR_INDEXNOW_KEY
+GET https://www.bing.com/indexnow?url=https://sproutern.dpdns.org/blog/example&key=YOUR_INDEXNOW_KEY
 ```
 
 **Multiple URLs (POST):**
 
 ```json
 {
-  "host": "www.sproutern.com",
+  "host": "sproutern.dpdns.org",
   "key": "YOUR_INDEXNOW_KEY",
-  "urlList": ["https://www.sproutern.com/url1", "https://www.sproutern.com/url2"]
+  "urlList": ["https://sproutern.dpdns.org/url1", "https://sproutern.dpdns.org/url2"]
 }
 ```
 
@@ -199,18 +199,18 @@ powershell -ExecutionPolicy Bypass -File "scripts/submit-indexnow.ps1"
 
 ```powershell
 # Submit a single URL
-curl "https://www.bing.com/indexnow?url=https://www.sproutern.com/blog/new-post&key=YOUR_INDEXNOW_KEY"
+curl "https://www.bing.com/indexnow?url=https://sproutern.dpdns.org/blog/new-post&key=YOUR_INDEXNOW_KEY"
 ```
 
 ### Manual Submission (Multiple URLs via PowerShell)
 
 ```powershell
 $body = @{
-    host = "www.sproutern.com"
+    host = "sproutern.dpdns.org"
     key = "YOUR_INDEXNOW_KEY"
     urlList = @(
-        "https://www.sproutern.com/url1",
-        "https://www.sproutern.com/url2"
+        "https://sproutern.dpdns.org/url1",
+        "https://sproutern.dpdns.org/url2"
     )
 } | ConvertTo-Json -Depth 3
 
@@ -263,7 +263,7 @@ One submission notifies multiple search engines!
 ### Verify Key File
 
 ```bash
-curl https://www.sproutern.com/YOUR_INDEXNOW_KEY.txt
+curl https://sproutern.dpdns.org/YOUR_INDEXNOW_KEY.txt
 ```
 
 Expected output:
@@ -314,7 +314,7 @@ Trigger IndexNow submission when blog posts are published/updated.
 
 ### Invalid URL (422)
 
-- Ensure URLs start with `https://www.sproutern.com/`
+- Ensure URLs start with `https://sproutern.dpdns.org/`
 - Use URL encoding for special characters
 - Don't mix different domains
 

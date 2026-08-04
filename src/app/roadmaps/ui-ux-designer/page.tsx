@@ -29,10 +29,10 @@ export const metadata: Metadata = {
     title: 'UI/UX Designer Roadmap',
     description: 'Step-by-step guide to becoming a UI/UX Designer.',
     type: 'article',
-    url: 'https://www.sproutern.com/roadmaps/ui-ux-designer',
+    url: 'https://sproutern.dpdns.org/roadmaps/ui-ux-designer',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/roadmaps/ui-ux-designer',
+    canonical: 'https://sproutern.dpdns.org/roadmaps/ui-ux-designer',
   },
 };
 

@@ -32,7 +32,7 @@ export default function SalariesPage() {
             '@type': 'CollectionPage',
             name: 'Tech Salary Guide India',
             description: 'Salary data for tech roles in India',
-            url: 'https://www.sproutern.com/salaries',
+            url: 'https://sproutern.dpdns.org/salaries',
             numberOfItems: salaryRoles.length,
           }),
         }}

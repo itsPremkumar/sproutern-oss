@@ -8,7 +8,7 @@ type PageKey = keyof typeof completePageSEO;
  * Helper to generate canonical URL
  */
 export function getCanonicalUrl(path: string = ''): string {
-  const baseUrl = 'https://www.sproutern.com';
+  const baseUrl = 'https://sproutern.dpdns.org';
   // Remove leading slash if present to avoid double slashes
   const cleanPath = path.startsWith('/') ? path.slice(1) : path;
   return cleanPath ? `${baseUrl}/${cleanPath}` : baseUrl;

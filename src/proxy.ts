@@ -92,15 +92,14 @@ export function proxy(request: NextRequest) {
   let shouldRedirect = false;
 
   // 1. Canonicalize host/protocol in one step (avoid multi-hop redirect chains)
-  const isCanonicalSprouternHost =
-    hostname === 'sproutern.com' || hostname === 'www.sproutern.com';
+  const isCanonicalSprouternHost = hostname === 'sproutern.dpdns.org';
   if (
     isCanonicalSprouternHost &&
     !hostname.includes('localhost') &&
     !hostname.includes('vercel')
   ) {
-    if (url.hostname !== 'www.sproutern.com') {
-      url.hostname = 'www.sproutern.com';
+    if (url.hostname !== 'sproutern.dpdns.org') {
+      url.hostname = 'sproutern.dpdns.org';
       shouldRedirect = true;
     }
 

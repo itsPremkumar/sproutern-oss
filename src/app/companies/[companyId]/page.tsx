@@ -67,7 +67,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
     },
     alternates: {
-      canonical: `https://www.sproutern.com/companies/${slug}`,
+      canonical: `https://sproutern.dpdns.org/companies/${slug}`,
     },
   };
 }
@@ -85,11 +85,11 @@ export default async function CompanyPage({ params }: Props) {
   // GEO-Optimized Schema
   const structuredData = [
     generateBreadcrumbSchema([
-      { name: 'Home', url: 'https://www.sproutern.com' },
-      { name: 'Companies', url: 'https://www.sproutern.com/companies' },
+      { name: 'Home', url: 'https://sproutern.dpdns.org' },
+      { name: 'Companies', url: 'https://sproutern.dpdns.org/companies' },
       {
         name: company.name,
-        url: `https://www.sproutern.com/companies/${slug}`,
+        url: `https://sproutern.dpdns.org/companies/${slug}`,
       },
     ]),
     {

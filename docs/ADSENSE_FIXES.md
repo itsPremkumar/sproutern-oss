@@ -91,7 +91,7 @@ Your website now meets Google AdSense's quality standards. Here's everything tha
    ```
 
 2. **Verify ads.txt File**
-   - Visit: `https://www.sproutern.com/ads.txt`
+   - Visit: `https://sproutern.dpdns.org/ads.txt`
    - Confirm it shows: `google.com, YOUR_PUBLISHER_ID, DIRECT, f08c47fec0942fa0`
 
 3. **Test New Pages**
@@ -104,13 +104,13 @@ Your website now meets Google AdSense's quality standards. Here's everything tha
      - `/faq` - FAQ with 24 questions
 
 4. **Submit to Google Search Console**
-   - Submit updated sitemap: `https://www.sproutern.com/sitemap.xml`
+   - Submit updated sitemap: `https://sproutern.dpdns.org/sitemap.xml`
    - Request indexing for new pages
 
 ### Request AdSense Review:
 
 1. **Go to AdSense Dashboard**
-   - Navigate to Sites → sproutern.com
+   - Navigate to Sites → sproutern.dpdns.org
 2. **Check the "I confirm I have fixed the issues" box**
 
 3. **Click "Request Review"**

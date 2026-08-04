@@ -132,7 +132,7 @@ export default function ToolPage() {
       <SoftwareApplicationSchema
         name="Tool Name"
         description="Tool description"
-        url="https://www.sproutern.com/tools/tool-name"
+        url="https://sproutern.dpdns.org/tools/tool-name"
         applicationCategory="EducationalApplication"
       />
       <HowToSchema
@@ -165,8 +165,8 @@ export default function BlogPost() {
       <ArticleSchema
         title="Blog Post Title"
         description="Description"
-        url="https://www.sproutern.com/blog/slug"
-        image="https://www.sproutern.com/images/blog.jpg"
+        url="https://sproutern.dpdns.org/blog/slug"
+        image="https://sproutern.dpdns.org/images/blog.jpg"
         datePublished="2024-06-15"
         dateModified="2026-01-20"
         keywords={['keyword1', 'keyword2']}
@@ -231,7 +231,7 @@ export const metadata = generateOptimizedMetadata({
     'Supports 50+ universities, instant results',
   ),
   keywords: ['cgpa calculator', 'cgpa to percentage', 'anna university cgpa'],
-  canonical: 'https://www.sproutern.com/tools/cgpa-converter',
+  canonical: 'https://sproutern.dpdns.org/tools/cgpa-converter',
   modifiedTime: '2026-01-20',
 });
 ```
@@ -292,8 +292,8 @@ says Premkumar M, Founder of Sproutern and career expert with 3+ years of experi
 https://search.google.com/test/rich-results
 
 # Test URLs:
-- https://www.sproutern.com/tools/cgpa-converter
-- https://www.sproutern.com/blog/[slug]
+- https://sproutern.dpdns.org/tools/cgpa-converter
+- https://sproutern.dpdns.org/blog/[slug]
 ```
 
 ### 2. Check AI Readability

@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about studying and working in the UK as an international student.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/uk',
+    url: 'https://sproutern.dpdns.org/countries/uk',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/uk',
+    canonical: 'https://sproutern.dpdns.org/countries/uk',
   },
 };
 

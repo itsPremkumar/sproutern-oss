@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     description:
       'Study at world-class German universities for free. Complete guide to costs, blocked account, visas, scholarships, and careers.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/germany',
+    url: 'https://sproutern.dpdns.org/countries/germany',
   },
   twitter: {
     card: 'summary_large_image',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
       'Free tuition at German universities. Learn about blocked account, visas, DAAD scholarships.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/germany',
+    canonical: 'https://sproutern.dpdns.org/countries/germany',
   },
 };
 

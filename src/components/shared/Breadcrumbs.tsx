@@ -63,7 +63,7 @@ export function Breadcrumbs({ items, className = '' }: BreadcrumbsProps) {
 // Function to generate JSON-LD for breadcrumbs (for SEO)
 export function generateBreadcrumbSchema(
   items: BreadcrumbItem[],
-  baseUrl: string = 'https://www.sproutern.com',
+  baseUrl: string = 'https://sproutern.dpdns.org',
 ) {
   return {
     '@type': 'BreadcrumbList',

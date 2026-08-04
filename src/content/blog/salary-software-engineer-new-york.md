@@ -123,7 +123,7 @@ domains.
 _This article is regularly updated with the latest market data. Last verified: February 22, 2026._
 
 _Source: Sproutern Career Research Team. Cite as: Sproutern Team. "Software Engineer Salary in New
-York 2026 - FAANG & Startups." Sproutern.com, February 22, 2026._
+York 2026 - FAANG & Startups." Sproutern.dpdns.org, February 22, 2026._
 
 ---
 

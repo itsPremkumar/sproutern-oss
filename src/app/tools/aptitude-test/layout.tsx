@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description:
       'Practice aptitude questions for placements with instant feedback.',
     type: 'website',
-    url: 'https://www.sproutern.com/tools/aptitude-test',
+    url: 'https://sproutern.dpdns.org/tools/aptitude-test',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: 'Free aptitude practice for placement exams.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/tools/aptitude-test',
+    canonical: 'https://sproutern.dpdns.org/tools/aptitude-test',
   },
 };
 

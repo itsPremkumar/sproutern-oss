@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description:
       'Step-by-step guide to becoming an AI/ML Engineer with skills, projects, and free resources.',
     type: 'article',
-    url: 'https://www.sproutern.com/roadmaps/ai-ml-engineer',
+    url: 'https://sproutern.dpdns.org/roadmaps/ai-ml-engineer',
   },
   twitter: {
     card: 'summary_large_image',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     description: 'Complete learning path for AI/ML engineering career.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/roadmaps/ai-ml-engineer',
+    canonical: 'https://sproutern.dpdns.org/roadmaps/ai-ml-engineer',
   },
 };
 
@@ -416,19 +416,19 @@ export default function AIMLEngineerRoadmapPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Career Roadmaps',
-        item: 'https://www.sproutern.com/roadmaps',
+        item: 'https://sproutern.dpdns.org/roadmaps',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'AI/ML Engineer',
-        item: 'https://www.sproutern.com/roadmaps/ai-ml-engineer',
+        item: 'https://sproutern.dpdns.org/roadmaps/ai-ml-engineer',
       },
     ],
   };

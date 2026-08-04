@@ -3,7 +3,7 @@
  * Optimized for ChatGPT, Google SGE, Perplexity, Bing Copilot, Gemini
  */
 
-const siteUrl = 'https://www.sproutern.com';
+const siteUrl = 'https://sproutern.dpdns.org';
 
 /**
  * Generate Speakable Schema for voice search optimization
@@ -98,8 +98,8 @@ export function generateEnhancedArticleSchema(params: {
           name: 'Sproutern',
         },
         copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-        license: 'https://www.sproutern.com/terms',
-        acquireLicensePage: 'https://www.sproutern.com/contact',
+        license: 'https://sproutern.dpdns.org/terms',
+        acquireLicensePage: 'https://sproutern.dpdns.org/contact',
       },
     },
     datePublished: params.datePublished,
@@ -121,8 +121,8 @@ export function generateEnhancedArticleSchema(params: {
         name: 'Sproutern',
       },
       copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-      license: 'https://www.sproutern.com/terms',
-      acquireLicensePage: 'https://www.sproutern.com/contact',
+      license: 'https://sproutern.dpdns.org/terms',
+      acquireLicensePage: 'https://sproutern.dpdns.org/contact',
     },
     articleSection: params.section,
     inLanguage: 'en',
@@ -264,7 +264,7 @@ export function generateKnowledgePanelSchema() {
     '@id': `${siteUrl}#website`,
     name: 'Sproutern',
     alternateName: [
-      'Sproutern.com',
+      'Sproutern.dpdns.org',
       'Sproutern Career Platform',
       'Sproutern Internship Platform',
       'Sproutern Interview Prep',

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     'Complete sitemap of Sproutern. Browse all pages including career roadmaps, tools, company guides, resources, and more.',
   keywords: 'sproutern sitemap, all pages, site navigation, page index',
-  alternates: { canonical: 'https://www.sproutern.com/html-sitemap' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/html-sitemap' },
 };
 
 const sections = [

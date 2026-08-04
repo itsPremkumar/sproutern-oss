@@ -32,7 +32,7 @@ export function SocialShare({
     url ||
     (typeof window !== 'undefined'
       ? window.location.href
-      : 'https://www.sproutern.com');
+      : 'https://sproutern.dpdns.org');
   const shareText = description || title;
 
   const shareLinks = {

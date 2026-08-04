@@ -32,10 +32,10 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about studying and working in South Korea.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/south-korea',
+    url: 'https://sproutern.dpdns.org/countries/south-korea',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/south-korea',
+    canonical: 'https://sproutern.dpdns.org/countries/south-korea',
   },
 };
 

@@ -35,11 +35,11 @@ export const metadata: Metadata = {
     title: 'Real Interview Experiences | Sproutern',
     description:
       'Authentic interview experiences, preparation strategies, and company-specific interview insights for students.',
-    url: 'https://www.sproutern.com/interview-experiences',
+    url: 'https://sproutern.dpdns.org/interview-experiences',
     siteName: 'Sproutern',
     images: [
       {
-        url: 'https://www.sproutern.com/opengraph.jpg',
+        url: 'https://sproutern.dpdns.org/opengraph.jpg',
         width: 1200,
         height: 630,
         alt: 'Interview Experiences - Sproutern',
@@ -53,10 +53,10 @@ export const metadata: Metadata = {
     title: 'Real Interview Experiences | Sproutern',
     description:
       'Read authentic interview experiences and preparation tips for top companies.',
-    images: ['https://www.sproutern.com/twitter.jpg'],
+    images: ['https://sproutern.dpdns.org/twitter.jpg'],
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/interview-experiences',
+    canonical: 'https://sproutern.dpdns.org/interview-experiences',
   },
 };
 
@@ -69,13 +69,13 @@ export default function InterviewExperiencesPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Interview Experiences',
-        item: 'https://www.sproutern.com/interview-experiences',
+        item: 'https://sproutern.dpdns.org/interview-experiences',
       },
     ],
   };
@@ -86,7 +86,7 @@ export default function InterviewExperiencesPage() {
     name: 'Interview Experiences from MIT Students',
     description:
       'Collection of real interview experiences from Madras Institute of Technology students for various companies',
-    url: 'https://www.sproutern.com/interview-experiences',
+    url: 'https://sproutern.dpdns.org/interview-experiences',
     numberOfItems: interviewExperiences.length,
   };
 
@@ -106,7 +106,7 @@ export default function InterviewExperiencesPage() {
       '@type': 'ListItem',
       position: index + 1,
       name: company,
-      url: `https://www.sproutern.com/interview-experiences/${toCompanySlug(company)}`,
+      url: `https://sproutern.dpdns.org/interview-experiences/${toCompanySlug(company)}`,
     })),
   };
 
@@ -116,11 +116,11 @@ export default function InterviewExperiencesPage() {
     name: 'Real Interview Experiences from MIT Students | Sproutern',
     description:
       'Read authentic interview experiences from Madras Institute of Technology (MIT) students. Get insights on interview questions, preparation tips, and selection process for top companies.',
-    url: 'https://www.sproutern.com/interview-experiences',
+    url: 'https://sproutern.dpdns.org/interview-experiences',
     isPartOf: {
       '@type': 'WebSite',
       name: 'Sproutern',
-      url: 'https://www.sproutern.com',
+      url: 'https://sproutern.dpdns.org',
     },
     about: {
       '@type': 'EducationalOccupationalCredential',

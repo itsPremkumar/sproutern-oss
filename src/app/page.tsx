@@ -97,7 +97,7 @@ export default function Home() {
     itemListElement: latestBlogPosts.map((post, index) => ({
       '@type': 'ListItem',
       position: index + 1,
-      url: `https://www.sproutern.com/blog/${post.slug}`,
+      url: `https://sproutern.dpdns.org/blog/${post.slug}`,
       name: post.title,
       datePublished: post.publishedAt.toISOString(),
     })),

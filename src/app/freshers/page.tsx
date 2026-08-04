@@ -52,10 +52,10 @@ export const metadata: Metadata = {
     description:
       'First-job advice, salary negotiation help, and workplace guidance for freshers.',
     type: 'website',
-    url: 'https://www.sproutern.com/freshers',
+    url: 'https://sproutern.dpdns.org/freshers',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/freshers',
+    canonical: 'https://sproutern.dpdns.org/freshers',
   },
 };
 
@@ -636,13 +636,13 @@ export default function FreshersPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Freshers',
-        item: 'https://www.sproutern.com/freshers',
+        item: 'https://sproutern.dpdns.org/freshers',
       },
     ],
   };

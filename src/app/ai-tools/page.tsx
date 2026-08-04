@@ -58,7 +58,7 @@ export default function AIToolsPage() {
     '@type': 'CollectionPage',
     name: 'AI Tools Directory',
     description: 'Best AI tools curated for students and professionals',
-    url: 'https://www.sproutern.com/ai-tools',
+    url: 'https://sproutern.dpdns.org/ai-tools',
     mainEntity: {
       '@type': 'ItemList',
       numberOfItems: AI_TOOLS.length,
@@ -69,7 +69,7 @@ export default function AIToolsPage() {
           '@type': 'SoftwareApplication',
           name: tool.name,
           description: tool.shortDescription,
-          url: `https://www.sproutern.com/ai-tools/${tool.slug}`,
+          url: `https://sproutern.dpdns.org/ai-tools/${tool.slug}`,
           applicationCategory: 'AI Tool',
           aggregateRating: {
             '@type': 'AggregateRating',

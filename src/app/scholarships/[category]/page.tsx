@@ -33,10 +33,10 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: `https://www.sproutern.com/scholarships/${category}`,
+      url: `https://sproutern.dpdns.org/scholarships/${category}`,
     },
     alternates: {
-      canonical: `https://www.sproutern.com/scholarships/${category}`,
+      canonical: `https://sproutern.dpdns.org/scholarships/${category}`,
     },
   };
 }
@@ -62,7 +62,7 @@ export default async function ScholarshipCategoryPage({
             '@context': 'https://schema.org',
             '@type': 'CollectionPage',
             name: label,
-            url: `https://www.sproutern.com/scholarships/${category}`,
+            url: `https://sproutern.dpdns.org/scholarships/${category}`,
             numberOfItems: scholarships.length,
           }),
         }}

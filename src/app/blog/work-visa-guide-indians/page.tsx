@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     'Complete guide for Indian professionals seeking work visas abroad. Detailed analysis of H-1B, UK Skilled Worker, Canada Express Entry, and Germany Job Seeker visas.',
   alternates: {
-    canonical: 'https://www.sproutern.com/blog/work-visa-guide-indians',
+    canonical: 'https://sproutern.dpdns.org/blog/work-visa-guide-indians',
   },
 };
 

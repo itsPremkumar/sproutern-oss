@@ -43,9 +43,9 @@ export async function generateMetadata({
       title,
       description,
       type: 'article',
-      url: `https://www.sproutern.com/salaries/${slug}`,
+      url: `https://sproutern.dpdns.org/salaries/${slug}`,
     },
-    alternates: { canonical: `https://www.sproutern.com/salaries/${slug}` },
+    alternates: { canonical: `https://sproutern.dpdns.org/salaries/${slug}` },
   };
 }
 
@@ -79,13 +79,13 @@ export default async function RoleSalaryPage({
                     '@type': 'ListItem',
                     position: 1,
                     name: 'Home',
-                    item: 'https://www.sproutern.com',
+                    item: 'https://sproutern.dpdns.org',
                   },
                   {
                     '@type': 'ListItem',
                     position: 2,
                     name: 'Salaries',
-                    item: 'https://www.sproutern.com/salaries',
+                    item: 'https://sproutern.dpdns.org/salaries',
                   },
                   { '@type': 'ListItem', position: 3, name: role.title },
                 ],

@@ -39,10 +39,10 @@ export const metadata: Metadata = {
     description:
       'Plan around major exam windows and registration patterns without missing key deadlines.',
     type: 'website',
-    url: 'https://www.sproutern.com/school/competitive-exams',
+    url: 'https://sproutern.dpdns.org/school/competitive-exams',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/school/competitive-exams',
+    canonical: 'https://sproutern.dpdns.org/school/competitive-exams',
   },
 };
 
@@ -692,19 +692,19 @@ export default function CompetitiveExamsPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'School',
-        item: 'https://www.sproutern.com/school',
+        item: 'https://sproutern.dpdns.org/school',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Competitive Exams',
-        item: 'https://www.sproutern.com/school/competitive-exams',
+        item: 'https://sproutern.dpdns.org/school/competitive-exams',
       },
     ],
   };

@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     'applicant tracking system resume guide',
   ],
   alternates: {
-    canonical: 'https://www.sproutern.com/resources/ats-resume-keywords',
+    canonical: 'https://sproutern.dpdns.org/resources/ats-resume-keywords',
   },
   openGraph: {
     title: 'ATS Resume Keywords Guide for Students',
     description:
       'Extract better resume keywords from job descriptions and improve ATS matching without sounding robotic.',
-    url: 'https://www.sproutern.com/resources/ats-resume-keywords',
+    url: 'https://sproutern.dpdns.org/resources/ats-resume-keywords',
     type: 'article',
   },
 };
@@ -236,19 +236,19 @@ export default function ATSResumeKeywordsPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Resources',
-        item: 'https://www.sproutern.com/resources',
+        item: 'https://sproutern.dpdns.org/resources',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'ATS Resume Keywords',
-        item: 'https://www.sproutern.com/resources/ats-resume-keywords',
+        item: 'https://sproutern.dpdns.org/resources/ats-resume-keywords',
       },
     ],
   };

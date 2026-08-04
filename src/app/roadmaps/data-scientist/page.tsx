@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description:
       'Step-by-step guide to becoming a Data Scientist with skills, projects, and free resources.',
     type: 'article',
-    url: 'https://www.sproutern.com/roadmaps/data-scientist',
+    url: 'https://sproutern.dpdns.org/roadmaps/data-scientist',
   },
   twitter: {
     card: 'summary_large_image',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     description: 'Complete learning path for data science career.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/roadmaps/data-scientist',
+    canonical: 'https://sproutern.dpdns.org/roadmaps/data-scientist',
   },
 };
 
@@ -331,19 +331,19 @@ export default function DataScientistRoadmapPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Career Roadmaps',
-        item: 'https://www.sproutern.com/roadmaps',
+        item: 'https://sproutern.dpdns.org/roadmaps',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Data Scientist',
-        item: 'https://www.sproutern.com/roadmaps/data-scientist',
+        item: 'https://sproutern.dpdns.org/roadmaps/data-scientist',
       },
     ],
   };

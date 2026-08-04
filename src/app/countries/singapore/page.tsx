@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     description:
       'Study at world-class Singapore universities. Complete guide to visas, costs, and careers.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/singapore',
+    url: 'https://sproutern.dpdns.org/countries/singapore',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/singapore',
+    canonical: 'https://sproutern.dpdns.org/countries/singapore',
   },
 };
 

@@ -24,7 +24,7 @@ The tool also shows:
 • Grade classification
 • WES conversion reference
 
-Try it now → https://www.sproutern.com/tools/cgpa-converter
+Try it now → https://sproutern.dpdns.org/tools/cgpa-converter
 
 100% free. No login required. No ads.
 
@@ -44,7 +44,7 @@ I created a FREE salary calculator that shows:
 ✅ PF and ESI breakdown
 ✅ Complete salary structure
 
-Try it → https://www.sproutern.com/tools/salary-calculator
+Try it → https://sproutern.dpdns.org/tools/salary-calculator
 
 Perfect for freshers negotiating their first offer!
 
@@ -65,7 +65,7 @@ I've compiled 50+ common HR interview questions with best answers:
 5. Why do you want to join our company?
 ... and 45 more!
 
-Free guide → https://www.sproutern.com/blog/50-common-hr-interview-questions-and-best-answers
+Free guide → https://sproutern.dpdns.org/blog/50-common-hr-interview-questions-and-best-answers
 
 Share with someone who needs this! 👇
 
@@ -86,7 +86,7 @@ Here's your CGPA to GPA conversion cheat sheet:
 🇦🇺 Australia: Need 5/7 GPA (≈65%)
 
 Complete guide with WES evaluation info:
-https://www.sproutern.com/tools/cgpa-converter
+https://sproutern.dpdns.org/tools/cgpa-converter
 
 #StudyAbroad #MS #International #Education #CGPA
 ```
@@ -103,16 +103,16 @@ Hey everyone! 👋
 Found these FREE tools for placement preparation:
 
 🔢 CGPA to Percentage Calculator
-→ https://www.sproutern.com/tools/cgpa-converter
+→ https://sproutern.dpdns.org/tools/cgpa-converter
 
 💰 Salary Calculator (CTC to In-Hand)
-→ https://www.sproutern.com/tools/salary-calculator
+→ https://sproutern.dpdns.org/tools/salary-calculator
 
 ⌨️ Typing Speed Test
-→ https://www.sproutern.com/tools/typing-test
+→ https://sproutern.dpdns.org/tools/typing-test
 
 📝 Resume Score Checker
-→ https://www.sproutern.com/tools/resume-score-checker
+→ https://sproutern.dpdns.org/tools/resume-score-checker
 
 All FREE - no login required!
 
@@ -125,7 +125,7 @@ Please forward to other groups 🙏
 🎯 *50 Most Common HR Interview Questions*
 
 Complete guide with sample answers for freshers:
-https://www.sproutern.com/blog/50-common-hr-interview-questions-and-best-answers
+https://sproutern.dpdns.org/blog/50-common-hr-interview-questions-and-best-answers
 
 Topics covered:
 ✅ Tell me about yourself
@@ -153,7 +153,7 @@ Convert your CGPA instantly!
 • 10-point, 7-point, 4-point scales
 • US GPA equivalent for study abroad
 
-👉 https://www.sproutern.com/tools/cgpa-converter
+👉 https://sproutern.dpdns.org/tools/cgpa-converter
 
 #PlacementPrep #Tools
 ```
@@ -171,7 +171,7 @@ Free career tools and guides:
 4️⃣ Typing Speed Test
 5️⃣ Interview Questions Generator
 
-All at: https://www.sproutern.com/tools
+All at: https://sproutern.dpdns.org/tools
 
 Bookmark this! 📌
 ```
@@ -192,7 +192,7 @@ I built a free tool to convert CGPA to percentage. It supports:
 - 10-point, 7-point, and 4-point scales
 - US 4.0 GPA equivalent for MS applications
 
-Link: https://www.sproutern.com/tools/cgpa-converter
+Link: https://sproutern.dpdns.org/tools/cgpa-converter
 
 Also shows WES evaluation info for study abroad applications.
 
@@ -213,7 +213,7 @@ Created these tools for students preparing for placements:
 3. **Typing Test** - Practice for assessments
 4. **CGPA Converter** - For job applications
 
-All free at: https://www.sproutern.com/tools
+All free at: https://sproutern.dpdns.org/tools
 
 Would love feedback from the community!
 ```
@@ -254,7 +254,7 @@ Points:
 3. Ask about growth
 4. Show enthusiasm
 5. Follow up after
-CTA: "Full guide - sproutern.com"
+CTA: "Full guide - sproutern.dpdns.org"
 ```
 
 ---
@@ -270,7 +270,7 @@ Supports 50+ Indian universities
 No login required
 Works on mobile
 
-Try it: sproutern.com/tools/cgpa-converter
+Try it: sproutern.dpdns.org/tools/cgpa-converter
 
 RT to help a fellow student! 🙏
 ```
@@ -284,7 +284,7 @@ Every fresher needs these 3 calculators:
 2️⃣ CTC to In-Hand Salary
 3️⃣ Education Loan EMI
 
-All free at sproutern.com/tools 💯
+All free at sproutern.dpdns.org/tools 💯
 
 #PlacementSeason #Freshers
 ```
@@ -312,7 +312,7 @@ If your CGPA is 8.5, using CBSE formula:
 8.5 × 9.5 = 80.75%
 
 I've built a free tool that supports 50+ universities and does this conversion automatically:
-https://www.sproutern.com/tools/cgpa-converter
+https://sproutern.dpdns.org/tools/cgpa-converter
 
 It also shows:
 - US 4.0 GPA equivalent
@@ -336,7 +336,7 @@ Hope this helps!
 **Actual In-Hand:** ~₹42,000-45,000/month
 
 Use this free calculator to get exact figures for any CTC:
-https://www.sproutern.com/tools/salary-calculator
+https://sproutern.dpdns.org/tools/salary-calculator
 
 It shows:
 - Old vs New tax regime comparison

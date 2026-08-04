@@ -115,7 +115,7 @@ export function usePredictivePrefetch<T extends HTMLElement = HTMLDivElement>(
     if (!containerRef.current) return [];
     return Array.from(
       containerRef.current.querySelectorAll<HTMLAnchorElement>(
-        'a[href^="/"], a[href^="https://www.sproutern.com"]',
+        'a[href^="/"], a[href^="https://sproutern.dpdns.org"]',
       ),
     );
   }, []);

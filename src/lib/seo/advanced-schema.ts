@@ -281,7 +281,7 @@ export const generateSpecialAnnouncementSchema = (params: {
   publisher: {
     '@type': 'Organization',
     name: 'Sproutern',
-    url: 'https://www.sproutern.com',
+    url: 'https://sproutern.dpdns.org',
   },
 });
 
@@ -312,7 +312,7 @@ export const generateLearningResourceSchema = (params: {
   provider: {
     '@type': 'Organization',
     name: 'Sproutern',
-    url: 'https://www.sproutern.com',
+    url: 'https://sproutern.dpdns.org',
   },
   isAccessibleForFree: true,
   inLanguage: 'en',
@@ -342,7 +342,7 @@ export const generateWebPageWithSpeakableSchema = (params: {
 export const generateSiteSearchAction = (searchUrlTemplate: string) => ({
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  url: 'https://www.sproutern.com',
+  url: 'https://sproutern.dpdns.org',
   potentialAction: {
     '@type': 'SearchAction',
     target: {

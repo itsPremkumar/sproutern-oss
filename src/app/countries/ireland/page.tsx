@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     description:
       'Study in Ireland and work at Google, Meta, Apple. Complete guide to visas, costs, and careers.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/ireland',
+    url: 'https://sproutern.dpdns.org/countries/ireland',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/ireland',
+    canonical: 'https://sproutern.dpdns.org/countries/ireland',
   },
 };
 

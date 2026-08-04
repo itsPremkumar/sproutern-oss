@@ -32,7 +32,7 @@ export function generateStructuredData({
   breadcrumbs,
   faq,
 }: SEOHeadProps) {
-  const baseUrl = 'https://www.sproutern.com';
+  const baseUrl = 'https://sproutern.dpdns.org';
   const schemas: object[] = [];
 
   // BreadcrumbList schema
@@ -92,8 +92,8 @@ export function generateStructuredData({
             name: 'Sproutern',
           },
           copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-          license: 'https://www.sproutern.com/terms',
-          acquireLicensePage: 'https://www.sproutern.com/contact',
+          license: 'https://sproutern.dpdns.org/terms',
+          acquireLicensePage: 'https://sproutern.dpdns.org/contact',
         },
       },
       mainEntityOfPage: {

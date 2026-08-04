@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about working at Adobe - salaries, interview process, culture, and how to get hired.',
     type: 'article',
-    url: 'https://www.sproutern.com/companies/adobe',
+    url: 'https://sproutern.dpdns.org/companies/adobe',
   },
   twitter: {
     card: 'summary_large_image',
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
       'Complete guide to Adobe careers, salary, and interview process.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/companies/adobe',
+    canonical: 'https://sproutern.dpdns.org/companies/adobe',
   },
 };
 
@@ -497,19 +497,19 @@ export default function AdobeCareersPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Companies',
-        item: 'https://www.sproutern.com/companies',
+        item: 'https://sproutern.dpdns.org/companies',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Adobe',
-        item: 'https://www.sproutern.com/companies/adobe',
+        item: 'https://sproutern.dpdns.org/companies/adobe',
       },
     ],
   };

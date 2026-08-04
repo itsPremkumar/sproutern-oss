@@ -123,7 +123,7 @@ domains.
 _This article is regularly updated with the latest market data. Last verified: February 22, 2026._
 
 _Source: Sproutern Career Research Team. Cite as: Sproutern Team. "Software Engineer Salary in
-Berlin 2026 - Germany Tech Guide." Sproutern.com, February 22, 2026._
+Berlin 2026 - Germany Tech Guide." Sproutern.dpdns.org, February 22, 2026._
 
 ---
 

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'ATS Resume Checker',
     description: 'Check if your resume passes ATS screening systems.',
     type: 'website',
-    url: 'https://www.sproutern.com/tools/ats-checker',
+    url: 'https://sproutern.dpdns.org/tools/ats-checker',
     siteName: 'Sproutern',
   },
   twitter: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: 'Optimize your resume for applicant tracking systems.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/tools/ats-checker',
+    canonical: 'https://sproutern.dpdns.org/tools/ats-checker',
   },
 };
 

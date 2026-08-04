@@ -37,7 +37,7 @@ export default function CertificationsPage() {
             '@context': 'https://schema.org',
             '@type': 'CollectionPage',
             name: 'Best IT Certifications Guide',
-            url: 'https://www.sproutern.com/certifications',
+            url: 'https://sproutern.dpdns.org/certifications',
             numberOfItems: certifications.length,
           }),
         }}

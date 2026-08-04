@@ -43,10 +43,10 @@ export async function generateMetadata({
       title,
       description,
       type: 'article',
-      url: `https://www.sproutern.com/certifications/${slug}`,
+      url: `https://sproutern.dpdns.org/certifications/${slug}`,
     },
     alternates: {
-      canonical: `https://www.sproutern.com/certifications/${slug}`,
+      canonical: `https://sproutern.dpdns.org/certifications/${slug}`,
     },
   };
 }
@@ -88,13 +88,13 @@ export default async function CertificationPage({
                     '@type': 'ListItem',
                     position: 1,
                     name: 'Home',
-                    item: 'https://www.sproutern.com',
+                    item: 'https://sproutern.dpdns.org',
                   },
                   {
                     '@type': 'ListItem',
                     position: 2,
                     name: 'Certifications',
-                    item: 'https://www.sproutern.com/certifications',
+                    item: 'https://sproutern.dpdns.org/certifications',
                   },
                   { '@type': 'ListItem', position: 3, name: cert.name },
                 ],

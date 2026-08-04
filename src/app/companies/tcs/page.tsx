@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'Complete guide to TCS careers. Learn about TCS salary, interview questions, NQT exam, and job opportunities for freshers and experienced professionals.',
   keywords:
     'tcs careers, tcs salary, tcs interview questions, tcs nqt, tcs jobs, tata consultancy services',
-  alternates: { canonical: 'https://www.sproutern.com/companies/tcs' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/companies/tcs' },
 };
 
 export default function TCSPage() {

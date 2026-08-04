@@ -23,7 +23,7 @@ export const MANUAL_CONTRIBUTORS: ManualContributor[] = [
     socials: {
       linkedin: 'https://www.linkedin.com/company/sproutern',
       twitter: 'https://twitter.com/sproutern',
-      website: 'https://www.sproutern.com',
+      website: 'https://sproutern.dpdns.org',
     },
   },
   // Add more manual contributors here

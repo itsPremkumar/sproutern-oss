@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: 'MNC Interview Questions Hub',
     description:
       'Master MNC interviews with comprehensive question banks for all top companies.',
-    url: 'https://sproutern.com/companies/mnc-interview-questions',
+    url: 'https://sproutern.dpdns.org/companies/mnc-interview-questions',
     type: 'website',
   },
 };

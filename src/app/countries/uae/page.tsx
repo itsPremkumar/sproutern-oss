@@ -34,10 +34,10 @@ export const metadata: Metadata = {
     description:
       'Everything you need to know about studying and working in the UAE. World-class education, tax-free salaries, and dynamic career opportunities in the Middle East hub.',
     type: 'website',
-    url: 'https://www.sproutern.com/countries/uae',
+    url: 'https://sproutern.dpdns.org/countries/uae',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/countries/uae',
+    canonical: 'https://sproutern.dpdns.org/countries/uae',
   },
 };
 

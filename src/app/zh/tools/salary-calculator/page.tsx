@@ -16,10 +16,10 @@ export const metadata: Metadata = {
     '薪资计算',
   ],
   alternates: {
-    canonical: 'https://www.sproutern.com/zh/tools/salary-calculator',
+    canonical: 'https://sproutern.dpdns.org/zh/tools/salary-calculator',
     languages: {
-      'zh-CN': 'https://www.sproutern.com/zh/tools/salary-calculator',
-      en: 'https://www.sproutern.com/tools/salary-calculator',
+      'zh-CN': 'https://sproutern.dpdns.org/zh/tools/salary-calculator',
+      en: 'https://sproutern.dpdns.org/tools/salary-calculator',
     },
   },
   openGraph: {
@@ -44,7 +44,7 @@ export default function ChineseSalaryCalculatorPage() {
     '@type': 'WebApplication',
     name: '工资计算器',
     description: '免费税后工资计算器',
-    url: 'https://www.sproutern.com/zh/tools/salary-calculator',
+    url: 'https://sproutern.dpdns.org/zh/tools/salary-calculator',
     applicationCategory: 'FinanceApplication',
     inLanguage: 'zh-CN',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'CNY' },

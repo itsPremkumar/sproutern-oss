@@ -15,8 +15,8 @@ export const OrganizationSchema = () => (
         '@context': 'https://schema.org',
         '@type': 'Organization',
         name: 'Sproutern',
-        url: 'https://www.sproutern.com',
-        logo: 'https://www.sproutern.com/logo.jpg',
+        url: 'https://sproutern.dpdns.org',
+        logo: 'https://sproutern.dpdns.org/logo.jpg',
         description:
           'Sproutern helps students and professionals with career tools, interview preparation, and salary insights for global opportunities.',
         foundingDate: '2023',
@@ -207,7 +207,7 @@ export function ArticleSchema({
           '@type': 'Article',
           headline,
           description,
-          image: image || 'https://www.sproutern.com/og-image.jpg',
+          image: image || 'https://sproutern.dpdns.org/og-image.jpg',
           datePublished,
           dateModified: dateModified || datePublished,
           author: {
@@ -219,7 +219,7 @@ export function ArticleSchema({
             name: 'Sproutern',
             logo: {
               '@type': 'ImageObject',
-              url: 'https://www.sproutern.com/logo.jpg',
+              url: 'https://sproutern.dpdns.org/logo.jpg',
             },
           },
           mainEntityOfPage: {
@@ -396,7 +396,7 @@ export function VideoSchema({
             name: 'Sproutern',
             logo: {
               '@type': 'ImageObject',
-              url: 'https://www.sproutern.com/logo.jpg',
+              url: 'https://sproutern.dpdns.org/logo.jpg',
             },
           },
         }),

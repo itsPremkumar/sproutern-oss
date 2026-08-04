@@ -9,7 +9,7 @@ export interface HreflangTag {
 }
 
 // Base URL for the website
-export const BASE_URL = 'https://www.sproutern.com';
+export const BASE_URL = 'https://sproutern.dpdns.org';
 
 // Supported languages and regions
 export const SUPPORTED_LOCALES = [

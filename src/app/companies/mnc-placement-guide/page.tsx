@@ -56,7 +56,7 @@ export const metadata = {
     title: 'How to Get Placed in Top MNC Companies  | Complete Guide',
     description:
       'Comprehensive step-by-step guide to cracking MNC interviews and securing high-paying jobs in top multinational companies. Learn eligibility, skills, resume tips, interview strategies, and company-wise preparation from ex-FAANG hiring managers.',
-    url: 'https://sproutern.com/companies/mnc-placement-guide',
+    url: 'https://sproutern.dpdns.org/companies/mnc-placement-guide',
     type: 'article',
     publishedTime: new Date().toISOString(),
     authors: ['Prem Kumar'],

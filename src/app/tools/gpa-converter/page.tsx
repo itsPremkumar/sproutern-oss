@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       'Convert grades between 45+ systems from India, USA, UK, Germany, France, Australia, Canada, China, Japan, Korea, and more.',
     type: 'website',
-    url: 'https://www.sproutern.com/tools/gpa-converter',
+    url: 'https://sproutern.dpdns.org/tools/gpa-converter',
   },
   twitter: {
     card: 'summary_large_image',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
       'Free tool to convert GPA/CGPA between 45+ international grading systems for study abroad.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/tools/gpa-converter',
+    canonical: 'https://sproutern.dpdns.org/tools/gpa-converter',
   },
 };
 

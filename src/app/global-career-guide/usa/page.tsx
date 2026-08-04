@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     'Complete guide to finding jobs in the USA for Indian and international students. Learn about H1B, OPT, top industries, salaries, and resume tips.',
   alternates: {
-    canonical: 'https://www.sproutern.com/global-career-guide/usa',
+    canonical: 'https://sproutern.dpdns.org/global-career-guide/usa',
   },
 };
 

@@ -14,13 +14,13 @@ export const metadata: Metadata = {
   description:
     'Boost your efficiency with these proven productivity hacks tailored for students. Balance academics, internships, and social life effectively.',
   alternates: {
-    canonical: 'https://www.sproutern.com/blog/productivity-tips-students',
+    canonical: 'https://sproutern.dpdns.org/blog/productivity-tips-students',
   },
   openGraph: {
     title: 'Productivity Tips for Students: Do More in Less Time',
     description:
       'Boost your efficiency with these proven productivity hacks tailored for students. Balance academics, internships, and social life effectively.',
-    url: 'https://www.sproutern.com/blog/productivity-tips-students',
+    url: 'https://sproutern.dpdns.org/blog/productivity-tips-students',
     type: 'article',
     publishedTime: '2025-01-12',
     authors: ['Sproutern Team'],
@@ -38,27 +38,27 @@ export default function ProductivityTipsPage() {
     author: {
       '@type': 'Organization',
       name: 'Sproutern Team',
-      url: 'https://www.sproutern.com',
+      url: 'https://sproutern.dpdns.org',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Sproutern',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.sproutern.com/logo.jpg',
+        url: 'https://sproutern.dpdns.org/logo.jpg',
         creditText: 'Sproutern',
         creator: {
           '@type': 'Organization',
           name: 'Sproutern',
         },
         copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-        license: 'https://www.sproutern.com/terms',
-        acquireLicensePage: 'https://www.sproutern.com/contact',
+        license: 'https://sproutern.dpdns.org/terms',
+        acquireLicensePage: 'https://sproutern.dpdns.org/contact',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'https://www.sproutern.com/blog/productivity-tips-students',
+      '@id': 'https://sproutern.dpdns.org/blog/productivity-tips-students',
     },
   };
 

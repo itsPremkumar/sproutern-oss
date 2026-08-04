@@ -29,10 +29,10 @@ export const metadata: Metadata = {
     title: 'DevOps Engineer Roadmap',
     description: 'Step-by-step guide to becoming a DevOps Engineer.',
     type: 'article',
-    url: 'https://www.sproutern.com/roadmaps/devops-engineer',
+    url: 'https://sproutern.dpdns.org/roadmaps/devops-engineer',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/roadmaps/devops-engineer',
+    canonical: 'https://sproutern.dpdns.org/roadmaps/devops-engineer',
   },
 };
 

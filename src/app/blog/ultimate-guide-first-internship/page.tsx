@@ -37,11 +37,11 @@ export const metadata: Metadata = {
     type: 'article',
     publishedTime: '2024-11-01T00:00:00Z',
     authors: ['Sproutern Career Team'],
-    url: 'https://www.sproutern.com/blog/ultimate-guide-first-internship',
+    url: 'https://sproutern.dpdns.org/blog/ultimate-guide-first-internship',
     siteName: 'Sproutern',
     images: [
       {
-        url: 'https://www.sproutern.com/opengraph.jpg',
+        url: 'https://sproutern.dpdns.org/opengraph.jpg',
         width: 1200,
         height: 630,
         alt: 'The Ultimate Guide to Landing Your First Internship',
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     title: 'The Ultimate Guide to Landing Your First Internship',
     description:
       'Complete roadmap to securing your dream internship - from resume building to interview success.',
-    images: ['https://www.sproutern.com/twitter.jpg'],
+    images: ['https://sproutern.dpdns.org/twitter.jpg'],
   },
   alternates: {
     canonical: './',

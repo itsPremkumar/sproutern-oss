@@ -7,7 +7,7 @@
     to Bing's IndexNow endpoint in batches for faster indexing.
 
 .NOTES
-    Domain: www.sproutern.com
+    Domain: sproutern.dpdns.org
     Key: YOUR_INDEXNOW_KEY
     Created: 2025-12-29
 #>
@@ -18,14 +18,14 @@ param(
 )
 
 # Configuration
-$HostName = "www.sproutern.com"
+$HostName = "sproutern.dpdns.org"
 $IndexNowKey = "YOUR_INDEXNOW_KEY"
 $BingEndpoint = "https://www.bing.com/indexnow"
 $SitemapPath = Join-Path $PSScriptRoot ".." "sitemap-full-updated.xml"
 
 Write-Host ""
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "  IndexNow Submission for Sproutern.com" -ForegroundColor Cyan  
+Write-Host "  IndexNow Submission for Sproutern.dpdns.org" -ForegroundColor Cyan  
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       'Create printable checklists for interviews, placements, and more. Track your preparation progress.',
     type: 'website',
-    url: 'https://www.sproutern.com/tools/checklist-generator',
+    url: 'https://sproutern.dpdns.org/tools/checklist-generator',
   },
   twitter: {
     card: 'summary_large_image',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: 'Free printable checklists for students and job seekers.',
   },
   alternates: {
-    canonical: 'https://www.sproutern.com/tools/checklist-generator',
+    canonical: 'https://sproutern.dpdns.org/tools/checklist-generator',
   },
 };
 
@@ -36,19 +36,19 @@ export default function ChecklistGeneratorPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.sproutern.com',
+        item: 'https://sproutern.dpdns.org',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Tools',
-        item: 'https://www.sproutern.com/tools',
+        item: 'https://sproutern.dpdns.org/tools',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Checklist Generator',
-        item: 'https://www.sproutern.com/tools/checklist-generator',
+        item: 'https://sproutern.dpdns.org/tools/checklist-generator',
       },
     ],
   };

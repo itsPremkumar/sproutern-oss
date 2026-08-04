@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     'Complete roadmap to become a Cybersecurity Analyst. Learn networking, ethical hacking, SIEM, and cloud security.',
   keywords:
     'cybersecurity roadmap, security analyst career, ethical hacking, penetration testing, siem tools',
-  alternates: { canonical: 'https://www.sproutern.com/roadmaps/cybersecurity' },
+  alternates: { canonical: 'https://sproutern.dpdns.org/roadmaps/cybersecurity' },
 };
 
 const phases = [

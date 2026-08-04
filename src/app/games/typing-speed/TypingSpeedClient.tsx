@@ -290,7 +290,7 @@ export default function TypingSpeedClient() {
 
   // Share results
   const shareResults = async () => {
-    const text = `🎯 Typing Speed Test Results\n⚡ ${wpm} WPM | ✅ ${accuracy}% Accuracy\n🎮 Mode: ${mode} | ⏱️ ${duration}s\n\nTest your typing speed at sproutern.com/games/typing-speed`;
+    const text = `🎯 Typing Speed Test Results\n⚡ ${wpm} WPM | ✅ ${accuracy}% Accuracy\n🎮 Mode: ${mode} | ⏱️ ${duration}s\n\nTest your typing speed at sproutern.dpdns.org/games/typing-speed`;
     if (navigator.share) {
       try {
         await navigator.share({ title: 'My Typing Speed', text });

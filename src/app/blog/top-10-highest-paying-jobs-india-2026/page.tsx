@@ -33,8 +33,8 @@ import {
 } from '@/components/seo';
 
 const canonicalUrl =
-  'https://www.sproutern.com/blog/top-10-highest-paying-jobs-india-2026';
-const articleImage = 'https://www.sproutern.com/opengraph.jpg';
+  'https://sproutern.dpdns.org/blog/top-10-highest-paying-jobs-india-2026';
+const articleImage = 'https://sproutern.dpdns.org/opengraph.jpg';
 const faqItems = [
   {
     question: 'Which job has the highest salary in India in 2026?',
@@ -125,15 +125,15 @@ export default function BlogPost() {
           <div className="mb-6">
             <BreadcrumbSchema
               items={[
-                { name: 'Home', url: 'https://www.sproutern.com' },
-                { name: 'Blog', url: 'https://www.sproutern.com/blog' },
+                { name: 'Home', url: 'https://sproutern.dpdns.org' },
+                { name: 'Blog', url: 'https://sproutern.dpdns.org/blog' },
                 {
                   name: 'Career Guide',
-                  url: 'https://www.sproutern.com/blog/category/career-guide',
+                  url: 'https://sproutern.dpdns.org/blog/category/career-guide',
                 },
                 {
                   name: 'Highest Paying Jobs 2026',
-                  url: 'https://www.sproutern.com/blog/top-10-highest-paying-jobs-india-2026',
+                  url: 'https://sproutern.dpdns.org/blog/top-10-highest-paying-jobs-india-2026',
                 },
               ]}
             />

@@ -43,11 +43,11 @@ export const metadata: Metadata = {
     description:
       'Comprehensive collection of Flipkart interview questions with solutions and preparation tips.',
     type: 'article',
-    url: 'https://www.sproutern.com/companies/flipkart/interview-questions',
+    url: 'https://sproutern.dpdns.org/companies/flipkart/interview-questions',
   },
   alternates: {
     canonical:
-      'https://www.sproutern.com/companies/flipkart/interview-questions',
+      'https://sproutern.dpdns.org/companies/flipkart/interview-questions',
   },
 };
 

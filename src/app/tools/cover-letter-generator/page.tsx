@@ -30,7 +30,7 @@ export default function CoverLetterGeneratorPage() {
         <ToolFAQSection
           toolName="Cover Letter Generator"
           faqs={coverLetterFAQs}
-          toolUrl="https://www.sproutern.com/tools/cover-letter-generator"
+          toolUrl="https://sproutern.dpdns.org/tools/cover-letter-generator"
         />
       </div>
 

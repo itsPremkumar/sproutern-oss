@@ -15,7 +15,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 // Configuration
-const DOMAIN = 'https://www.sproutern.com';
+const DOMAIN = 'https://sproutern.dpdns.org';
 const API_KEY = process.env.INDEXNOW_KEY || 'YOUR_INDEXNOW_KEY';
 const KEY_LOCATION = `${DOMAIN}/${API_KEY}.txt`;
 const BATCH_SIZE = 100;
@@ -101,7 +101,7 @@ async function submitBatch(
   endpoint: string,
 ): Promise<{ success: boolean; status: number }> {
   const payload = {
-    host: 'www.sproutern.com',
+    host: 'sproutern.dpdns.org',
     key: API_KEY,
     keyLocation: KEY_LOCATION,
     urlList: urls,
