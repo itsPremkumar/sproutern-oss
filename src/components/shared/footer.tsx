@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Instagram, Linkedin, Mail, Youtube } from 'lucide-react';
+import { Github, Instagram, Linkedin, Mail, Youtube } from 'lucide-react';
 import { Logo } from '@/components/shared/logo';
 import { DisplayBanner } from '@/components/ads';
 import { AffiliateStrip } from '@/components/monetization/AffiliateStrip';
@@ -350,6 +350,15 @@ export function Footer() {
                 aria-label="Sproutern on LinkedIn"
               >
                 <Linkedin className="h-5 w-5 text-secondary" />
+              </Link>
+              <Link
+                href="https://github.com/itsPremkumar/sproutern-oss"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-xl border border-slate-200 bg-white p-3 shadow-sm transition-all duration-300 hover:scale-110 hover:bg-foreground/10 dark:border-slate-700 dark:bg-slate-800"
+                aria-label="Sproutern on GitHub"
+              >
+                <Github className="h-5 w-5 text-foreground" />
               </Link>
             </div>
           </div>

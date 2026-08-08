@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Instagram, Linkedin, Mail, Youtube } from 'lucide-react';
+import { Github, Instagram, Linkedin, Mail, Youtube } from 'lucide-react';
 import { Logo } from '@/components/shared/logo';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
@@ -250,6 +250,15 @@ export function EnhancedFooter() {
                 aria-label="LinkedIn"
               >
                 <Linkedin className="h-5 w-5" />
+              </Link>
+              <Link
+                href="https://github.com/itsPremkumar/sproutern-oss"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground transition-colors hover:text-foreground"
+                aria-label="GitHub"
+              >
+                <Github className="h-5 w-5" />
               </Link>
               <Link
                 href="https://www.youtube.com/@sproutern"
