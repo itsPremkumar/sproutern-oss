@@ -19,6 +19,14 @@
 </div>
 
 <p align="center">
+  <a href="https://sproutern.dpdns.org" target="_blank">
+    <img src="https://img.shields.io/badge/%F0%9F%8C%90%20LIVE%20WEBSITE-sproutern.dpdns.org-22c55e?style=for-the-badge&logo=internet-explorer&logoColor=white" alt="Live Website: sproutern.dpdns.org" />
+  </a>
+  <br />
+  <strong>🔗 Live site:</strong> <a href="https://sproutern.dpdns.org" target="_blank"><code>https://sproutern.dpdns.org</code></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/itsPremkumar/sproutern-oss/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/itsPremkumar/sproutern-oss?style=flat-square" alt="License" />
   </a>
