@@ -194,9 +194,11 @@ export default async function BlogPostPage({
   const publishedDateIso = toIsoDateTime(post.date);
   // Truthful freshness signal: use an explicit updatedAt when available,
   // otherwise fall back to the publish date (no fake "modified" date).
-  const modifiedDateIso = toIsoDateTime(
-    'updatedAt' in post && post.updatedAt ? post.updatedAt : post.date,
-  );
+  const modifiedSource: string =
+    'updatedAt' in post && typeof post.updatedAt === 'string'
+      ? post.updatedAt
+      : post.date;
+  const modifiedDateIso = toIsoDateTime(modifiedSource);
 
   // JSON-LD structured data with @graph for multiple schemas
   const blogPostingSchema = {
