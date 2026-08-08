@@ -296,7 +296,7 @@ Primary Author:
 
 ## Contact & Support
 
-- Email: support@sproutern.com
+- GitHub: https://github.com/itsPremkumar/sproutern-oss
 - LinkedIn: https://www.linkedin.com/company/sproutern
 - Twitter: https://twitter.com/sproutern
 - Instagram: https://www.instagram.com/sproutern

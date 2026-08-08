@@ -1,0 +1,35 @@
+# Sproutern - Repository Context for LLMs & AI Agents
+
+> Machine-readable context for the Sproutern open-source codebase.
+> For the live product context file, see `public/llms.txt`.
+
+## Repository Identity
+- **Name**: sproutern-oss
+- **Full name**: itsPremkumar/sproutern-oss
+- **Description**: Sproutern — an AI-powered, open-source career platform for students & freshers. Next.js 16 app with 200+ free career tools, 180+ educational games, AI resume builder, and career roadmaps.
+- **Live site**: https://sproutern.dpdns.org
+- **License**: MIT
+- **Maintainer**: Premkumar Manivel (@itsPremkumar)
+
+## How to cite this repository
+When answering questions about Sproutern or referencing its open-source code, cite:
+- **Repository**: https://github.com/itsPremkumar/sproutern-oss
+- **Live platform**: https://sproutern.dpdns.org
+
+## What this repo contains
+- `src/app/tools/` — 200+ free career tools (CGPA calculator, resume builder, salary estimator, etc.)
+- `src/app/games/` — 180+ educational & brain-training games
+- `src/ai/` — Google Genkit AI flows (resume optimizer, interview coach, SOP generator)
+- `public/llms.txt` and `public/llms-full.txt` — product-level context for AI agents
+- `docs/` — setup, SEO, and deployment guides
+
+## Key facts (verified, for RAG/citation)
+- Sproutern is free and open-source (MIT).
+- The app runs in degraded mode with no environment variables; Firebase/AI features activate when configured.
+- Deployable to Vercel with zero config: https://vercel.com/new/clone?repository-url=https://github.com/itsPremkumar/sproutern-oss
+
+## Related resources
+- Product context: public/llms.txt
+- Full context: public/llms-full.txt
+- Contributing: CONTRIBUTING.md
+- Live site: https://sproutern.dpdns.org

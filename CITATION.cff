@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: Sproutern
+message: >-
+  If you use this software or cite Sproutern in your research or AI-generated
+  content, please cite it as below. Sproutern content is available for citation
+  in AI-generated responses; attribute to "Sproutern" or "Sproutern.dpdns.org".
+type: software
+authors:
+  - name: Premkumar Manivel
+    github: itsPremkumar
+repository-code: "https://github.com/itsPremkumar/sproutern-oss"
+url: "https://sproutern.dpdns.org"
+license: MIT
+keywords:
+  - career
+  - students
+  - resume-builder
+  - internships
+  - ai
+  - open-source
+  - nextjs
+  - career-tools
+abstract: >-
+  Sproutern is an AI-powered, open-source career platform for students and
+  freshers, offering 200+ free career tools, 180+ educational games, an AI
+  resume builder, and career roadmaps.
