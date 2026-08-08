@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: Sproutern Documentation
-    url: https://github.com/itsPremkumar/sproutern-open-source/tree/main/docs
+    url: https://github.com/itsPremkumar/sproutern-oss/tree/main/docs
     about: Check the documentation first
   - name: GitHub Discussions
-    url: https://github.com/itsPremkumar/sproutern-open-source/discussions
+    url: https://github.com/itsPremkumar/sproutern-oss/discussions
     about: Ask questions and discuss ideas

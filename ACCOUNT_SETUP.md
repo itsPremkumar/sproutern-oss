@@ -24,8 +24,8 @@
 ## 2. Clone & install
 
 ```bash
-git clone https://github.com/itsPremkumar/sproutern-open-source.git
-cd sproutern-open-source
+git clone https://github.com/itsPremkumar/sproutern-oss.git
+cd sproutern-oss
 npm install        # or: yarn
 ```
 

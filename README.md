@@ -10,28 +10,28 @@
     <a href="https://sproutern.dpdns.org" target="_blank"><strong>Explore Sproutern »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/itsPremkumar/sproutern-open-source/issues/new?template=bug_report.md">Report Bug</a>
+    <a href="https://github.com/itsPremkumar/sproutern-oss/issues/new?template=bug_report.md">Report Bug</a>
     ·
-    <a href="https://github.com/itsPremkumar/sproutern-open-source/issues/new?template=feature_request.md">Request Feature</a>
+    <a href="https://github.com/itsPremkumar/sproutern-oss/issues/new?template=feature_request.md">Request Feature</a>
     ·
-    <a href="https://github.com/itsPremkumar/sproutern-open-source/discussions">Ask a Question</a>
+    <a href="https://github.com/itsPremkumar/sproutern-oss/discussions">Ask a Question</a>
   </p>
 </div>
 
 <p align="center">
-  <a href="https://github.com/itsPremkumar/sproutern-open-source/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/itsPremkumar/sproutern-open-source?style=flat-square" alt="License" />
+  <a href="https://github.com/itsPremkumar/sproutern-oss/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/itsPremkumar/sproutern-oss?style=flat-square" alt="License" />
   </a>
-  <a href="https://github.com/itsPremkumar/sproutern-open-source/stargazers">
-    <img src="https://img.shields.io/github/stars/itsPremkumar/sproutern-open-source?style=flat-square" alt="Stars" />
+  <a href="https://github.com/itsPremkumar/sproutern-oss/stargazers">
+    <img src="https://img.shields.io/github/stars/itsPremkumar/sproutern-oss?style=flat-square" alt="Stars" />
   </a>
-  <a href="https://github.com/itsPremkumar/sproutern-open-source/network/members">
-    <img src="https://img.shields.io/github/forks/itsPremkumar/sproutern-open-source?style=flat-square" alt="Forks" />
+  <a href="https://github.com/itsPremkumar/sproutern-oss/network/members">
+    <img src="https://img.shields.io/github/forks/itsPremkumar/sproutern-oss?style=flat-square" alt="Forks" />
   </a>
-  <a href="https://github.com/itsPremkumar/sproutern-open-source/issues">
-    <img src="https://img.shields.io/github/issues/itsPremkumar/sproutern-open-source?style=flat-square" alt="Issues" />
+  <a href="https://github.com/itsPremkumar/sproutern-oss/issues">
+    <img src="https://img.shields.io/github/issues/itsPremkumar/sproutern-oss?style=flat-square" alt="Issues" />
   </a>
-  <a href="https://github.com/itsPremkumar/sproutern-open-source/blob/main/CONTRIBUTING.md">
+  <a href="https://github.com/itsPremkumar/sproutern-oss/blob/main/CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs Welcome" />
   </a>
   <a href="https://nextjs.org/">
@@ -146,8 +146,8 @@ Learn while having fun with educational games:
 
 ```bash
 # Clone the repository
-git clone https://github.com/itsPremkumar/sproutern-open-source.git
-cd sproutern-open-source
+git clone https://github.com/itsPremkumar/sproutern-oss.git
+cd sproutern-oss
 
 # Install dependencies
 npm install
@@ -182,7 +182,7 @@ Copy `.env.example` to `.env.local` and fill in your Firebase project credential
 
 Deploy to Vercel with zero configuration:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/itsPremkumar/sproutern-open-source)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/itsPremkumar/sproutern-oss)
 
 No environment variables are required — the app runs with graceful fallbacks.
 
@@ -191,7 +191,7 @@ No environment variables are required — the app runs with graceful fallbacks.
 ## 📁 Project Structure
 
 ```
-sproutern-open-source/
+sproutern-oss/
 ├── .github/               # GitHub templates & CI/CD workflows
 ├── docs/                  # Documentation
 ├── public/                # Static assets
@@ -243,10 +243,10 @@ sproutern-open-source/
 
 We welcome contributions of all kinds! Here's how you can help:
 
-- **🐛 Report Bugs**: Open a [bug report](https://github.com/itsPremkumar/sproutern-open-source/issues/new?template=bug_report.md)
-- **💡 Suggest Features**: Submit a [feature request](https://github.com/itsPremkumar/sproutern-open-source/issues/new?template=feature_request.md)
+- **🐛 Report Bugs**: Open a [bug report](https://github.com/itsPremkumar/sproutern-oss/issues/new?template=bug_report.md)
+- **💡 Suggest Features**: Submit a [feature request](https://github.com/itsPremkumar/sproutern-oss/issues/new?template=feature_request.md)
 - **📝 Improve Docs**: Help make documentation better
-- **🔧 Fix Issues**: Check [good first issues](https://github.com/itsPremkumar/sproutern-open-source/labels/good%20first%20issue)
+- **🔧 Fix Issues**: Check [good first issues](https://github.com/itsPremkumar/sproutern-oss/labels/good%20first%20issue)
 - **🎮 Add Tools/Games**: Build new tools in `src/app/tools/` or games in `src/app/games/`
 - **🌍 Translations**: Help with i18n and multi-language support
 
@@ -256,8 +256,8 @@ Please read our [Contributing Guide](CONTRIBUTING.md) and [Code of Conduct](CODE
 
 ```bash
 # Fork & clone
-git clone https://github.com/YOUR-USERNAME/sproutern-open-source.git
-cd sproutern-open-source
+git clone https://github.com/YOUR-USERNAME/sproutern-oss.git
+cd sproutern-oss
 npm install
 
 # Create a branch
@@ -286,8 +286,8 @@ This project is [MIT licensed](LICENSE) — feel free to use, modify, and distri
 ## 🌟 Support
 
 - 📖 [Documentation](./docs/)
-- 💬 [GitHub Discussions](https://github.com/itsPremkumar/sproutern-open-source/discussions)
-- 🐛 [Report a Bug](https://github.com/itsPremkumar/sproutern-open-source/issues/new?template=bug_report.md)
+- 💬 [GitHub Discussions](https://github.com/itsPremkumar/sproutern-oss/discussions)
+- 🐛 [Report a Bug](https://github.com/itsPremkumar/sproutern-oss/issues/new?template=bug_report.md)
 - 🔒 [Security Issues](SECURITY.md)
 
 ---

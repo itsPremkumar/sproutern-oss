@@ -13,7 +13,7 @@
 | Logged-in user | `<your-vercel-username>` |
 | Team slug | `<your-team-slug>` |
 | Team name | `<your-team-name>` |
-| GitHub repo | `<your-github-user>/sproutern-hermes` (branch `master`) |
+| GitHub repo | `<your-github-user>/sproutern-oss` (branch `master`) |
 | Vercel project | `sproutern` |
 | Production URL | `https://<project>-<team-slug>.vercel.app` |
 | Auto-deploy | ✅ pushes to `master` trigger a production build |

@@ -32,8 +32,8 @@ uphold this code.
 2. Clone your fork:
 
    ```bash
-   git clone https://github.com/itsPremkumar/sproutern-open-source.git
-   cd sproutern-open-source
+   git clone https://github.com/itsPremkumar/sproutern-oss.git
+   cd sproutern-oss
    ```
 
 3. Install dependencies:
@@ -147,7 +147,7 @@ Look for issues labeled:
 
 ## Need Help?
 
-- Open a [Discussion](https://github.com/itsPremkumar/sproutern-open-source/discussions)
+- Open a [Discussion](https://github.com/itsPremkumar/sproutern-oss/discussions)
 - Check the [docs/](./docs/) directory
 - Ask in the relevant issue or PR
 
