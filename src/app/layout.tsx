@@ -19,6 +19,7 @@ import { ShareWidget } from '@/components/social/ShareWidget';
 import { ClarityProvider } from '@/components/providers/clarity-provider';
 import { ScrollProgress } from '@/components/engagement/ScrollProgress';
 import { ReadNextBar } from '@/components/engagement/ReadNextBar';
+import { SITE_URL } from '@/lib/site-config';
 
 // Optimized font loading for better performance
 const inter = Inter({
@@ -61,8 +62,8 @@ export const metadata: Metadata = {
     'global opportunities',
     'Sproutern',
   ],
-  metadataBase: new URL('https://sproutern.dpdns.org'),
-  authors: [{ name: 'Sproutern Team', url: 'https://sproutern.dpdns.org' }],
+  metadataBase: new URL(SITE_URL),
+  authors: [{ name: 'Sproutern Team', url: SITE_URL }],
   creator: 'Sproutern',
   publisher: 'Sproutern',
   robots: {
@@ -84,7 +85,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://sproutern.dpdns.org',
+    url: SITE_URL,
     title:
       'Sproutern - Free Career Tools, CGPA Calculator & Interview Prep 2026',
     description:
@@ -92,7 +93,7 @@ export const metadata: Metadata = {
     siteName: 'Sproutern',
     images: [
       {
-        url: 'https://sproutern.dpdns.org/opengraph.jpg',
+        url: `${SITE_URL}/opengraph.jpg`,
         width: 1200,
         height: 630,
         alt: 'Sproutern - Startup Internship Platform for Students',
@@ -105,7 +106,7 @@ export const metadata: Metadata = {
     title: 'Sproutern - Launch Your Career with Startup Internships',
     description:
       'Premier platform connecting students with innovative startups. AI-powered matching, career guidance, and meaningful opportunities.',
-    images: ['https://sproutern.dpdns.org/twitter.jpg'],
+    images: [`${SITE_URL}/twitter.jpg`],
     creator: '@sproutern',
   },
   referrer: 'origin-when-cross-origin',

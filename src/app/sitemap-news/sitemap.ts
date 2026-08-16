@@ -10,13 +10,13 @@ import {
  *
  * Generates a sitemap specifically for Google News, which helps
  * get new blog content indexed within hours instead of days.
- * Only includes posts published within the last 48 hours
- * (Google News requirement).
+ *
+ * FIX: Google News sitemap must never be empty (causes GSC error).
+ * Always includes the latest posts (up to 100) regardless of date,
+ * so the sitemap is never empty even if no posts were published
+ * in the last 48 hours.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
-  const twoDaysAgo = new Date(now.getTime() - 48 * 60 * 60 * 1000);
-
   // Combine custom and markdown blog posts
   const markdownPosts = getAllMarkdownBlogPosts().map(markdownToBlogData);
   const allPosts = [...blogPosts];
@@ -28,13 +28,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Filter to posts within the last 48 hours
-  const recentPosts = allPosts.filter((post) => {
-    const postDate = new Date(post.date);
-    return postDate >= twoDaysAgo;
+  // Sort by date descending (newest first)
+  const sortedPosts = allPosts.sort((a, b) => {
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
   });
 
-  return recentPosts.map((post) => ({
+  // Take the latest 100 posts (never empty)
+  const latestPosts = sortedPosts.slice(0, 100);
+
+  return latestPosts.map((post) => ({
     url: `https://sproutern.dpdns.org/blog/${post.slug}`,
     lastModified: new Date(post.date),
     changeFrequency: 'daily' as const,

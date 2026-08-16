@@ -4,7 +4,6 @@ import { NextResponse } from 'next/server';
 const siteUrl = 'https://sproutern.dpdns.org';
 const publicationName = 'Sproutern';
 const publicationLanguage = 'en';
-const twoDaysMs = 2 * 24 * 60 * 60 * 1000;
 
 function escapeXml(value: string): string {
   return value
@@ -16,12 +15,12 @@ function escapeXml(value: string): string {
 }
 
 function generateNewsSitemapXml(): string {
-  const cutoff = Date.now() - twoDaysMs;
-  const recentPosts = getUnifiedFeedPosts(200)
-    .filter((post) => post.publishedAt.getTime() >= cutoff)
-    .slice(0, 1000);
+  // FIX: Always include latest posts (never empty to avoid GSC error)
+  const latestPosts = getUnifiedFeedPosts(200)
+    .sort((a, b) => b.publishedAt.getTime() - a.publishedAt.getTime())
+    .slice(0, 100);
 
-  const urls = recentPosts
+  const urls = latestPosts
     .map(
       (post) => `  <url>
     <loc>${siteUrl}/blog/${post.slug}</loc>

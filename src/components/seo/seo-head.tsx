@@ -1,4 +1,5 @@
 import Script from 'next/script';
+import { SITE_URL } from '@/lib/site-config';
 
 interface SEOHeadProps {
   title: string;
@@ -32,7 +33,7 @@ export function generateStructuredData({
   breadcrumbs,
   faq,
 }: SEOHeadProps) {
-  const baseUrl = 'https://sproutern.dpdns.org';
+  const baseUrl = SITE_URL;
   const schemas: object[] = [];
 
   // BreadcrumbList schema
@@ -92,8 +93,8 @@ export function generateStructuredData({
             name: 'Sproutern',
           },
           copyrightNotice: '© 2026 Sproutern. All rights reserved.',
-          license: 'https://sproutern.dpdns.org/terms',
-          acquireLicensePage: 'https://sproutern.dpdns.org/contact',
+          license: `${baseUrl}/terms`,
+          acquireLicensePage: `${baseUrl}/contact`,
         },
       },
       mainEntityOfPage: {
