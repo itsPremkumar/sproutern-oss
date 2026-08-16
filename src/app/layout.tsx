@@ -182,7 +182,7 @@ export default function RootLayout({
           {
             '@type': 'ContactPoint',
             contactType: 'customer support',
-            email: 'support@sproutern.com',
+            email: 'https://github.com/itsPremkumar/sproutern-oss',
             url: 'https://sproutern.dpdns.org/contact',
             availableLanguage: ['English', 'Hindi', 'Tamil'],
           },

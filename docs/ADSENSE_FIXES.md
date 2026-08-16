@@ -169,7 +169,7 @@ Your website now demonstrates:
 
 If you have questions or need assistance:
 
-- **Email:** support@sproutern.com
+- **Email:** https://github.com/itsPremkumar/sproutern-oss
 - **Check:** All new pages are live after deployment
 
 ---

@@ -114,10 +114,10 @@ export default function TermsOfService() {
           <p>
             If you have any questions about these Terms, please contact us at{' '}
             <a
-              href="mailto:support@sproutern.com"
+              href="mailto:https://github.com/itsPremkumar/sproutern-oss"
               className="text-primary hover:underline"
             >
-              support@sproutern.com
+              https://github.com/itsPremkumar/sproutern-oss
             </a>
             .
           </p>

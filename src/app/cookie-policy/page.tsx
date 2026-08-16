@@ -536,10 +536,10 @@ export default function CookiePolicyPage() {
               <p className="text-muted-foreground">
                 Email:{' '}
                 <a
-                  href="mailto:support@sproutern.com"
+                  href="mailto:https://github.com/itsPremkumar/sproutern-oss"
                   className="text-primary hover:underline"
                 >
-                  support@sproutern.com
+                  https://github.com/itsPremkumar/sproutern-oss
                 </a>
               </p>
               <p className="text-muted-foreground">

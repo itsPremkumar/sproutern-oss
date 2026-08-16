@@ -1,4 +1,4 @@
-Contact: mailto:support@sproutern.com
+Contact: https://github.com/itsPremkumar/sproutern-oss
 Expires: 2027-02-15T23:59:59.000Z
 Preferred-Languages: en
 Canonical: https://sproutern.dpdns.org/.well-known/security.txt
@@ -8,7 +8,8 @@ Hiring: https://sproutern.dpdns.org/about
 # Security Policy
 # 
 # We take security seriously at Sproutern. If you discover any security 
-# vulnerabilities, please report them responsibly to support@sproutern.com.
+# vulnerabilities, please report them responsibly via GitHub Issues:
+# https://github.com/itsPremkumar/sproutern-oss/issues
 # 
 # Please include:
 # - Description of the vulnerability

@@ -196,10 +196,10 @@ export default function ContactPage() {
               <Mail className="mx-auto mb-4 h-10 w-10 text-primary" />
               <h3 className="mb-2 font-semibold">Email Us</h3>
               <a
-                href="mailto:support@sproutern.com"
+                href="mailto:https://github.com/itsPremkumar/sproutern-oss"
                 className="text-muted-foreground transition-colors hover:text-primary"
               >
-                support@sproutern.com
+                https://github.com/itsPremkumar/sproutern-oss
               </a>
             </CardContent>
           </Card>

@@ -20,7 +20,7 @@ describe('validateOrganizationSchema', () => {
       name: 'Sproutern',
       url: 'https://sproutern.dpdns.org',
       logo: 'https://sproutern.dpdns.org/logo.jpg',
-      contactPoint: { email: 'contact@sproutern.com' },
+      contactPoint: { email: 'https://github.com/itsPremkumar/sproutern-oss' },
     };
 
     const result = validateOrganizationSchema(schema);

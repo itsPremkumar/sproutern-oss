@@ -228,10 +228,10 @@ export default function PrivacyPolicyPage() {
             <p className="mt-4 leading-relaxed text-muted-foreground">
               To exercise these rights, please contact us at{' '}
               <a
-                href="mailto:support@sproutern.com"
+                href="mailto:https://github.com/itsPremkumar/sproutern-oss"
                 className="text-primary hover:underline"
               >
-                support@sproutern.com
+                https://github.com/itsPremkumar/sproutern-oss
               </a>
               . We will respond to your request within 30 days.
             </p>
@@ -384,10 +384,10 @@ export default function PrivacyPolicyPage() {
               <p className="text-muted-foreground">
                 Email:{' '}
                 <a
-                  href="mailto:support@sproutern.com"
+                  href="mailto:https://github.com/itsPremkumar/sproutern-oss"
                   className="text-primary hover:underline"
                 >
-                  support@sproutern.com
+                  https://github.com/itsPremkumar/sproutern-oss
                 </a>
               </p>
               <p className="text-muted-foreground">

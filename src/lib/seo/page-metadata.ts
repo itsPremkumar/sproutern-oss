@@ -136,7 +136,7 @@ export function generateOrganizationSchema() {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',
-      email: 'support@sproutern.com',
+      email: 'https://github.com/itsPremkumar/sproutern-oss',
     },
   };
 }

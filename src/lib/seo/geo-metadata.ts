@@ -281,7 +281,7 @@ export const generateGeoOrganizationSchema = (region: 'IN' | 'US' | 'GB') => {
       '@type': 'ContactPoint',
       contactType: 'Customer Support',
       telephone: data.telephone,
-      email: 'support@sproutern.com',
+      email: 'https://github.com/itsPremkumar/sproutern-oss',
     },
     sameAs: [
       'https://www.linkedin.com/company/sproutern',

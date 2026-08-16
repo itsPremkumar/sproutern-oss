@@ -164,6 +164,6 @@ entire experience in this field.
 ## Submission
 
 Once you have prepared your document or updated the JSON, please email it to
-**support@sproutern.com** with the subject line: `Interview Experience - [Your Name] - [Company]`.
+**https://github.com/itsPremkumar/sproutern-oss** with the subject line: `Interview Experience - [Your Name] - [Company]`.
 
 Thank you again for your contribution!

@@ -518,10 +518,10 @@ export function InterviewSearch({ experiences }: Props) {
                 </p>
                 <div className="mt-2 rounded-lg border border-gray-200 bg-gray-50 p-4 text-center">
                   <a
-                    href="mailto:support@sproutern.com"
+                    href="mailto:https://github.com/itsPremkumar/sproutern-oss"
                     className="text-lg font-bold text-blue-600 hover:underline"
                   >
-                    support@sproutern.com
+                    https://github.com/itsPremkumar/sproutern-oss
                   </a>
                   <p className="mt-1 text-xs text-gray-500">
                     Subject: Interview Experience - [Your Name] - [Company]

@@ -81,7 +81,7 @@ You have these pages, which is a great start. Ensure they meet these standards.
   - **Mistake to Avoid:** A generic, one-paragraph "About" page. Be detailed.
 
 - **Contact Us (`/contact`)**
-  - **Content:** Contact form, professional email (e.g., `support@sproutern.com`), and a physical or
+  - **Content:** Contact form, professional email (e.g., `https://github.com/itsPremkumar/sproutern-oss`), and a physical or
     business address.
   - **AdSense Check:** Verifies that users can easily reach you. A physical address is a major trust
     signal.

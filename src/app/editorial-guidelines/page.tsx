@@ -466,7 +466,7 @@ export default function EditorialGuidelinesPage() {
               variant="outline"
               asChild
             >
-              <a href="mailto:support@sproutern.com">support@sproutern.com</a>
+              <a href="mailto:https://github.com/itsPremkumar/sproutern-oss">https://github.com/itsPremkumar/sproutern-oss</a>
             </Button>
           </div>
         </div>

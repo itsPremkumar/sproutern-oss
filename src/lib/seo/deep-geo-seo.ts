@@ -573,7 +573,7 @@ export const generateCountryOrganizationSchema = (country: CountryCode) => {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Support',
-      email: 'support@sproutern.com',
+      email: 'https://github.com/itsPremkumar/sproutern-oss',
       availableLanguage: config.primaryLanguage,
     },
     sameAs: [

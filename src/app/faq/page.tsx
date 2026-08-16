@@ -111,7 +111,7 @@ If you notice any tool that's difficult to use on mobile, please let me know. Th
 
 Here's how you can reach me:
 - **Contact form:** Visit our [Contact page](/contact) and describe your idea
-- **Email:** Send directly to [support@sproutern.com](mailto:support@sproutern.com)
+- **Email:** Send directly to [https://github.com/itsPremkumar/sproutern-oss](mailto:https://github.com/itsPremkumar/sproutern-oss)
 - **Social media:** DM us on Instagram or LinkedIn
 
 I can't promise to build everything suggested (I'm just one person with limited time!), but I read every message and prioritize based on how many students would benefit. Features like the interview question generator and company-specific prep guides came from user suggestions.`,
@@ -232,7 +232,7 @@ The easiest way to report an issue:
 3. Tell us what went wrong (screenshots help!)
 4. Mention your device and browser if it's a technical issue
 
-You can also email [support@sproutern.com](mailto:support@sproutern.com) directly.
+You can also email [https://github.com/itsPremkumar/sproutern-oss](mailto:https://github.com/itsPremkumar/sproutern-oss) directly.
 
 I personally review all bug reports and try to fix critical issues within 24-48 hours. For less urgent issues, fixes usually come in the next weekly update.
 

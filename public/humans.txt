@@ -2,7 +2,7 @@
 
 /* TEAM */
 Founder & Team: Sproutern Team
-Contact: support@sproutern.com
+Contact: https://github.com/itsPremkumar/sproutern-oss
 Location: Chennai, Tamil Nadu, India
 Last Updated: February 2026
 

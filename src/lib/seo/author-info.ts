@@ -30,7 +30,7 @@ export const authorInfo = {
     foundingDate: '2024',
     url: SEO_SITE_URL,
     logo: SEO_LOGO_URL,
-    email: 'support@sproutern.com',
+    email: 'https://github.com/itsPremkumar/sproutern-oss',
     address: {
       country: 'India',
       region: 'Tamil Nadu',

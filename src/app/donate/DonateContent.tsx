@@ -321,7 +321,7 @@ export default function DonateContent() {
       <p className="mt-6 text-xs text-gray-500 sm:mt-8 sm:text-sm">
         Have questions?{' '}
         <a
-          href="mailto:support@sproutern.com"
+          href="mailto:https://github.com/itsPremkumar/sproutern-oss"
           className="text-indigo-600 underline transition-colors hover:text-indigo-800"
         >
           Email us

@@ -44,7 +44,7 @@ function generateRSS(): string {
       <guid isPermaLink="true">${siteUrl}/blog/${post.slug}</guid>
       <description>${escapeXml(post.excerpt)}</description>
       <pubDate>${post.publishedAt.toUTCString()}</pubDate>
-      <author>support@sproutern.com (Sproutern Team)</author>
+      <author>https://github.com/itsPremkumar/sproutern-oss (Sproutern Team)</author>
       <category>${escapeXml(post.category)}</category>
     </item>
   `,
@@ -64,8 +64,8 @@ function generateRSS(): string {
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="${siteUrl}/feed.xml" rel="self" type="application/rss+xml"/>
     <generator>Next.js</generator>
-    <webMaster>support@sproutern.com (Sproutern Team)</webMaster>
-    <managingEditor>support@sproutern.com (Sproutern Team)</managingEditor>
+    <webMaster>https://github.com/itsPremkumar/sproutern-oss (Sproutern Team)</webMaster>
+    <managingEditor>https://github.com/itsPremkumar/sproutern-oss (Sproutern Team)</managingEditor>
     <category>Education</category>
     <category>Career</category>
     <image>

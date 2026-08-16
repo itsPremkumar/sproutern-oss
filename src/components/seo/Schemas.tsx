@@ -29,7 +29,7 @@ export const OrganizationSchema = () => (
         contactPoint: {
           '@type': 'ContactPoint',
           contactType: 'customer support',
-          email: 'support@sproutern.com',
+          email: 'https://github.com/itsPremkumar/sproutern-oss',
         },
         address: {
           '@type': 'PostalAddress',

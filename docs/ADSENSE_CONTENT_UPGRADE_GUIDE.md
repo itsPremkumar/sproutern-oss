@@ -402,7 +402,7 @@ A: [Troubleshooting guidance]
 ## Need More Help?
 
 - 💬 Join our community: [Link]
-- 📧 Contact support: support@sproutern.com
+- 📧 Contact support: https://github.com/itsPremkumar/sproutern-oss
 - 📖 Browse all tools: [Link to tools page]
 - 🎯 Find internships: [Link to internships]
 ```

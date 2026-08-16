@@ -49,7 +49,7 @@ export const authorProfiles: AuthorProfile[] = [
       twitter: 'https://twitter.com/sproutern',
       github: 'https://github.com/sproutern',
     },
-    email: 'support@sproutern.com',
+    email: 'https://github.com/itsPremkumar/sproutern-oss',
     image: '/logo.jpg',
   },
 ];

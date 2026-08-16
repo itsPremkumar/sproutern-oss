@@ -36,4 +36,4 @@ If you find a bug, please [open a bug report](https://github.com/itsPremkumar/sp
 ### Security Issues
 
 For security vulnerabilities, **do not** open a public issue. Instead, email
-**sproutern@sproutern.com** — see [SECURITY.md](./SECURITY.md) for details.
+**https://github.com/itsPremkumar/sproutern-oss** — see [SECURITY.md](./SECURITY.md) for details.

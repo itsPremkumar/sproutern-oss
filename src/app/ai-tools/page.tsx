@@ -412,7 +412,7 @@ export default function AIToolsPage() {
             <p className="text-muted-foreground">
               Can&apos;t find what you need?{' '}
               <a
-                href="mailto:hello@sproutern.com"
+                href="mailto:https://github.com/itsPremkumar/sproutern-oss"
                 className="font-medium text-primary hover:underline"
               >
                 Request a tool review

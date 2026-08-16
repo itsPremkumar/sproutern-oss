@@ -208,7 +208,7 @@ export function EnhancedFooter() {
               Sitemap
             </Link>
             <a
-              href="mailto:support@sproutern.com"
+              href="mailto:https://github.com/itsPremkumar/sproutern-oss"
               className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-foreground"
             >
               <Mail className="h-4 w-4" /> Support
