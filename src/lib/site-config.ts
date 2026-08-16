@@ -9,10 +9,8 @@
  */
 export const SITE_URL: string = (
   process.env.NEXT_PUBLIC_SITE_URL ||
-  process.env.NEXT_PUBLIC_VERCEL_URL ||
-  (process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
-    : 'http://localhost:3000')
+  (process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : '') ||
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000')
 ).replace(/\/$/, ''); // strip trailing slash
 
 export const SITE_NAME = 'Sproutern';
