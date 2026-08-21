@@ -250,12 +250,12 @@ export default function MNCPlacementGuidePage() {
             </li>
             <li className="flex items-center">
               <CheckCircle2 className="mr-2 h-4 w-4 text-green-600" />
-              <a
+              <Link
                 href="/companies/mnc-internship-guide"
                 className="hover:text-primary hover:underline"
               >
                 MNC Internship Guide
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
