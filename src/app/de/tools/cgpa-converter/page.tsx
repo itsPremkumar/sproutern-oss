@@ -5,6 +5,7 @@ import {
 } from '@/lib/seo/apply-complete-seo';
 import { CGPAConverterTool } from '@/components/tools/CGPAConverterTool';
 import { ShareCTA } from '@/components/shared/social-share';
+import { LanguageSwitcher } from '@/components/seo/LanguageSwitcher';
 import Link from 'next/link';
 import {
   GraduationCap,
@@ -106,6 +107,7 @@ export default function GermanCGPAConverterPage() {
       />
       <div className="container py-12">
         <div className="mx-auto max-w-4xl">
+          <LanguageSwitcher basePath="/tools/cgpa-converter" current="de" />
           {/* German Header */}
           <div className="mb-12 text-center">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-semibold text-primary">

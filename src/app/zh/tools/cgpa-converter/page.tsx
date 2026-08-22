@@ -6,6 +6,7 @@ import {
 import { CGPAConverterTool } from '@/components/tools/CGPAConverterTool';
 import { ShareCTA } from '@/components/shared/social-share';
 import Link from 'next/link';
+import { LanguageSwitcher } from '@/components/seo/LanguageSwitcher';
 import {
   GraduationCap,
   CheckCircle,
@@ -98,6 +99,7 @@ export default function ChineseCGPAConverterPage() {
       />
       <div className="container py-12">
         <div className="mx-auto max-w-4xl">
+          <LanguageSwitcher basePath="/tools/cgpa-converter" current="zh" />
           {/* Chinese Header */}
           <div className="mb-12 text-center">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-semibold text-primary">

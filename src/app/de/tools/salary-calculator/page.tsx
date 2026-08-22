@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { LanguageSwitcher } from '@/components/seo/LanguageSwitcher';
 import {
   Calculator,
   GraduationCap,
@@ -89,6 +90,7 @@ export default function GermanSalaryCalculatorPage() {
       />
       <div className="container py-12">
         <div className="mx-auto max-w-4xl">
+          <LanguageSwitcher basePath="/tools/salary-calculator" current="de" />
           {/* Header */}
           <div className="mb-12 text-center">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-green-100 px-4 py-2 text-sm font-semibold text-green-700 dark:bg-green-900 dark:text-green-300">

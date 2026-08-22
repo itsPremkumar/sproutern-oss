@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { LanguageSwitcher } from '@/components/seo/LanguageSwitcher';
 import { Calculator, DollarSign, ArrowRight } from 'lucide-react';
 
 // Chinese salary content
@@ -58,6 +59,7 @@ export default function ChineseSalaryCalculatorPage() {
       />
       <div className="container py-12">
         <div className="mx-auto max-w-4xl">
+          <LanguageSwitcher basePath="/tools/salary-calculator" current="zh" />
           {/* Header */}
           <div className="mb-12 text-center">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-red-100 px-4 py-2 text-sm font-semibold text-red-700 dark:bg-red-900 dark:text-red-300">
