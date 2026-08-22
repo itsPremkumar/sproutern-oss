@@ -26,17 +26,15 @@ jobs:
         with:
           node-version: 22
 
-      - name: Check for DEVTO_API_KEY secret
-        env:
-          HAS_KEY: ${{ secrets.DEVTO_API_KEY != '' }}
-        run: |
-          if [ "$HAS_KEY" != "true" ]; then
-            echo "::notice::DEVTO_API_KEY not set — get a free key at https://dev.to/settings/extensions and add it as a repo secret. Skipping."
-            exit 0
-          fi
-
-      - name: Publish to dev.to
-        if: ${{ secrets.DEVTO_API_KEY != '' }}
+      # NOTE: `secrets` is not usable in `if:` expressions — the guard lives
+      # in the shell instead so the workflow itself stays green when dormant.
+      - name: Publish to dev.to (no-op without DEVTO_API_KEY)
         env:
           DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
-        run: npx tsx scripts/crosspost-devto.ts "${{ inputs.file }}"
+          POST_FILE: ${{ inputs.file }}
+        run: |
+          if [ -z "$DEVTO_API_KEY" ]; then
+            echo "::notice::DEVTO_API_KEY not set — get a free key at https://dev.to/settings/extensions and add it as a repo secret. Nothing to do."
+            exit 0
+          fi
+          npx tsx scripts/crosspost-devto.ts "$POST_FILE"
