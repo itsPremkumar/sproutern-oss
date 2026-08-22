@@ -127,7 +127,7 @@
     "gray-matter": "^4.0.3",
     "handlebars": "^4.7.8",
     "html2canvas": "^1.4.1",
-    "jspdf": "^3.0.4",
+    "jspdf": "^4.2.1",
     "lucide-react": "^0.539.0",
     "mammoth": "^1.11.0",
     "marked": "^17.0.1",
