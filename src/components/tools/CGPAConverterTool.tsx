@@ -247,6 +247,12 @@ export function CGPAConverterTool() {
                   <p className="text-sm text-muted-foreground">
                     Approximate conversion typical for US grad schools
                   </p>
+                  {selectedPreset && (
+                    <p className="mt-1 text-xs text-muted-foreground/80">
+                      Estimated on a normalized 10-pt scale for{' '}
+                      {selectedPreset.name}
+                    </p>
+                  )}
                 </div>
               </TabsContent>
 
