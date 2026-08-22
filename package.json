@@ -132,7 +132,7 @@
     "mammoth": "^1.11.0",
     "marked": "^17.0.1",
     "next": "^16.0.7",
-    "nodemailer": "^7.0.5",
+    "nodemailer": "^9.0.5",
     "patch-package": "^8.0.0",
     "pdf-parse": "^1.1.1",
     "react": "^19.1.1",
