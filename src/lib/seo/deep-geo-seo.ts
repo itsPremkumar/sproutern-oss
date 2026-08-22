@@ -593,7 +593,9 @@ export const getBaiduMetaTags = () => ({
 
 // Yandex-specific meta tags for Russia (if needed)
 export const getYandexMetaTags = () => ({
-  'yandex-verification': process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || 'YOUR_YANDEX_VERIFICATION',
+  ...(process.env.NEXT_PUBLIC_YANDEX_VERIFICATION && {
+    'yandex-verification': process.env.NEXT_PUBLIC_YANDEX_VERIFICATION,
+  }),
 });
 
 // Get priority countries based on traffic analytics

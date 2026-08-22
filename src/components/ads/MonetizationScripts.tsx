@@ -29,6 +29,16 @@ export function MonetizationScripts() {
   // Don't load until delay has passed
   if (!shouldLoad) return null;
 
+  // No Monetag account configured — render nothing. The placeholder domain
+  // below previously fired dead script requests on every single page view.
+  const monetagDomain = process.env.NEXT_PUBLIC_MONETAG_DOMAIN;
+  const monetagZoneId = process.env.NEXT_PUBLIC_MONETAG_ZONE_ID;
+  if (!monetagDomain || !monetagZoneId) return null;
+
+  const monetagLoader = `
+            (function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('${monetagDomain}','${monetagZoneId}',document.createElement('script'))
+          `;
+
   return (
     <>
       {/* Monetag Ad Scripts - Consolidated - Deferred for better Core Web Vitals */}
@@ -37,44 +47,28 @@ export function MonetizationScripts() {
       <Script
         id="monetag-push"
         strategy="lazyOnload"
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('YOUR_MONETAG_DOMAIN.com','YOUR_ZONE_ID',document.createElement('script'))
-          `,
-        }}
+        dangerouslySetInnerHTML={{ __html: monetagLoader }}
       />
 
       {/* Vignette Banner */}
       <Script
         id="monetag-vignette"
         strategy="lazyOnload"
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('YOUR_MONETAG_DOMAIN.com','YOUR_ZONE_ID',document.createElement('script'))
-          `,
-        }}
+        dangerouslySetInnerHTML={{ __html: monetagLoader }}
       />
 
       {/* In-Page Push */}
       <Script
         id="monetag-inpage-push"
         strategy="lazyOnload"
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('YOUR_MONETAG_DOMAIN.com','YOUR_ZONE_ID',document.createElement('script'))
-          `,
-        }}
+        dangerouslySetInnerHTML={{ __html: monetagLoader }}
       />
 
       {/* OnClick/Popunder */}
       <Script
         id="monetag-onclick"
         strategy="lazyOnload"
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('YOUR_MONETAG_DOMAIN.com','YOUR_ZONE_ID',document.createElement('script'))
-          `,
-        }}
+        dangerouslySetInnerHTML={{ __html: monetagLoader }}
       />
     </>
   );

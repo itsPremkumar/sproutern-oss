@@ -31,7 +31,7 @@ interface SmartLinkButtonProps {
  * 3. Revenue generated on each click
  */
 export function SmartLinkButton({
-  smartLinkUrl = 'YOUR_SMARTLINK_URL', // Default SmartLink URL
+  smartLinkUrl,
   href,
   children,
   className = '',
@@ -87,7 +87,7 @@ export function SmartLinkButton({
  * More flexible than SmartLinkButton - accepts any React element.
  */
 export function SmartLinkWrapper({
-  smartLinkUrl = 'YOUR_SMARTLINK_URL',
+  smartLinkUrl,
   children,
   className = '',
 }: {

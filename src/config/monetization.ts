@@ -181,7 +181,7 @@ export const adConfig = {
  * Defaults to a placeholder so the donate page never crashes.
  */
 export const donationConfig = {
-  upiId: process.env.NEXT_PUBLIC_UPI_ID || 'YOUR_UPI_ID@paytm',
+  upiId: process.env.NEXT_PUBLIC_UPI_ID || '',
   currency: 'INR',
   tiers: [
     { amount: 49, label: '₹49', impact: '☕ Buy us a chai' },

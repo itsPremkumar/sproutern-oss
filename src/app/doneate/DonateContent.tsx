@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 export default function DonateContent() {
   // UPI ID for GPay payment
-  const upiId = process.env.NEXT_PUBLIC_UPI_ID || 'YOUR_UPI_ID@paytm';
+  const upiId = process.env.NEXT_PUBLIC_UPI_ID || '';
   const merchantName = 'Sproutern';
 
   const [isMobile, setIsMobile] = useState(false);

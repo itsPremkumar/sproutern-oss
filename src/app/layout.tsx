@@ -361,12 +361,16 @@ export default function RootLayout({
           rel="preconnect"
           href="https://apis.google.com"
         />
-        {/* Firebase Auth iframe preconnect - saves ~330ms on LCP */}
-        <link
-          rel="preconnect"
-          href="https://YOUR_PROJECT.firebaseapp.com"
-          crossOrigin="anonymous"
-        />
+        {/* Firebase Auth iframe preconnect - saves ~330ms on LCP.
+            Only emitted when the project ID is configured; a placeholder
+            origin would just open a dead connection. */}
+        {process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN && (
+          <link
+            rel="preconnect"
+            href={`https://${process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN}`}
+            crossOrigin="anonymous"
+          />
+        )}
         {/* Critical third-party preconnects for performance */}
         <link
           rel="preconnect"
@@ -404,12 +408,14 @@ export default function RootLayout({
           rel="dns-prefetch"
           href="https://cdn.id5-sync.com"
         />
-        {/* Monetag Ad Network - preconnect for faster ad loading */}
-        <link
-          rel="preconnect"
-          href="https://YOUR_AD_DOMAIN.com"
-          crossOrigin="anonymous"
-        />
+        {/* Ad network preconnects — only when the account is configured */}
+        {process.env.NEXT_PUBLIC_MONETAG_AD_DOMAIN && (
+          <link
+            rel="preconnect"
+            href={`https://${process.env.NEXT_PUBLIC_MONETAG_AD_DOMAIN}`}
+            crossOrigin="anonymous"
+          />
+        )}
 
         {/* iOS PWA Meta Tags for Full Mobile App Experience */}
         <meta
@@ -591,31 +597,37 @@ export default function RootLayout({
           content="fact-checked, regularly-updated, expert-reviewed"
         />
 
-        {/* Google AdSense */}
-        <meta
-          name="google-adsense-account"
-          content={process.env.NEXT_PUBLIC_ADSENSE_ACCOUNT || 'YOUR_ADSENSE_ACCOUNT'}
-        />
-        
-        {/* Ezoic Site Verification */}
-        <meta
-          name="ezoic-site-verification"
-          content={process.env.NEXT_PUBLIC_EZOIC_VERIFICATION || 'YOUR_EZOIC_VERIFICATION'}
-        />
+        {/* Google AdSense — renders only with a real account ID */}
+        {process.env.NEXT_PUBLIC_ADSENSE_ACCOUNT && (
+          <meta
+            name="google-adsense-account"
+            content={process.env.NEXT_PUBLIC_ADSENSE_ACCOUNT}
+          />
+        )}
 
-        {/* Yandex Metrica Analytics */}
-        <Script
-          id="yandex-metrica"
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `
+        {/* Ezoic Site Verification — renders only when configured */}
+        {process.env.NEXT_PUBLIC_EZOIC_VERIFICATION && (
+          <meta
+            name="ezoic-site-verification"
+            content={process.env.NEXT_PUBLIC_EZOIC_VERIFICATION}
+          />
+        )}
+
+        {/* Yandex Metrica Analytics — renders only with a real counter ID */}
+        {process.env.NEXT_PUBLIC_YANDEX_METRICA_ID && (
+          <>
+            <Script
+              id="yandex-metrica"
+              strategy="lazyOnload"
+              dangerouslySetInnerHTML={{
+                __html: `
               (function(m,e,t,r,i,k,a){
                 m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
                 m[i].l=1*new Date();
                 for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
                 k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-              })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id=' + (process.env.NEXT_PUBLIC_YANDEX_METRICA_ID || 'YOUR_YANDEX_ID'), 'ym');
-              ym(process.env.NEXT_PUBLIC_YANDEX_METRICA_ID || 'YOUR_YANDEX_ID', 'init', {
+              })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id=${process.env.NEXT_PUBLIC_YANDEX_METRICA_ID}', 'ym');
+              ym('${process.env.NEXT_PUBLIC_YANDEX_METRICA_ID}', 'init', {
                 ssr: true,
                 webvisor: true,
                 clickmap: true,
@@ -624,24 +636,28 @@ export default function RootLayout({
                 trackLinks: true
               });
             `,
-          }}
-        />
-        <noscript>
-          <div>
-            <img
-              src={'https://mc.yandex.ru/watch/' + (process.env.NEXT_PUBLIC_YANDEX_METRICA_ID || 'YOUR_YANDEX_ID')}
-              style={{ position: 'absolute', left: '-9999px' }}
-              alt=""
+              }}
             />
-          </div>
-        </noscript>
+            <noscript>
+              <div>
+                <img
+                  src={`https://mc.yandex.ru/watch/${process.env.NEXT_PUBLIC_YANDEX_METRICA_ID}`}
+                  style={{ position: 'absolute', left: '-9999px' }}
+                  alt=""
+                />
+              </div>
+            </noscript>
+          </>
+        )}
 
-        <Script
-          async
-          src={'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + (process.env.NEXT_PUBLIC_ADSENSE_ACCOUNT || 'YOUR_ADSENSE_ACCOUNT')}
-          crossOrigin="anonymous"
-          strategy="lazyOnload"
-        />
+        {process.env.NEXT_PUBLIC_ADSENSE_ACCOUNT && (
+          <Script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_ACCOUNT}`}
+            crossOrigin="anonymous"
+            strategy="lazyOnload"
+          />
+        )}
 
         {/* Additional SEO meta tags */}
         <meta
@@ -669,21 +685,27 @@ export default function RootLayout({
           content="7 days"
         />
 
-        {/* Cloudflare Web Analytics - Deferred for better LCP */}
-        <Script
-          defer
-          src="https://static.cloudflareinsights.com/beacon.min.js"
-          data-cf-beacon='{"token": "YOUR_CLOUDFLARE_BEACON_TOKEN"}'
-          strategy="lazyOnload"
-        />
+        {/* Cloudflare Web Analytics — renders only when the beacon token is set */}
+        {process.env.NEXT_PUBLIC_CLOUDFLARE_BEACON_TOKEN && (
+          <Script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon={`{"token": "${process.env.NEXT_PUBLIC_CLOUDFLARE_BEACON_TOKEN}"}`}
+            strategy="lazyOnload"
+          />
+        )}
 
-        {/* Ahrefs Web Analytics - Deferred for better LCP */}
-        <Script
-          src="https://analytics.ahrefs.com/analytics.js"
-          data-key={process.env.NEXT_PUBLIC_AHREFS_KEY || 'YOUR_AHREFS_KEY'}
-          strategy="lazyOnload"
-        />
-        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID || 'YOUR_GTM_ID'} />
+        {/* Ahrefs Web Analytics — renders only when the key is set */}
+        {process.env.NEXT_PUBLIC_AHREFS_KEY && (
+          <Script
+            src="https://analytics.ahrefs.com/analytics.js"
+            data-key={process.env.NEXT_PUBLIC_AHREFS_KEY}
+            strategy="lazyOnload"
+          />
+        )}
+        {process.env.NEXT_PUBLIC_GTM_ID && (
+          <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
+        )}
       </head>
       <body className="font-body antialiased">
         <SkipLink />

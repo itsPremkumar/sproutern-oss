@@ -18,11 +18,19 @@ interface DisplayBannerProps {
  * Uses lazy loading for optimal performance.
  */
 export function DisplayBanner({
-  zoneId = 'YOUR_ZONE_ID', // Default zone, update with actual banner zone
+  zoneId,
   placement = 'footer',
   className = '',
 }: DisplayBannerProps) {
+  const monetagDomain = process.env.NEXT_PUBLIC_MONETAG_DOMAIN;
+  const resolvedZone = zoneId || process.env.NEXT_PUBLIC_MONETAG_ZONE_ID;
   const placementId = `monetag-banner-${placement}`;
+
+  // No Monetag account configured — render nothing. Injecting a fake domain
+  // into the runtime script just fires dead requests on every page view.
+  if (!monetagDomain || !resolvedZone) {
+    return null;
+  }
 
   return (
     <div
@@ -46,7 +54,7 @@ export function DisplayBanner({
             (function(d,z,s){
               s.src='https://'+d+'/400/'+z;
               try{(document.body||document.documentElement).appendChild(s)}catch(e){}
-            })('YOUR_MONETAG_DOMAIN.com','${zoneId}',document.createElement('script'))
+            })('${monetagDomain}','${resolvedZone}',document.createElement('script'))
           `,
         }}
       />

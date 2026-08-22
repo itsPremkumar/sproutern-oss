@@ -44,7 +44,7 @@ export function GoogleAd({ slot, style }: GoogleAdProps) {
       ref={adRef}
       className="adsbygoogle"
       style={style || { display: 'block' }}
-      data-ad-client={process.env.NEXT_PUBLIC_ADSENSE_ACCOUNT || 'YOUR_ADSENSE_ACCOUNT'}
+      data-ad-client={process.env.NEXT_PUBLIC_ADSENSE_ACCOUNT || ''}
       data-ad-slot={slot}
       data-ad-format="auto"
       data-full-width-responsive="true"

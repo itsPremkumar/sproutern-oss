@@ -21,6 +21,14 @@ export function AntiAdblock() {
     return null;
   }
 
+  // No Monetag account configured — render nothing (placeholder domain
+  // would fire dead requests).
+  const monetagDomain = process.env.NEXT_PUBLIC_MONETAG_DOMAIN;
+  const monetagZoneId = process.env.NEXT_PUBLIC_MONETAG_ZONE_ID;
+  if (!monetagDomain || !monetagZoneId) {
+    return null;
+  }
+
   return (
     <>
       {/* Anti-Adblock Recovery Script */}
@@ -32,7 +40,7 @@ export function AntiAdblock() {
             (function(d,z,s){
               s.src='https://'+d+'/401/'+z;
               try{(document.body||document.documentElement).appendChild(s)}catch(e){}
-            })('YOUR_MONETAG_DOMAIN.com','YOUR_ZONE_ID',document.createElement('script'))
+            })('${monetagDomain}','${monetagZoneId}',document.createElement('script'))
           `,
         }}
       />
