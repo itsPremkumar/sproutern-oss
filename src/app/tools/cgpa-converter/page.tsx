@@ -22,7 +22,20 @@ import {
 } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-export const metadata = getPageSEO('cgpaConverter');
+// getPageSEO provides the canonical; spread adds reciprocal hreflang for the
+// de/zh localized variants (they already point back to this page).
+export const metadata = {
+  ...getPageSEO('cgpaConverter'),
+  alternates: {
+    ...(getPageSEO('cgpaConverter').alternates ?? {}),
+    languages: {
+      'en-US': 'https://sproutern.dpdns.org/tools/cgpa-converter',
+      'de-DE': 'https://sproutern.dpdns.org/de/tools/cgpa-converter',
+      'zh-CN': 'https://sproutern.dpdns.org/zh/tools/cgpa-converter',
+      'x-default': 'https://sproutern.dpdns.org/tools/cgpa-converter',
+    },
+  },
+};
 
 const universityFormulas = [
   { name: 'CBSE', formula: 'CGPA × 9.5', example: '9.0 CGPA = 85.5%' },

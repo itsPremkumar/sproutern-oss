@@ -54,8 +54,12 @@ export const defaultMetadata: Metadata = {
     },
   },
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || 'YOUR_GOOGLE_VERIFICATION',
-    yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || 'YOUR_YANDEX_VERIFICATION',
+    ...(process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION && {
+      google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION,
+    }),
+    ...(process.env.NEXT_PUBLIC_YANDEX_VERIFICATION && {
+      yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION,
+    }),
   },
 };
 

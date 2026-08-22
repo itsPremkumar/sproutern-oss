@@ -24,7 +24,20 @@ import {
 import Link from 'next/link';
 import { FAQSection } from '@/components/blog/FAQSection';
 
-export const metadata = getPageSEO('salaryCalculator');
+// getPageSEO provides the canonical; spread adds reciprocal hreflang for the
+// de/zh localized variants (they already point back to this page).
+export const metadata = {
+  ...getPageSEO('salaryCalculator'),
+  alternates: {
+    ...(getPageSEO('salaryCalculator').alternates ?? {}),
+    languages: {
+      'en-US': 'https://sproutern.dpdns.org/tools/salary-calculator',
+      'de-DE': 'https://sproutern.dpdns.org/de/tools/salary-calculator',
+      'zh-CN': 'https://sproutern.dpdns.org/zh/tools/salary-calculator',
+      'x-default': 'https://sproutern.dpdns.org/tools/salary-calculator',
+    },
+  },
+};
 
 export default function SalaryCalculatorPage() {
   const schemas = getPageSchema('salaryCalculator');

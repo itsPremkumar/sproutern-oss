@@ -111,13 +111,25 @@ export const metadata: Metadata = {
   },
   referrer: 'origin-when-cross-origin',
   category: 'Education',
-  other: {
-    'google-adsense-account': process.env.NEXT_PUBLIC_ADSENSE_ACCOUNT || 'YOUR_ADSENSE_ACCOUNT',
-  },
-  verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || 'YOUR_GOOGLE_VERIFICATION',
-    yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || 'YOUR_YANDEX_VERIFICATION',
-  },
+  ...(process.env.NEXT_PUBLIC_ADSENSE_ACCOUNT && {
+    other: {
+      'google-adsense-account': process.env.NEXT_PUBLIC_ADSENSE_ACCOUNT,
+    },
+  }),
+  // Verification metas render only when the env vars exist — placeholder
+  // values like YOUR_GOOGLE_VERIFICATION in production HTML look broken to
+  // auditors and do nothing for crawlers.
+  ...((process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION ||
+    process.env.NEXT_PUBLIC_YANDEX_VERIFICATION) && {
+    verification: {
+      ...(process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION && {
+        google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION,
+      }),
+      ...(process.env.NEXT_PUBLIC_YANDEX_VERIFICATION && {
+        yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION,
+      }),
+    },
+  }),
 };
 
 export default function RootLayout({
@@ -521,10 +533,12 @@ export default function RootLayout({
           content={new Date().toISOString().split('T')[0]}
         />
         {/* AEO: Answer Engine Optimization */}
-        <meta
-          name="google-site-verification"
-          content={process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || 'YOUR_GOOGLE_VERIFICATION'}
-        />
+        {process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION && (
+          <meta
+            name="google-site-verification"
+            content={process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION}
+          />
+        )}
         <meta
           name="ai-structured-data"
           content="FAQPage, WebApplication, HowTo, EducationalOrganization"
