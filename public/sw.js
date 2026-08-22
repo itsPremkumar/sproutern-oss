@@ -762,7 +762,15 @@ self.addEventListener('pushsubscriptionchange', (event) => {
 // ============================================================================
 
 self.addEventListener('message', (event) => {
-  console.log('[SW] Message received:', event.data);
+  // Origin check (CodeQL js/missing-origin-check): only accept messages from
+  // our own app origin; ignore anything else silently.
+  const ALLOWED_ORIGIN = 'https://sproutern.dpdns.org';
+  if (event.origin && event.origin !== ALLOWED_ORIGIN) {
+    console.warn('[SW] Ignored message from disallowed origin.');
+    return;
+  }
+
+  console.log('[SW] Message received:', event.data?.type);
 
   const { type, payload } = event.data || {};
 

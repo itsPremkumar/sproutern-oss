@@ -23,7 +23,7 @@ function generateNewsSitemapXml(): string {
   const urls = latestPosts
     .map(
       (post) => `  <url>
-    <loc>${siteUrl}/blog/${post.slug}</loc>
+    <loc>${siteUrl}/blog/${escapeXml(post.slug)}</loc>
     <news:news>
       <news:publication>
         <news:name>${escapeXml(publicationName)}</news:name>

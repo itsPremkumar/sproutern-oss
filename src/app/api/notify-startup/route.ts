@@ -72,7 +72,7 @@ export async function POST(request: Request) {
       .doc(startupUserId)
       .get();
     if (!startupDoc.exists) {
-      console.error(`Startup user with ID ${startupUserId} not found.`);
+      console.error('Startup user not found for the provided ID.');
       return NextResponse.json(
         { success: false, message: 'Startup not found' },
         { status: 404 },
@@ -81,9 +81,7 @@ export async function POST(request: Request) {
     const startupEmail = startupDoc.data()?.email;
 
     if (!startupEmail) {
-      console.error(
-        `Startup user with ID ${startupUserId} has no email address.`,
-      );
+      console.error('Startup user record has no email address.');
       return NextResponse.json(
         { success: false, message: 'Startup email not found' },
         { status: 404 },
@@ -110,7 +108,7 @@ export async function POST(request: Request) {
     await mailTransporter.sendMail(mailOptions);
 
     console.log(
-      `Application notification sent to ${startupEmail} for internship ${internshipId}`,
+      `Application notification sent for internship ${internshipId}.`,
     );
     return NextResponse.json({
       success: true,

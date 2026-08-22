@@ -38,8 +38,11 @@ export function ReadingTime({
  * Calculate word count from text
  */
 export function calculateWordCount(text: string): number {
-  // Remove HTML tags
-  const withoutHtml = text.replace(/<[^>]*>/g, '');
+  // Remove HTML tags. The second pass strips stray '<'/'>' left by broken
+  // markup like '<<script>' (incomplete multi-character sanitization).
+  const withoutHtml = text
+    .replace(/<[^>]*>/g, '')
+    .replace(/[<>]/g, '');
 
   // Split by whitespace and count
   const words = withoutHtml.trim().split(/\s+/);

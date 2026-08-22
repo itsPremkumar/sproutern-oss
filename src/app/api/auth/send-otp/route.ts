@@ -127,7 +127,9 @@ export async function POST(request: Request) {
       html: htmlContent,
     });
 
-    console.log(`OTP sent to ${email}: ${otp}`);
+    // Never log the OTP itself (security: OTPs in logs = account takeover
+    // via log access; CodeQL js/log-injection for the email interpolation).
+    console.log(`OTP sent (recipient details omitted from logs).`);
     return NextResponse.json({
       success: true,
       message: 'OTP sent successfully.',

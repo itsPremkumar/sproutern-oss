@@ -17,9 +17,14 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const type = searchParams.get('type') || 'salary';
-  const role = searchParams.get('role') || 'software-engineer';
-  const city = searchParams.get('city') || 'bangalore';
-  const topic = searchParams.get('topic') || 'general';
+  // Sanitize user-controlled params before they are interpolated into the
+  // HTML response (CodeQL js/reflected-xss): allow only safe slug characters.
+  const sanitize = (v: string) =>
+    v.toLowerCase().replace(/[^a-z0-9-_ ]/g, '').slice(0, 60).trim() ||
+    'general';
+  const role = sanitize(searchParams.get('role') || 'software-engineer');
+  const city = sanitize(searchParams.get('city') || 'bangalore');
+  const topic = sanitize(searchParams.get('topic') || 'general');
 
   let html = '';
 

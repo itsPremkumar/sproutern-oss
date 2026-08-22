@@ -422,8 +422,8 @@ export async function handleApplicantSummary(
         resumeText = data.text;
       } catch (e) {
         console.warn(
-          `Could not fetch or parse resume for student ${studentUserId}:`,
-          e,
+          'Could not fetch or parse resume for the given student:',
+          e instanceof Error ? e.message : e,
         );
         resumeText = 'Could not retrieve resume from storage.';
       }

@@ -15,9 +15,11 @@ interface OtpData {
   otp: string;
   expiresAt: Timestamp;
   verified: boolean;
+  attempts?: number;
 }
 
 const OTP_COLLECTION = 'otps';
+const MAX_OTP_ATTEMPTS = 5;
 
 export async function storeOtp(
   email: string,
@@ -56,7 +58,7 @@ export async function verifyOtp(
   if (Timestamp.now().toMillis() > storedData.expiresAt.toMillis()) {
     await deleteDoc(otpDocRef);
     console.log(
-      `[OTP Store] Expired OTP for ${email} deleted during verification.`,
+      `[OTP Store] Expired OTP deleted during verification.`,
     );
     return {
       success: false,
@@ -71,12 +73,22 @@ export async function verifyOtp(
     };
   }
 
+  // Brute-force protection: after MAX_OTP_ATTEMPTS wrong entries the OTP is
+  // destroyed and the requester must start over (CodeQL user-controlled bypass).
+  const attempts = (storedData.attempts ?? 0) + 1;
   if (storedData.otp !== otp) {
+    if (attempts >= MAX_OTP_ATTEMPTS) {
+      await deleteDoc(otpDocRef);
+      return {
+        success: false,
+        message: 'Too many incorrect attempts. Please request a new OTP.',
+      };
+    }
+    await updateDoc(otpDocRef, { attempts });
     return { success: false, message: 'Invalid OTP. Please try again.' };
   }
 
   await updateDoc(otpDocRef, { verified: true });
-  console.log(`[OTP Store] OTP verified for ${email}. Marked as verified.`);
   return { success: true, message: 'OTP verified successfully.' };
 }
 
