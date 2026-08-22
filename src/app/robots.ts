@@ -157,16 +157,23 @@ export default function robots(): MetadataRoute.Robots {
       // GEO: Explicitly allow AI Crawlers to enable citations in generative results
       {
         userAgent: [
-          'GPTBot',
-          'ChatGPT-User',
-          'Google-Extended',
+          'GPTBot', // OpenAI training crawl
+          'ChatGPT-User', // ChatGPT live browsing
+          'OAI-SearchBot', // ChatGPT Search citations — critical for AEO
+          'Google-Extended', // Gemini grounding
           'CCBot',
-          'PerplexityBot',
-          'ClaudeBot',
-          'Amazonbot',
-          'CohereForAI',
+          'PerplexityBot', // Perplexity answers + citations
+          'Perplexity-User',
+          'ClaudeBot', // Anthropic training crawl
+          'Claude-SearchBot', // Claude search
           'anthropic-ai',
-          'Bytespider',
+          'Amazonbot', // Alexa
+          'Applebot-Extended', // Apple Intelligence
+          'CohereForAI',
+          'Bytespider', // ByteDance / Doubao
+          'Meta-ExternalAgent', // Meta AI
+          'YouBot', // You.com
+          'Diffbot',
         ],
         allow: '/',
       },

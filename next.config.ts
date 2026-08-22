@@ -386,11 +386,13 @@ const nextConfig: NextConfig = {
             key: 'Content-Language',
             value: 'en',
           },
-          // Link preload hints for faster page transitions
+          // Link preload hints for faster page transitions.
+          // NOTE: only logo.jpg (actually rendered in the header) is preloaded.
+          // opengraph.jpg is for social scrapers only — preloading it forced
+          // every real visitor to download ~50-200KB they never see.
           {
             key: 'Link',
-            value:
-              '</logo.jpg>; rel=preload; as=image, </opengraph.jpg>; rel=preload; as=image',
+            value: '</logo.jpg>; rel=preload; as=image',
           },
           // Content Security Policy for enhanced security
           {

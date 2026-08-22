@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import {
   generateHrefLangTags,
-  generateGeoOrganizationSchema,
   generateGeoLocalBusinessSchema,
   generateGeoAggregateOfferSchema,
 } from './geo-metadata';
@@ -42,7 +41,9 @@ export const completePageSEO = {
     twitterImage: `${siteUrl}/twitter.jpg`,
     hreflang: generateHrefLangTags('/'),
     schema: [
-      generateGeoOrganizationSchema('IN'),
+      // NOTE: no separate geo Organization here — layout.tsx emits the single
+      // canonical Organization (@id #organization). Duplicate top-level
+      // Organizations with placeholder phones confuse entity resolution.
       generateGeoAggregateOfferSchema('IN'),
       {
         '@type': 'WebSite',
@@ -697,7 +698,7 @@ export const completePageSEO = {
     twitterImage: `${siteUrl}/twitter.jpg`,
     hreflang: generateHrefLangTags('/about'),
     schema: [
-      generateGeoOrganizationSchema('IN'),
+      // canonical Organization comes from layout.tsx — no duplicate here
       {
         '@type': 'Person',
         name: 'Sproutern Team',
@@ -743,7 +744,7 @@ export const completePageSEO = {
     twitterImage: `${siteUrl}/logo.jpg`,
     hreflang: generateHrefLangTags('/team'),
     schema: [
-      generateGeoOrganizationSchema('IN'),
+      // canonical Organization comes from layout.tsx — no duplicate here
       {
         '@type': 'Organization',
         '@id': `${siteUrl}#organization`,

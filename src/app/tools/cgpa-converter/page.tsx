@@ -21,6 +21,7 @@ import {
   ArrowRight,
 } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { ToolGEOContent } from '@/components/seo/ToolGEOContent';
 
 // getPageSEO provides the canonical; spread adds reciprocal hreflang for the
 // de/zh localized variants (they already point back to this page).
@@ -834,6 +835,10 @@ export default function CGPAConverterPage() {
               <ArrowRight className="h-4 w-4" />
             </Link>
           </section>
+
+          {/* GEO: region-adaptive content — IN/US/GB/AU/CA visitors see their
+              own grading-system context (entity signals for local search) */}
+          <ToolGEOContent toolSlug="cgpa-converter" />
         </div>
       </div>
     </>

@@ -23,6 +23,7 @@ import {
 } from 'lucide-react';
 import Link from 'next/link';
 import { FAQSection } from '@/components/blog/FAQSection';
+import { ToolGEOContent } from '@/components/seo/ToolGEOContent';
 
 // getPageSEO provides the canonical; spread adds reciprocal hreflang for the
 // de/zh localized variants (they already point back to this page).
@@ -1306,6 +1307,10 @@ export default function SalaryCalculatorPage() {
               </Link>
             </div>
           </section>
+
+          {/* GEO: region-adaptive content — IN/US/GB/AU/CA visitors see their
+              own tax-year/currency context */}
+          <ToolGEOContent toolSlug="salary-calculator" />
         </div>
       </div>
     </>
