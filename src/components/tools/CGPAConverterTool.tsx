@@ -18,111 +18,73 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
-import { Calculator, Globe, BookOpen } from 'lucide-react';
+import { ExternalLink, Globe } from 'lucide-react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import {
+  cgpaToGermanGrade,
+  cgpaToUsGpa,
+  convertCGPA,
+  type GradingScale,
+} from '@/lib/cgpa-converter';
+import {
+  convertCgpaWithUniversityPreset,
+  getUniversityCgpaPreset,
+  UNIVERSITY_CGPA_PRESETS,
+} from '@/lib/cgpa-university-presets';
+
+const STANDARD_FORMULA = 'standard';
 
 export function CGPAConverterTool() {
   const [cgpa, setCgpa] = useState('');
-  const [scale, setScale] = useState('10');
+  const [scale, setScale] = useState<GradingScale>('10');
+  const [universityPreset, setUniversityPreset] = useState(STANDARD_FORMULA);
   const [percentage, setPercentage] = useState<number | null>(null);
   const [usGpa, setUsGpa] = useState<string | null>(null);
   const [germanGpa, setGermanGpa] = useState<string | null>(null);
 
+  const selectedPreset = getUniversityCgpaPreset(universityPreset);
+
+  const clearResults = () => {
+    setPercentage(null);
+    setUsGpa(null);
+    setGermanGpa(null);
+  };
+
   const calculateResult = () => {
     const cgpaValue = parseFloat(cgpa);
-    if (isNaN(cgpaValue) || cgpaValue < 0) {
-      alert('Please enter a valid CGPA');
+
+    if (selectedPreset) {
+      const conversion = convertCgpaWithUniversityPreset(
+        cgpaValue,
+        selectedPreset.id,
+      );
+
+      if (!conversion.isValid) {
+        alert(conversion.error);
+        return;
+      }
+
+      const normalizedCgpa = (cgpaValue / selectedPreset.maxCgpa) * 10;
+      setPercentage(conversion.percentage);
+      setUsGpa(cgpaToUsGpa(normalizedCgpa, '10', conversion.percentage));
+      setGermanGpa(cgpaToGermanGrade(normalizedCgpa, '10'));
       return;
     }
 
-    // 1. Calculate Percentage (Base: Indian Standards)
-    let calcPercentage = 0;
-    if (scale === '10') {
-      if (cgpaValue > 10) return alert('Max CGPA is 10');
-      calcPercentage = cgpaValue * 9.5;
-    } else if (scale === '7') {
-      if (cgpaValue > 7) return alert('Max CGPA is 7');
-      calcPercentage = cgpaValue * 10 - 7.5;
-    } else if (scale === '4') {
-      if (cgpaValue > 4) return alert('Max GPA is 4');
-      calcPercentage = (cgpaValue / 4) * 100;
+    const conversion = convertCGPA(cgpaValue, scale);
+    if (!conversion.isValid) {
+      alert(conversion.error);
+      return;
     }
 
-    // Cap at 100%
-    if (calcPercentage > 100) calcPercentage = 100;
-    if (calcPercentage < 0) calcPercentage = 0;
-
-    setPercentage(Math.round(calcPercentage * 100) / 100);
-
-    // 2. Global Conversions (Approximations based on WES/Bavarian)
-
-    // US GPA (4.0 Scale) - Common WES Approximation for Indian 10pt scale
-    // Roughly: >60% = 4.0? No, that's too generous.
-    // Standard linear isn't accurate, but a common table reference is:
-    // 10-point scale Map:
-    // 9.0-10 = 4.0
-    // 8.0-8.9 = 3.7
-    // 7.0-7.9 = 3.3
-    // 6.0-6.9 = 3.0
-    // 5.0-5.9 = 2.0-2.7
-    let usVal = 'N/A';
-    if (scale === '10') {
-      if (cgpaValue >= 9) usVal = '4.0';
-      else if (cgpaValue >= 8) usVal = '3.7';
-      else if (cgpaValue >= 7) usVal = '3.3';
-      else if (cgpaValue >= 6) usVal = '3.0';
-      else if (cgpaValue >= 5) usVal = '2.3';
-      else usVal = '< 2.0';
-    } else {
-      // Fallback using percentage
-      if (calcPercentage >= 85) usVal = '4.0';
-      else if (calcPercentage >= 75) usVal = '3.7';
-      else if (calcPercentage >= 65) usVal = '3.3';
-      else if (calcPercentage >= 60) usVal = '3.0';
-      else usVal = '< 2.5';
-    }
-    setUsGpa(usVal);
-
-    // German GPA (Bavarian Formula)
-    // Formula: N = 1 + 3 * ((Pmax - P) / (Pmax - Pmin))
-    // Pmax = Max score (usually 10 or 100), Pmin = Min passing (usually 5 or 40)
-    // Result: 1.0 (Best) to 4.0 (Pass)
-    let pMax = 10;
-    let pMin = 5; // Assuming 5 is pass for 10 point scale
-    let pCurrent = cgpaValue;
-
-    if (scale === '10') {
-      pMax = 10;
-      pMin = 5;
-      pCurrent = cgpaValue;
-    } else if (scale === '7') {
-      pMax = 7;
-      pMin = 3;
-      pCurrent = cgpaValue;
-    } // Approx
-    else if (scale === '4') {
-      pMax = 4;
-      pMin = 2;
-      pCurrent = cgpaValue;
-    }
-
-    if (pCurrent < pMin) {
-      setGermanGpa('5.0 (Fail)');
-    } else {
-      const resultGerman = 1 + 3 * ((pMax - pCurrent) / (pMax - pMin));
-      // German grade is reversed: 1 is best, 4 is worst pass.
-      // Cap it between 1 and 4
-      let gVal = Math.round(resultGerman * 10) / 10;
-      if (gVal < 1) gVal = 1;
-      setGermanGpa(gVal.toFixed(1));
-    }
+    setPercentage(conversion.percentage);
+    setUsGpa(conversion.usGpa);
+    setGermanGpa(conversion.germanGpa);
   };
 
   const reset = () => {
     setCgpa('');
-    setPercentage(null);
-    setUsGpa(null);
-    setGermanGpa(null);
+    clearResults();
   };
 
   return (
@@ -144,22 +106,80 @@ export function CGPAConverterTool() {
               id="cgpa"
               type="number"
               step="0.01"
+              min="0"
+              max={selectedPreset?.maxCgpa ?? Number(scale)}
               placeholder="e.g., 8.5"
               value={cgpa}
-              onChange={(e) => setCgpa(e.target.value)}
+              onChange={(e) => {
+                setCgpa(e.target.value);
+                clearResults();
+              }}
               className="h-12 text-lg"
             />
           </div>
 
           <div className="space-y-2">
+            <Label htmlFor="university">University Formula</Label>
+            <Select
+              value={universityPreset}
+              onValueChange={(value) => {
+                setUniversityPreset(value);
+                clearResults();
+              }}
+            >
+              <SelectTrigger
+                id="university"
+                className="h-12 text-lg"
+              >
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value={STANDARD_FORMULA}>
+                  Standard conversion
+                </SelectItem>
+                {UNIVERSITY_CGPA_PRESETS.map((preset) => (
+                  <SelectItem
+                    key={preset.id}
+                    value={preset.id}
+                  >
+                    {preset.name}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+        </div>
+
+        {selectedPreset ? (
+          <div className="rounded-lg border bg-muted/40 p-4 text-sm">
+            <p className="font-medium">{selectedPreset.formulaLabel}</p>
+            <p className="mt-1 text-muted-foreground">
+              {selectedPreset.maxCgpa}-point scale
+              {selectedPreset.note ? ` • ${selectedPreset.note}` : ''}
+            </p>
+            <a
+              href={selectedPreset.sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-2 inline-flex items-center gap-1 text-primary hover:underline"
+            >
+              View university reference
+              <ExternalLink className="h-3.5 w-3.5" />
+            </a>
+          </div>
+        ) : (
+          <div className="space-y-2">
             <Label htmlFor="scale">Select Grading Scale</Label>
             <Select
               value={scale}
-              onValueChange={setScale}
+              onValueChange={(value: GradingScale) => {
+                setScale(value);
+                clearResults();
+              }}
             >
               <SelectTrigger
                 id="scale"
-                className="h-12 text-lg"
+                className="h-12 text-lg md:w-1/2"
               >
                 <SelectValue />
               </SelectTrigger>
@@ -170,7 +190,7 @@ export function CGPAConverterTool() {
               </SelectContent>
             </Select>
           </div>
-        </div>
+        )}
 
         <div className="flex gap-4">
           <Button
@@ -209,7 +229,9 @@ export function CGPAConverterTool() {
                     {percentage}%
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Based on standard conversion formula
+                    {selectedPreset
+                      ? `${selectedPreset.name}: ${selectedPreset.formulaLabel}`
+                      : 'Based on standard conversion formula'}
                   </p>
                 </div>
               </TabsContent>
