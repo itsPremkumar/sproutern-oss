@@ -30,6 +30,12 @@
   <a href="https://github.com/itsPremkumar/sproutern-oss/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/itsPremkumar/sproutern-oss?style=flat-square" alt="License" />
   </a>
+  <a href="https://github.com/itsPremkumar/sproutern-oss/actions/workflows/ci.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/itsPremkumar/sproutern-oss/ci.yml?branch=master&style=flat-square&label=CI" alt="CI Status" />
+  </a>
+  <a href="https://github.com/itsPremkumar/sproutern-oss/discussions">
+    <img src="https://img.shields.io/github/discussions/itsPremkumar/sproutern-oss?style=flat-square" alt="Discussions" />
+  </a>
   <a href="https://github.com/itsPremkumar/sproutern-oss/stargazers">
     <img src="https://img.shields.io/github/stars/itsPremkumar/sproutern-oss?style=flat-square" alt="Stars" />
   </a>
