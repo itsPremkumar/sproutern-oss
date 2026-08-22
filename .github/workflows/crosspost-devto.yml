@@ -1,0 +1,42 @@
+# Cross-posts a single blog article to dev.to with a canonical URL pointing
+# back to sproutern.dpdns.org (SEO credit stays home).
+# DORMANT until the free secret exists: dev.to → Settings → Extensions →
+# "DEV Community API Keys" → add repo secret DEVTO_API_KEY.
+# Run: Actions → Cross-post to dev.to → Run workflow → give the markdown path.
+name: Cross-post to dev.to
+
+on:
+  workflow_dispatch:
+    inputs:
+      file:
+        description: 'Path to the markdown post (relative to repo root)'
+        required: true
+        default: 'docs/blog-drafts/latest.md'
+
+permissions:
+  contents: read
+
+jobs:
+  crosspost:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check for DEVTO_API_KEY secret
+        env:
+          HAS_KEY: ${{ secrets.DEVTO_API_KEY != '' }}
+        run: |
+          if [ "$HAS_KEY" != "true" ]; then
+            echo "::notice::DEVTO_API_KEY not set — get a free key at https://dev.to/settings/extensions and add it as a repo secret. Skipping."
+            exit 0
+          fi
+
+      - name: Publish to dev.to
+        if: ${{ secrets.DEVTO_API_KEY != '' }}
+        env:
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+        run: npx tsx scripts/crosspost-devto.ts "${{ inputs.file }}"

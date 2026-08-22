@@ -16,7 +16,7 @@ import * as path from 'path';
 
 // Configuration
 const DOMAIN = 'https://sproutern.dpdns.org';
-const API_KEY = process.env.INDEXNOW_KEY || 'YOUR_INDEXNOW_KEY';
+const API_KEY = process.env.INDEXNOW_KEY || 'f4325fa0cf0e4ff0917492aa74b43e6e'; // matches public/f4325fa0cf0e4ff0917492aa74b43e6e.txt
 const KEY_LOCATION = `${DOMAIN}/${API_KEY}.txt`;
 const BATCH_SIZE = 100;
 const DELAY_BETWEEN_BATCHES_MS = 1000;

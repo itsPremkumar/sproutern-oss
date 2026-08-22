@@ -1,0 +1,43 @@
+# IndexNow auto-submission: pings Bing / Yandex / Seznam / Naver / Yep
+# with every URL in the sitemaps whenever the site changes, plus a weekly
+# refresher. Free, no token needed (key file ships in public/).
+name: IndexNow Submit
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'scripts/submit-indexnow.ts'
+  schedule:
+    - cron: '0 3 * * 1' # Mondays 03:00 UTC — weekly refresh of all URLs
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci || npm install --no-audit --no-fund
+
+      - name: Submit all sitemap URLs to IndexNow engines
+        run: npx tsx scripts/submit-indexnow.ts
+        env:
+          INDEXNOW_KEY: f4325fa0cf0e4ff0917492aa74b43e6e
+          DOMAIN: https://sproutern.dpdns.org
+        continue-on-error: true # search-engine pings must never fail CI

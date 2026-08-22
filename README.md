@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/itsPremkumar/sproutern-oss/blob/main/LICENSE">
+  <a href="https://github.com/itsPremkumar/sproutern-oss/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/itsPremkumar/sproutern-oss?style=flat-square" alt="License" />
   </a>
   <a href="https://github.com/itsPremkumar/sproutern-oss/stargazers">
@@ -39,8 +39,11 @@
   <a href="https://github.com/itsPremkumar/sproutern-oss/issues">
     <img src="https://img.shields.io/github/issues/itsPremkumar/sproutern-oss?style=flat-square" alt="Issues" />
   </a>
-  <a href="https://github.com/itsPremkumar/sproutern-oss/blob/main/CONTRIBUTING.md">
+  <a href="https://github.com/itsPremkumar/sproutern-oss/blob/master/CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs Welcome" />
+  </a>
+  <a href="https://star-history.com/#itsPremkumar/sproutern-oss&Date">
+    <img src="https://api.star-history.com/svg?repos=itsPremkumar/sproutern-oss&type=Date" alt="Star History Chart" width="180" />
   </a>
   <a href="https://nextjs.org/">
     <img src="https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js" alt="Next.js 16" />

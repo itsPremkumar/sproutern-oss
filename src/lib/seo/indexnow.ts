@@ -7,7 +7,8 @@
 
 // IndexNow API key - use the existing verified key
 const INDEXNOW_KEY =
-  process.env.NEXT_PUBLIC_INDEXNOW_KEY || 'YOUR_INDEXNOW_KEY';
+  process.env.NEXT_PUBLIC_INDEXNOW_KEY ||
+  'f4325fa0cf0e4ff0917492aa74b43e6e'; // matches /f4325fa0cf0e4ff0917492aa74b43e6e.txt in public/
 const SITE_HOST = 'sproutern.dpdns.org';
 
 interface IndexNowResponse {
