@@ -83,6 +83,14 @@
 
 ## 🎯 About Sproutern
 
+<p align="center">
+  <a href="https://sproutern.dpdns.org" target="_blank">
+    <img src="public/opengraph.jpg" alt="Sproutern — free career tools, games and interview prep for students" width="720" />
+  </a>
+  <br />
+  <sup><a href="https://sproutern.dpdns.org">✨ Try it live — no signup needed</a></sup>
+</p>
+
 **Sproutern** is a comprehensive, open-source career platform designed to empower students, freshers, and professionals worldwide. Built with Next.js 16 and Firebase, it offers an extensive ecosystem of tools, interactive games, AI-powered career guidance, and educational content — all free and accessible to everyone.
 
 ### Why Sproutern?
@@ -256,6 +264,25 @@ sproutern-oss/
 
 ---
 
+## 🗺️ Roadmap
+
+- [x] **v1.0.0** — Stable release: 200+ tools, 180+ games, AI career suite
+- [x] University-specific CGPA formulas (Anna, VTU, AKTU, VIT +6 more)
+- [ ] Homepage performance diet — 464KB → <250KB payload
+- [ ] More interview experiences across companies & roles
+- [ ] Regional language versions (de/zh tool pages live, expanding)
+- [ ] Hindi / Hinglish content track
+
+> 💡 Want to shape the roadmap? Open a [feature request](https://github.com/itsPremkumar/sproutern-oss/issues/new?template=feature_request.md) or comment in [Discussions](https://github.com/itsPremkumar/sproutern-oss/discussions).
+
+## ❤️ Contributors
+
+<a href="https://github.com/itsPremkumar/sproutern-oss/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=itsPremkumar/sproutern-oss&max=100" alt="Sproutern contributors" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks). PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) and grab a [good first issue](https://github.com/itsPremkumar/sproutern-oss/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)!
+
 ## 🤝 Contributing
 
 We welcome contributions of all kinds! Here's how you can help:
@@ -306,6 +333,14 @@ This project is [MIT licensed](LICENSE) — feel free to use, modify, and distri
 - 💬 [GitHub Discussions](https://github.com/itsPremkumar/sproutern-oss/discussions)
 - 🐛 [Report a Bug](https://github.com/itsPremkumar/sproutern-oss/issues/new?template=bug_report.md)
 - 🔒 [Security Issues](SECURITY.md)
+
+### ⭐ Show Your Support
+
+If Sproutern helped you prep for placements, land an internship, or ship a project — **please give it a star** ⭐. It's the single biggest thing you can do to help other students discover these free resources.
+
+<a href="https://github.com/itsPremkumar/sproutern-oss/stargazers">
+  <img src="https://img.shields.io/github/stars/itsPremkumar/sproutern-oss?style=social" alt="Star Sproutern on GitHub" />
+</a>
 
 ---
 
