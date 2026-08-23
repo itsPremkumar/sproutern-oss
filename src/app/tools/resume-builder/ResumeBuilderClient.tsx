@@ -225,7 +225,7 @@ export default function ResumeBuilderClient() {
         <!-- Summary -->
         <div style="margin-bottom: 25px;">
           <h2 style="font-size: 16px; color: #2563eb; border-bottom: 1px solid #e5e7eb; padding-bottom: 5px; margin-bottom: 10px;">PROFESSIONAL SUMMARY</h2>
-          <p style="color: #374151; margin: 0;">${personalInfo.summary}</p>
+          <p style="color: #374151; margin: 0;">${escapeHtml(personalInfo.summary)}</p>
         </div>
         `
             : ''
@@ -242,11 +242,11 @@ export default function ResumeBuilderClient() {
               (edu) => `
             <div style="margin-bottom: 15px;">
               <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                <h3 style="margin: 0; font-size: 15px; color: #1f2937;">${edu.institution}</h3>
-                <span style="color: #6b7280; font-size: 13px;">${edu.startDate} - ${edu.endDate}</span>
+                <h3 style="margin: 0; font-size: 15px; color: #1f2937;">${escapeHtml(edu.institution)}</h3>
+                <span style="color: #6b7280; font-size: 13px;">${escapeHtml(edu.startDate)} - ${escapeHtml(edu.endDate)}</span>
               </div>
-              <p style="margin: 2px 0; color: #374151;">${edu.degree} in ${edu.field}</p>
-              ${edu.gpa ? `<p style="margin: 2px 0; color: #6b7280; font-size: 13px;">GPA/CGPA: ${edu.gpa}</p>` : ''}
+              <p style="margin: 2px 0; color: #374151;">${escapeHtml(edu.degree)} in ${escapeHtml(edu.field)}</p>
+              ${edu.gpa ? `<p style="margin: 2px 0; color: #6b7280; font-size: 13px;">GPA/CGPA: ${escapeHtml(edu.gpa)}</p>` : ''}
             </div>
           `,
             )
@@ -267,11 +267,11 @@ export default function ResumeBuilderClient() {
               (exp) => `
             <div style="margin-bottom: 15px;">
               <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                <h3 style="margin: 0; font-size: 15px; color: #1f2937;">${exp.position}</h3>
-                <span style="color: #6b7280; font-size: 13px;">${exp.startDate} - ${exp.current ? 'Present' : exp.endDate}</span>
+                <h3 style="margin: 0; font-size: 15px; color: #1f2937;">${escapeHtml(exp.position)}</h3>
+                <span style="color: #6b7280; font-size: 13px;">${escapeHtml(exp.startDate)} - ${exp.current ? 'Present' : escapeHtml(exp.endDate)}</span>
               </div>
-              <p style="margin: 2px 0; color: #374151; font-weight: 500;">${exp.company}</p>
-              <p style="margin: 5px 0; color: #4b5563; font-size: 14px;">${exp.description}</p>
+              <p style="margin: 2px 0; color: #374151; font-weight: 500;">${escapeHtml(exp.company)}</p>
+              <p style="margin: 5px 0; color: #4b5563; font-size: 14px;">${escapeHtml(exp.description)}</p>
             </div>
           `,
             )
@@ -291,9 +291,9 @@ export default function ResumeBuilderClient() {
             .map(
               (proj) => `
             <div style="margin-bottom: 15px;">
-              <h3 style="margin: 0; font-size: 15px; color: #1f2937;">${proj.name}</h3>
-              <p style="margin: 5px 0; color: #4b5563; font-size: 14px;">${proj.description}</p>
-              ${proj.technologies ? `<p style="margin: 2px 0; color: #6b7280; font-size: 13px;"><strong>Technologies:</strong> ${proj.technologies}</p>` : ''}
+              <h3 style="margin: 0; font-size: 15px; color: #1f2937;">${escapeHtml(proj.name)}</h3>
+              <p style="margin: 5px 0; color: #4b5563; font-size: 14px;">${escapeHtml(proj.description)}</p>
+              ${proj.technologies ? `<p style="margin: 2px 0; color: #6b7280; font-size: 13px;"><strong>Technologies:</strong> ${escapeHtml(proj.technologies)}</p>` : ''}
             </div>
           `,
             )
@@ -309,7 +309,7 @@ export default function ResumeBuilderClient() {
         <!-- Skills -->
         <div style="margin-bottom: 25px;">
           <h2 style="font-size: 16px; color: #2563eb; border-bottom: 1px solid #e5e7eb; padding-bottom: 5px; margin-bottom: 10px;">SKILLS</h2>
-          <p style="color: #374151; margin: 0;">${skillsList.join(' • ')}</p>
+          <p style="color: #374151; margin: 0;">${skillsList.map((s) => escapeHtml(s)).join(' • ')}</p>
         </div>
         `
             : ''
@@ -322,7 +322,7 @@ export default function ResumeBuilderClient() {
         <div style="margin-bottom: 25px;">
           <h2 style="font-size: 16px; color: #2563eb; border-bottom: 1px solid #e5e7eb; padding-bottom: 5px; margin-bottom: 10px;">CERTIFICATIONS</h2>
           <ul style="margin: 0; padding-left: 20px; color: #374151;">
-            ${certList.map((cert) => `<li>${cert}</li>`).join('')}
+            ${certList.map((cert) => `<li>${escapeHtml(cert)}</li>`).join('')}
           </ul>
         </div>
         `
