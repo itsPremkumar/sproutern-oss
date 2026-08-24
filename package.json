@@ -121,7 +121,7 @@
     "embla-carousel-react": "^8.6.0",
     "firebase": "^12.1.0",
     "firebase-admin": "^12.7.0",
-    "framer-motion": "^12.23.26",
+    "framer-motion": "^13.1.1",
     "fuse.js": "^7.1.0",
     "genkit": "^1.25.0",
     "gray-matter": "^4.0.3",
