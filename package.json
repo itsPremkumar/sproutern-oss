@@ -130,7 +130,7 @@
     "jspdf": "^3.0.4",
     "lucide-react": "^0.539.0",
     "mammoth": "^1.11.0",
-    "marked": "^17.0.1",
+    "marked": "^18.0.10",
     "next": "^16.0.7",
     "nodemailer": "^7.0.5",
     "patch-package": "^8.0.0",
