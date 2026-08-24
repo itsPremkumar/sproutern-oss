@@ -26,7 +26,7 @@ jobs:
         with:
           node-version: 22
 
-      - uses: github/codeql-action/init@v3
+      - uses: github/codeql-action/init@v4
         with:
           languages: javascript-typescript
           queries: security-extended
@@ -35,6 +35,6 @@ jobs:
       - name: Install dependencies
         run: npm ci || npm install --no-audit --no-fund
 
-      - uses: github/codeql-action/analyze@v3
+      - uses: github/codeql-action/analyze@v4
         with:
           category: "/language:javascript-typescript"
