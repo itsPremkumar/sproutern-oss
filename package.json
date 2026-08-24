@@ -177,7 +177,7 @@
     "jest-environment-jsdom": "^30.2.0",
     "jsdom": "^27.3.0",
     "lighthouse": "^12.8.2",
-    "lint-staged": "^16.2.7",
+    "lint-staged": "^17.3.0",
     "postcss": "^8",
     "prettier": "^3.7.4",
     "prettier-plugin-tailwindcss": "^0.7.2",
