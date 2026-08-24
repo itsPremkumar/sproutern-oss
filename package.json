@@ -157,7 +157,7 @@
     "@types/firebase": "^2.4.32",
     "@types/jest": "^30.0.0",
     "@types/jsdom": "^27.0.0",
-    "@types/node": "^20",
+    "@types/node": "^26",
     "@types/nodemailer": "^6.4.17",
     "@types/pdf-parse": "^1.1.4",
     "@types/react": "^18",
