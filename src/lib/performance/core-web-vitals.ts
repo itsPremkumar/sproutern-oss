@@ -71,7 +71,7 @@ export class LazyImageLoader {
               // Only allow http(s) absolute URLs and root-relative paths.
               // Explicitly reject protocol-relative (//) and javascript:/data:
               // to prevent scheme injection via data-src attributes.
-              if (/^https?:\/\//i.test(dataSrc) || /^\/[^\/]/.test(dataSrc)) {
+              if (/^https?:\/\//i.test(dataSrc) || /^\/[^/]/.test(dataSrc)) {
                 img.src = dataSrc;
                 img.removeAttribute('data-src');
               }
