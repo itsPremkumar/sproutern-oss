@@ -221,8 +221,11 @@ export function proxy(request: NextRequest) {
   response.headers.set('x-detected-locale', primaryLocale);
 
   // 9. CDN / Performance hints
-  response.headers.set('Vary', 'Accept-Language, Accept-Encoding');
-  response.headers.set('x-middleware-cache', 'no-cache');
+  // Cache the response at Vercel's edge, keyed by country + language so each
+  // geo audience gets its own cached (geo-correct) page. Removing the previous
+  // 'x-middleware-cache: no-cache' lets the homepage be served from CDN instead
+  // of re-rendered on every request (was forcing 456KB re-download each visit).
+  response.headers.set('Vary', 'Accept-Language, Accept-Encoding, x-user-country');
 
   // 10. SEO: enforce route-level indexing policy
   response.headers.set(
