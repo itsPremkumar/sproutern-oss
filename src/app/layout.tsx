@@ -724,7 +724,7 @@ export default function RootLayout({
           <Toaster />
           <AnalyticsProvider />
           <ClarityProvider />
-          <Analytics />
+          <Analytics mode="production" />
           <SpeedInsights />
           <InternationalSEO enableGeoHints />
           <ClientLayoutComponents />

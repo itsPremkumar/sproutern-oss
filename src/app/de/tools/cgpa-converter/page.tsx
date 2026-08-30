@@ -34,7 +34,9 @@ export const metadata: Metadata = {
     canonical: 'https://sproutern.dpdns.org/de/tools/cgpa-converter',
     languages: {
       'de-DE': 'https://sproutern.dpdns.org/de/tools/cgpa-converter',
+      'zh-CN': 'https://sproutern.dpdns.org/zh/tools/cgpa-converter',
       en: 'https://sproutern.dpdns.org/tools/cgpa-converter',
+      'x-default': 'https://sproutern.dpdns.org/tools/cgpa-converter',
     },
   },
   openGraph: {

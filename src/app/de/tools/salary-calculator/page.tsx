@@ -26,7 +26,9 @@ export const metadata: Metadata = {
     canonical: 'https://sproutern.dpdns.org/de/tools/salary-calculator',
     languages: {
       'de-DE': 'https://sproutern.dpdns.org/de/tools/salary-calculator',
+      'zh-CN': 'https://sproutern.dpdns.org/zh/tools/salary-calculator',
       en: 'https://sproutern.dpdns.org/tools/salary-calculator',
+      'x-default': 'https://sproutern.dpdns.org/tools/salary-calculator',
     },
   },
   openGraph: {
