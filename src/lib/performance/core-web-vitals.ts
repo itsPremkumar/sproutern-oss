@@ -68,9 +68,10 @@ export class LazyImageLoader {
             const dataSrcset = img.getAttribute('data-srcset');
 
             if (dataSrc) {
-              // Only allow http(s) and same-origin blob/data URLs to prevent
-              // javascript: scheme injection via data-src attributes.
-              if (/^(https?:|\/)/i.test(dataSrc)) {
+              // Only allow http(s) absolute URLs and root-relative paths.
+              // Explicitly reject protocol-relative (//) and javascript:/data:
+              // to prevent scheme injection via data-src attributes.
+              if (/^https?:\/\//i.test(dataSrc) || /^\/[^\/]/.test(dataSrc)) {
                 img.src = dataSrc;
                 img.removeAttribute('data-src');
               }

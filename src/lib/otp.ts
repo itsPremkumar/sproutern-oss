@@ -34,8 +34,8 @@ export async function storeOtp(
     expiresAt: Timestamp.fromDate(expiresAt),
     verified: false,
   });
-  // NOTE: OTP is intentionally NOT logged (was previously logged in plaintext — leak risk).
-  console.log(`[OTP Store] OTP stored for ${email} (value omitted from logs).`);
+  // NOTE: OTP and email are intentionally NOT logged (leak + log-injection risk).
+  console.log('[OTP Store] OTP stored for a user (value + email omitted from logs).');
 }
 
 export async function verifyOtp(

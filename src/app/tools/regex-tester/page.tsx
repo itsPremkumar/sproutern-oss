@@ -137,8 +137,10 @@ export default function RegexTesterClient() {
   }, [flags]);
 
   const { matches, highlightedText } = useMemo(() => {
+    const escapeHtml = (s: string) =>
+      s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     if (!pattern || !testString) {
-      return { matches: [], highlightedText: testString };
+      return { matches: [], highlightedText: escapeHtml(testString) };
     }
 
     try {
@@ -189,7 +191,7 @@ export default function RegexTesterClient() {
       return { matches: foundMatches, highlightedText: highlighted };
     } catch (e) {
       setError((e as Error).message);
-      return { matches: [], highlightedText: testString };
+      return { matches: [], highlightedText: escapeHtml(testString) };
     }
   }, [pattern, testString, flagString, flags.g]);
 
