@@ -107,9 +107,7 @@ export async function POST(request: Request) {
 
     await mailTransporter.sendMail(mailOptions);
 
-    console.log(
-      `Application notification sent for internship ${internshipId}.`,
-    );
+    console.log('Application notification email sent (internship id omitted from logs).');
     return NextResponse.json({
       success: true,
       message: 'Notification sent successfully.',

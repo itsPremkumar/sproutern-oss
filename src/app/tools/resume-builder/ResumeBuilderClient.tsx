@@ -182,6 +182,17 @@ export default function ResumeBuilderClient() {
     setProjects(projects.filter((proj) => proj.id !== id));
   };
 
+  // Sanitize function to prevent XSS — hoisted to module-visible scope so both
+  // the preview (generateResumeHTML) and the print window (downloadResume) use it.
+  const escapeHtml = (unsafe: string): string => {
+    return unsafe
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  };
+
   // Generate resume preview
   const generateResumeHTML = () => {
     const skillsList = skills
@@ -192,16 +203,6 @@ export default function ResumeBuilderClient() {
       .split('\n')
       .map((c) => c.trim())
       .filter(Boolean);
-
-    // Sanitize function to prevent XSS
-    const escapeHtml = (unsafe: string) => {
-      return unsafe
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#039;');
-    };
 
     return `
       <div style="max-width: 800px; margin: 0 auto; padding: 40px; font-family: 'Arial', sans-serif; line-height: 1.6;">
@@ -339,7 +340,7 @@ export default function ResumeBuilderClient() {
       printWindow.document.write(`
         <html>
           <head>
-            <title>${personalInfo.fullName || 'Resume'} - Resume</title>
+            <title>${escapeHtml(personalInfo.fullName || 'Resume')} - Resume</title>
             <style>
               @media print {
                 body { margin: 0; }

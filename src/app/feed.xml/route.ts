@@ -40,8 +40,8 @@ function generateRSS(): string {
       (post) => `
     <item>
       <title>${escapeXml(post.title)}</title>
-      <link>${siteUrl}/blog/${post.slug}</link>
-      <guid isPermaLink="true">${siteUrl}/blog/${post.slug}</guid>
+      <link>${siteUrl}/blog/${escapeXml(post.slug)}</link>
+      <guid isPermaLink="true">${siteUrl}/blog/${escapeXml(post.slug)}</guid>
       <description>${escapeXml(post.excerpt)}</description>
       <pubDate>${post.publishedAt.toUTCString()}</pubDate>
       <author>https://github.com/itsPremkumar/sproutern-oss (Sproutern Team)</author>

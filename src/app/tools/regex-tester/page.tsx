@@ -177,7 +177,11 @@ export default function RegexTesterClient() {
         const before = highlighted.slice(0, start);
         const matchText = highlighted.slice(start, end);
         const after = highlighted.slice(end);
-        const replacement = `<mark class="bg-yellow-300 dark:bg-yellow-600 px-0.5 rounded">${matchText}</mark>`;
+        const safeMatch = matchText
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;');
+        const replacement = `<mark class="bg-yellow-300 dark:bg-yellow-600 px-0.5 rounded">${safeMatch}</mark>`;
         highlighted = before + replacement + after;
         offset += replacement.length - m.match.length;
       });

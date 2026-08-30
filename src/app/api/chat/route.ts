@@ -129,7 +129,7 @@ export async function POST(request: NextRequest) {
     body = ChatRequestSchema.parse(raw);
   } catch (error) {
     return new Response(
-      JSON.stringify({ error: 'Invalid request body', details: error }),
+      JSON.stringify({ error: 'Invalid request body' }),
       { status: 400, headers: { 'Content-Type': 'application/json' } },
     );
   }

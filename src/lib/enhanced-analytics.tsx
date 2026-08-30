@@ -151,7 +151,8 @@ export function useOutboundLinkTracking() {
         link.href &&
         !link.href.startsWith(window.location.origin) &&
         !link.href.startsWith('#') &&
-        !link.href.startsWith('javascript:')
+        !link.href.startsWith('javascript:') &&
+        !link.href.startsWith('data:')
       ) {
         sendEvent('outbound_link', {
           event_category: 'Engagement',
