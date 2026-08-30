@@ -4,7 +4,7 @@
   "outputDirectory": ".next",
   "installCommand": "yarn install",
   "framework": "nextjs",
-  "regions": ["iad1", "cdg1", "hnd1", "sfo1", "sin1"],
+  "regions": ["iad1"],
   "headers": [
     {
       "source": "/(.*)",
