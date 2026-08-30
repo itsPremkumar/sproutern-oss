@@ -1,4 +1,4 @@
-import { proxy } from '@/proxy';
+import { proxy } from '@/geo-proxy';
 import type { NextRequest } from 'next/server';
 
 /**
